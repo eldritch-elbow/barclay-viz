@@ -1,7 +1,7 @@
 barclay-viz
 ===========
 
-# Processing steps
+## Processing steps
 
 - Extract raw data
 - Run through summarise.rb - generates Day buckets (or month buckets, with a hack)
