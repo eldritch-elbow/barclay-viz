@@ -1,6 +1,10 @@
 barclay-viz
 ===========
 
+## Where to find the raw data
+
+http://www.tfl.gov.uk/tfl/businessandpartners/syndication/feed.aspx?email=jim@jamessiddle.net&feedId=21
+
 ## Pre-processing steps
 
 - Extract raw data...
