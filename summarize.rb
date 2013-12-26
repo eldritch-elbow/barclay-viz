@@ -2,32 +2,6 @@
 
 require 'csv'
 
-# Function definitions for calculating distances between lat/long coordinates
-
-def power(num, pow)
-	num ** pow
-end
-
-def haversine(lat1, long1, lat2, long2)
-  dtor = Math::PI/180
-  r = 6378.14*1000
- 
-  rlat1 = lat1 * dtor 
-  rlong1 = long1 * dtor 
-  rlat2 = lat2 * dtor 
-  rlong2 = long2 * dtor 
- 
-  dlon = rlong1 - rlong2
-  dlat = rlat1 - rlat2
- 
-  a = power(Math::sin(dlat/2), 2) + Math::cos(rlat1) * Math::cos(rlat2) * power(Math::sin(dlon/2), 2)
-  c = 2 * Math::atan2(Math::sqrt(a), Math::sqrt(1-a))
-  d = r * c
- 
-  return d
-end
-
-
 total = 0
 total_skipped = 0
 
@@ -35,11 +9,11 @@ buckets = []
 curr_bucket = nil
 
 # Create CSV object for writing summary results
-csv_out = CSV.open(ARGV[1], "wb")
+csv_out = CSV.open(ARGV[0], "wb")
 csv_out << ["Date", "StartStation", "EndStation", "JourneyText", "JourneyTotal"]
 
-# Open CSV for reading
-CSV.foreach( ARGV[0], { :headers => true } ) do |raw_journey|
+
+CSV($stdin, { :headers => true })  { |csv_in|  csv_in.each { |raw_journey| 
 
 	# Validate
 	if raw_journey.size != 19
@@ -59,7 +33,7 @@ CSV.foreach( ARGV[0], { :headers => true } ) do |raw_journey|
 		next
 	end
 
-	# Initialize day stats, for new days
+	# Initialize new bucket
 	if curr_bucket.nil? # || curr_bucket[:date] != jny_start_date
 
 		unless curr_bucket.nil?
@@ -82,7 +56,7 @@ CSV.foreach( ARGV[0], { :headers => true } ) do |raw_journey|
 	curr_bucket[:journeys][jny_text] ||= {:start => jny_start, :end => jny_end, :total => 0}
 	curr_bucket[:journeys][jny_text][:total] += 1
 
-end
+} }
 
 # Record final day
 buckets << curr_bucket
@@ -97,7 +71,5 @@ buckets.each do |bucket|
 	end
 
 end
-
-
 
 puts "Processed #{total} records, skipped #{total_skipped}"

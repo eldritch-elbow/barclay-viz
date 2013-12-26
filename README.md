@@ -1,11 +1,20 @@
 barclay-viz
 ===========
 
-## Processing steps
+## Pre-processing steps
 
-- Extract raw data
-- Run through summarise.rb - generates Day buckets (or month buckets, with a hack)
+- Extract raw data...
+- CSV conversion: use Excel to load, then save as CSV
+- You may end up with Excel default line endings (^M in vim); convert using:
+ 
+   tr "\r" "\n"  
+
+## Summarize
+
+- Run through summarize.rb - generates Day buckets (or month buckets, with a hack)
 - Input / output csv files specified as params
+
+## Create graph data, visualise
 
 - Load CSV into excel
 - Filter down to manageable set (top 2k / popular routes; eliminate missing bikes)
