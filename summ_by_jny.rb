@@ -21,10 +21,12 @@ CSV($stdin, { :headers => true })  { |csv_in|  csv_in.each { |raw_journey|
 
 	# Extract key information. 
 	# Needs refactoring - date extraction is messy
-	jny_start_date = raw_journey[11].slice(0,10)
 
-	jny_start = raw_journey[14]
-	jny_end = raw_journey[9]
+	#puts Date.parse raw_journey["Start Date"]
+
+	jny_start_date = raw_journey["Start Date"].slice(0,10)
+	jny_start = raw_journey["StartStation Name"]
+	jny_end = raw_journey["EndStation Name"]
 
 	if jny_start == "NA, NA" || jny_end == "NA, NA"
 		next
@@ -42,10 +44,10 @@ CSV($stdin, { :headers => true })  { |csv_in|  csv_in.each { |raw_journey|
 
 # Create CSV object for writing summary results
 csv_out = CSV.open(ARGV[0], "wb")
-csv_out << ["StartStation", "EndStation", "JourneyText", "JourneyTotal" ]
+csv_out << ["Date", "StartStation", "EndStation", "JourneyText", "JourneyTotal" ]
 
 journeys.each do |jny_text, journey_data|
-	csv_out << [ journey_data[:start], journey_data[:end], jny_text, journey_data[:total] ]
+	csv_out << [ "06/01/2013", journey_data[:start], journey_data[:end], jny_text, journey_data[:total] ]
 end
 
 puts "Processed #{total} records, skipped #{total_skipped}"
