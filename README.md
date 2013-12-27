@@ -9,9 +9,9 @@ http://www.tfl.gov.uk/tfl/businessandpartners/syndication/feed.aspx?email=jim@ja
 
 - Extract raw data...
 - CSV conversion: use Excel to load, then save as CSV
-- You may end up with Excel default line endings (^M in vim); convert using:
- 
-   tr "\r" "\n"  
+- You may end up with Excel default line endings (^M in vim); convert using: 
+
+    tr "\r" "\n"  
 
 ## Summarize
 
@@ -23,11 +23,9 @@ http://www.tfl.gov.uk/tfl/businessandpartners/syndication/feed.aspx?email=jim@ja
 - Load CSV into excel
 - Filter down to manageable set (top 2k / popular routes; eliminate missing bikes)
 - Create edge table: Source, Target, Weight
-
 - Open Gephi
 - Go to Data Lab
 - Import spreadsheet - straight edge table
-
 - Apply edge and node ranking
 - Apply clustering, then use to partition
 
