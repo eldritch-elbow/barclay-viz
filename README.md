@@ -15,8 +15,11 @@ http://www.tfl.gov.uk/tfl/businessandpartners/syndication/feed.aspx?email=jim@ja
 
 ## Summarize
 
-- Run through summarize.rb - generates Day buckets (or month buckets, with a hack)
-- Input / output csv files specified as params
+- Run through summ_by_X.rb
+- Scripts for day versus journey summaries
+- Input read from STDIN
+- Specify output CSV file as first param
+- Day script requires records ordered by timestamp
 
 ## Create graph data, visualise
 
