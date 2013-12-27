@@ -42,10 +42,10 @@ CSV($stdin, { :headers => true })  { |csv_in|  csv_in.each { |raw_journey|
 
 # Create CSV object for writing summary results
 csv_out = CSV.open(ARGV[0], "wb")
-csv_out << ["Date","StartStation", "EndStation", "JourneyText", "JourneyTotal" ]
+csv_out << ["StartStation", "EndStation", "JourneyText", "JourneyTotal" ]
 
 journeys.each do |jny_text, journey_data|
-	csv_out << [ "06/01/2013", journey_data[:start], journey_data[:end], jny_text, journey_data[:total] ]
+	csv_out << [ journey_data[:start], journey_data[:end], jny_text, journey_data[:total] ]
 end
 
 puts "Processed #{total} records, skipped #{total_skipped}"
