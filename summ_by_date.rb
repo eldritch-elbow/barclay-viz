@@ -34,7 +34,7 @@ CSV($stdin, { :headers => true })  { |csv_in|  csv_in.each { |raw_journey|
 	end
 
 	# Initialize new bucket
-	if curr_bucket.nil? # || curr_bucket[:date] != jny_start_date
+	if curr_bucket.nil? || curr_bucket[:date] != jny_start_date
 
 		unless curr_bucket.nil?
 			buckets << curr_bucket
