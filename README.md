@@ -9,7 +9,7 @@ http://www.tfl.gov.uk/tfl/businessandpartners/syndication/feed.aspx?email=jim@ja
 
 - Extract raw data...
 - CSV conversion: use Excel to load, then save as CSV
-- You may end up with Excel default line endings (^M in vim); convert using: 
+- You may end up with Excel default line endings (^M in vim); convert using:
 
     tr "\r" "\n"  
 
