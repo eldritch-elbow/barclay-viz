@@ -43,14 +43,14 @@ class BojoSummarizer
 
 			puts "#{total} processed, #{invalid_column_count} bad records, #{invalid_locations} bad locations" if (total % 50000 == 0)
 
+			# Basic summation	
+			total += 1
+
 			# Validate
 			if raw_journey.size != 19
 				invalid_column_count += 1
 				next
 			end
-			
-			# Basic summation	
-			total += 1
 
 			# Extract key information - use indices for slight performance increase
 			# jny_date = raw_journey["Start Date"]
