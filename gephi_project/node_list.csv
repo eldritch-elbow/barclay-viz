@@ -20,6 +20,10 @@ boris_id,id,terminalName,lat,long,installed,locked,installDate,removalDate,tempo
 19,"Taviton Street, Bloomsbury",001009,51.52505093,-0.131161087,true,false,1278426720000,"",false,19,11,30
 20,"Drummond Street , Euston",000993,51.52773634,-0.135273468,true,false,1278427620000,"",false,13,14,28
 21,"Hampstead Road (Cartmel), Euston",003426,51.53007835,-0.13884627,true,false,1278427740000,"",false,9,7,16
+10001,"Hampstead Road, Euston",999990,51.53007834,-0.13884628,true,false,1278427740000,"",false,9,7,16
+10002,"Milford Lane, Temple",999991,51.51215,-0.113054,true,false,1278427740000,"",false,9,7,16
+10003,"New Fetter Lane, Holborn",51.516797,-0.108065,true,false,1278427740000,"",false,9,7,16
+10004,"Wansey Stree, Walworth",51.491349,-0.096412,true,false,1278427740000,"",false,9,7,16
 22,"Northington Street , Holborn",003425,51.5222641,-0.114079481,true,false,1278428880000,"",false,1,18,19
 23,"Red Lion Square, Holborn",003421,51.51943538,-0.119123345,true,false,1278429300000,"",false,10,6,16
 24,"British Museum, Bloomsbury",000981,51.51908011,-0.124678402,true,false,1278430140000,"",false,11,22,35
@@ -168,7 +172,7 @@ boris_id,id,terminalName,lat,long,installed,locked,installDate,removalDate,tempo
 170,"Hardwick Street, Clerkenwell",001057,51.52784273,-0.108068155,true,false,1279290180000,"",false,23,7,30
 171,"Collingham Gardens, Earl's Court",003459,51.4916156,-0.186753859,true,false,1279291200000,"",false,5,9,14
 172,"Sumner Place, South Kensington",001124,51.49121192,-0.173715911,true,false,1279291500000,"",false,7,12,19
-173,"Waterloo Roundabout, Waterloo ",001176,51.50486,-0.113001,true,false,1279292700000,"",false,10,5,15
+173,"Waterloo Roundabout, Waterloo",001176,51.50486,-0.113001,true,false,1279292700000,"",false,10,5,15
 174,"Strand, Strand",001100,51.512529,-0.115163,true,false,1279295940000,"",false,2,33,36
 175,"Appold Street, Liverpool Street",000997,51.52174384,-0.0811189,true,false,1279296660000,"",false,19,7,26
 176,"Gloucester Terrace, Bayswater",001173,51.51791921,-0.188098863,true,false,1279297560000,"",false,13,10,23
@@ -295,14 +299,14 @@ boris_id,id,terminalName,lat,long,installed,locked,installDate,removalDate,tempo
 303,"Albert Gate, Hyde Park",001132,51.50295379,-0.158456089,true,false,1279812720000,"",true,13,12,28
 304,"Cumberland Gate, Hyde Park",001149,51.51211869,-0.16209757,true,false,1279813380000,"",false,14,5,20
 305,"Kennington Lane Tesco, Vauxhall",001168,51.48677988,-0.115853961,true,false,1279815900000,"",false,7,6,15
-306,"Rathbone Street, Fitzrovia ",003497,51.51816295,-0.135025698,true,false,1279816260000,"",false,6,10,16
+306,"Rathbone Street, Fitzrovia",003497,51.51816295,-0.135025698,true,false,1279816260000,"",false,6,10,16
 307,"Black Lion Gate, Kensington Gardens",001157,51.50990837,-0.187842717,true,false,1279816500000,"",false,1,22,24
 308,"Long Lane , Bermondsey",001189,51.49907558,-0.085666316,true,false,1279816740000,"",false,13,7,20
 309,"Embankment (Savoy), Strand",001192,51.50963123,-0.119047563,true,false,1279875060000,"",false,20,22,42
 310,"Black Prince Road, Vauxhall",001205,51.4908679,-0.116911864,true,false,1279879560000,"",false,10,8,19
 311,"Foley Street, Fitzrovia",003494,51.51918144,-0.140485596,true,false,1279880100000,"",false,11,13,24
 312,"Grove End Road, St. John's Wood",001130,51.53088935,-0.176770502,true,false,1279880340000,"",false,4,16,20
-313,"Wells Street, Fitzrovia ",003495,51.51734403,-0.138072691,true,false,1279880520000,"",false,7,31,38
+313,"Wells Street, Fitzrovia",003495,51.51734403,-0.138072691,true,false,1279880520000,"",false,7,31,38
 314,"Tyers Gate, Bermondsey",003485,51.50088934,-0.083159352,true,false,1279884480000,"",false,23,13,36
 315,"The Tennis Courts, Regent's Park",001199,51.52536703,-0.153463612,true,false,1279884660000,"",false,6,8,16
 316,"Cardinal Place, Victoria",000968,51.49768448,-0.141943703,true,false,1279884840000,"",false,14,8,24
@@ -526,7 +530,7 @@ boris_id,id,terminalName,lat,long,installed,locked,installDate,removalDate,tempo
 550,"Harford Street, Mile End",200102,51.521564,-0.039264,true,false,"","",false,7,16,23
 551,"Montgomery Square, Canary Wharf",200066,51.503447,-0.016233,true,false,1330071720000,"",true,9,30,39
 552,"Watney Street, Shadwell",200149,51.511542,-0.056667,true,false,"","",false,13,13,27
-553,"Regent's Row , Haggerston ",200064,51.535678,-0.062546,true,false,"","",false,11,10,24
+553,"Regent's Row , Haggerston",200064,51.535678,-0.062546,true,false,"","",false,11,10,24
 554,"Aberfeldy Street, Poplar",200078,51.513548,-0.005659,true,false,"","",false,13,3,16
 555,"Westfield Eastern Access Road, Shepherd's Bush",200245,51.509424,-0.219712,true,false,1330589340000,"",false,30,23,55
 556,"Heron Quays DLR, Canary Wharf",200138,51.502661,-0.021596,true,false,"","",false,21,6,27
