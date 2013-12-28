@@ -13,7 +13,7 @@ http://www.tfl.gov.uk/tfl/businessandpartners/syndication/feed.aspx?email=jim@ja
 
     tr "\r" "\n"  
 
-## Summarize
+## Summarize journeys
 
 - Run through summ_by_X.rb
 - Scripts for day versus journey summaries
@@ -21,14 +21,29 @@ http://www.tfl.gov.uk/tfl/businessandpartners/syndication/feed.aspx?email=jim@ja
 - Specify output CSV file as first param
 - Day script requires records ordered by timestamp
 
-## Create graph data, visualise
+## Generate CSV list of boris stations
 
-- Load CSV into excel
-- Filter down to manageable set (top 2k / popular routes; eliminate missing bikes)
-- Create edge table: Source, Target, Weight
-- Open Gephi
-- Go to Data Lab
+cat inputs/boris_station_snapshot.xml | ./parse_stations.rb outputs/boris_stations.csv
+
+## Prepare data for Gephi
+
+- Load CSV of journeys into excel
+- Filter down to manageable set (e.g. top 2k / popular routes; eliminate missing bikes)
+- Create edge table: 'Source', 'Target', 'Weight' columns. Store for use in Gephi.
+- Copy boris station list for Gephi use
+- Change 'name' column name to 'id', expected by Gephi 
+
+
+## Import data into Gephi
+
+- Open Gephi, go to Data Lab
 - Import spreadsheet - straight edge table
-- Apply edge and node ranking
-- Apply clustering, then use to partition
+- Import spreadsheet - node list
+- Check for duplicates (sort by name, look for blank lat/long)
+- Update Gephi node list, re-import
+
+## Visualize
+
+- Apply edge and node ranking ...
+- Apply clustering, then use to partition ...
 
