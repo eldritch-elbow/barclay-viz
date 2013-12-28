@@ -31,7 +31,7 @@ cat inputs/boris_station_snapshot.xml | ./parse_stations.rb outputs/boris_statio
 - Filter down to manageable set (e.g. top 2k / popular routes; eliminate missing bikes)
 - Create edge table: 'Source', 'Target', 'Weight' columns. Store for use in Gephi.
 - Copy boris station list for Gephi use
-- Change 'name' column name to 'id', expected by Gephi 
+- If Source and Target are station names (rather than IDs), change 'name' column name to 'id' in the node list
 
 
 ## Import data into Gephi
@@ -40,7 +40,6 @@ cat inputs/boris_station_snapshot.xml | ./parse_stations.rb outputs/boris_statio
 - Import spreadsheet - straight edge table
 - Import spreadsheet - node list
 - Check for duplicates (sort by name, look for blank lat/long)
-- Update Gephi node list, re-import
 
 ## Visualize
 

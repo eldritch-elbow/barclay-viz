@@ -22,8 +22,8 @@ boris_id,id,terminalName,lat,long,installed,locked,installDate,removalDate,tempo
 21,"Hampstead Road (Cartmel), Euston",003426,51.53007835,-0.13884627,true,false,1278427740000,"",false,9,7,16
 10001,"Hampstead Road, Euston",999990,51.53007834,-0.13884628,true,false,1278427740000,"",false,9,7,16
 10002,"Milford Lane, Temple",999991,51.51215,-0.113054,true,false,1278427740000,"",false,9,7,16
-10003,"New Fetter Lane, Holborn",51.516797,-0.108065,true,false,1278427740000,"",false,9,7,16
-10004,"Wansey Stree, Walworth",51.491349,-0.096412,true,false,1278427740000,"",false,9,7,16
+10003,"New Fetter Lane, Holborn",999992,51.516797,-0.108065,true,false,1278427740000,"",false,9,7,16
+10004,"Wansey Street, Walworth",999993,51.491349,-0.096412,true,false,1278427740000,"",false,9,7,16
 22,"Northington Street , Holborn",003425,51.5222641,-0.114079481,true,false,1278428880000,"",false,1,18,19
 23,"Red Lion Square, Holborn",003421,51.51943538,-0.119123345,true,false,1278429300000,"",false,10,6,16
 24,"British Museum, Bloomsbury",000981,51.51908011,-0.124678402,true,false,1278430140000,"",false,11,22,35
