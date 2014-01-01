@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"csv",
+				"csv_out"
+			],
+			[
+				"station",
+				"station_el"
+			],
+			[
+				"statio",
+				"station_xml_fields"
+			],
+			[
+				"field",
+				"field_names"
+			],
+			[
+				"st",
+				"station_xml_fields"
+			],
+			[
 				"inva",
 				"invalid_locations"
 			],
@@ -94,10 +114,6 @@
 			[
 				"defaul",
 				"default_field_def"
-			],
-			[
-				"field",
-				"field_counts"
 			],
 			[
 				"vis",
@@ -498,42 +514,11 @@
 			[
 				"ma",
 				"map	map { |e| .. }"
-			],
-			[
-				"eac",
-				"each"
-			],
-			[
-				"res",
-				"resCount"
-			],
-			[
-				"result",
-				"result_idx"
-			],
-			[
-				"map",
-				"map_of_mocked_chems"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "summ_by_jny.rb",
-			"settings":
-			{
-				"buffer_size": 2905,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -559,6 +544,10 @@
 	},
 	"file_history":
 	[
+		"/Users/j.siddle/workspaces/my_projects/barclay-viz/summ_by_jny.rb",
+		"/Users/j.siddle/workspaces/my_projects/barclay-viz/parse_stations.rb",
+		"/Users/j.siddle/workspaces/my_projects/barclay-viz/gephi_project/node_list.csv",
+		"/Users/j.siddle/workspaces/my_projects/barclay-viz/barclay-viz.sublime-project",
 		"/Users/j.siddle/workspaces/my_projects/persona-graph/spec/li_reader_spec.rb",
 		"/Users/j.siddle/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/j.siddle/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
@@ -682,11 +671,7 @@
 		"/Users/j.siddle/workspaces/SureChem/surechem-data-feed/bin/get_pns.rb",
 		"/Users/j.siddle/workspaces/SureChem/surechem-portal-app/app/assets/javascripts/doc.js",
 		"/Users/j.siddle/workspaces/SureChem/surechem-core/src/main/java/com/dsci/surechem/api/StandardSureChemAPI.java",
-		"/Users/j.siddle/workspaces/SureChem/surechem-core/src/main/java/com/reeltwo/chemsmart/chemical/StandardChemical.java",
-		"/Users/j.siddle/workspaces/SureChem/surechem-extractors/src/main/java/com/reeltwo/entity/Entity.java",
-		"/Users/j.siddle/Documents/Digital Science/SureChem/data-feed/example.csv",
-		"/Users/j.siddle/Documents/Digital Science/SureChem/data-feed/example.xml",
-		"/Users/j.siddle/Documents/Digital Science/SureChem/data-feed/example.json"
+		"/Users/j.siddle/workspaces/SureChem/surechem-core/src/main/java/com/reeltwo/chemsmart/chemical/StandardChemical.java"
 	],
 	"find":
 	{
@@ -705,6 +690,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Hampstead Road",
 			"expected_months",
 			"11",
 			"journey_data",
@@ -831,8 +817,7 @@
 			"overwritten",
 			"getStandardChemicalsForSMILES",
 			"_get_chemical_data_for_smiles",
-			"puts",
-			"_get_chemical_data_for_ids"
+			"puts"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -850,61 +835,13 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "summ_by_jny.rb",
-					"settings":
-					{
-						"buffer_size": 2905,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1340,
-								1340
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -925,11 +862,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
