@@ -20,6 +20,8 @@ filtered_records = []
 
 CSV($stdin, { :headers => true })  { |csv_in|  csv_in.each { |raw_journey|
 
+	puts "Processed #{total_journeys} ..." if (total_journeys % 10000 == 0)
+
 	headers = csv_in.headers if headers.nil?
 
 	total_journeys += 1
