@@ -1,0 +1,160 @@
+Source,Target,JourneyText,07-2012,08-2012,09-2012,10-2012,11-2012,12-2012,01-2013,02-2013,Weight
+"Columbia Road, Weavers","Devonshire Square, Liverpool Street","Columbia Road, Weavers to Devonshire Square, Liverpool Street",0,2,0,0,0,0,0,0,2
+"Canton Street, Poplar","Albert Gardens, Stepney","Canton Street, Poplar to Albert Gardens, Stepney",0,1,0,0,0,0,0,0,1
+"Liverpool Road (N1 Centre), Angel","Columbia Road, Weavers","Liverpool Road (N1 Centre), Angel to Columbia Road, Weavers",0,2,0,0,0,0,0,0,2
+"Columbia Road, Weavers","Brushfield Street, Liverpool Street","Columbia Road, Weavers to Brushfield Street, Liverpool Street",6,10,0,0,0,0,0,0,16
+"Canton Street, Poplar","Columbia Road, Weavers","Canton Street, Poplar to Columbia Road, Weavers",0,9,1,2,0,0,0,0,12
+"Brushfield Street, Liverpool Street","Goswell Road (City Uni), Finsbury","Brushfield Street, Liverpool Street to Goswell Road (City Uni), Finsbury",0,1,0,0,0,0,0,0,1
+"St. Mary Axe, Aldgate","Columbia Road, Weavers","St. Mary Axe, Aldgate to Columbia Road, Weavers",0,1,0,0,0,0,0,0,1
+"Old Montague Street, Whitechapel","Columbia Road, Weavers","Old Montague Street, Whitechapel to Columbia Road, Weavers",1,1,0,0,0,0,0,0,2
+"Devonshire Square, Liverpool Street","Canton Street, Poplar","Devonshire Square, Liverpool Street to Canton Street, Poplar",0,2,2,0,0,2,0,0,6
+"Columbia Road, Weavers","Old Montague Street, Whitechapel","Columbia Road, Weavers to Old Montague Street, Whitechapel",0,2,0,0,0,0,0,0,2
+"Columbia Road, Weavers","Torrens Street, Angel","Columbia Road, Weavers to Torrens Street, Angel",0,3,0,0,0,0,0,0,3
+"Wormwood Street, Liverpool Street","Canton Street, Poplar","Wormwood Street, Liverpool Street to Canton Street, Poplar",0,6,8,11,8,8,14,0,55
+"Brushfield Street, Liverpool Street","Sidney Street, Stepney","Brushfield Street, Liverpool Street to Sidney Street, Stepney",0,1,0,1,0,0,0,0,2
+"Wardour Street, Soho","Columbia Road, Weavers","Wardour Street, Soho to Columbia Road, Weavers",0,1,0,0,0,0,0,0,1
+"Sidney Street, Stepney","Columbia Road, Weavers","Sidney Street, Stepney to Columbia Road, Weavers",1,2,0,0,0,0,0,0,3
+"Columbia Road, Weavers","Fournier Street, Whitechapel","Columbia Road, Weavers to Fournier Street, Whitechapel",0,1,0,0,0,0,0,0,1
+"Columbia Road, Weavers","Cephas Street, Bethnal Green","Columbia Road, Weavers to Cephas Street, Bethnal Green",1,4,0,1,0,0,0,0,6
+"Shoreditch High Street, Shoreditch","Moor Street, Soho","Shoreditch High Street, Shoreditch to Moor Street, Soho",1,1,0,0,0,0,0,0,2
+"Brushfield Street, Liverpool Street","Columbia Road, Weavers","Brushfield Street, Liverpool Street to Columbia Road, Weavers",4,8,0,0,0,0,0,0,12
+"Westferry DLR, Limehouse","Columbia Road, Weavers","Westferry DLR, Limehouse to Columbia Road, Weavers",0,1,0,0,0,0,0,0,1
+"Canton Street, Poplar","Westferry DLR, Limehouse","Canton Street, Poplar to Westferry DLR, Limehouse",0,1,0,0,0,0,0,0,1
+"Portman Square, Marylebone","Columbia Road, Weavers","Portman Square, Marylebone to Columbia Road, Weavers",1,0,0,0,0,0,0,0,1
+"Cephas Street, Bethnal Green","Columbia Road, Weavers","Cephas Street, Bethnal Green to Columbia Road, Weavers",1,1,0,0,0,0,0,0,2
+"Shoreditch High Street, Shoreditch","Sun Street, Liverpool Street","Shoreditch High Street, Shoreditch to Sun Street, Liverpool Street",1,0,0,0,0,0,0,0,1
+"Columbia Road, Weavers","Moor Street, Soho","Columbia Road, Weavers to Moor Street, Soho",1,0,1,0,0,0,0,0,2
+"Kennington Lane Rail Bridge, Vauxhall","Shoreditch High Street, Shoreditch","Kennington Lane Rail Bridge, Vauxhall to Shoreditch High Street, Shoreditch",1,0,0,0,0,0,0,0,1
+"Wormwood Street, Liverpool Street","Columbia Road, Weavers","Wormwood Street, Liverpool Street to Columbia Road, Weavers",2,1,0,0,0,0,0,0,3
+"Brushfield Street, Liverpool Street","Shoreditch High Street, Shoreditch","Brushfield Street, Liverpool Street to Shoreditch High Street, Shoreditch",0,1,0,0,0,0,0,0,1
+"Shoreditch High Street, Shoreditch","Cephas Street, Bethnal Green","Shoreditch High Street, Shoreditch to Cephas Street, Bethnal Green",1,0,0,1,0,0,0,0,2
+"Wormwood Street, Liverpool Street","Shoreditch High Street, Shoreditch","Wormwood Street, Liverpool Street to Shoreditch High Street, Shoreditch",0,1,0,0,0,0,0,0,1
+"Hampton Street, Walworth","Canton Street, Poplar","Hampton Street, Walworth to Canton Street, Poplar",0,1,0,0,0,0,0,0,1
+"Little Argyll Street, West End","Columbia Road, Weavers","Little Argyll Street, West End to Columbia Road, Weavers",1,0,0,0,0,0,0,0,1
+"Columbia Road, Weavers","Canton Street, Poplar","Columbia Road, Weavers to Canton Street, Poplar",1,4,2,1,0,0,0,0,8
+"Shoreditch High Street, Shoreditch","St. Mary Axe, Aldgate","Shoreditch High Street, Shoreditch to St. Mary Axe, Aldgate",1,0,0,0,0,0,0,0,1
+"Wardour Street, Soho","Abingdon Green, Great College Street","Wardour Street, Soho to Abingdon Green, Great College Street",1,0,0,0,0,0,0,0,1
+"Sidney Street, Stepney","Shoreditch High Street, Shoreditch","Sidney Street, Stepney to Shoreditch High Street, Shoreditch",0,1,0,0,0,0,0,0,1
+"Columbia Road, Weavers","Braham Street, Aldgate","Columbia Road, Weavers to Braham Street, Aldgate",0,1,0,0,0,0,0,0,1
+"Devonshire Square, Liverpool Street","Columbia Road, Weavers","Devonshire Square, Liverpool Street to Columbia Road, Weavers",1,1,0,0,0,0,0,0,2
+"King Edward Street, St Pauls","Columbia Road, Weavers","King Edward Street, St Pauls to Columbia Road, Weavers",1,0,0,0,0,0,0,0,1
+"Wellington Street , Strand","Newgate Street , St. Paul's","Wellington Street , Strand to Newgate Street , St. Paul's",1,0,0,0,0,0,0,0,1
+"Torrens Street, Angel","Columbia Road, Weavers","Torrens Street, Angel to Columbia Road, Weavers",0,1,0,0,0,0,0,0,1
+"Northington Street , Holborn","Columbia Road, Weavers","Northington Street , Holborn to Columbia Road, Weavers",1,0,0,0,0,0,0,0,1
+"Old Montague Street, Whitechapel","Canton Street, Poplar","Old Montague Street, Whitechapel to Canton Street, Poplar",0,1,0,0,0,0,0,0,1
+"Canton Street, Poplar","Lower Thames Street, Monument","Canton Street, Poplar to Lower Thames Street, Monument",0,1,0,0,0,0,0,0,1
+"Lower Thames Street, Monument","Walworth Road, Southwark","Lower Thames Street, Monument to Walworth Road, Southwark",0,1,0,0,0,0,0,0,1
+"Canton Street, Poplar","Brushfield Street, Liverpool Street","Canton Street, Poplar to Brushfield Street, Liverpool Street",0,8,2,9,5,5,7,0,36
+"Flamborough Street, Limehouse","Canton Street, Poplar","Flamborough Street, Limehouse to Canton Street, Poplar",0,1,1,1,1,1,0,0,5
+"Columbia Road, Weavers","Wormwood Street, Liverpool Street","Columbia Road, Weavers to Wormwood Street, Liverpool Street",0,1,0,0,0,0,0,0,1
+"Canton Street, Poplar","Fishermans Walk West, Canary Wharf","Canton Street, Poplar to Fishermans Walk West, Canary Wharf",0,2,1,0,1,0,0,0,4
+"Fishermans Walk West, Canary Wharf","Canton Street, Poplar","Fishermans Walk West, Canary Wharf to Canton Street, Poplar",0,1,1,0,1,0,0,0,3
+"Sidney Street, Stepney","Canton Street, Poplar","Sidney Street, Stepney to Canton Street, Poplar",0,3,4,5,1,2,2,1,18
+"Jubilee Plaza, Canary Wharf","Brushfield Street, Liverpool Street","Jubilee Plaza, Canary Wharf to Brushfield Street, Liverpool Street",0,1,0,0,0,0,0,0,1
+"Canton Street, Poplar","Canton Street, Poplar","Canton Street, Poplar to Canton Street, Poplar",0,2,0,0,0,0,0,0,2
+"Columbia Road, Weavers","Westferry DLR, Limehouse","Columbia Road, Weavers to Westferry DLR, Limehouse",0,2,0,0,0,0,0,0,2
+"Brushfield Street, Liverpool Street","Canton Street, Poplar","Brushfield Street, Liverpool Street to Canton Street, Poplar",0,3,0,4,0,0,0,0,7
+"Canton Street, Poplar","Old Street Station, St. Luke's","Canton Street, Poplar to Old Street Station, St. Luke's",0,2,1,0,0,1,0,0,4
+"Westferry DLR, Limehouse","Brushfield Street, Liverpool Street","Westferry DLR, Limehouse to Brushfield Street, Liverpool Street",0,1,1,1,1,0,0,0,4
+"Canton Street, Poplar","Upper Bank Street, Canary Wharf","Canton Street, Poplar to Upper Bank Street, Canary Wharf",0,3,2,1,0,0,0,0,6
+"Upper Bank Street, Canary Wharf","Canton Street, Poplar","Upper Bank Street, Canary Wharf to Canton Street, Poplar",0,2,1,0,0,0,1,0,4
+"Old Street Station, St. Luke's","Moor Street, Soho","Old Street Station, St. Luke's to Moor Street, Soho",0,1,0,0,0,0,0,0,1
+"Canton Street, Poplar","Sidney Street, Stepney","Canton Street, Poplar to Sidney Street, Stepney",0,1,5,0,0,2,3,0,11
+"Red Lion Square, Holborn","Canton Street, Poplar","Red Lion Square, Holborn to Canton Street, Poplar",0,1,0,0,0,0,0,0,1
+"Canton Street, Poplar","Flamborough Street, Limehouse","Canton Street, Poplar to Flamborough Street, Limehouse",0,2,0,1,0,0,0,0,3
+"Flamborough Street, Limehouse","Brushfield Street, Liverpool Street","Flamborough Street, Limehouse to Brushfield Street, Liverpool Street",0,1,0,0,0,0,0,0,1
+"Jubilee Plaza, Canary Wharf","Canton Street, Poplar","Jubilee Plaza, Canary Wharf to Canton Street, Poplar",0,1,0,0,0,0,0,0,1
+"Upper Bank Street, Canary Wharf","Sidney Street, Stepney","Upper Bank Street, Canary Wharf to Sidney Street, Stepney",0,1,0,1,0,0,0,0,2
+"Westferry DLR, Limehouse","Upper Bank Street, Canary Wharf","Westferry DLR, Limehouse to Upper Bank Street, Canary Wharf",0,1,1,0,0,0,0,0,2
+"Goswell Road (City Uni), Finsbury","Brushfield Street, Liverpool Street","Goswell Road (City Uni), Finsbury to Brushfield Street, Liverpool Street",0,1,0,0,0,0,0,0,1
+"Old Street Station, St. Luke's","Goswell Road (City Uni), Finsbury","Old Street Station, St. Luke's to Goswell Road (City Uni), Finsbury",0,1,1,0,0,0,0,0,2
+"Goswell Road (City Uni), Finsbury","Devonshire Square, Liverpool Street","Goswell Road (City Uni), Finsbury to Devonshire Square, Liverpool Street",0,1,0,0,0,0,0,0,1
+"Canton Street, Poplar","Bath Street, St. Luke's","Canton Street, Poplar to Bath Street, St. Luke's",0,1,0,0,0,0,0,0,1
+"Bath Street, St. Luke's","Goswell Road (City Uni), Finsbury","Bath Street, St. Luke's to Goswell Road (City Uni), Finsbury",0,1,0,0,0,1,0,0,2
+"Wormwood Street, Liverpool Street","Westferry DLR, Limehouse","Wormwood Street, Liverpool Street to Westferry DLR, Limehouse",0,1,2,1,0,1,1,0,6
+"Goswell Road (City Uni), Finsbury","St. Mary and St. Michael Church, Stepney","Goswell Road (City Uni), Finsbury to St. Mary and St. Michael Church, Stepney",0,0,1,0,0,0,0,0,1
+"St. Mary and St. Michael Church, Stepney","Canton Street, Poplar","St. Mary and St. Michael Church, Stepney to Canton Street, Poplar",0,0,1,0,0,0,0,0,1
+"Upper Bank Street, Canary Wharf","Old Street Station, St. Luke's","Upper Bank Street, Canary Wharf to Old Street Station, St. Luke's",0,0,1,0,0,0,0,0,1
+"Bath Street, St. Luke's","Brushfield Street, Liverpool Street","Bath Street, St. Luke's to Brushfield Street, Liverpool Street",0,0,1,0,0,0,0,0,1
+"LMU Commercial Road, Whitechapel","Canton Street, Poplar","LMU Commercial Road, Whitechapel to Canton Street, Poplar",0,0,1,0,0,0,0,0,1
+"Fournier Street, Whitechapel","Canton Street, Poplar","Fournier Street, Whitechapel to Canton Street, Poplar",0,0,2,1,0,0,1,0,4
+"Upper Bank Street, Canary Wharf","Salmon Lane, Limehouse","Upper Bank Street, Canary Wharf to Salmon Lane, Limehouse",0,0,1,0,0,0,0,0,1
+"Salmon Lane, Limehouse","Canton Street, Poplar","Salmon Lane, Limehouse to Canton Street, Poplar",0,0,1,0,0,0,0,0,1
+"William IV Street, Strand","Old Street Station, St. Luke's","William IV Street, Strand to Old Street Station, St. Luke's",0,0,1,0,0,0,0,0,1
+"Canton Street, Poplar","Wormwood Street, Liverpool Street","Canton Street, Poplar to Wormwood Street, Liverpool Street",0,0,1,0,0,0,0,0,1
+"Old Street Station, St. Luke's","Canton Street, Poplar","Old Street Station, St. Luke's to Canton Street, Poplar",0,0,1,1,0,1,0,0,3
+"Canton Street, Poplar","Devonshire Square, Liverpool Street","Canton Street, Poplar to Devonshire Square, Liverpool Street",0,0,11,16,5,4,10,1,47
+"Fournier Street, Whitechapel","Westferry DLR, Limehouse","Fournier Street, Whitechapel to Westferry DLR, Limehouse",0,0,1,0,0,0,0,0,1
+"Canton Street, Poplar","Commercial Street, Shoreditch","Canton Street, Poplar to Commercial Street, Shoreditch",0,0,1,0,0,0,0,0,1
+"Braham Street, Aldgate","Canton Street, Poplar","Braham Street, Aldgate to Canton Street, Poplar",0,0,1,0,0,0,0,0,1
+"Canton Street, Poplar","The Green Bridge, Mile End","Canton Street, Poplar to The Green Bridge, Mile End",0,0,3,0,0,0,2,0,5
+"Newgate Street , St. Paul's","Canton Street, Poplar","Newgate Street , St. Paul's to Canton Street, Poplar",0,0,1,0,0,0,0,0,1
+"The Green Bridge, Mile End","Burdett Road, Mile End","The Green Bridge, Mile End to Burdett Road, Mile End",0,0,1,0,0,0,0,0,1
+"Northumberland Avenue, Strand","Newgate Street , St. Paul's","Northumberland Avenue, Strand to Newgate Street , St. Paul's",0,0,1,0,0,0,0,0,1
+"Burdett Road, Mile End","Devonshire Square, Liverpool Street","Burdett Road, Mile End to Devonshire Square, Liverpool Street",0,0,1,0,0,1,0,0,2
+"New Road 1 , Whitechapel","Burdett Road, Mile End","New Road 1 , Whitechapel to Burdett Road, Mile End",0,0,1,0,0,0,0,0,1
+"Wormwood Street, Liverpool Street","Sidney Street, Stepney","Wormwood Street, Liverpool Street to Sidney Street, Stepney",0,0,1,1,2,0,0,0,4
+"Canton Street, Poplar","Southern Grove, Bow","Canton Street, Poplar to Southern Grove, Bow",0,0,1,0,0,0,0,0,1
+"Sidney Street, Stepney","Flamborough Street, Limehouse","Sidney Street, Stepney to Flamborough Street, Limehouse",0,0,1,0,0,0,1,0,2
+"Soho Square , Soho","Old Street Station, St. Luke's","Soho Square , Soho to Old Street Station, St. Luke's",0,0,0,1,0,1,0,0,2
+"Brushfield Street, Liverpool Street","Moor Street, Soho","Brushfield Street, Liverpool Street to Moor Street, Soho",0,0,0,1,0,0,0,0,1
+"Canton Street, Poplar","Berry Street, Clerkenwell","Canton Street, Poplar to Berry Street, Clerkenwell",0,0,0,1,0,0,0,0,1
+"Berry Street, Clerkenwell","Moor Street, Soho","Berry Street, Clerkenwell to Moor Street, Soho",0,0,0,1,0,0,0,0,1
+"Flamborough Street, Limehouse","Burdett Road, Mile End","Flamborough Street, Limehouse to Burdett Road, Mile End",0,0,0,2,0,1,1,0,4
+"Brushfield Street, Liverpool Street","Hoxton Station, Haggerston","Brushfield Street, Liverpool Street to Hoxton Station, Haggerston",0,0,0,1,0,0,0,0,1
+"Westferry DLR, Limehouse","Whiston Road, Haggerston","Westferry DLR, Limehouse to Whiston Road, Haggerston",0,0,0,1,0,0,0,0,1
+"Bethnal Green Road, Shoreditch","Canton Street, Poplar","Bethnal Green Road, Shoreditch to Canton Street, Poplar",0,0,0,1,0,0,0,0,1
+"Whiston Road, Haggerston","Burdett Road, Mile End","Whiston Road, Haggerston to Burdett Road, Mile End",0,0,0,2,0,0,0,0,2
+"Canton Street, Poplar","Whiston Road, Haggerston","Canton Street, Poplar to Whiston Road, Haggerston",0,0,0,2,2,2,1,0,7
+"Whiston Road, Haggerston","Canton Street, Poplar","Whiston Road, Haggerston to Canton Street, Poplar",0,0,0,1,1,0,0,0,2
+"Brushfield Street, Liverpool Street","Whiston Road, Haggerston","Brushfield Street, Liverpool Street to Whiston Road, Haggerston",0,0,0,2,0,0,0,0,2
+"Brushfield Street, Liverpool Street","Westferry DLR, Limehouse","Brushfield Street, Liverpool Street to Westferry DLR, Limehouse",0,0,0,1,0,0,0,0,1
+"Shoreditch High Street, Shoreditch","Brushfield Street, Liverpool Street","Shoreditch High Street, Shoreditch to Brushfield Street, Liverpool Street",0,0,0,1,0,0,0,0,1
+"Norton Folgate, Liverpool Street","Canton Street, Poplar","Norton Folgate, Liverpool Street to Canton Street, Poplar",0,0,0,1,0,1,0,0,2
+"Canton Street, Poplar","Salmon Lane, Limehouse","Canton Street, Poplar to Salmon Lane, Limehouse",0,0,0,1,0,0,0,0,1
+"Wormwood Street, Liverpool Street","Flamborough Street, Limehouse","Wormwood Street, Liverpool Street to Flamborough Street, Limehouse",0,0,0,1,1,0,0,0,2
+"Salmon Lane, Limehouse","Flamborough Street, Limehouse","Salmon Lane, Limehouse to Flamborough Street, Limehouse",0,0,0,1,0,0,0,0,1
+"Saunders Ness Road, Cubitt Town","Lightermans Road, Millwall","Saunders Ness Road, Cubitt Town to Lightermans Road, Millwall",0,0,0,1,0,0,0,0,1
+"Canton Street, Poplar","Saunders Ness Road, Cubitt Town","Canton Street, Poplar to Saunders Ness Road, Cubitt Town",0,0,0,2,0,0,0,0,2
+"Lightermans Road, Millwall","Canton Street, Poplar","Lightermans Road, Millwall to Canton Street, Poplar",0,0,0,1,0,0,0,0,1
+"Old Street Station, St. Luke's","Thornfield House, Poplar","Old Street Station, St. Luke's to Thornfield House, Poplar",0,0,0,1,0,0,0,0,1
+"Moor Street, Soho","Old Street Station, St. Luke's","Moor Street, Soho to Old Street Station, St. Luke's",0,0,0,1,0,0,0,0,1
+"Whiston Road, Haggerston","Goswell Road (City Uni), Finsbury","Whiston Road, Haggerston to Goswell Road (City Uni), Finsbury",0,0,0,1,0,0,0,0,1
+"Whiston Road, Haggerston","Columbia Road, Weavers","Whiston Road, Haggerston to Columbia Road, Weavers",0,0,0,1,0,1,0,0,2
+"Goswell Road (City Uni), Finsbury","Moor Street, Soho","Goswell Road (City Uni), Finsbury to Moor Street, Soho",0,0,0,1,0,0,0,0,1
+"Columbia Road, Weavers","Whiston Road, Haggerston","Columbia Road, Weavers to Whiston Road, Haggerston",0,0,0,1,0,0,0,0,1
+"Millennium Hotel, Mayfair","Soho Square , Soho","Millennium Hotel, Mayfair to Soho Square , Soho",0,0,0,1,0,0,0,0,1
+"Saunders Ness Road, Cubitt Town","Canton Street, Poplar","Saunders Ness Road, Cubitt Town to Canton Street, Poplar",0,0,0,1,0,0,0,0,1
+"Devonshire Square, Liverpool Street","Westferry DLR, Limehouse","Devonshire Square, Liverpool Street to Westferry DLR, Limehouse",0,0,0,0,1,1,0,0,2
+"Sidney Street, Stepney","Burdett Road, Mile End","Sidney Street, Stepney to Burdett Road, Mile End",0,0,0,0,3,0,1,0,4
+"Whiston Road, Haggerston","Cephas Street, Bethnal Green","Whiston Road, Haggerston to Cephas Street, Bethnal Green",0,0,0,0,1,0,0,0,1
+"Moorfields, Moorgate","Canton Street, Poplar","Moorfields, Moorgate to Canton Street, Poplar",0,0,0,0,1,0,0,0,1
+"Whiston Road, Haggerston","Brushfield Street, Liverpool Street","Whiston Road, Haggerston to Brushfield Street, Liverpool Street",0,0,0,0,1,0,1,0,2
+"Devonshire Square, Liverpool Street","Whiston Road, Haggerston","Devonshire Square, Liverpool Street to Whiston Road, Haggerston",0,0,0,0,1,0,0,0,1
+"Fishermans Walk West, Canary Wharf","Burdett Road, Mile End","Fishermans Walk West, Canary Wharf to Burdett Road, Mile End",0,0,0,0,1,0,0,0,1
+"Westferry DLR, Limehouse","Devonshire Square, Liverpool Street","Westferry DLR, Limehouse to Devonshire Square, Liverpool Street",0,0,0,0,0,1,0,0,1
+"Columbia Road, Weavers","Flamborough Street, Limehouse","Columbia Road, Weavers to Flamborough Street, Limehouse",0,0,0,0,0,1,0,0,1
+"Bethnal Green Road, Shoreditch","Brushfield Street, Liverpool Street","Bethnal Green Road, Shoreditch to Brushfield Street, Liverpool Street",0,0,0,0,0,1,0,0,1
+"Wormwood Street, Liverpool Street","LMU Commercial Road, Whitechapel","Wormwood Street, Liverpool Street to LMU Commercial Road, Whitechapel",0,0,0,0,0,1,0,0,1
+"Altab Ali Park, Whitechapel","Devonshire Square, Liverpool Street","Altab Ali Park, Whitechapel to Devonshire Square, Liverpool Street",0,0,0,0,0,1,0,0,1
+"Burdett Road, Mile End","Sidney Street, Stepney","Burdett Road, Mile End to Sidney Street, Stepney",0,0,0,0,0,1,0,0,1
+"Lower Thames Street, Monument","Canton Street, Poplar","Lower Thames Street, Monument to Canton Street, Poplar",0,0,0,0,0,1,0,0,1
+"West Smithfield Rotunda, Farringdon","Canton Street, Poplar","West Smithfield Rotunda, Farringdon to Canton Street, Poplar",0,0,0,0,0,1,0,0,1
+"Whiston Road, Haggerston","Flamborough Street, Limehouse","Whiston Road, Haggerston to Flamborough Street, Limehouse",0,0,0,0,0,1,0,0,1
+"Canton Street, Poplar","Cheapside, Bank","Canton Street, Poplar to Cheapside, Bank",0,0,0,0,0,1,0,0,1
+"Taviton Street, Bloomsbury","Wormwood Street, Liverpool Street","Taviton Street, Bloomsbury to Wormwood Street, Liverpool Street",0,0,0,0,0,1,0,0,1
+"Wormwood Street, Liverpool Street","Holborn Circus, Holborn","Wormwood Street, Liverpool Street to Holborn Circus, Holborn",0,0,0,0,0,1,0,0,1
+"Upper Bank Street, Canary Wharf","Chrisp Street Market, Poplar","Upper Bank Street, Canary Wharf to Chrisp Street Market, Poplar",0,0,0,0,0,0,1,0,1
+"Canton Street, Poplar","Chrisp Street Market, Poplar","Canton Street, Poplar to Chrisp Street Market, Poplar",0,0,0,0,0,0,2,0,2
+"Chrisp Street Market, Poplar","Burdett Road, Mile End","Chrisp Street Market, Poplar to Burdett Road, Mile End",0,0,0,0,0,0,1,0,1
+"Bromley High Street, Bromley","Canton Street, Poplar","Bromley High Street, Bromley to Canton Street, Poplar",0,0,0,0,0,0,1,0,1
+"Chrisp Street Market, Poplar","Upper Bank Street, Canary Wharf","Chrisp Street Market, Poplar to Upper Bank Street, Canary Wharf",0,0,0,0,0,0,1,0,1
+"Canton Street, Poplar","Barbican Centre, Barbican","Canton Street, Poplar to Barbican Centre, Barbican",0,0,0,0,0,0,1,0,1
+"Hoxton Station, Haggerston","Whiston Road, Haggerston","Hoxton Station, Haggerston to Whiston Road, Haggerston",0,0,0,0,0,0,1,0,1
+"Sidney Street, Stepney","Devonshire Square, Liverpool Street","Sidney Street, Stepney to Devonshire Square, Liverpool Street",0,0,0,0,0,0,1,0,1
+"Whiston Road, Haggerston","Sidney Street, Stepney","Whiston Road, Haggerston to Sidney Street, Stepney",0,0,0,0,0,0,1,0,1
+"Canton Street, Poplar","LMU Commercial Road, Whitechapel","Canton Street, Poplar to LMU Commercial Road, Whitechapel",0,0,0,0,0,0,3,0,3
+"Wormwood Street, Liverpool Street","Burdett Road, Mile End","Wormwood Street, Liverpool Street to Burdett Road, Mile End",0,0,0,0,0,0,1,1,2
+"Devonshire Square, Liverpool Street","Burdett Road, Mile End","Devonshire Square, Liverpool Street to Burdett Road, Mile End",0,0,0,0,0,0,1,0,1
+"Canton Street, Poplar","Naval Row, Blackwall","Canton Street, Poplar to Naval Row, Blackwall",0,0,0,0,0,0,0,1,1
+"Chrisp Street Market, Poplar","Sidney Street, Stepney","Chrisp Street Market, Poplar to Sidney Street, Stepney",0,0,0,0,0,0,0,1,1

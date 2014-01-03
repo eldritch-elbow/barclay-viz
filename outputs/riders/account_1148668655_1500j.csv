@@ -1,0 +1,641 @@
+Source,Target,JourneyText,07-2012,08-2012,09-2012,10-2012,11-2012,12-2012,01-2013,02-2013,Weight
+"Cumberland Gate, Hyde Park","Marylebone Lane, Marylebone","Cumberland Gate, Hyde Park to Marylebone Lane, Marylebone",0,1,0,0,0,0,0,0,1
+"Princes Square, Bayswater","Cumberland Gate, Hyde Park","Princes Square, Bayswater to Cumberland Gate, Hyde Park",0,1,0,0,0,0,0,0,1
+"Lancaster Gate , Bayswater","Princes Square, Bayswater","Lancaster Gate , Bayswater to Princes Square, Bayswater",0,3,1,0,0,0,0,0,4
+"Whiteley's, Bayswater","Lancaster Gate , Bayswater","Whiteley's, Bayswater to Lancaster Gate , Bayswater",9,23,17,12,19,20,14,0,114
+"Bishop's Bridge Road West, Bayswater","Whiteley's, Bayswater","Bishop's Bridge Road West, Bayswater to Whiteley's, Bayswater",0,4,1,0,2,0,1,0,8
+"Marylebone Lane, Marylebone","Belgrove Street , King's Cross","Marylebone Lane, Marylebone to Belgrove Street , King's Cross",0,5,2,0,0,0,0,0,7
+"Hereford Road, Bayswater","Marylebone Lane, Marylebone","Hereford Road, Bayswater to Marylebone Lane, Marylebone",0,1,2,0,0,0,0,0,3
+"Bayswater Road, Hyde Park","Bishop's Bridge Road West, Bayswater","Bayswater Road, Hyde Park to Bishop's Bridge Road West, Bayswater",2,8,8,3,0,2,1,0,24
+"Pembridge Villas, Notting Hill","Whiteley's, Bayswater","Pembridge Villas, Notting Hill to Whiteley's, Bayswater",2,3,1,0,0,0,0,0,6
+"Whiteley's, Bayswater","Devonshire Terrace, Bayswater","Whiteley's, Bayswater to Devonshire Terrace, Bayswater",1,3,2,0,7,2,1,0,16
+"Ilchester Gardens, Bayswater","Pembridge Villas, Notting Hill","Ilchester Gardens, Bayswater to Pembridge Villas, Notting Hill",1,2,0,0,0,0,0,0,3
+"Devonshire Terrace, Bayswater","Hereford Road, Bayswater","Devonshire Terrace, Bayswater to Hereford Road, Bayswater",1,1,0,0,0,1,0,0,3
+"Hampstead Road, Euston","Bayswater Road, Hyde Park","Hampstead Road, Euston to Bayswater Road, Hyde Park",0,1,0,0,0,0,0,0,1
+"Bishop's Bridge Road West, Bayswater","Ilchester Gardens, Bayswater","Bishop's Bridge Road West, Bayswater to Ilchester Gardens, Bayswater",0,3,0,0,1,0,0,0,4
+"Belgrove Street , King's Cross","William IV Street, Strand","Belgrove Street , King's Cross to William IV Street, Strand",0,1,0,2,3,0,1,0,7
+"William IV Street, Strand","Belgrove Street , King's Cross","William IV Street, Strand to Belgrove Street , King's Cross",0,1,0,4,3,3,4,1,16
+"Princes Square, Bayswater","British Museum, Bloomsbury","Princes Square, Bayswater to British Museum, Bloomsbury",2,0,0,0,0,0,0,0,2
+"Nutford Place, Marylebone","Belgrove Street , King's Cross","Nutford Place, Marylebone to Belgrove Street , King's Cross",0,1,0,0,0,0,0,0,1
+"Westbourne Grove, Bayswater","Nutford Place, Marylebone","Westbourne Grove, Bayswater to Nutford Place, Marylebone",0,1,0,0,0,0,0,0,1
+"Soho Square , Soho","Bishop's Bridge Road West, Bayswater","Soho Square , Soho to Bishop's Bridge Road West, Bayswater",2,0,0,0,1,0,1,0,4
+"Hereford Road, Bayswater","Pembridge Villas, Notting Hill","Hereford Road, Bayswater to Pembridge Villas, Notting Hill",3,2,0,0,0,0,0,0,5
+"Hereford Road, Bayswater","Hereford Road, Bayswater","Hereford Road, Bayswater to Hereford Road, Bayswater",2,5,1,0,0,2,0,0,10
+"Whiteley's, Bayswater","Hereford Road, Bayswater","Whiteley's, Bayswater to Hereford Road, Bayswater",1,0,0,0,0,0,0,0,1
+"Whiteley's, Bayswater","Bishop's Bridge Road West, Bayswater","Whiteley's, Bayswater to Bishop's Bridge Road West, Bayswater",1,2,3,1,6,2,0,0,15
+"Bayswater Road, Hyde Park","Chapel Place, Marylebone","Bayswater Road, Hyde Park to Chapel Place, Marylebone",0,2,0,0,0,0,0,0,2
+"Westbourne Grove, Bayswater","Bayswater Road, Hyde Park","Westbourne Grove, Bayswater to Bayswater Road, Hyde Park",0,1,0,0,0,0,0,0,1
+"Lancaster Gate , Bayswater","Hereford Road, Bayswater","Lancaster Gate , Bayswater to Hereford Road, Bayswater",2,17,7,4,1,1,0,0,32
+"Belgrove Street , King's Cross","Rathbone Street, Fitzrovia ","Belgrove Street , King's Cross to Rathbone Street, Fitzrovia ",1,0,0,0,0,0,0,0,1
+"Tavistock Place, Bloomsbury","Russell Square Station, Bloomsbury","Tavistock Place, Bloomsbury to Russell Square Station, Bloomsbury",0,1,0,0,0,0,0,0,1
+"Russell Square Station, Bloomsbury","Belgrove Street , King's Cross","Russell Square Station, Bloomsbury to Belgrove Street , King's Cross",0,3,3,2,4,3,1,0,16
+"Belgrove Street , King's Cross","British Museum, Bloomsbury","Belgrove Street , King's Cross to British Museum, Bloomsbury",0,2,1,0,0,0,0,0,3
+"Earnshaw Street , Covent Garden","Chapel Place, Marylebone","Earnshaw Street , Covent Garden to Chapel Place, Marylebone",1,1,0,0,0,0,0,0,2
+"Chapel Place, Marylebone","Bishop's Bridge Road West, Bayswater","Chapel Place, Marylebone to Bishop's Bridge Road West, Bayswater",1,2,0,0,0,0,0,0,3
+"Belgrove Street , King's Cross","Moor Street, Soho","Belgrove Street , King's Cross to Moor Street, Soho",1,2,0,3,8,7,1,0,22
+"Whiteley's, Bayswater","Whiteley's, Bayswater","Whiteley's, Bayswater to Whiteley's, Bayswater",6,14,1,0,0,6,6,0,33
+"Devonshire Terrace, Bayswater","Whiteley's, Bayswater","Devonshire Terrace, Bayswater to Whiteley's, Bayswater",0,2,0,0,0,2,0,0,4
+"British Museum, Bloomsbury","Bayswater Road, Hyde Park","British Museum, Bloomsbury to Bayswater Road, Hyde Park",0,1,1,0,0,1,0,0,3
+"Belgrove Street , King's Cross","Knightsbridge, Hyde Park","Belgrove Street , King's Cross to Knightsbridge, Hyde Park",0,1,0,0,0,0,0,0,1
+"Belgrove Street , King's Cross","Bayswater Road, Hyde Park","Belgrove Street , King's Cross to Bayswater Road, Hyde Park",0,1,0,0,0,1,0,0,2
+"Broadwick Street, Soho","Houghton Street, Strand","Broadwick Street, Soho to Houghton Street, Strand",1,0,0,0,0,0,0,0,1
+"Houghton Street, Strand","Craven Street, Strand","Houghton Street, Strand to Craven Street, Strand",1,0,0,0,0,0,0,0,1
+"Chapel Place, Marylebone","Bayswater Road, Hyde Park","Chapel Place, Marylebone to Bayswater Road, Hyde Park",1,6,1,0,0,0,1,0,9
+"Ilchester Gardens, Bayswater","Bayswater Road, Hyde Park","Ilchester Gardens, Bayswater to Bayswater Road, Hyde Park",1,2,0,0,0,0,0,0,3
+"Black Lion Gate, Kensington Gardens","Ilchester Gardens, Bayswater","Black Lion Gate, Kensington Gardens to Ilchester Gardens, Bayswater",2,0,0,0,0,0,0,0,2
+"Bayswater Road, Hyde Park","Soho Square , Soho","Bayswater Road, Hyde Park to Soho Square , Soho",1,0,0,0,0,0,0,0,1
+"Princes Square, Bayswater","Lancaster Gate , Bayswater","Princes Square, Bayswater to Lancaster Gate , Bayswater",0,1,0,0,0,0,0,0,1
+"Hereford Road, Bayswater","Princes Square, Bayswater","Hereford Road, Bayswater to Princes Square, Bayswater",0,1,0,0,0,0,0,0,1
+"Lancaster Gate , Bayswater","Westbourne Grove, Bayswater","Lancaster Gate , Bayswater to Westbourne Grove, Bayswater",0,3,9,10,20,19,14,0,75
+"Belgrove Street , King's Cross","Brunswick Square, Bloomsbury","Belgrove Street , King's Cross to Brunswick Square, Bloomsbury",0,3,1,1,4,5,2,2,18
+"Lancaster Gate , Bayswater","Whiteley's, Bayswater","Lancaster Gate , Bayswater to Whiteley's, Bayswater",1,4,0,0,0,1,1,0,7
+"Belgrove Street , King's Cross","Earnshaw Street , Covent Garden","Belgrove Street , King's Cross to Earnshaw Street , Covent Garden",1,2,5,1,3,0,5,0,17
+"Whiteley's, Bayswater","Marylebone Lane, Marylebone","Whiteley's, Bayswater to Marylebone Lane, Marylebone",0,1,0,0,0,0,0,0,1
+"Belgrove Street , King's Cross","Russell Square Station, Bloomsbury","Belgrove Street , King's Cross to Russell Square Station, Bloomsbury",2,4,4,0,1,1,1,0,13
+"Bayley Street , Bloomsbury","Belgrove Street , King's Cross","Bayley Street , Bloomsbury to Belgrove Street , King's Cross",0,1,1,1,0,0,0,0,3
+"Chapel Place, Marylebone","Belgrove Street , King's Cross","Chapel Place, Marylebone to Belgrove Street , King's Cross",1,7,1,0,0,0,0,0,9
+"Princes Square, Bayswater","Chapel Place, Marylebone","Princes Square, Bayswater to Chapel Place, Marylebone",0,1,0,0,0,0,0,0,1
+"Belgrove Street , King's Cross","Broadwick Street, Soho","Belgrove Street , King's Cross to Broadwick Street, Soho",0,1,1,0,0,0,2,0,4
+"Russell Square Station, Bloomsbury","Chapel Place, Marylebone","Russell Square Station, Bloomsbury to Chapel Place, Marylebone",0,1,0,0,0,0,0,0,1
+"Tavistock Place, Bloomsbury","Earnshaw Street , Covent Garden","Tavistock Place, Bloomsbury to Earnshaw Street , Covent Garden",0,1,0,1,1,0,0,0,3
+"Earnshaw Street , Covent Garden","Belgrove Street , King's Cross","Earnshaw Street , Covent Garden to Belgrove Street , King's Cross",1,2,1,0,1,0,0,0,5
+"Brunswick Square, Bloomsbury","Bayswater Road, Hyde Park","Brunswick Square, Bloomsbury to Bayswater Road, Hyde Park",0,1,0,0,0,1,1,0,3
+"Bayswater Road, Hyde Park","Nutford Place, Marylebone","Bayswater Road, Hyde Park to Nutford Place, Marylebone",0,1,0,0,0,0,0,0,1
+"Nutford Place, Marylebone","Bishop's Bridge Road West, Bayswater","Nutford Place, Marylebone to Bishop's Bridge Road West, Bayswater",0,2,1,0,0,0,0,0,3
+"Bayswater Road, Hyde Park","Whiteley's, Bayswater","Bayswater Road, Hyde Park to Whiteley's, Bayswater",1,3,1,0,1,0,0,0,6
+"Soho Square , Soho","Belgrove Street , King's Cross","Soho Square , Soho to Belgrove Street , King's Cross",2,1,2,1,0,0,1,0,7
+"Russell Square Station, Bloomsbury","Bayswater Road, Hyde Park","Russell Square Station, Bloomsbury to Bayswater Road, Hyde Park",1,0,0,0,0,0,0,0,1
+"Whiteley's, Bayswater","Ilchester Gardens, Bayswater","Whiteley's, Bayswater to Ilchester Gardens, Bayswater",1,3,0,0,0,1,0,0,5
+"Belgrove Street , King's Cross","Chapel Place, Marylebone","Belgrove Street , King's Cross to Chapel Place, Marylebone",1,6,0,1,0,0,0,0,8
+"Hereford Road, Bayswater","Bayswater Road, Hyde Park","Hereford Road, Bayswater to Bayswater Road, Hyde Park",1,0,1,0,0,0,0,0,2
+"Bayswater Road, Hyde Park","Hinde Street, Marylebone","Bayswater Road, Hyde Park to Hinde Street, Marylebone",1,0,0,0,0,0,0,0,1
+"Hinde Street, Marylebone","Belgrove Street , King's Cross","Hinde Street, Marylebone to Belgrove Street , King's Cross",1,1,0,0,0,0,0,0,2
+"Bishop's Bridge Road West, Bayswater","Lancaster Gate , Bayswater","Bishop's Bridge Road West, Bayswater to Lancaster Gate , Bayswater",0,4,2,5,1,1,1,0,14
+"Marylebone Lane, Marylebone","Russell Square Station, Bloomsbury","Marylebone Lane, Marylebone to Russell Square Station, Bloomsbury",1,0,0,0,0,0,0,0,1
+"Russell Square Station, Bloomsbury","St. Chad's Street, King's Cross","Russell Square Station, Bloomsbury to St. Chad's Street, King's Cross",1,0,1,0,0,0,0,0,2
+"Ilchester Gardens, Bayswater","Marylebone Lane, Marylebone","Ilchester Gardens, Bayswater to Marylebone Lane, Marylebone",1,0,0,0,0,0,0,0,1
+"Ilchester Gardens, Bayswater","Devonshire Terrace, Bayswater","Ilchester Gardens, Bayswater to Devonshire Terrace, Bayswater",0,1,0,0,0,0,0,0,1
+"Devonshire Terrace, Bayswater","Lancaster Gate , Bayswater","Devonshire Terrace, Bayswater to Lancaster Gate , Bayswater",0,2,0,0,4,1,0,0,7
+"Pembridge Villas, Notting Hill","Eastbourne Mews, Paddington","Pembridge Villas, Notting Hill to Eastbourne Mews, Paddington",0,2,0,0,0,0,0,0,2
+"Eastbourne Mews, Paddington","Bishop's Bridge Road West, Bayswater","Eastbourne Mews, Paddington to Bishop's Bridge Road West, Bayswater",0,3,0,0,0,1,0,0,4
+"Pembridge Villas, Notting Hill","Pembridge Villas, Notting Hill","Pembridge Villas, Notting Hill to Pembridge Villas, Notting Hill",0,2,1,0,0,0,0,0,3
+"Bayswater Road, Hyde Park","Ilchester Gardens, Bayswater","Bayswater Road, Hyde Park to Ilchester Gardens, Bayswater",0,1,0,0,0,0,0,0,1
+"Pembridge Villas, Notting Hill","Ilchester Gardens, Bayswater","Pembridge Villas, Notting Hill to Ilchester Gardens, Bayswater",2,1,0,0,1,0,0,0,4
+"Bishop's Bridge Road West, Bayswater","Aberdeen Place, St. John's Wood","Bishop's Bridge Road West, Bayswater to Aberdeen Place, St. John's Wood",1,0,0,0,0,0,0,0,1
+"Belgrove Street , King's Cross","Frith Street, Soho","Belgrove Street , King's Cross to Frith Street, Soho",1,0,3,2,1,2,2,0,11
+"British Museum, Bloomsbury","Belgrove Street , King's Cross","British Museum, Bloomsbury to Belgrove Street , King's Cross",2,0,2,0,0,2,2,0,8
+"Hereford Road, Bayswater","Speakers' Corner 1, Hyde Park","Hereford Road, Bayswater to Speakers' Corner 1, Hyde Park",0,4,4,0,0,0,0,0,8
+"Speakers' Corner 1, Hyde Park","Soho Square , Soho","Speakers' Corner 1, Hyde Park to Soho Square , Soho",0,1,1,0,0,0,0,0,2
+"British Museum, Bloomsbury","Bayley Street , Bloomsbury","British Museum, Bloomsbury to Bayley Street , Bloomsbury",0,1,1,0,0,0,0,0,2
+"Speakers' Corner 1, Hyde Park","Marylebone Lane, Marylebone","Speakers' Corner 1, Hyde Park to Marylebone Lane, Marylebone",0,1,0,0,0,0,0,0,1
+"Belgrove Street , King's Cross","Hampstead Road, Euston","Belgrove Street , King's Cross to Hampstead Road, Euston",0,1,0,1,0,0,1,0,3
+"Devonshire Terrace, Bayswater","Bishop's Bridge Road West, Bayswater","Devonshire Terrace, Bayswater to Bishop's Bridge Road West, Bayswater",0,4,3,1,3,4,1,0,16
+"Knightsbridge, Hyde Park","Devonshire Terrace, Bayswater","Knightsbridge, Hyde Park to Devonshire Terrace, Bayswater",0,1,0,0,0,0,0,0,1
+"Bayley Street , Bloomsbury","Speakers' Corner 1, Hyde Park","Bayley Street , Bloomsbury to Speakers' Corner 1, Hyde Park",1,0,0,0,0,0,0,0,1
+"Speakers' Corner 1, Hyde Park","Bayswater Road, Hyde Park","Speakers' Corner 1, Hyde Park to Bayswater Road, Hyde Park",1,1,0,0,0,0,0,0,2
+"Princes Square, Bayswater","Pembridge Villas, Notting Hill","Princes Square, Bayswater to Pembridge Villas, Notting Hill",0,1,0,0,0,0,0,0,1
+"Bishop's Bridge Road West, Bayswater","Hereford Road, Bayswater","Bishop's Bridge Road West, Bayswater to Hereford Road, Bayswater",1,5,2,0,0,0,0,0,8
+"Chapel Place, Marylebone","Hereford Road, Bayswater","Chapel Place, Marylebone to Hereford Road, Bayswater",0,1,0,0,0,0,0,0,1
+"Princes Square, Bayswater","Black Lion Gate, Kensington Gardens","Princes Square, Bayswater to Black Lion Gate, Kensington Gardens",0,1,0,0,0,0,0,0,1
+"Lancaster Gate , Bayswater","Chapel Place, Marylebone","Lancaster Gate , Bayswater to Chapel Place, Marylebone",0,1,0,0,0,0,0,0,1
+"Ilchester Gardens, Bayswater","Lansdowne Walk, Notting Hill","Ilchester Gardens, Bayswater to Lansdowne Walk, Notting Hill",1,0,0,0,0,0,0,0,1
+"Hereford Road, Bayswater","Bishop's Bridge Road West, Bayswater","Hereford Road, Bayswater to Bishop's Bridge Road West, Bayswater",2,3,2,0,0,1,0,0,8
+"Hyde Park Corner, Hyde Park","Knightsbridge, Hyde Park","Hyde Park Corner, Hyde Park to Knightsbridge, Hyde Park",0,1,0,0,0,0,0,0,1
+"Devonshire Terrace, Bayswater","Speakers' Corner 2, Hyde Park","Devonshire Terrace, Bayswater to Speakers' Corner 2, Hyde Park",0,1,0,0,0,0,0,0,1
+"Speakers' Corner 2, Hyde Park","Hyde Park Corner, Hyde Park","Speakers' Corner 2, Hyde Park to Hyde Park Corner, Hyde Park",0,1,0,0,0,0,0,0,1
+"Knightsbridge, Hyde Park","Albert Gate, Hyde Park","Knightsbridge, Hyde Park to Albert Gate, Hyde Park",0,1,0,0,0,0,0,0,1
+"Hereford Road, Bayswater","Chapel Place, Marylebone","Hereford Road, Bayswater to Chapel Place, Marylebone",1,1,1,0,0,0,0,0,3
+"Eastbourne Mews, Paddington","Whiteley's, Bayswater","Eastbourne Mews, Paddington to Whiteley's, Bayswater",0,2,0,0,0,0,0,0,2
+"Lancaster Gate , Bayswater","Hinde Street, Marylebone","Lancaster Gate , Bayswater to Hinde Street, Marylebone",0,1,0,0,0,0,0,0,1
+"Whiteley's, Bayswater","Pembridge Villas, Notting Hill","Whiteley's, Bayswater to Pembridge Villas, Notting Hill",2,0,0,0,0,0,0,0,2
+"Howland Street, Fitzrovia","Nutford Place, Marylebone","Howland Street, Fitzrovia to Nutford Place, Marylebone",0,1,0,0,0,0,0,0,1
+"Nutford Place, Marylebone","Nutford Place, Marylebone","Nutford Place, Marylebone to Nutford Place, Marylebone",0,1,0,0,0,0,0,0,1
+"Nutford Place, Marylebone","Russell Square Station, Bloomsbury","Nutford Place, Marylebone to Russell Square Station, Bloomsbury",0,1,0,0,0,0,0,0,1
+"Russell Square Station, Bloomsbury","Howland Street, Fitzrovia","Russell Square Station, Bloomsbury to Howland Street, Fitzrovia",0,1,0,0,0,0,0,0,1
+"Soho Square , Soho","Devonshire Terrace, Bayswater","Soho Square , Soho to Devonshire Terrace, Bayswater",0,1,0,0,0,0,0,0,1
+"Wells Street, Fitzrovia ","Bishop's Bridge Road West, Bayswater","Wells Street, Fitzrovia  to Bishop's Bridge Road West, Bayswater",1,0,0,0,0,0,0,0,1
+"Belgrove Street , King's Cross","Bayley Street , Bloomsbury","Belgrove Street , King's Cross to Bayley Street , Bloomsbury",1,0,0,2,0,0,0,0,3
+"Broadwick Street, Soho","Craven Street, Strand","Broadwick Street, Soho to Craven Street, Strand",2,0,0,0,0,0,0,0,2
+"Devonshire Terrace, Bayswater","Westbourne Grove, Bayswater","Devonshire Terrace, Bayswater to Westbourne Grove, Bayswater",0,1,0,0,1,0,0,0,2
+"Speakers' Corner 1, Hyde Park","Devonshire Terrace, Bayswater","Speakers' Corner 1, Hyde Park to Devonshire Terrace, Bayswater",0,1,0,0,0,0,0,0,1
+"Belgrove Street , King's Cross","Tavistock Place, Bloomsbury","Belgrove Street , King's Cross to Tavistock Place, Bloomsbury",0,2,0,0,2,0,1,0,5
+"Tavistock Place, Bloomsbury","Speakers' Corner 1, Hyde Park","Tavistock Place, Bloomsbury to Speakers' Corner 1, Hyde Park",0,1,0,0,0,0,0,0,1
+"Westbourne Grove, Bayswater","Ilchester Gardens, Bayswater","Westbourne Grove, Bayswater to Ilchester Gardens, Bayswater",0,1,1,0,0,0,0,0,2
+"Tavistock Place, Bloomsbury","British Museum, Bloomsbury","Tavistock Place, Bloomsbury to British Museum, Bloomsbury",0,1,0,0,0,1,0,0,2
+"Hereford Road, Bayswater","Notting Hill Gate Station, Notting Hill","Hereford Road, Bayswater to Notting Hill Gate Station, Notting Hill",0,2,0,0,0,0,0,0,2
+"Frith Street, Soho","Belgrove Street , King's Cross","Frith Street, Soho to Belgrove Street , King's Cross",1,0,0,0,0,0,0,0,1
+"Cleveland Gardens, Bayswater","Devonshire Terrace, Bayswater","Cleveland Gardens, Bayswater to Devonshire Terrace, Bayswater",1,0,0,0,0,0,0,0,1
+"Ilchester Gardens, Bayswater","Cleveland Gardens, Bayswater","Ilchester Gardens, Bayswater to Cleveland Gardens, Bayswater",1,0,0,0,0,0,0,0,1
+"Ilchester Gardens, Bayswater","Hereford Road, Bayswater","Ilchester Gardens, Bayswater to Hereford Road, Bayswater",0,1,2,0,0,1,0,0,4
+"Speakers' Corner 2, Hyde Park","Belgrove Street , King's Cross","Speakers' Corner 2, Hyde Park to Belgrove Street , King's Cross",2,2,4,0,0,0,0,0,8
+"Pembridge Villas, Notting Hill","Speakers' Corner 2, Hyde Park","Pembridge Villas, Notting Hill to Speakers' Corner 2, Hyde Park",1,0,0,0,0,0,0,0,1
+"Whiteley's, Bayswater","Belgrove Street , King's Cross","Whiteley's, Bayswater to Belgrove Street , King's Cross",0,1,0,0,0,1,0,0,2
+"Craven Street, Strand","Wardour Street, Soho","Craven Street, Strand to Wardour Street, Soho",1,0,0,0,0,0,0,0,1
+"Bayswater Road, Hyde Park","Pembridge Villas, Notting Hill","Bayswater Road, Hyde Park to Pembridge Villas, Notting Hill",1,0,2,0,0,0,0,0,3
+"Cumberland Gate, Hyde Park","Bayswater Road, Hyde Park","Cumberland Gate, Hyde Park to Bayswater Road, Hyde Park",1,0,0,0,0,0,0,0,1
+"Wardour Street, Soho","Cumberland Gate, Hyde Park","Wardour Street, Soho to Cumberland Gate, Hyde Park",1,0,0,0,1,0,0,0,2
+"Speakers' Corner 2, Hyde Park","Bishop's Bridge Road West, Bayswater","Speakers' Corner 2, Hyde Park to Bishop's Bridge Road West, Bayswater",0,1,0,0,1,1,0,0,3
+"British Museum, Bloomsbury","Speakers' Corner 2, Hyde Park","British Museum, Bloomsbury to Speakers' Corner 2, Hyde Park",0,1,0,0,0,0,0,0,1
+"Whiteley's, Bayswater","Bishop's Bridge Road East, Bayswater","Whiteley's, Bayswater to Bishop's Bridge Road East, Bayswater",1,0,0,0,0,0,0,0,1
+"Devonshire Terrace, Bayswater","Orsett Terrace, Bayswater","Devonshire Terrace, Bayswater to Orsett Terrace, Bayswater",0,1,0,0,0,0,0,0,1
+"Chapel Place, Marylebone","Lancaster Gate , Bayswater","Chapel Place, Marylebone to Lancaster Gate , Bayswater",0,1,0,0,0,0,0,0,1
+"British Museum, Bloomsbury","Chapel Place, Marylebone","British Museum, Bloomsbury to Chapel Place, Marylebone",0,3,0,0,0,0,0,0,3
+"Notting Hill Gate Station, Notting Hill","Hereford Road, Bayswater","Notting Hill Gate Station, Notting Hill to Hereford Road, Bayswater",1,1,0,0,0,0,0,0,2
+"Lancaster Gate , Bayswater","Notting Hill Gate Station, Notting Hill","Lancaster Gate , Bayswater to Notting Hill Gate Station, Notting Hill",0,1,0,0,0,1,0,0,2
+"Hereford Road, Bayswater","Devonshire Terrace, Bayswater","Hereford Road, Bayswater to Devonshire Terrace, Bayswater",0,1,0,0,0,1,0,0,2
+"Soho Square , Soho","Golden Square, Soho","Soho Square , Soho to Golden Square, Soho",1,0,0,0,0,0,0,0,1
+"Ilchester Gardens, Bayswater","Chapel Place, Marylebone","Ilchester Gardens, Bayswater to Chapel Place, Marylebone",0,1,0,0,0,0,0,0,1
+"Belgrove Street , King's Cross","Belgrove Street , King's Cross","Belgrove Street , King's Cross to Belgrove Street , King's Cross",0,3,0,0,1,0,0,0,4
+"Whiteley's, Bayswater","Black Lion Gate, Kensington Gardens","Whiteley's, Bayswater to Black Lion Gate, Kensington Gardens",0,1,0,0,0,0,0,0,1
+"Curzon Street, Mayfair","Hyde Park Corner, Hyde Park","Curzon Street, Mayfair to Hyde Park Corner, Hyde Park",0,1,0,0,0,0,0,0,1
+"Hyde Park Corner, Hyde Park","Lancaster Gate , Bayswater","Hyde Park Corner, Hyde Park to Lancaster Gate , Bayswater",0,1,0,0,0,0,0,0,1
+"Chapel Place, Marylebone","Earnshaw Street , Covent Garden","Chapel Place, Marylebone to Earnshaw Street , Covent Garden",0,2,0,0,0,0,0,0,2
+"Tavistock Place, Bloomsbury","Broadwick Street, Soho","Tavistock Place, Bloomsbury to Broadwick Street, Soho",1,0,0,0,0,0,0,0,1
+"Hereford Road, Bayswater","Whiteley's, Bayswater","Hereford Road, Bayswater to Whiteley's, Bayswater",1,0,0,0,0,0,0,0,1
+"Bishop's Bridge Road West, Bayswater","Bishop's Bridge Road West, Bayswater","Bishop's Bridge Road West, Bayswater to Bishop's Bridge Road West, Bayswater",0,2,2,0,1,0,0,0,5
+"Notting Hill Gate Station, Notting Hill","Whiteley's, Bayswater","Notting Hill Gate Station, Notting Hill to Whiteley's, Bayswater",1,0,0,0,0,0,0,0,1
+"Earnshaw Street , Covent Garden","Embankment (Horse Guards), Westminster","Earnshaw Street , Covent Garden to Embankment (Horse Guards), Westminster",1,0,0,0,0,0,0,0,1
+"Bayswater Road, Hyde Park","Knightsbridge, Hyde Park","Bayswater Road, Hyde Park to Knightsbridge, Hyde Park",0,1,0,0,0,0,0,0,1
+"Speakers' Corner 2, Hyde Park","Nutford Place, Marylebone","Speakers' Corner 2, Hyde Park to Nutford Place, Marylebone",0,1,0,0,0,0,0,0,1
+"Knightsbridge, Hyde Park","Speakers' Corner 2, Hyde Park","Knightsbridge, Hyde Park to Speakers' Corner 2, Hyde Park",0,1,0,0,0,0,0,0,1
+"Hereford Road, Bayswater","Soho Square , Soho","Hereford Road, Bayswater to Soho Square , Soho",1,0,0,0,0,0,0,0,1
+"Westbourne Grove, Bayswater","Chapel Place, Marylebone","Westbourne Grove, Bayswater to Chapel Place, Marylebone",0,1,0,0,0,0,0,0,1
+"Whiteley's, Bayswater","Bayswater Road, Hyde Park","Whiteley's, Bayswater to Bayswater Road, Hyde Park",0,4,2,0,0,0,2,0,8
+"Bayswater Road, Hyde Park","Marylebone Lane, Marylebone","Bayswater Road, Hyde Park to Marylebone Lane, Marylebone",0,2,0,0,0,0,0,0,2
+"St. John's Wood Road, St. John's Wood","Bishop's Bridge Road West, Bayswater","St. John's Wood Road, St. John's Wood to Bishop's Bridge Road West, Bayswater",1,0,0,0,0,0,0,0,1
+"St. John's Wood Road, St. John's Wood","St. John's Wood Road, St. John's Wood","St. John's Wood Road, St. John's Wood to St. John's Wood Road, St. John's Wood",1,0,0,0,0,0,0,0,1
+"Brunswick Square, Bloomsbury","Craven Street, Strand","Brunswick Square, Bloomsbury to Craven Street, Strand",1,0,0,1,0,0,0,1,3
+"Brunswick Square, Bloomsbury","Brunswick Square, Bloomsbury","Brunswick Square, Bloomsbury to Brunswick Square, Bloomsbury",0,1,0,0,0,1,0,0,2
+"Westbourne Grove, Bayswater","Whiteley's, Bayswater","Westbourne Grove, Bayswater to Whiteley's, Bayswater",0,1,1,0,0,0,0,0,2
+"Lansdowne Walk, Notting Hill","Holland Walk, Kensington","Lansdowne Walk, Notting Hill to Holland Walk, Kensington",1,0,0,0,0,0,0,0,1
+"Holland Walk, Kensington","Notting Hill Gate Station, Notting Hill","Holland Walk, Kensington to Notting Hill Gate Station, Notting Hill",1,0,0,0,0,0,0,0,1
+"Belgrove Street , King's Cross","Southampton Place, Holborn","Belgrove Street , King's Cross to Southampton Place, Holborn",0,2,1,3,1,2,5,0,14
+"Southampton Place, Holborn","Wardour Street, Soho","Southampton Place, Holborn to Wardour Street, Soho",0,1,0,1,0,0,0,0,2
+"St. Chad's Street, King's Cross","Frith Street, Soho","St. Chad's Street, King's Cross to Frith Street, Soho",0,1,1,0,0,0,0,0,2
+"Cumberland Gate, Hyde Park","Bishop's Bridge Road West, Bayswater","Cumberland Gate, Hyde Park to Bishop's Bridge Road West, Bayswater",0,1,2,0,2,2,0,0,7
+"Frith Street, Soho","Cumberland Gate, Hyde Park","Frith Street, Soho to Cumberland Gate, Hyde Park",0,1,0,0,0,0,0,0,1
+"Russell Square Station, Bloomsbury","Little Argyll Street, West End","Russell Square Station, Bloomsbury to Little Argyll Street, West End",1,0,0,0,0,0,1,0,2
+"Little Argyll Street, West End","Bishop's Bridge Road West, Bayswater","Little Argyll Street, West End to Bishop's Bridge Road West, Bayswater",1,0,0,0,0,0,0,0,1
+"Princes Square, Bayswater","Bayswater Road, Hyde Park","Princes Square, Bayswater to Bayswater Road, Hyde Park",0,1,0,0,0,0,0,0,1
+"Eastbourne Mews, Paddington","Eastbourne Mews, Paddington","Eastbourne Mews, Paddington to Eastbourne Mews, Paddington",0,1,0,0,0,0,0,0,1
+"Devonshire Terrace, Bayswater","Pembridge Villas, Notting Hill","Devonshire Terrace, Bayswater to Pembridge Villas, Notting Hill",0,1,0,0,0,0,0,0,1
+"Wardour Street, Soho","Speakers' Corner 2, Hyde Park","Wardour Street, Soho to Speakers' Corner 2, Hyde Park",0,1,0,0,1,0,0,0,2
+"Speakers' Corner 2, Hyde Park","Devonshire Terrace, Bayswater","Speakers' Corner 2, Hyde Park to Devonshire Terrace, Bayswater",0,1,0,0,1,0,0,0,2
+"Hereford Road, Bayswater","Speakers' Corner 2, Hyde Park","Hereford Road, Bayswater to Speakers' Corner 2, Hyde Park",1,1,2,0,0,0,0,0,4
+"Paddington Street, Marylebone","Belgrove Street , King's Cross","Paddington Street, Marylebone to Belgrove Street , King's Cross",1,1,1,0,0,0,0,0,3
+"Speakers' Corner 2, Hyde Park","Paddington Street, Marylebone","Speakers' Corner 2, Hyde Park to Paddington Street, Marylebone",1,0,0,0,0,0,0,0,1
+"Grosvenor Square, Mayfair","Bayswater Road, Hyde Park","Grosvenor Square, Mayfair to Bayswater Road, Hyde Park",0,1,0,0,0,0,0,0,1
+"Wardour Street, Soho","Grosvenor Square, Mayfair","Wardour Street, Soho to Grosvenor Square, Mayfair",0,1,0,0,0,0,0,0,1
+"Russell Square Station, Bloomsbury","Soho Square , Soho","Russell Square Station, Bloomsbury to Soho Square , Soho",0,1,0,0,0,0,0,0,1
+"Tavistock Place, Bloomsbury","Belgrove Street , King's Cross","Tavistock Place, Bloomsbury to Belgrove Street , King's Cross",0,2,0,1,1,0,0,0,4
+"Guilford Street , Bloomsbury","Tavistock Place, Bloomsbury","Guilford Street , Bloomsbury to Tavistock Place, Bloomsbury",0,1,0,0,0,0,0,0,1
+"Wardour Street, Soho","Guilford Street , Bloomsbury","Wardour Street, Soho to Guilford Street , Bloomsbury",0,1,0,0,0,0,0,0,1
+"Speakers' Corner 1, Hyde Park","Wardour Street, Soho","Speakers' Corner 1, Hyde Park to Wardour Street, Soho",0,1,0,0,0,0,0,0,1
+"Nutford Place, Marylebone","Bayswater Road, Hyde Park","Nutford Place, Marylebone to Bayswater Road, Hyde Park",0,1,0,0,0,0,0,0,1
+"Bayswater Road, Hyde Park","Notting Hill Gate Station, Notting Hill","Bayswater Road, Hyde Park to Notting Hill Gate Station, Notting Hill",0,1,0,0,0,0,0,0,1
+"Speakers' Corner 1, Hyde Park","Belgrove Street , King's Cross","Speakers' Corner 1, Hyde Park to Belgrove Street , King's Cross",0,4,3,0,0,0,0,0,7
+"Notting Hill Gate Station, Notting Hill","Speakers' Corner 1, Hyde Park","Notting Hill Gate Station, Notting Hill to Speakers' Corner 1, Hyde Park",0,1,0,0,0,0,0,0,1
+"Notting Hill Gate Station, Notting Hill","Lancaster Gate , Bayswater","Notting Hill Gate Station, Notting Hill to Lancaster Gate , Bayswater",0,1,0,0,0,0,0,0,1
+"Westbourne Grove, Bayswater","Speakers' Corner 2, Hyde Park","Westbourne Grove, Bayswater to Speakers' Corner 2, Hyde Park",1,0,1,0,0,0,0,0,2
+"Hereford Road, Bayswater","Ilchester Gardens, Bayswater","Hereford Road, Bayswater to Ilchester Gardens, Bayswater",0,1,1,0,0,0,0,0,2
+"Whiteley's, Bayswater","Cleveland Gardens, Bayswater","Whiteley's, Bayswater to Cleveland Gardens, Bayswater",0,1,0,0,0,0,0,0,1
+"Sloane Avenue, Knightsbridge","Serpentine Car Park, Hyde Park","Sloane Avenue, Knightsbridge to Serpentine Car Park, Hyde Park",0,1,0,0,0,0,0,0,1
+"Bayswater Road, Hyde Park","Lancaster Gate , Bayswater","Bayswater Road, Hyde Park to Lancaster Gate , Bayswater",0,1,2,0,0,0,0,0,3
+"Belgrove Street , King's Cross","Warren Street Station, Euston","Belgrove Street , King's Cross to Warren Street Station, Euston",0,2,0,0,0,0,0,0,2
+"Whiteley's, Bayswater","Speakers' Corner 1, Hyde Park","Whiteley's, Bayswater to Speakers' Corner 1, Hyde Park",0,1,0,0,0,0,0,0,1
+"Warren Street Station, Euston","Belgrove Street , King's Cross","Warren Street Station, Euston to Belgrove Street , King's Cross",0,1,0,0,0,0,0,0,1
+"Wardour Street, Soho","Whiteley's, Bayswater","Wardour Street, Soho to Whiteley's, Bayswater",0,1,0,0,0,0,1,0,2
+"Cleveland Gardens, Bayswater","Lancaster Gate , Bayswater","Cleveland Gardens, Bayswater to Lancaster Gate , Bayswater",0,1,0,0,0,0,0,0,1
+"Queen's Gate (North), Kensington","Sloane Avenue, Knightsbridge","Queen's Gate (North), Kensington to Sloane Avenue, Knightsbridge",0,1,0,0,0,0,0,0,1
+"Bayswater Road, Hyde Park","Cleveland Gardens, Bayswater","Bayswater Road, Hyde Park to Cleveland Gardens, Bayswater",0,1,0,0,0,0,0,0,1
+"St. Chad's Street, King's Cross","Belgrove Street , King's Cross","St. Chad's Street, King's Cross to Belgrove Street , King's Cross",0,1,0,0,0,0,0,0,1
+"Eastbourne Mews, Paddington","Devonshire Terrace, Bayswater","Eastbourne Mews, Paddington to Devonshire Terrace, Bayswater",0,1,0,0,0,0,0,0,1
+"Albert Gate, Hyde Park","Queen's Gate (North), Kensington","Albert Gate, Hyde Park to Queen's Gate (North), Kensington",0,1,0,0,0,0,0,0,1
+"Cleveland Gardens, Bayswater","Whiteley's, Bayswater","Cleveland Gardens, Bayswater to Whiteley's, Bayswater",0,1,0,1,0,0,0,0,2
+"Earnshaw Street , Covent Garden","Craven Street, Strand","Earnshaw Street , Covent Garden to Craven Street, Strand",0,1,0,0,0,0,0,0,1
+"Bayswater Road, Hyde Park","Speakers' Corner 1, Hyde Park","Bayswater Road, Hyde Park to Speakers' Corner 1, Hyde Park",0,1,0,0,0,0,0,0,1
+"Devonshire Terrace, Bayswater","Cleveland Gardens, Bayswater","Devonshire Terrace, Bayswater to Cleveland Gardens, Bayswater",0,1,0,0,0,0,0,0,1
+"Brunswick Square, Bloomsbury","St. Chad's Street, King's Cross","Brunswick Square, Bloomsbury to St. Chad's Street, King's Cross",0,1,0,0,0,0,0,0,1
+"Tavistock Place, Bloomsbury","Moor Street, Soho","Tavistock Place, Bloomsbury to Moor Street, Soho",0,1,1,0,0,0,0,0,2
+"Devonshire Terrace, Bayswater","Bayswater Road, Hyde Park","Devonshire Terrace, Bayswater to Bayswater Road, Hyde Park",0,2,1,0,0,0,0,0,3
+"Wardour Street, Soho","Albert Gate, Hyde Park","Wardour Street, Soho to Albert Gate, Hyde Park",0,1,0,0,0,0,0,0,1
+"Lancaster Gate , Bayswater","Bayswater Road, Hyde Park","Lancaster Gate , Bayswater to Bayswater Road, Hyde Park",0,1,0,0,0,1,1,0,3
+"Marylebone Lane, Marylebone","Brunswick Square, Bloomsbury","Marylebone Lane, Marylebone to Brunswick Square, Bloomsbury",0,1,0,0,0,0,0,0,1
+"Russell Square Station, Bloomsbury","Earnshaw Street , Covent Garden","Russell Square Station, Bloomsbury to Earnshaw Street , Covent Garden",0,1,0,0,1,0,0,0,2
+"Serpentine Car Park, Hyde Park","Bayswater Road, Hyde Park","Serpentine Car Park, Hyde Park to Bayswater Road, Hyde Park",0,2,2,0,0,0,0,0,4
+"Cleveland Gardens, Bayswater","Eastbourne Mews, Paddington","Cleveland Gardens, Bayswater to Eastbourne Mews, Paddington",0,1,0,0,0,0,0,0,1
+"Speakers' Corner 1, Hyde Park","Bishop's Bridge Road West, Bayswater","Speakers' Corner 1, Hyde Park to Bishop's Bridge Road West, Bayswater",0,1,0,0,0,0,0,0,1
+"Tavistock Place, Bloomsbury","Chapel Place, Marylebone","Tavistock Place, Bloomsbury to Chapel Place, Marylebone",0,1,0,0,0,0,0,0,1
+"Nutford Place, Marylebone","Howland Street, Fitzrovia","Nutford Place, Marylebone to Howland Street, Fitzrovia",0,1,0,0,0,0,0,0,1
+"Nutford Place, Marylebone","Paddington Street, Marylebone","Nutford Place, Marylebone to Paddington Street, Marylebone",0,1,0,0,0,0,0,0,1
+"Howland Street, Fitzrovia","Belgrove Street , King's Cross","Howland Street, Fitzrovia to Belgrove Street , King's Cross",0,1,0,0,0,0,0,0,1
+"Cardinal Place, Victoria","Hyde Park Corner, Hyde Park","Cardinal Place, Victoria to Hyde Park Corner, Hyde Park",0,1,0,0,0,0,0,0,1
+"Ilchester Gardens, Bayswater","Bishop's Bridge Road West, Bayswater","Ilchester Gardens, Bayswater to Bishop's Bridge Road West, Bayswater",0,1,1,0,0,0,0,0,2
+"Frith Street, Soho","Cardinal Place, Victoria","Frith Street, Soho to Cardinal Place, Victoria",0,1,0,0,0,0,0,0,1
+"Broadwick Street, Soho","Belgrove Street , King's Cross","Broadwick Street, Soho to Belgrove Street , King's Cross",0,1,1,0,0,0,0,0,2
+"Westbourne Grove, Bayswater","Hereford Road, Bayswater","Westbourne Grove, Bayswater to Hereford Road, Bayswater",0,1,0,0,0,0,0,0,1
+"Bayley Street , Bloomsbury","Earnshaw Street , Covent Garden","Bayley Street , Bloomsbury to Earnshaw Street , Covent Garden",0,1,0,0,0,0,0,0,1
+"Earnshaw Street , Covent Garden","Nutford Place, Marylebone","Earnshaw Street , Covent Garden to Nutford Place, Marylebone",0,1,0,0,0,0,0,0,1
+"Whiteley's, Bayswater","Nutford Place, Marylebone","Whiteley's, Bayswater to Nutford Place, Marylebone",0,1,0,0,0,0,0,0,1
+"Wardour Street, Soho","Bayswater Road, Hyde Park","Wardour Street, Soho to Bayswater Road, Hyde Park",0,1,3,0,0,0,0,0,4
+"Bayswater Road, Hyde Park","Eastbourne Mews, Paddington","Bayswater Road, Hyde Park to Eastbourne Mews, Paddington",0,1,0,0,0,0,0,0,1
+"Hyde Park Corner, Hyde Park","Nutford Place, Marylebone","Hyde Park Corner, Hyde Park to Nutford Place, Marylebone",0,1,0,0,0,0,0,0,1
+"Warren Street Station, Euston","Broadwick Street, Soho","Warren Street Station, Euston to Broadwick Street, Soho",0,1,0,0,0,0,0,0,1
+"Hereford Road, Bayswater","Broadwick Street, Soho","Hereford Road, Bayswater to Broadwick Street, Soho",0,1,0,0,0,0,0,0,1
+"Albert Gate, Hyde Park","Serpentine Car Park, Hyde Park","Albert Gate, Hyde Park to Serpentine Car Park, Hyde Park",0,2,0,0,0,0,0,0,2
+"Serpentine Car Park, Hyde Park","Lancaster Gate , Bayswater","Serpentine Car Park, Hyde Park to Lancaster Gate , Bayswater",0,1,0,0,0,0,0,0,1
+"Bayswater Road, Hyde Park","Devonshire Terrace, Bayswater","Bayswater Road, Hyde Park to Devonshire Terrace, Bayswater",0,2,1,0,0,0,0,0,3
+"Ilchester Gardens, Bayswater","Ilchester Gardens, Bayswater","Ilchester Gardens, Bayswater to Ilchester Gardens, Bayswater",0,1,0,0,0,0,0,0,1
+"Nutford Place, Marylebone","Chapel Place, Marylebone","Nutford Place, Marylebone to Chapel Place, Marylebone",0,1,0,0,0,0,0,0,1
+"Chapel Place, Marylebone","British Museum, Bloomsbury","Chapel Place, Marylebone to British Museum, Bloomsbury",0,1,0,0,0,0,0,0,1
+"Lancaster Gate , Bayswater","Ilchester Gardens, Bayswater","Lancaster Gate , Bayswater to Ilchester Gardens, Bayswater",0,2,0,0,1,1,0,0,4
+"Whiteley's, Bayswater","Speakers' Corner 2, Hyde Park","Whiteley's, Bayswater to Speakers' Corner 2, Hyde Park",0,1,0,0,0,1,0,0,2
+"Speakers' Corner 2, Hyde Park","Chapel Place, Marylebone","Speakers' Corner 2, Hyde Park to Chapel Place, Marylebone",0,1,0,0,0,0,0,0,1
+"Princes Square, Bayswater","Whiteley's, Bayswater","Princes Square, Bayswater to Whiteley's, Bayswater",0,1,0,0,0,0,0,0,1
+"Eastbourne Mews, Paddington","Princes Square, Bayswater","Eastbourne Mews, Paddington to Princes Square, Bayswater",0,1,1,0,0,0,0,0,2
+"Bayswater Road, Hyde Park","Ashley Place, Victoria","Bayswater Road, Hyde Park to Ashley Place, Victoria",0,1,0,0,0,0,0,0,1
+"Wellington Arch, Hyde Park","Bayswater Road, Hyde Park","Wellington Arch, Hyde Park to Bayswater Road, Hyde Park",0,1,2,0,0,0,0,0,3
+"Ashley Place, Victoria","Bayswater Road, Hyde Park","Ashley Place, Victoria to Bayswater Road, Hyde Park",0,1,0,0,0,0,0,0,1
+"Southampton Place, Holborn","Wellington Arch, Hyde Park","Southampton Place, Holborn to Wellington Arch, Hyde Park",0,1,0,0,0,0,0,0,1
+"Earnshaw Street , Covent Garden","Albert Gate, Hyde Park","Earnshaw Street , Covent Garden to Albert Gate, Hyde Park",0,1,0,0,0,0,0,0,1
+"Bishop's Bridge Road West, Bayswater","Nutford Place, Marylebone","Bishop's Bridge Road West, Bayswater to Nutford Place, Marylebone",0,1,0,0,0,0,0,0,1
+"Serpentine Car Park, Hyde Park","Albert Gate, Hyde Park","Serpentine Car Park, Hyde Park to Albert Gate, Hyde Park",0,1,0,0,0,0,0,0,1
+"Notting Hill Gate Station, Notting Hill","Pembridge Villas, Notting Hill","Notting Hill Gate Station, Notting Hill to Pembridge Villas, Notting Hill",0,1,0,0,0,0,0,0,1
+"Hereford Road, Bayswater","Eastbourne Mews, Paddington","Hereford Road, Bayswater to Eastbourne Mews, Paddington",0,1,0,0,0,0,0,0,1
+"Brunswick Square, Bloomsbury","Moor Street, Soho","Brunswick Square, Bloomsbury to Moor Street, Soho",0,1,0,0,0,0,0,0,1
+"Bishop's Bridge Road West, Bayswater","Pembridge Villas, Notting Hill","Bishop's Bridge Road West, Bayswater to Pembridge Villas, Notting Hill",0,3,1,0,0,0,0,0,4
+"Westbourne Grove, Bayswater","Speakers' Corner 1, Hyde Park","Westbourne Grove, Bayswater to Speakers' Corner 1, Hyde Park",0,1,0,0,0,0,1,0,2
+"Wardour Street, Soho","Bishop's Bridge Road West, Bayswater","Wardour Street, Soho to Bishop's Bridge Road West, Bayswater",0,1,2,2,8,3,3,0,19
+"Princes Square, Bayswater","Speakers' Corner 1, Hyde Park","Princes Square, Bayswater to Speakers' Corner 1, Hyde Park",0,1,0,0,0,0,0,0,1
+"Russell Square Station, Bloomsbury","British Museum, Bloomsbury","Russell Square Station, Bloomsbury to British Museum, Bloomsbury",0,1,0,0,0,1,0,0,2
+"Speakers' Corner 1, Hyde Park","Tavistock Place, Bloomsbury","Speakers' Corner 1, Hyde Park to Tavistock Place, Bloomsbury",0,1,0,0,0,0,0,0,1
+"Pembridge Villas, Notting Hill","Notting Hill Gate Station, Notting Hill","Pembridge Villas, Notting Hill to Notting Hill Gate Station, Notting Hill",0,1,0,0,0,0,0,0,1
+"Marylebone Lane, Marylebone","Bayswater Road, Hyde Park","Marylebone Lane, Marylebone to Bayswater Road, Hyde Park",0,1,0,1,0,0,0,0,2
+"Black Lion Gate, Kensington Gardens","Speakers' Corner 2, Hyde Park","Black Lion Gate, Kensington Gardens to Speakers' Corner 2, Hyde Park",0,1,0,0,0,0,0,0,1
+"Frith Street, Soho","Bishop's Bridge Road West, Bayswater","Frith Street, Soho to Bishop's Bridge Road West, Bayswater",0,1,1,2,0,0,0,0,4
+"Pembridge Villas, Notting Hill","Bishop's Bridge Road West, Bayswater","Pembridge Villas, Notting Hill to Bishop's Bridge Road West, Bayswater",0,1,0,1,0,0,0,0,2
+"Speakers' Corner 1, Hyde Park","Chapel Place, Marylebone","Speakers' Corner 1, Hyde Park to Chapel Place, Marylebone",0,1,0,0,0,0,0,0,1
+"Hereford Road, Bayswater","Black Lion Gate, Kensington Gardens","Hereford Road, Bayswater to Black Lion Gate, Kensington Gardens",0,1,0,0,0,0,0,0,1
+"Palace Gardens Terrace, Notting Hill","Devonshire Terrace, Bayswater","Palace Gardens Terrace, Notting Hill to Devonshire Terrace, Bayswater",0,1,0,0,0,0,0,0,1
+"Pembridge Villas, Notting Hill","Palace Gardens Terrace, Notting Hill","Pembridge Villas, Notting Hill to Palace Gardens Terrace, Notting Hill",0,1,0,0,0,0,0,0,1
+"Hyde Park Corner, Hyde Park","Serpentine Car Park, Hyde Park","Hyde Park Corner, Hyde Park to Serpentine Car Park, Hyde Park",0,0,1,0,0,0,0,0,1
+"Pembridge Villas, Notting Hill","Hereford Road, Bayswater","Pembridge Villas, Notting Hill to Hereford Road, Bayswater",0,0,1,0,0,0,0,0,1
+"Phillimore Gardens, Kensington","Campden Hill Road, Notting Hill","Phillimore Gardens, Kensington to Campden Hill Road, Notting Hill",0,0,1,0,0,0,0,0,1
+"Whiteley's, Bayswater","Russell Square Station, Bloomsbury","Whiteley's, Bayswater to Russell Square Station, Bloomsbury",0,0,1,0,0,0,0,0,1
+"Moor Street, Soho","Hyde Park Corner, Hyde Park","Moor Street, Soho to Hyde Park Corner, Hyde Park",0,0,1,0,0,0,0,0,1
+"Albert Gate, Hyde Park","Flood Street, Chelsea","Albert Gate, Hyde Park to Flood Street, Chelsea",0,0,1,0,0,0,0,0,1
+"Harriet Street, Knightsbridge","Serpentine Car Park, Hyde Park","Harriet Street, Knightsbridge to Serpentine Car Park, Hyde Park",0,0,1,0,0,0,0,0,1
+"Ilchester Gardens, Bayswater","Whiteley's, Bayswater","Ilchester Gardens, Bayswater to Whiteley's, Bayswater",0,0,1,1,2,1,1,0,6
+"Elizabeth Bridge, Victoria","Harriet Street, Knightsbridge","Elizabeth Bridge, Victoria to Harriet Street, Knightsbridge",0,0,1,0,0,0,0,0,1
+"Campden Hill Road, Notting Hill","Ilchester Gardens, Bayswater","Campden Hill Road, Notting Hill to Ilchester Gardens, Bayswater",0,0,1,0,0,0,0,0,1
+"Devonshire Terrace, Bayswater","Albert Gate, Hyde Park","Devonshire Terrace, Bayswater to Albert Gate, Hyde Park",0,0,2,0,0,0,0,0,2
+"Pembridge Villas, Notting Hill","Phillimore Gardens, Kensington","Pembridge Villas, Notting Hill to Phillimore Gardens, Kensington",0,0,1,0,0,0,0,0,1
+"Cleveland Gardens, Bayswater","Pembridge Villas, Notting Hill","Cleveland Gardens, Bayswater to Pembridge Villas, Notting Hill",0,0,1,0,0,0,0,0,1
+"Flood Street, Chelsea","Elizabeth Bridge, Victoria","Flood Street, Chelsea to Elizabeth Bridge, Victoria",0,0,1,0,0,0,0,0,1
+"Cleveland Gardens, Bayswater","Cleveland Gardens, Bayswater","Cleveland Gardens, Bayswater to Cleveland Gardens, Bayswater",0,0,1,0,0,0,0,0,1
+"Lancaster Gate , Bayswater","Bishop's Bridge Road West, Bayswater","Lancaster Gate , Bayswater to Bishop's Bridge Road West, Bayswater",0,0,3,0,2,0,0,0,5
+"Devonshire Terrace, Bayswater","Bishop's Bridge Road East, Bayswater","Devonshire Terrace, Bayswater to Bishop's Bridge Road East, Bayswater",0,0,1,0,0,0,0,0,1
+"Frith Street, Soho","Wellington Arch, Hyde Park","Frith Street, Soho to Wellington Arch, Hyde Park",0,0,2,0,0,0,0,0,2
+"Red Lion Street, Holborn","Cumberland Gate, Hyde Park","Red Lion Street, Holborn to Cumberland Gate, Hyde Park",0,0,1,0,0,0,0,0,1
+"Bishop's Bridge Road West, Bayswater","Bishop's Bridge Road East, Bayswater","Bishop's Bridge Road West, Bayswater to Bishop's Bridge Road East, Bayswater",0,0,1,0,0,0,0,0,1
+"Hereford Road, Bayswater","Paddington Street, Marylebone","Hereford Road, Bayswater to Paddington Street, Marylebone",0,0,1,0,0,0,0,0,1
+"Southampton Place, Holborn","Earnshaw Street , Covent Garden","Southampton Place, Holborn to Earnshaw Street , Covent Garden",0,0,1,0,1,0,0,0,2
+"Great Russell Street, Bloomsbury","Bayswater Road, Hyde Park","Great Russell Street, Bloomsbury to Bayswater Road, Hyde Park",0,0,1,0,0,0,0,0,1
+"Rathbone Street, Fitzrovia ","Paddington Street, Marylebone","Rathbone Street, Fitzrovia  to Paddington Street, Marylebone",0,0,1,0,0,0,0,0,1
+"Russell Square Station, Bloomsbury","Rathbone Street, Fitzrovia ","Russell Square Station, Bloomsbury to Rathbone Street, Fitzrovia ",0,0,1,0,0,0,0,0,1
+"Cardinal Place, Victoria","Northumberland Avenue, Strand","Cardinal Place, Victoria to Northumberland Avenue, Strand",0,0,1,0,0,0,0,0,1
+"Belgrave Square, Belgravia","Cardinal Place, Victoria","Belgrave Square, Belgravia to Cardinal Place, Victoria",0,0,1,0,0,0,0,0,1
+"Northumberland Avenue, Strand","Moor Street, Soho","Northumberland Avenue, Strand to Moor Street, Soho",0,0,1,0,0,0,0,0,1
+"Paddington Street, Marylebone","Nutford Place, Marylebone","Paddington Street, Marylebone to Nutford Place, Marylebone",0,0,1,0,0,0,0,0,1
+"Queen's Gate (North), Kensington","Holy Trinity Brompton, Knightsbridge","Queen's Gate (North), Kensington to Holy Trinity Brompton, Knightsbridge",0,0,1,0,0,0,0,0,1
+"Bishop's Bridge Road West, Bayswater","Black Lion Gate, Kensington Gardens","Bishop's Bridge Road West, Bayswater to Black Lion Gate, Kensington Gardens",0,0,1,0,0,0,0,0,1
+"Moor Street, Soho","Devonshire Terrace, Bayswater","Moor Street, Soho to Devonshire Terrace, Bayswater",0,0,1,0,2,0,0,0,3
+"Holy Trinity Brompton, Knightsbridge","Belgrave Square, Belgravia","Holy Trinity Brompton, Knightsbridge to Belgrave Square, Belgravia",0,0,1,0,0,0,0,0,1
+"Black Lion Gate, Kensington Gardens","Queen's Gate (North), Kensington","Black Lion Gate, Kensington Gardens to Queen's Gate (North), Kensington",0,0,1,0,0,0,0,0,1
+"Belgrove Street , King's Cross","Wardour Street, Soho","Belgrove Street , King's Cross to Wardour Street, Soho",0,0,5,3,3,2,2,0,15
+"Wardour Street, Soho","Eastbourne Mews, Paddington","Wardour Street, Soho to Eastbourne Mews, Paddington",0,0,1,0,0,0,0,0,1
+"Brunswick Square, Bloomsbury","Belgrove Street , King's Cross","Brunswick Square, Bloomsbury to Belgrove Street , King's Cross",0,0,3,1,1,1,1,1,8
+"Speakers' Corner 2, Hyde Park","Brunswick Square, Bloomsbury","Speakers' Corner 2, Hyde Park to Brunswick Square, Bloomsbury",0,0,1,0,0,0,0,0,1
+"Princes Square, Bayswater","Speakers' Corner 2, Hyde Park","Princes Square, Bayswater to Speakers' Corner 2, Hyde Park",0,0,2,0,0,0,0,0,2
+"Princes Square, Bayswater","Bishop's Bridge Road West, Bayswater","Princes Square, Bayswater to Bishop's Bridge Road West, Bayswater",0,0,1,0,0,0,0,0,1
+"Palace Gardens Terrace, Notting Hill","Marloes Road, Kensington","Palace Gardens Terrace, Notting Hill to Marloes Road, Kensington",0,0,1,0,0,0,0,0,1
+"Hyde Park Corner, Hyde Park","Craven Street, Strand","Hyde Park Corner, Hyde Park to Craven Street, Strand",0,0,3,0,0,0,0,0,3
+"Chepstow Villas, Notting Hill","Palace Gardens Terrace, Notting Hill","Chepstow Villas, Notting Hill to Palace Gardens Terrace, Notting Hill",0,0,1,0,0,0,0,0,1
+"Craven Street, Strand","Brunswick Square, Bloomsbury","Craven Street, Strand to Brunswick Square, Bloomsbury",0,0,1,0,0,0,0,0,1
+"Pembridge Villas, Notting Hill","Chepstow Villas, Notting Hill","Pembridge Villas, Notting Hill to Chepstow Villas, Notting Hill",0,0,1,0,0,0,0,0,1
+"Albert Gate, Hyde Park","Bishop's Bridge Road West, Bayswater","Albert Gate, Hyde Park to Bishop's Bridge Road West, Bayswater",0,0,3,1,0,1,0,0,5
+"Bayswater Road, Hyde Park","Hyde Park Corner, Hyde Park","Bayswater Road, Hyde Park to Hyde Park Corner, Hyde Park",0,0,1,0,0,0,0,0,1
+"Royal Avenue 1, Chelsea","Albert Gate, Hyde Park","Royal Avenue 1, Chelsea to Albert Gate, Hyde Park",0,0,1,0,0,0,0,0,1
+"Marloes Road, Kensington","Royal Avenue 1, Chelsea","Marloes Road, Kensington to Royal Avenue 1, Chelsea",0,0,1,0,0,0,0,0,1
+"Royal Avenue 2, Chelsea","Albert Gate, Hyde Park","Royal Avenue 2, Chelsea to Albert Gate, Hyde Park",0,0,1,0,0,0,0,0,1
+"Earnshaw Street , Covent Garden","Wardour Street, Soho","Earnshaw Street , Covent Garden to Wardour Street, Soho",0,0,2,0,1,0,0,0,3
+"Lancaster Gate , Bayswater","Broadwick Street, Soho","Lancaster Gate , Bayswater to Broadwick Street, Soho",0,0,1,1,0,0,0,0,2
+"Bishop's Bridge Road West, Bayswater","Royal Avenue 2, Chelsea","Bishop's Bridge Road West, Bayswater to Royal Avenue 2, Chelsea",0,0,1,0,0,0,0,0,1
+"Frith Street, Soho","Chapel Place, Marylebone","Frith Street, Soho to Chapel Place, Marylebone",0,0,1,0,0,0,0,0,1
+"Moor Street, Soho","Lancaster Gate , Bayswater","Moor Street, Soho to Lancaster Gate , Bayswater",0,0,1,0,0,0,0,0,1
+"Howland Street, Fitzrovia","Moor Street, Soho","Howland Street, Fitzrovia to Moor Street, Soho",0,0,1,0,1,0,0,0,2
+"Wardour Street, Soho","Broadwick Street, Soho","Wardour Street, Soho to Broadwick Street, Soho",0,0,1,0,0,0,0,0,1
+"Belgrove Street , King's Cross","Howland Street, Fitzrovia","Belgrove Street , King's Cross to Howland Street, Fitzrovia",0,0,2,0,1,0,0,0,3
+"Wardour Street, Soho","Devonshire Terrace, Bayswater","Wardour Street, Soho to Devonshire Terrace, Bayswater",0,0,1,0,0,1,0,0,2
+"Speakers' Corner 1, Hyde Park","British Museum, Bloomsbury","Speakers' Corner 1, Hyde Park to British Museum, Bloomsbury",0,0,1,0,0,0,0,0,1
+"Wellington Road, St. John's Wood","Lancaster Gate , Bayswater","Wellington Road, St. John's Wood to Lancaster Gate , Bayswater",0,0,1,0,0,1,0,0,2
+"Hereford Road, Bayswater","Wardour Street, Soho","Hereford Road, Bayswater to Wardour Street, Soho",0,0,2,0,0,0,0,0,2
+"Wardour Street, Soho","Soho Square , Soho","Wardour Street, Soho to Soho Square , Soho",0,0,1,0,0,0,0,0,1
+"Bishop's Bridge Road West, Bayswater","Wellington Road, St. John's Wood","Bishop's Bridge Road West, Bayswater to Wellington Road, St. John's Wood",0,0,1,0,0,0,0,0,1
+"Wardour Street, Soho","Hyde Park Corner, Hyde Park","Wardour Street, Soho to Hyde Park Corner, Hyde Park",0,0,1,0,0,0,0,0,1
+"Hyde Park Corner, Hyde Park","Bishop's Bridge Road West, Bayswater","Hyde Park Corner, Hyde Park to Bishop's Bridge Road West, Bayswater",0,0,2,1,0,0,0,0,3
+"Great Russell Street, Bloomsbury","Belgrove Street , King's Cross","Great Russell Street, Bloomsbury to Belgrove Street , King's Cross",0,0,1,0,0,1,3,0,5
+"Lancaster Gate , Bayswater","Wardour Street, Soho","Lancaster Gate , Bayswater to Wardour Street, Soho",0,0,1,0,1,0,0,0,2
+"Ashley Place, Victoria","Albert Gate, Hyde Park","Ashley Place, Victoria to Albert Gate, Hyde Park",0,0,1,0,0,0,0,0,1
+"Albert Gate, Hyde Park","Whiteley's, Bayswater","Albert Gate, Hyde Park to Whiteley's, Bayswater",0,0,1,0,0,0,0,0,1
+"Moor Street, Soho","Ashley Place, Victoria","Moor Street, Soho to Ashley Place, Victoria",0,0,1,0,0,0,0,0,1
+"Bishop's Bridge Road West, Bayswater","Bayswater Road, Hyde Park","Bishop's Bridge Road West, Bayswater to Bayswater Road, Hyde Park",0,0,1,1,0,0,0,0,2
+"St. Chad's Street, King's Cross","Brunswick Square, Bloomsbury","St. Chad's Street, King's Cross to Brunswick Square, Bloomsbury",0,0,2,0,0,0,0,0,2
+"Craven Street, Strand","Wellington Street , Strand","Craven Street, Strand to Wellington Street , Strand",0,0,1,0,0,0,0,0,1
+"Natural History Museum, South Kensington","Manresa Road, Chelsea","Natural History Museum, South Kensington to Manresa Road, Chelsea",0,0,1,0,0,0,0,0,1
+"Millennium Hotel, Mayfair","Bishop's Bridge Road West, Bayswater","Millennium Hotel, Mayfair to Bishop's Bridge Road West, Bayswater",0,0,1,0,0,0,0,0,1
+"Wellington Street , Strand","Russell Square Station, Bloomsbury","Wellington Street , Strand to Russell Square Station, Bloomsbury",0,0,1,0,0,0,0,0,1
+"Lancaster Gate , Bayswater","Speakers' Corner 1, Hyde Park","Lancaster Gate , Bayswater to Speakers' Corner 1, Hyde Park",0,0,3,0,1,0,0,0,4
+"Bayswater Road, Hyde Park","Natural History Museum, South Kensington","Bayswater Road, Hyde Park to Natural History Museum, South Kensington",0,0,1,0,0,0,0,0,1
+"Speakers' Corner 1, Hyde Park","Hyde Park Corner, Hyde Park","Speakers' Corner 1, Hyde Park to Hyde Park Corner, Hyde Park",0,0,1,0,0,0,0,0,1
+"Golden Square, Soho","Millennium Hotel, Mayfair","Golden Square, Soho to Millennium Hotel, Mayfair",0,0,1,0,0,0,0,0,1
+"Tavistock Place, Bloomsbury","Frith Street, Soho","Tavistock Place, Bloomsbury to Frith Street, Soho",0,0,1,0,1,0,0,0,2
+"Wardour Street, Soho","Belgrove Street , King's Cross","Wardour Street, Soho to Belgrove Street , King's Cross",0,0,1,0,1,0,0,0,2
+"Russell Square Station, Bloomsbury","Wardour Street, Soho","Russell Square Station, Bloomsbury to Wardour Street, Soho",0,0,1,0,1,0,0,0,2
+"Bishop's Bridge Road East, Bayswater","Speakers' Corner 1, Hyde Park","Bishop's Bridge Road East, Bayswater to Speakers' Corner 1, Hyde Park",0,0,1,0,0,0,0,0,1
+"Belgrove Street , King's Cross","Hereford Road, Bayswater","Belgrove Street , King's Cross to Hereford Road, Bayswater",0,0,1,0,0,0,0,0,1
+"Hereford Road, Bayswater","Bishop's Bridge Road East, Bayswater","Hereford Road, Bayswater to Bishop's Bridge Road East, Bayswater",0,0,1,0,0,0,0,0,1
+"Old Quebec Street, Marylebone","Belgrove Street , King's Cross","Old Quebec Street, Marylebone to Belgrove Street , King's Cross",0,0,4,0,0,0,0,0,4
+"Hereford Road, Bayswater","Old Quebec Street, Marylebone","Hereford Road, Bayswater to Old Quebec Street, Marylebone",0,0,3,0,0,0,0,0,3
+"Whiteley's, Bayswater","Westbourne Grove, Bayswater","Whiteley's, Bayswater to Westbourne Grove, Bayswater",0,0,3,2,0,2,0,0,7
+"Marylebone Lane, Marylebone","Bishop's Bridge Road West, Bayswater","Marylebone Lane, Marylebone to Bishop's Bridge Road West, Bayswater",0,0,1,0,0,0,0,0,1
+"Belgrove Street , King's Cross","Marylebone Lane, Marylebone","Belgrove Street , King's Cross to Marylebone Lane, Marylebone",0,0,1,0,0,0,0,0,1
+"Westbourne Grove, Bayswater","Old Quebec Street, Marylebone","Westbourne Grove, Bayswater to Old Quebec Street, Marylebone",0,0,1,0,0,0,0,0,1
+"Howland Street, Fitzrovia","Wardour Street, Soho","Howland Street, Fitzrovia to Wardour Street, Soho",0,0,1,0,0,0,0,0,1
+"Speakers' Corner 1, Hyde Park","Craven Street, Strand","Speakers' Corner 1, Hyde Park to Craven Street, Strand",0,0,1,0,0,0,0,0,1
+"Craven Street, Strand","Russell Square Station, Bloomsbury","Craven Street, Strand to Russell Square Station, Bloomsbury",0,0,1,0,0,0,0,0,1
+"Broadwick Street, Soho","Bayswater Road, Hyde Park","Broadwick Street, Soho to Bayswater Road, Hyde Park",0,0,1,0,0,0,1,0,2
+"Lancaster Gate , Bayswater","Phillimore Gardens, Kensington","Lancaster Gate , Bayswater to Phillimore Gardens, Kensington",0,0,1,0,0,0,0,0,1
+"Royal Avenue 1, Chelsea","Manresa Road, Chelsea","Royal Avenue 1, Chelsea to Manresa Road, Chelsea",0,0,1,0,0,0,0,0,1
+"Phillimore Gardens, Kensington","Nevern Place, Earl's Court","Phillimore Gardens, Kensington to Nevern Place, Earl's Court",0,0,1,0,0,0,0,0,1
+"Palace Gate, Kensington Gardens","Hereford Road, Bayswater","Palace Gate, Kensington Gardens to Hereford Road, Bayswater",0,0,1,0,0,0,0,0,1
+"Kensington Town Hall, Kensington","Palace Gate, Kensington Gardens","Kensington Town Hall, Kensington to Palace Gate, Kensington Gardens",0,0,1,0,0,0,0,0,1
+"Manresa Road, Chelsea","Royal Avenue 1, Chelsea","Manresa Road, Chelsea to Royal Avenue 1, Chelsea",0,0,1,0,0,0,0,0,1
+"Albert Gate, Hyde Park","Royal Avenue 1, Chelsea","Albert Gate, Hyde Park to Royal Avenue 1, Chelsea",0,0,1,0,0,1,0,0,2
+"Nevern Place, Earl's Court","Kensington Town Hall, Kensington","Nevern Place, Earl's Court to Kensington Town Hall, Kensington",0,0,1,0,0,0,0,0,1
+"Flood Street, Chelsea","Albert Gate, Hyde Park","Flood Street, Chelsea to Albert Gate, Hyde Park",0,0,1,0,0,0,0,0,1
+"Brunswick Square, Bloomsbury","Frith Street, Soho","Brunswick Square, Bloomsbury to Frith Street, Soho",0,0,1,0,0,0,0,0,1
+"Moor Street, Soho","Broadwick Street, Soho","Moor Street, Soho to Broadwick Street, Soho",0,0,1,0,0,0,0,0,1
+"George Street, Marylebone","Bayswater Road, Hyde Park","George Street, Marylebone to Bayswater Road, Hyde Park",0,0,1,0,0,0,0,0,1
+"Ilchester Gardens, Bayswater","Westbourne Grove, Bayswater","Ilchester Gardens, Bayswater to Westbourne Grove, Bayswater",0,0,1,0,0,0,0,0,1
+"Bayley Street , Bloomsbury","George Street, Marylebone","Bayley Street , Bloomsbury to George Street, Marylebone",0,0,1,0,0,0,0,0,1
+"Great Marlborough Street, Soho","Belgrove Street , King's Cross","Great Marlborough Street, Soho to Belgrove Street , King's Cross",0,0,1,0,1,0,0,0,2
+"Broadwick Street, Soho","Bishop's Bridge Road West, Bayswater","Broadwick Street, Soho to Bishop's Bridge Road West, Bayswater",0,0,1,5,3,1,1,0,11
+"Westbourne Grove, Bayswater","Lancaster Gate , Bayswater","Westbourne Grove, Bayswater to Lancaster Gate , Bayswater",0,0,1,0,1,0,2,0,4
+"Brunswick Square, Bloomsbury","Cumberland Gate, Hyde Park","Brunswick Square, Bloomsbury to Cumberland Gate, Hyde Park",0,0,1,0,0,1,0,0,2
+"Wells Street, Fitzrovia ","Bayswater Road, Hyde Park","Wells Street, Fitzrovia  to Bayswater Road, Hyde Park",0,0,1,0,0,0,0,0,1
+"Speakers' Corner 1, Hyde Park","William IV Street, Strand","Speakers' Corner 1, Hyde Park to William IV Street, Strand",0,0,1,0,1,0,1,0,3
+"Wellington Street , Strand","Belgrove Street , King's Cross","Wellington Street , Strand to Belgrove Street , King's Cross",0,0,1,0,0,0,1,0,2
+"British Museum, Bloomsbury","Royal Avenue 1, Chelsea","British Museum, Bloomsbury to Royal Avenue 1, Chelsea",0,0,1,0,0,0,0,0,1
+"Royal Avenue 1, Chelsea","Cadogan Place, Knightsbridge","Royal Avenue 1, Chelsea to Cadogan Place, Knightsbridge",0,0,1,0,0,0,0,0,1
+"Albert Gate, Hyde Park","Devonshire Terrace, Bayswater","Albert Gate, Hyde Park to Devonshire Terrace, Bayswater",0,0,1,0,0,0,0,0,1
+"Cadogan Place, Knightsbridge","Albert Gate, Hyde Park","Cadogan Place, Knightsbridge to Albert Gate, Hyde Park",0,0,1,0,0,0,0,0,1
+"Lancaster Gate , Bayswater","Hyde Park Corner, Hyde Park","Lancaster Gate , Bayswater to Hyde Park Corner, Hyde Park",0,0,1,0,0,0,0,0,1
+"Flood Street, Chelsea","Royal Avenue 1, Chelsea","Flood Street, Chelsea to Royal Avenue 1, Chelsea",0,0,1,0,0,0,0,0,1
+"Westbourne Grove, Bayswater","Belgrove Street , King's Cross","Westbourne Grove, Bayswater to Belgrove Street , King's Cross",0,0,0,12,19,17,8,0,56
+"Hinde Street, Marylebone","Bishop's Bridge Road West, Bayswater","Hinde Street, Marylebone to Bishop's Bridge Road West, Bayswater",0,0,0,1,0,0,0,0,1
+"Broadwick Street, Soho","Chapel Place, Marylebone","Broadwick Street, Soho to Chapel Place, Marylebone",0,0,0,1,0,0,0,0,1
+"Lancaster Gate , Bayswater","Lancaster Gate , Bayswater","Lancaster Gate , Bayswater to Lancaster Gate , Bayswater",0,0,0,1,0,2,2,0,5
+"Warren Street Station, Euston","Bayswater Road, Hyde Park","Warren Street Station, Euston to Bayswater Road, Hyde Park",0,0,0,1,0,0,0,0,1
+"Moor Street, Soho","British Museum, Bloomsbury","Moor Street, Soho to British Museum, Bloomsbury",0,0,0,1,0,0,0,0,1
+"Hinde Street, Marylebone","Westbourne Grove, Bayswater","Hinde Street, Marylebone to Westbourne Grove, Bayswater",0,0,0,1,0,0,0,0,1
+"Southampton Place, Holborn","Broadwick Street, Soho","Southampton Place, Holborn to Broadwick Street, Soho",0,0,0,2,0,0,0,0,2
+"Westbourne Grove, Bayswater","Soho Square , Soho","Westbourne Grove, Bayswater to Soho Square , Soho",0,0,0,1,0,0,2,0,3
+"St. Chad's Street, King's Cross","Earnshaw Street , Covent Garden","St. Chad's Street, King's Cross to Earnshaw Street , Covent Garden",0,0,0,1,0,0,0,0,1
+"Lancaster Gate , Bayswater","Marylebone Lane, Marylebone","Lancaster Gate , Bayswater to Marylebone Lane, Marylebone",0,0,0,2,0,0,0,0,2
+"Belgrove Street , King's Cross","Westminster University, Marylebone","Belgrove Street , King's Cross to Westminster University, Marylebone",0,0,0,1,0,1,0,0,2
+"Earnshaw Street , Covent Garden","Russell Square Station, Bloomsbury","Earnshaw Street , Covent Garden to Russell Square Station, Bloomsbury",0,0,0,1,0,0,1,0,2
+"Westminster University, Marylebone","Bayswater Road, Hyde Park","Westminster University, Marylebone to Bayswater Road, Hyde Park",0,0,0,1,0,0,0,0,1
+"Marylebone Lane, Marylebone","Craven Street, Strand","Marylebone Lane, Marylebone to Craven Street, Strand",0,0,0,2,0,0,0,0,2
+"Frith Street, Soho","Waterloo Roundabout, Waterloo ","Frith Street, Soho to Waterloo Roundabout, Waterloo ",0,0,0,1,0,0,0,0,1
+"Craven Street, Strand","Belgrove Street , King's Cross","Craven Street, Strand to Belgrove Street , King's Cross",0,0,0,1,0,1,0,0,2
+"Waterloo Roundabout, Waterloo ","Hyde Park Corner, Hyde Park","Waterloo Roundabout, Waterloo  to Hyde Park Corner, Hyde Park",0,0,0,1,0,0,0,0,1
+"Bishop's Bridge Road West, Bayswater","Cleveland Gardens, Bayswater","Bishop's Bridge Road West, Bayswater to Cleveland Gardens, Bayswater",0,0,0,1,0,0,0,0,1
+"Bayley Street , Bloomsbury","Bishop's Bridge Road West, Bayswater","Bayley Street , Bloomsbury to Bishop's Bridge Road West, Bayswater",0,0,0,1,0,0,0,0,1
+"British Museum, Bloomsbury","William IV Street, Strand","British Museum, Bloomsbury to William IV Street, Strand",0,0,0,1,0,0,0,0,1
+"Southampton Place, Holborn","Belgrove Street , King's Cross","Southampton Place, Holborn to Belgrove Street , King's Cross",0,0,0,1,2,1,1,0,5
+"William IV Street, Strand","Southampton Place, Holborn","William IV Street, Strand to Southampton Place, Holborn",0,0,0,1,0,0,0,0,1
+"Moor Street, Soho","Albert Gate, Hyde Park","Moor Street, Soho to Albert Gate, Hyde Park",0,0,0,1,0,0,0,0,1
+"Brunswick Square, Bloomsbury","William IV Street, Strand","Brunswick Square, Bloomsbury to William IV Street, Strand",0,0,0,1,3,0,1,0,5
+"Golden Square, Soho","William IV Street, Strand","Golden Square, Soho to William IV Street, Strand",0,0,0,1,1,1,0,0,3
+"Lancaster Gate , Bayswater","Golden Square, Soho","Lancaster Gate , Bayswater to Golden Square, Soho",0,0,0,1,0,1,0,0,2
+"Whiteley's, Bayswater","Eastbourne Mews, Paddington","Whiteley's, Bayswater to Eastbourne Mews, Paddington",0,0,0,1,0,0,0,0,1
+"Great Russell Street, Bloomsbury","Tavistock Place, Bloomsbury","Great Russell Street, Bloomsbury to Tavistock Place, Bloomsbury",0,0,0,1,0,0,0,0,1
+"Eastbourne Mews, Paddington","Pembridge Villas, Notting Hill","Eastbourne Mews, Paddington to Pembridge Villas, Notting Hill",0,0,0,1,0,0,0,0,1
+"Vauxhall Cross, Vauxhall","Vauxhall Walk, Vauxhall","Vauxhall Cross, Vauxhall to Vauxhall Walk, Vauxhall",0,0,0,1,0,0,0,0,1
+"Waterloo Bridge, South Bank","Broadwick Street, Soho","Waterloo Bridge, South Bank to Broadwick Street, Soho",0,0,0,1,0,0,0,0,1
+"Vauxhall Walk, Vauxhall","Waterloo Bridge, South Bank","Vauxhall Walk, Vauxhall to Waterloo Bridge, South Bank",0,0,0,1,0,0,0,0,1
+"Hampstead Road, Euston","Belgrove Street , King's Cross","Hampstead Road, Euston to Belgrove Street , King's Cross",0,0,0,1,0,1,0,0,2
+"Cardinal Place, Victoria","Vauxhall Cross, Vauxhall","Cardinal Place, Victoria to Vauxhall Cross, Vauxhall",0,0,0,1,0,0,0,0,1
+"Westbourne Grove, Bayswater","Hampstead Road, Euston","Westbourne Grove, Bayswater to Hampstead Road, Euston",0,0,0,1,0,1,0,0,2
+"Broadwick Street, Soho","Cardinal Place, Victoria","Broadwick Street, Soho to Cardinal Place, Victoria",0,0,0,1,0,0,0,0,1
+"Bishop's Bridge Road West, Bayswater","Belgrove Street , King's Cross","Bishop's Bridge Road West, Bayswater to Belgrove Street , King's Cross",0,0,0,0,1,1,0,0,2
+"William IV Street, Strand","Russell Square Station, Bloomsbury","William IV Street, Strand to Russell Square Station, Bloomsbury",0,0,0,0,1,1,0,0,2
+"Charles II Street, West End","Belgrove Street , King's Cross","Charles II Street, West End to Belgrove Street , King's Cross",0,0,0,0,1,0,0,0,1
+"Turquoise Island, Notting Hill","Bishop's Bridge Road West, Bayswater","Turquoise Island, Notting Hill to Bishop's Bridge Road West, Bayswater",0,0,0,0,1,0,0,0,1
+"Eastbourne Mews, Paddington","Turquoise Island, Notting Hill","Eastbourne Mews, Paddington to Turquoise Island, Notting Hill",0,0,0,0,1,0,0,0,1
+"Belgrove Street , King's Cross","Eastbourne Mews, Paddington","Belgrove Street , King's Cross to Eastbourne Mews, Paddington",0,0,0,0,1,1,0,0,2
+"William IV Street, Strand","Charles II Street, West End","William IV Street, Strand to Charles II Street, West End",0,0,0,0,1,0,0,0,1
+"Wardour Street, Soho","Lancaster Gate , Bayswater","Wardour Street, Soho to Lancaster Gate , Bayswater",0,0,0,0,1,2,0,0,3
+"William IV Street, Strand","British Museum, Bloomsbury","William IV Street, Strand to British Museum, Bloomsbury",0,0,0,0,2,0,0,0,2
+"Earnshaw Street , Covent Garden","Frith Street, Soho","Earnshaw Street , Covent Garden to Frith Street, Soho",0,0,0,0,1,0,0,0,1
+"Lancaster Gate , Bayswater","Soho Square , Soho","Lancaster Gate , Bayswater to Soho Square , Soho",0,0,0,0,1,0,0,0,1
+"Soho Square , Soho","William IV Street, Strand","Soho Square , Soho to William IV Street, Strand",0,0,0,0,1,0,0,0,1
+"William IV Street, Strand","Wardour Street, Soho","William IV Street, Strand to Wardour Street, Soho",0,0,0,0,2,0,1,0,3
+"Brunswick Square, Bloomsbury","Russell Square Station, Bloomsbury","Brunswick Square, Bloomsbury to Russell Square Station, Bloomsbury",0,0,0,0,1,0,0,0,1
+"Great Marlborough Street, Soho","Bishop's Bridge Road West, Bayswater","Great Marlborough Street, Soho to Bishop's Bridge Road West, Bayswater",0,0,0,0,1,0,0,0,1
+"Soho Square , Soho","Southampton Place, Holborn","Soho Square , Soho to Southampton Place, Holborn",0,0,0,0,1,0,0,0,1
+"Broadwick Street, Soho","Speakers' Corner 2, Hyde Park","Broadwick Street, Soho to Speakers' Corner 2, Hyde Park",0,0,0,0,1,0,0,0,1
+"British Museum, Bloomsbury","Great Russell Street, Bloomsbury","British Museum, Bloomsbury to Great Russell Street, Bloomsbury",0,0,0,0,1,0,0,0,1
+"Brunswick Square, Bloomsbury","British Museum, Bloomsbury","Brunswick Square, Bloomsbury to British Museum, Bloomsbury",0,0,0,0,1,0,0,0,1
+"Brunswick Square, Bloomsbury","Soho Square , Soho","Brunswick Square, Bloomsbury to Soho Square , Soho",0,0,0,0,1,0,0,0,1
+"Bishop's Bridge Road West, Bayswater","Turquoise Island, Notting Hill","Bishop's Bridge Road West, Bayswater to Turquoise Island, Notting Hill",0,0,0,0,2,0,0,0,2
+"Turquoise Island, Notting Hill","Whiteley's, Bayswater","Turquoise Island, Notting Hill to Whiteley's, Bayswater",0,0,0,0,2,0,0,0,2
+"Panton Street, West End","William IV Street, Strand","Panton Street, West End to William IV Street, Strand",0,0,0,0,1,0,0,0,1
+"Wardour Street, Soho","Sardinia Street, Holborn","Wardour Street, Soho to Sardinia Street, Holborn",0,0,0,0,1,0,0,0,1
+"Doric Way , Somers Town","Speakers' Corner 2, Hyde Park","Doric Way , Somers Town to Speakers' Corner 2, Hyde Park",0,0,0,0,1,0,0,0,1
+"William IV Street, Strand","Frith Street, Soho","William IV Street, Strand to Frith Street, Soho",0,0,0,0,1,0,0,0,1
+"Great Marlborough Street, Soho","Old Quebec Street, Marylebone","Great Marlborough Street, Soho to Old Quebec Street, Marylebone",0,0,0,0,1,0,0,0,1
+"Ilchester Gardens, Bayswater","Lancaster Gate , Bayswater","Ilchester Gardens, Bayswater to Lancaster Gate , Bayswater",0,0,0,0,1,0,0,0,1
+"Old Quebec Street, Marylebone","Lancaster Gate , Bayswater","Old Quebec Street, Marylebone to Lancaster Gate , Bayswater",0,0,0,0,1,0,0,0,1
+"Great Marlborough Street, Soho","Whiteley's, Bayswater","Great Marlborough Street, Soho to Whiteley's, Bayswater",0,0,0,0,1,0,0,0,1
+"Broadwick Street, Soho","Great Marlborough Street, Soho","Broadwick Street, Soho to Great Marlborough Street, Soho",0,0,0,0,1,0,0,0,1
+"Lancaster Gate , Bayswater","Little Argyll Street, West End","Lancaster Gate , Bayswater to Little Argyll Street, West End",0,0,0,0,1,0,0,0,1
+"Howland Street, Fitzrovia","Frith Street, Soho","Howland Street, Fitzrovia to Frith Street, Soho",0,0,0,0,1,0,0,0,1
+"Tavistock Place, Bloomsbury","Howland Street, Fitzrovia","Tavistock Place, Bloomsbury to Howland Street, Fitzrovia",0,0,0,0,1,0,0,0,1
+"Brunswick Square, Bloomsbury","Broadwick Street, Soho","Brunswick Square, Bloomsbury to Broadwick Street, Soho",0,0,0,0,2,0,0,0,2
+"Lancaster Gate , Bayswater","Southampton Place, Holborn","Lancaster Gate , Bayswater to Southampton Place, Holborn",0,0,0,0,1,0,0,0,1
+"Cleveland Gardens, Bayswater","Bishop's Bridge Road West, Bayswater","Cleveland Gardens, Bayswater to Bishop's Bridge Road West, Bayswater",0,0,0,0,1,0,0,0,1
+"Serpentine Car Park, Hyde Park","Bishop's Bridge Road West, Bayswater","Serpentine Car Park, Hyde Park to Bishop's Bridge Road West, Bayswater",0,0,0,0,1,0,0,0,1
+"Lancaster Gate , Bayswater","Cleveland Gardens, Bayswater","Lancaster Gate , Bayswater to Cleveland Gardens, Bayswater",0,0,0,0,1,0,0,0,1
+"Moor Street, Soho","Serpentine Car Park, Hyde Park","Moor Street, Soho to Serpentine Car Park, Hyde Park",0,0,0,0,1,0,0,0,1
+"Lancaster Gate , Bayswater","Pembridge Villas, Notting Hill","Lancaster Gate , Bayswater to Pembridge Villas, Notting Hill",0,0,0,0,1,0,0,0,1
+"Lancaster Gate , Bayswater","William IV Street, Strand","Lancaster Gate , Bayswater to William IV Street, Strand",0,0,0,0,1,2,5,0,8
+"Wardour Street, Soho","Wells Street, Fitzrovia ","Wardour Street, Soho to Wells Street, Fitzrovia ",0,0,0,0,1,0,0,0,1
+"Wardour Street, Soho","Cleveland Gardens, Bayswater","Wardour Street, Soho to Cleveland Gardens, Bayswater",0,0,0,0,1,0,0,0,1
+"Broadwick Street, Soho","Lancaster Gate , Bayswater","Broadwick Street, Soho to Lancaster Gate , Bayswater",0,0,0,0,1,0,0,0,1
+"Moor Street, Soho","Cumberland Gate, Hyde Park","Moor Street, Soho to Cumberland Gate, Hyde Park",0,0,0,0,1,0,0,0,1
+"Cumberland Gate, Hyde Park","Whiteley's, Bayswater","Cumberland Gate, Hyde Park to Whiteley's, Bayswater",0,0,0,0,1,0,0,0,1
+"Belgrove Street , King's Cross","Soho Square , Soho","Belgrove Street , King's Cross to Soho Square , Soho",0,0,0,0,1,0,0,0,1
+"Belgrove Street , King's Cross","Great Russell Street, Bloomsbury","Belgrove Street , King's Cross to Great Russell Street, Bloomsbury",0,0,0,0,0,3,1,0,4
+"Speakers' Corner 2, Hyde Park","Marylebone Lane, Marylebone","Speakers' Corner 2, Hyde Park to Marylebone Lane, Marylebone",0,0,0,0,0,1,0,0,1
+"Marylebone Lane, Marylebone","Lancaster Gate , Bayswater","Marylebone Lane, Marylebone to Lancaster Gate , Bayswater",0,0,0,0,0,1,0,0,1
+"Russell Square Station, Bloomsbury","Moor Street, Soho","Russell Square Station, Bloomsbury to Moor Street, Soho",0,0,0,0,0,1,0,0,1
+"Soho Square , Soho","Whiteley's, Bayswater","Soho Square , Soho to Whiteley's, Bayswater",0,0,0,0,0,1,0,0,1
+"Earnshaw Street , Covent Garden","William IV Street, Strand","Earnshaw Street , Covent Garden to William IV Street, Strand",0,0,0,0,0,1,0,0,1
+"Old Quebec Street, Marylebone","Russell Square Station, Bloomsbury","Old Quebec Street, Marylebone to Russell Square Station, Bloomsbury",0,0,0,0,0,1,0,0,1
+"Lancaster Gate , Bayswater","Speakers' Corner 2, Hyde Park","Lancaster Gate , Bayswater to Speakers' Corner 2, Hyde Park",0,0,0,0,0,2,0,0,2
+"Butler Place, Westminster","Moor Street, Soho","Butler Place, Westminster to Moor Street, Soho",0,0,0,0,0,2,0,0,2
+"Wellington Arch, Hyde Park","Butler Place, Westminster","Wellington Arch, Hyde Park to Butler Place, Westminster",0,0,0,0,0,1,0,0,1
+"Belgrove Street , King's Cross","Cardinal Place, Victoria","Belgrove Street , King's Cross to Cardinal Place, Victoria",0,0,0,0,0,1,0,0,1
+"Moor Street, Soho","Belgrove Street , King's Cross","Moor Street, Soho to Belgrove Street , King's Cross",0,0,0,0,0,1,0,0,1
+"Westbourne Grove, Bayswater","Doric Way , Somers Town","Westbourne Grove, Bayswater to Doric Way , Somers Town",0,0,0,0,0,1,0,0,1
+"Doric Way , Somers Town","Frith Street, Soho","Doric Way , Somers Town to Frith Street, Soho",0,0,0,0,0,1,0,0,1
+"Great Marlborough Street, Soho","Russell Square Station, Bloomsbury","Great Marlborough Street, Soho to Russell Square Station, Bloomsbury",0,0,0,0,0,1,0,0,1
+"Broadwick Street, Soho","Devonshire Terrace, Bayswater","Broadwick Street, Soho to Devonshire Terrace, Bayswater",0,0,0,0,0,1,0,0,1
+"Belgrove Street , King's Cross","Doric Way , Somers Town","Belgrove Street , King's Cross to Doric Way , Somers Town",0,0,0,0,0,1,0,0,1
+"Russell Square Station, Bloomsbury","Bishop's Bridge Road West, Bayswater","Russell Square Station, Bloomsbury to Bishop's Bridge Road West, Bayswater",0,0,0,0,0,2,0,0,2
+"Moor Street, Soho","Russell Square Station, Bloomsbury","Moor Street, Soho to Russell Square Station, Bloomsbury",0,0,0,0,0,1,0,0,1
+"Crosswall, Tower","Stepney Green Station, Stepney","Crosswall, Tower to Stepney Green Station, Stepney",0,0,0,0,0,1,0,0,1
+"Crosswall, Tower","Doric Way , Somers Town","Crosswall, Tower to Doric Way , Somers Town",0,0,0,0,0,1,0,0,1
+"Stepney Green Station, Stepney","Crosswall, Tower","Stepney Green Station, Stepney to Crosswall, Tower",0,0,0,0,0,1,0,0,1
+"Doric Way , Somers Town","Russell Square Station, Bloomsbury","Doric Way , Somers Town to Russell Square Station, Bloomsbury",0,0,0,0,0,1,0,0,1
+"Belgrove Street , King's Cross","Butler Place, Westminster","Belgrove Street , King's Cross to Butler Place, Westminster",0,0,0,0,0,1,0,0,1
+"Brunswick Square, Bloomsbury","Devonshire Terrace, Bayswater","Brunswick Square, Bloomsbury to Devonshire Terrace, Bayswater",0,0,0,0,0,2,0,0,2
+"Embankment (Horse Guards), Westminster","Crosswall, Tower","Embankment (Horse Guards), Westminster to Crosswall, Tower",0,0,0,0,0,1,0,0,1
+"Southampton Place, Holborn","Brunswick Square, Bloomsbury","Southampton Place, Holborn to Brunswick Square, Bloomsbury",0,0,0,0,0,1,0,0,1
+"Brunswick Square, Bloomsbury","Bishop's Bridge Road West, Bayswater","Brunswick Square, Bloomsbury to Bishop's Bridge Road West, Bayswater",0,0,0,0,0,1,0,0,1
+"Brunswick Square, Bloomsbury","Great Russell Street, Bloomsbury","Brunswick Square, Bloomsbury to Great Russell Street, Bloomsbury",0,0,0,0,0,1,0,0,1
+"Great Russell Street, Bloomsbury","Russell Square Station, Bloomsbury","Great Russell Street, Bloomsbury to Russell Square Station, Bloomsbury",0,0,0,0,0,1,0,0,1
+"Bayswater Road, Hyde Park","William IV Street, Strand","Bayswater Road, Hyde Park to William IV Street, Strand",0,0,0,0,0,1,0,0,1
+"Speakers' Corner 2, Hyde Park","Whiteley's, Bayswater","Speakers' Corner 2, Hyde Park to Whiteley's, Bayswater",0,0,0,0,0,1,0,0,1
+"Earnshaw Street , Covent Garden","Moor Street, Soho","Earnshaw Street , Covent Garden to Moor Street, Soho",0,0,0,0,0,1,0,0,1
+"Russell Square Station, Bloomsbury","Speakers' Corner 2, Hyde Park","Russell Square Station, Bloomsbury to Speakers' Corner 2, Hyde Park",0,0,0,0,0,1,0,0,1
+"Speakers' Corner 2, Hyde Park","William IV Street, Strand","Speakers' Corner 2, Hyde Park to William IV Street, Strand",0,0,0,0,0,1,0,0,1
+"Belgrove Street , King's Cross","Wellington Arch, Hyde Park","Belgrove Street , King's Cross to Wellington Arch, Hyde Park",0,0,0,0,0,1,0,0,1
+"Wellington Arch, Hyde Park","Albert Gate, Hyde Park","Wellington Arch, Hyde Park to Albert Gate, Hyde Park",0,0,0,0,0,1,0,0,1
+"Belgrove Street , King's Cross","Devonshire Terrace, Bayswater","Belgrove Street , King's Cross to Devonshire Terrace, Bayswater",0,0,0,0,0,1,0,0,1
+"Beaumont Street, Marylebone","Belgrove Street , King's Cross","Beaumont Street, Marylebone to Belgrove Street , King's Cross",0,0,0,0,0,1,0,0,1
+"Wardour Street, Soho","Wellington Road, St. John's Wood","Wardour Street, Soho to Wellington Road, St. John's Wood",0,0,0,0,0,1,0,0,1
+"Southampton Place, Holborn","Russell Square Station, Bloomsbury","Southampton Place, Holborn to Russell Square Station, Bloomsbury",0,0,0,0,0,1,0,0,1
+"Elizabeth Bridge, Victoria","Bishop's Bridge Road West, Bayswater","Elizabeth Bridge, Victoria to Bishop's Bridge Road West, Bayswater",0,0,0,0,0,1,0,0,1
+"Brunswick Square, Bloomsbury","Southampton Place, Holborn","Brunswick Square, Bloomsbury to Southampton Place, Holborn",0,0,0,0,0,2,0,0,2
+"Notting Hill Gate Station, Notting Hill","Phillimore Gardens, Kensington","Notting Hill Gate Station, Notting Hill to Phillimore Gardens, Kensington",0,0,0,0,0,1,0,0,1
+"Wardour Street, Soho","Charlotte Street, Fitzrovia","Wardour Street, Soho to Charlotte Street, Fitzrovia",0,0,0,0,0,1,0,0,1
+"Vicarage Gate, Kensington","Princes Square, Bayswater","Vicarage Gate, Kensington to Princes Square, Bayswater",0,0,0,0,0,1,0,0,1
+"Phillimore Gardens, Kensington","Vicarage Gate, Kensington","Phillimore Gardens, Kensington to Vicarage Gate, Kensington",0,0,0,0,0,1,0,0,1
+"Ilchester Gardens, Bayswater","Notting Hill Gate Station, Notting Hill","Ilchester Gardens, Bayswater to Notting Hill Gate Station, Notting Hill",0,0,0,0,0,1,0,0,1
+"Charlotte Street, Fitzrovia","Belgrove Street , King's Cross","Charlotte Street, Fitzrovia to Belgrove Street , King's Cross",0,0,0,0,0,1,0,0,1
+"Whiteley's, Bayswater","Notting Hill Gate Station, Notting Hill","Whiteley's, Bayswater to Notting Hill Gate Station, Notting Hill",0,0,0,0,0,1,1,0,2
+"Turquoise Island, Notting Hill","Westbourne Grove, Bayswater","Turquoise Island, Notting Hill to Westbourne Grove, Bayswater",0,0,0,0,0,1,0,0,1
+"Southampton Place, Holborn","Cumberland Gate, Hyde Park","Southampton Place, Holborn to Cumberland Gate, Hyde Park",0,0,0,0,0,1,0,0,1
+"Turquoise Island, Notting Hill","Turquoise Island, Notting Hill","Turquoise Island, Notting Hill to Turquoise Island, Notting Hill",0,0,0,0,0,1,0,0,1
+"Cumberland Gate, Hyde Park","Devonshire Terrace, Bayswater","Cumberland Gate, Hyde Park to Devonshire Terrace, Bayswater",0,0,0,0,0,1,0,0,1
+"Turquoise Island, Notting Hill","Albert Gate, Hyde Park","Turquoise Island, Notting Hill to Albert Gate, Hyde Park",0,0,0,0,0,1,0,0,1
+"Royal Avenue 1, Chelsea","Royal Avenue 2, Chelsea","Royal Avenue 1, Chelsea to Royal Avenue 2, Chelsea",0,0,0,0,0,1,0,0,1
+"Royal Avenue 2, Chelsea","Cumberland Gate, Hyde Park","Royal Avenue 2, Chelsea to Cumberland Gate, Hyde Park",0,0,0,0,0,1,0,0,1
+"Gloucester Terrace, Bayswater","Whiteley's, Bayswater","Gloucester Terrace, Bayswater to Whiteley's, Bayswater",0,0,0,0,0,1,3,0,4
+"Black Lion Gate, Kensington Gardens","Westbourne Grove, Bayswater","Black Lion Gate, Kensington Gardens to Westbourne Grove, Bayswater",0,0,0,0,0,1,0,0,1
+"Bishop's Bridge Road East, Bayswater","Belgrove Street , King's Cross","Bishop's Bridge Road East, Bayswater to Belgrove Street , King's Cross",0,0,0,0,0,1,0,0,1
+"Frith Street, Soho","Lancaster Gate , Bayswater","Frith Street, Soho to Lancaster Gate , Bayswater",0,0,0,0,0,1,1,0,2
+"Moor Street, Soho","Speakers' Corner 2, Hyde Park","Moor Street, Soho to Speakers' Corner 2, Hyde Park",0,0,0,0,0,1,0,0,1
+"Great Marlborough Street, Soho","Craven Street, Strand","Great Marlborough Street, Soho to Craven Street, Strand",0,0,0,0,0,1,0,0,1
+"Chelsea Bridge, Pimlico","Butler Place, Westminster","Chelsea Bridge, Pimlico to Butler Place, Westminster",0,0,0,0,0,0,1,0,1
+"Natural History Museum, South Kensington","Royal Avenue 2, Chelsea","Natural History Museum, South Kensington to Royal Avenue 2, Chelsea",0,0,0,0,0,0,1,0,1
+"Broadwick Street, Soho","Whiteley's, Bayswater","Broadwick Street, Soho to Whiteley's, Bayswater",0,0,0,0,0,0,3,0,3
+"Sardinia Street, Holborn","Howland Street, Fitzrovia","Sardinia Street, Holborn to Howland Street, Fitzrovia",0,0,0,0,0,0,1,0,1
+"Tavistock Place, Bloomsbury","Sardinia Street, Holborn","Tavistock Place, Bloomsbury to Sardinia Street, Holborn",0,0,0,0,0,0,1,0,1
+"Southampton Place, Holborn","Bishop's Bridge Road West, Bayswater","Southampton Place, Holborn to Bishop's Bridge Road West, Bayswater",0,0,0,0,0,0,1,0,1
+"Butler Place, Westminster","Devonshire Terrace, Bayswater","Butler Place, Westminster to Devonshire Terrace, Bayswater",0,0,0,0,0,0,1,0,1
+"Royal Avenue 2, Chelsea","Chelsea Bridge, Pimlico","Royal Avenue 2, Chelsea to Chelsea Bridge, Pimlico",0,0,0,0,0,0,1,0,1
+"Howland Street, Fitzrovia","Soho Square , Soho","Howland Street, Fitzrovia to Soho Square , Soho",0,0,0,0,0,0,1,0,1
+"Notting Hill Gate Station, Notting Hill","Natural History Museum, South Kensington","Notting Hill Gate Station, Notting Hill to Natural History Museum, South Kensington",0,0,0,0,0,0,1,0,1
+"Lancaster Gate , Bayswater","Charles II Street, West End","Lancaster Gate , Bayswater to Charles II Street, West End",0,0,0,0,0,0,1,0,1
+"Charles II Street, West End","William IV Street, Strand","Charles II Street, West End to William IV Street, Strand",0,0,0,0,0,0,1,0,1
+"Little Argyll Street, West End","Eastbourne Mews, Paddington","Little Argyll Street, West End to Eastbourne Mews, Paddington",0,0,0,0,0,0,1,0,1
+"Eastbourne Mews, Paddington","Westbourne Grove, Bayswater","Eastbourne Mews, Paddington to Westbourne Grove, Bayswater",0,0,0,0,0,0,1,0,1
+"Westbourne Grove, Bayswater","Gloucester Terrace, Bayswater","Westbourne Grove, Bayswater to Gloucester Terrace, Bayswater",0,0,0,0,0,0,1,0,1
+"Pembridge Villas, Notting Hill","Lancaster Gate , Bayswater","Pembridge Villas, Notting Hill to Lancaster Gate , Bayswater",0,0,0,0,0,0,1,0,1
+"Southampton Place, Holborn","Soho Square , Soho","Southampton Place, Holborn to Soho Square , Soho",0,0,0,0,0,0,1,0,1
+"Westbourne Grove, Bayswater","Butler Place, Westminster","Westbourne Grove, Bayswater to Butler Place, Westminster",0,0,0,0,0,0,1,0,1
+"Butler Place, Westminster","Craven Street, Strand","Butler Place, Westminster to Craven Street, Strand",0,0,0,0,0,0,1,0,1
+"Tavistock Place, Bloomsbury","William IV Street, Strand","Tavistock Place, Bloomsbury to William IV Street, Strand",0,0,0,0,0,0,1,0,1
+"William IV Street, Strand","Moor Street, Soho","William IV Street, Strand to Moor Street, Soho",0,0,0,0,0,0,1,0,1
+"Moor Street, Soho","Cardinal Place, Victoria","Moor Street, Soho to Cardinal Place, Victoria",0,0,0,0,0,0,1,0,1
+"Cardinal Place, Victoria","Gloucester Terrace, Bayswater","Cardinal Place, Victoria to Gloucester Terrace, Bayswater",0,0,0,0,0,0,1,0,1
+"Gloucester Terrace, Bayswater","Charlotte Street, Fitzrovia","Gloucester Terrace, Bayswater to Charlotte Street, Fitzrovia",0,0,0,0,0,0,1,0,1
+"Charlotte Street, Fitzrovia","Russell Square Station, Bloomsbury","Charlotte Street, Fitzrovia to Russell Square Station, Bloomsbury",0,0,0,0,0,0,1,0,1
+"Southampton Place, Holborn","Frith Street, Soho","Southampton Place, Holborn to Frith Street, Soho",0,0,0,0,0,0,1,0,1
+"Gloucester Terrace, Bayswater","Devonshire Terrace, Bayswater","Gloucester Terrace, Bayswater to Devonshire Terrace, Bayswater",0,0,0,0,0,0,1,0,1
+"Lancaster Gate , Bayswater","Old Quebec Street, Marylebone","Lancaster Gate , Bayswater to Old Quebec Street, Marylebone",0,0,0,0,0,0,1,0,1
+"Old Quebec Street, Marylebone","Little Argyll Street, West End","Old Quebec Street, Marylebone to Little Argyll Street, West End",0,0,0,0,0,0,1,0,1
+"Little Argyll Street, West End","Bayswater Road, Hyde Park","Little Argyll Street, West End to Bayswater Road, Hyde Park",0,0,0,0,0,0,1,0,1
+"Bayswater Road, Hyde Park","Westbourne Grove, Bayswater","Bayswater Road, Hyde Park to Westbourne Grove, Bayswater",0,0,0,0,0,0,1,0,1
+"Southampton Place, Holborn","Bayley Street , Bloomsbury","Southampton Place, Holborn to Bayley Street , Bloomsbury",0,0,0,0,0,0,1,0,1
+"Bayley Street , Bloomsbury","Whiteley's, Bayswater","Bayley Street , Bloomsbury to Whiteley's, Bayswater",0,0,0,0,0,0,1,0,1
+"Frith Street, Soho","Bayswater Road, Hyde Park","Frith Street, Soho to Bayswater Road, Hyde Park",0,0,0,0,0,0,1,0,1
+"Bayswater Road, Hyde Park","Gloucester Terrace, Bayswater","Bayswater Road, Hyde Park to Gloucester Terrace, Bayswater",0,0,0,0,0,0,3,0,3
+"Gloucester Terrace, Bayswater","Westbourne Grove, Bayswater","Gloucester Terrace, Bayswater to Westbourne Grove, Bayswater",0,0,0,0,0,0,1,0,1
+"St. John's Wood Church, Regent's Park","Belgrove Street , King's Cross","St. John's Wood Church, Regent's Park to Belgrove Street , King's Cross",0,0,0,0,0,0,1,0,1
+"Bishop's Bridge Road West, Bayswater","Gloucester Terrace, Bayswater","Bishop's Bridge Road West, Bayswater to Gloucester Terrace, Bayswater",0,0,0,0,0,0,1,0,1
+"Whiteley's, Bayswater","Gloucester Terrace, Bayswater","Whiteley's, Bayswater to Gloucester Terrace, Bayswater",0,0,0,0,0,0,1,0,1
+"Lancaster Gate , Bayswater","Lansdowne Walk, Notting Hill","Lancaster Gate , Bayswater to Lansdowne Walk, Notting Hill",0,0,0,0,0,0,1,0,1
+"Lansdowne Walk, Notting Hill","Lancaster Gate , Bayswater","Lansdowne Walk, Notting Hill to Lancaster Gate , Bayswater",0,0,0,0,0,0,1,0,1
+"Belgrove Street , King's Cross","Speakers' Corner 1, Hyde Park","Belgrove Street , King's Cross to Speakers' Corner 1, Hyde Park",0,0,0,0,0,0,1,0,1
+"Speakers' Corner 1, Hyde Park","Whiteley's, Bayswater","Speakers' Corner 1, Hyde Park to Whiteley's, Bayswater",0,0,0,0,0,0,1,0,1
+"Gloucester Terrace, Bayswater","Bishop's Bridge Road West, Bayswater","Gloucester Terrace, Bayswater to Bishop's Bridge Road West, Bayswater",0,0,0,0,0,0,1,0,1
+"Moor Street, Soho","Earnshaw Street , Covent Garden","Moor Street, Soho to Earnshaw Street , Covent Garden",0,0,0,0,0,0,1,0,1
+"Earnshaw Street , Covent Garden","Old Quebec Street, Marylebone","Earnshaw Street , Covent Garden to Old Quebec Street, Marylebone",0,0,0,0,0,0,1,0,1
+"Old Quebec Street, Marylebone","Bishop's Bridge Road West, Bayswater","Old Quebec Street, Marylebone to Bishop's Bridge Road West, Bayswater",0,0,0,0,0,0,1,0,1
+"Black Lion Gate, Kensington Gardens","Hyde Park Corner, Hyde Park","Black Lion Gate, Kensington Gardens to Hyde Park Corner, Hyde Park",0,0,0,0,0,0,1,0,1
+"Hyde Park Corner, Hyde Park","Kennington Road  , Vauxhall","Hyde Park Corner, Hyde Park to Kennington Road  , Vauxhall",0,0,0,0,0,0,1,0,1
+"Geraldine Street, Elephant & Castle","Wellington Street , Strand","Geraldine Street, Elephant & Castle to Wellington Street , Strand",0,0,0,0,0,0,1,0,1
+"Belgrove Street , King's Cross","Sardinia Street, Holborn","Belgrove Street , King's Cross to Sardinia Street, Holborn",0,0,0,0,0,0,1,0,1
+"Sardinia Street, Holborn","Geraldine Street, Elephant & Castle","Sardinia Street, Holborn to Geraldine Street, Elephant & Castle",0,0,0,0,0,0,1,0,1
+"Geraldine Street, Elephant & Castle","Lancaster Gate , Bayswater","Geraldine Street, Elephant & Castle to Lancaster Gate , Bayswater",0,0,0,0,0,0,1,0,1
+"Gloucester Terrace, Bayswater","Ilchester Gardens, Bayswater","Gloucester Terrace, Bayswater to Ilchester Gardens, Bayswater",0,0,0,0,0,0,1,0,1
+"Westbourne Grove, Bayswater","Edgware Road Station, Paddington","Westbourne Grove, Bayswater to Edgware Road Station, Paddington",0,0,0,0,0,0,1,0,1
+"Edgware Road Station, Paddington","Belgrove Street , King's Cross","Edgware Road Station, Paddington to Belgrove Street , King's Cross",0,0,0,0,0,0,1,0,1
+"William IV Street, Strand","Broadwick Street, Soho","William IV Street, Strand to Broadwick Street, Soho",0,0,0,0,0,0,1,0,1
+"Broadwick Street, Soho","Gloucester Terrace, Bayswater","Broadwick Street, Soho to Gloucester Terrace, Bayswater",0,0,0,0,0,0,1,0,1
+"Bishop's Bridge Road East, Bayswater","William IV Street, Strand","Bishop's Bridge Road East, Bayswater to William IV Street, Strand",0,0,0,0,0,0,1,0,1
+"Gloucester Terrace, Bayswater","Gloucester Terrace, Bayswater","Gloucester Terrace, Bayswater to Gloucester Terrace, Bayswater",0,0,0,0,0,0,1,0,1
+"Bishop's Bridge Road East, Bayswater","Russell Square Station, Bloomsbury","Bishop's Bridge Road East, Bayswater to Russell Square Station, Bloomsbury",0,0,0,0,0,0,1,0,1
+"Elizabeth Bridge, Victoria","Kingsway, Covent Garden","Elizabeth Bridge, Victoria to Kingsway, Covent Garden",0,0,0,0,0,0,1,0,1
+"Kingsway, Covent Garden","Belgrove Street , King's Cross","Kingsway, Covent Garden to Belgrove Street , King's Cross",0,0,0,0,0,0,1,0,1
+"Hampstead Road, Euston","Gloucester Terrace, Bayswater","Hampstead Road, Euston to Gloucester Terrace, Bayswater",0,0,0,0,0,0,1,0,1
+"Moor Street, Soho","William IV Street, Strand","Moor Street, Soho to William IV Street, Strand",0,0,0,0,0,0,1,0,1
+"William IV Street, Strand","Earnshaw Street , Covent Garden","William IV Street, Strand to Earnshaw Street , Covent Garden",0,0,0,0,0,0,1,0,1
+"Frith Street, Soho","Charlotte Street, Fitzrovia","Frith Street, Soho to Charlotte Street, Fitzrovia",0,0,0,0,0,0,1,0,1
+"Charlotte Street, Fitzrovia","Broadwick Street, Soho","Charlotte Street, Fitzrovia to Broadwick Street, Soho",0,0,0,0,0,0,1,0,1
+"Wardour Street, Soho","Craven Street, Strand","Wardour Street, Soho to Craven Street, Strand",0,0,0,0,0,0,3,0,3
+"William IV Street, Strand","Wellington Street , Strand","William IV Street, Strand to Wellington Street , Strand",0,0,0,0,0,0,1,0,1
+"William IV Street, Strand","William IV Street, Strand","William IV Street, Strand to William IV Street, Strand",0,0,0,0,0,0,1,0,1
+"William IV Street, Strand","Craven Street, Strand","William IV Street, Strand to Craven Street, Strand",0,0,0,0,0,0,1,1,2
+"William IV Street, Strand","Whitehall Place, Strand","William IV Street, Strand to Whitehall Place, Strand",0,0,0,0,0,0,1,0,1
+"William IV Street, Strand","Westbourne Grove, Bayswater","William IV Street, Strand to Westbourne Grove, Bayswater",0,0,0,0,0,0,1,0,1
+"Westbourne Grove, Bayswater","William IV Street, Strand","Westbourne Grove, Bayswater to William IV Street, Strand",0,0,0,0,0,0,1,0,1
+"Great Russell Street, Bloomsbury","Westminster University, Marylebone","Great Russell Street, Bloomsbury to Westminster University, Marylebone",0,0,0,0,0,0,1,0,1
+"Westminster University, Marylebone","Belgrove Street , King's Cross","Westminster University, Marylebone to Belgrove Street , King's Cross",0,0,0,0,0,0,1,0,1
+"Soho Square , Soho","Paddington Street, Marylebone","Soho Square , Soho to Paddington Street, Marylebone",0,0,0,0,0,0,1,0,1
+"Paddington Street, Marylebone","George Street, Marylebone","Paddington Street, Marylebone to George Street, Marylebone",0,0,0,0,0,0,1,0,1
+"George Street, Marylebone","Belgrove Street , King's Cross","George Street, Marylebone to Belgrove Street , King's Cross",0,0,0,0,0,0,1,0,1
+"British Museum, Bloomsbury","Russell Square Station, Bloomsbury","British Museum, Bloomsbury to Russell Square Station, Bloomsbury",0,0,0,0,0,0,1,0,1
+"Brunswick Square, Bloomsbury","Drury Lane, Covent Garden","Brunswick Square, Bloomsbury to Drury Lane, Covent Garden",0,0,0,0,0,0,1,0,1
+"Drury Lane, Covent Garden","William IV Street, Strand","Drury Lane, Covent Garden to William IV Street, Strand",0,0,0,0,0,0,0,1,1
+"Brunswick Square, Bloomsbury","Wardour Street, Soho","Brunswick Square, Bloomsbury to Wardour Street, Soho",0,0,0,0,0,0,0,1,1
+"Craven Street, Strand","Charles II Street, West End","Craven Street, Strand to Charles II Street, West End",0,0,0,0,0,0,0,1,1
+"St. Martin's Street, West End","Russell Square Station, Bloomsbury","St. Martin's Street, West End to Russell Square Station, Bloomsbury",0,0,0,0,0,0,0,1,1
+"Brunswick Square, Bloomsbury","Earnshaw Street , Covent Garden","Brunswick Square, Bloomsbury to Earnshaw Street , Covent Garden",0,0,0,0,0,0,0,1,1
+"Earnshaw Street , Covent Garden","Panton Street, West End","Earnshaw Street , Covent Garden to Panton Street, West End",0,0,0,0,0,0,0,1,1
+"Wardour Street, Soho","Tavistock Place, Bloomsbury","Wardour Street, Soho to Tavistock Place, Bloomsbury",0,0,0,0,0,0,0,1,1

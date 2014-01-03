@@ -25,6 +25,10 @@ http://www.tfl.gov.uk/tfl/businessandpartners/syndication/feed.aspx?email=jim@ja
 
 cat inputs/boris_station_snapshot.xml | ./parse_stations.rb outputs/boris_stations.csv
 
+## Generate ranked list of customers (for filtering)
+
+awk -F"," '{print $4}' inputs/csv/*.csv | sort | uniq -c | sort > outputs/riders/top_customer.ids
+
 ## Prepare data for Gephi
 
 - Load CSV of journeys into excel
