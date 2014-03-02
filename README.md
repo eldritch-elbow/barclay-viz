@@ -7,8 +7,8 @@ http://www.tfl.gov.uk/tfl/businessandpartners/syndication/feed.aspx?email=jim@ja
 
 ## Pre-processing steps
 
-- Extract raw data...
-- CSV conversion: use Excel to load, then save as CSV
+- Extract raw data.
+- CSV conversion: use Excel to load, then save as CSV.
 - You may end up with Excel default line endings (^M in vim); convert using:
 
     tr "\r" "\n"  
@@ -31,12 +31,11 @@ awk -F"," '{print $4}' inputs/csv/*.csv | sort | uniq -c | sort > outputs/riders
 
 ## Prepare data for Gephi
 
-- Load CSV of journeys into excel
+- Load CSV of journeys into your Spreadsheet software
 - Filter down to manageable set (e.g. top 2k / popular routes; eliminate missing bikes)
 - Create edge table: 'Source', 'Target', 'Weight' columns. Store for use in Gephi.
 - Copy boris station list for Gephi use
 - If Source and Target are station names (rather than IDs), change 'name' column name to 'id' in the node list
-
 
 ## Import data into Gephi
 
