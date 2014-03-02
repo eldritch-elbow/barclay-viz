@@ -3,13 +3,13 @@ barclay-viz
 
 ## Where to find the raw data
 
-http://www.tfl.gov.uk/tfl/businessandpartners/syndication/feed.aspx?email=jim@jamessiddle.net&feedId=21
+http://www.tfl.gov.uk/tfl/businessandpartners/syndication/feed.aspx?email=dataviz@jamessiddle.net&feedId=21
 
 ## Pre-processing steps
 
 - Extract raw data.
 - CSV conversion: use Excel to load, then save as CSV.
-- You may end up with Excel default line endings (^M in vim); convert using:
+- You may end up with Excel default line endings (^M in vim); convert in Linux/Mac OS using:
 
     tr "\r" "\n"  
 
@@ -43,9 +43,14 @@ awk -F"," '{print $4}' inputs/csv/*.csv | sort | uniq -c | sort > outputs/riders
 - Import spreadsheet - straight edge table
 - Import spreadsheet - node list
 - Check for duplicates (sort by name, look for blank lat/long)
+- Generate labels (copy using regex). Step 1 == ',.*$' ... Step 2 == '[^,].*' 
 
 ## Visualize
 
 - Apply edge and node ranking ...
 - Apply clustering, then use to partition ...
+
+## Notes
+
+Labels in the areas vizualization have been merged for consistency.
 
