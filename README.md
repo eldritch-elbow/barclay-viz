@@ -8,10 +8,12 @@ http://www.tfl.gov.uk/tfl/businessandpartners/syndication/feed.aspx?email=datavi
 ## Pre-processing steps
 
 - Extract raw data.
-- CSV conversion: use Excel to load, then save as CSV.
+- CSV conversion: use Excel or LibreOffice to load, then save as CSV.
 - You may end up with Excel default line endings (^M in vim); convert in Linux/Mac OS using:
 
     tr "\r" "\n"  
+
+- When building an aggregated dataset, remember to strip headers from the CSV files
 
 ## Summarize journeys
 
