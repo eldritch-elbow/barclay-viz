@@ -284,8 +284,6 @@ INSERT INTO stations ( logical_terminal, full_name ) VALUES( '1127', 'Risinghill
 ;
 INSERT INTO stations ( logical_terminal, full_name ) VALUES( '1128', 'New North Road 1, Hoxton')
 ;
-INSERT INTO stations ( logical_terminal, full_name ) VALUES( '1129', 'Marylebone Flyover, Paddington')
-;
 INSERT INTO stations ( logical_terminal, full_name ) VALUES( '1129', 'Paddington Green Police Station, Paddington')
 ;
 INSERT INTO stations ( logical_terminal, full_name ) VALUES( '1130', 'Grove End Road, St. John''s Wood')
@@ -402,8 +400,6 @@ INSERT INTO stations ( logical_terminal, full_name ) VALUES( '1186', 'Belvedere 
 ;
 INSERT INTO stations ( logical_terminal, full_name ) VALUES( '1187', 'St. John''s Wood Road, St. John''s Wood')
 ;
-INSERT INTO stations ( logical_terminal, full_name ) VALUES( '1188', 'Gloucester Slips Car Park, Regent''s Park')
-;
 INSERT INTO stations ( logical_terminal, full_name ) VALUES( '1188', 'London Zoo Car Park, Regent''s Park')
 ;
 INSERT INTO stations ( logical_terminal, full_name ) VALUES( '1189', 'Long Lane , Bermondsey')
@@ -456,7 +452,11 @@ INSERT INTO stations ( logical_terminal, full_name ) VALUES( '1213', 'Curlew Str
 ;
 INSERT INTO stations ( logical_terminal, full_name ) VALUES( '1214', 'Kensington Olympia Station, Olympia')
 ;
-INSERT INTO stations ( logical_terminal, full_name ) VALUES( '1215', 'Knaresborough Place, Earl''s Court')
+
+# This label appears with a different logical ID in the downloaded station list.
+# Editing here to ensure logical terminal can be used.
+
+INSERT INTO stations ( logical_terminal, full_name ) VALUES( '1215', 'Knaresborough Place (t''other), Earl''s Court')
 ;
 INSERT INTO stations ( logical_terminal, full_name ) VALUES( '1216', 'Swan Street, The Borough')
 ;
@@ -545,8 +545,6 @@ INSERT INTO stations ( logical_terminal, full_name ) VALUES( '200031', 'East Fer
 INSERT INTO stations ( logical_terminal, full_name ) VALUES( '200032', 'Kennington Oval, Oval')
 ;
 INSERT INTO stations ( logical_terminal, full_name ) VALUES( '200033', 'Philpot Street, Whitechapel')
-;
-INSERT INTO stations ( logical_terminal, full_name ) VALUES( '200034', 'Wapping Lane 2, Wapping')
 ;
 INSERT INTO stations ( logical_terminal, full_name ) VALUES( '200034', 'Wapping Lane, Wapping')
 ;
@@ -793,8 +791,6 @@ INSERT INTO stations ( logical_terminal, full_name ) VALUES( '22165', 'Fisherman
 INSERT INTO stations ( logical_terminal, full_name ) VALUES( '22166', 'Albert Gardens, Stepney')
 ;
 INSERT INTO stations ( logical_terminal, full_name ) VALUES( '22167', 'Millharbour, Millwall')
-;
-INSERT INTO stations ( logical_terminal, full_name ) VALUES( '22168', '6')
 ;
 INSERT INTO stations ( logical_terminal, full_name ) VALUES( '22168', 'Mechanical Workshop PS')
 ;
@@ -1154,7 +1150,11 @@ INSERT INTO stations ( logical_terminal, full_name ) VALUES( '998', 'Lollard Str
 ;
 INSERT INTO stations ( logical_terminal, full_name ) VALUES( '999', 'Queen Street, Bank')
 ;
-INSERT INTO stations ( logical_terminal, full_name ) VALUES( '999999900', 'NA')
+
+# Station records for dodgy terminal IDs
+# These appear as 'Tabletop1' and 'NA' logical terminal IDs in the source
+
+INSERT INTO stations ( logical_terminal, full_name) VALUES( '-1', 'NA')
 ;
-INSERT INTO stations ( logical_terminal, full_name ) VALUES( '999999901', 'tabletop1')
+INSERT INTO stations ( logical_terminal, full_name) VALUES( '-2', 'tabletop1')
 ;

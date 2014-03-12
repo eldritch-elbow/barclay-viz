@@ -1440,9 +1440,3 @@ INSERT INTO stations ( logical_terminal, full_name, latitude, longitude ) VALUES
 ;
 INSERT INTO stations ( logical_terminal, full_name, latitude, longitude ) VALUES( '300006', 'Hammersmith Town Hall, Hammersmith', '51.49263658', '-0.234094148')
 ;
-INSERT INTO stations ( logical_terminal, full_name, latitude, longitude ) VALUES( '0', 'NA, NA', '0', '0')
-;
-INSERT INTO stations ( logical_terminal, full_name, latitude, longitude ) VALUES( '-1', 'NA', '0', '0')
-;
-INSERT INTO stations ( logical_terminal, full_name, latitude, longitude ) VALUES( '-2', 'tabletop1', '0', '0')
-;
