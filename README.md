@@ -45,12 +45,14 @@ Option 2 yields a number of duplicate names, which are rejected on DB insertion.
 * Wapping Lane 2 -> Wapping Lane
 * 6 -> Mechanical Workshop PS
 
-As such, Option 1 may be the better choice. 
-
 Comparing a sample of 10 records between the two suggests the downloaded source can be used reliably as a list of logical terminal IDs. However it should be augmented with additional records from source data, such as `NA`, `0`, `Tabletop1`.
 
 9. Load into the DB (use SQL workbench or similar) 
 
+1. `mysql -utfl -f tfl_bike < stations.downloaded.sql`
+2. `mysql -utfl -f tfl_bike < stations.source.sql`
+
+Duplicates will be filtered from the second file by the 'force' option.
 
 ### Generate journey data
 
@@ -64,11 +66,13 @@ Comparing a sample of 10 records between the two suggests the downloaded source 
 
 `csvfix edit -f 7,12 -e "s|\(.*\)|STR_TO_DATE('\1', '%e/%c/%Y %T')|" aggregated_data.02.fixed.csv > aggregated_data.03.date_func.csv`
 
-3. Use csvfix to generate SQL statements.
+4. Use csvfix to generate SQL statements.
 
 `csvfix sql_insert -t journeys -f 1:rental_id,2:billable_duration,3:duration,4:customer_record_number,5:subscription_id,6:bike_id,7:end_timestamp,8:end_station_id,9:end_station_logical_term,11:end_station_priority_id,12:start_timestamp,13:start_station_id,14:start_station_logical_term,16:start_station_priority_id,17:end_hour_category_id,18:start_hour_category_id,19:bike_user_type_id -nq 7,11 aggregated_data.03.date_func.csv > aggregated_data.import.sql`
 
-4. Load into the DB
+5. Load into the DB
+
+`mysql -utfl -f tfl_bike < aggregated_data.import.sql > import.out 2>&1 &`
 
 ### CSV hacks
 
