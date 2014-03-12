@@ -1,7 +1,7 @@
 
 DROP TABLE IF EXISTS journeys;
 DROP TABLE IF EXISTS stations;
-
+ 
 CREATE TABLE stations (
   logical_terminal INTEGER NOT NULL,  
   street_name VARCHAR(100),
