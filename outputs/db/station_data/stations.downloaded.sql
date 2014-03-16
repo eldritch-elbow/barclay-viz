@@ -1440,3 +1440,24 @@ INSERT INTO stations ( logical_terminal, full_name, latitude, longitude ) VALUES
 ;
 INSERT INTO stations ( logical_terminal, full_name, latitude, longitude ) VALUES( '300006', 'Hammersmith Town Hall, Hammersmith', '51.49263658', '-0.234094148')
 ;
+
+# Historical stations, composed from source data + automated dock monitor site
+
+INSERT INTO stations ( logical_terminal, full_name, latitude, longitude ) VALUES( '972', 'Hampstead Road, Euston', '51.52554222', '-0.138231303' )
+;
+INSERT INTO stations ( logical_terminal, full_name, latitude, longitude ) VALUES( '1165', 'Milford Lane, Temple', '51.51201016', '-0.112988179' )
+;
+INSERT INTO stations ( logical_terminal, full_name, latitude, longitude ) VALUES( '1185', 'Royal Mews, Victoria', '51.49796594', '-0.143822338' )
+;
+INSERT INTO stations ( logical_terminal, full_name, latitude, longitude ) VALUES( '1197', 'Sackville Street, Mayfair', '51.51004801', '-0.138846453' )
+;
+INSERT INTO stations ( logical_terminal, full_name, latitude, longitude ) VALUES( '1215', 'Knaresborough Place (t\'other), Earl\'s Court', '51.49363156', '-0.190603326' )
+;
+INSERT INTO stations ( logical_terminal, full_name, latitude, longitude ) VALUES( '3455', 'Wansey Street, Walworth', '51.49118143', '-0.097146479' )
+;
+INSERT INTO stations ( logical_terminal, full_name, latitude, longitude ) VALUES( '200044', 'New Fetter Lane, Holborn', '51.517428', '-0.107987' )
+;
+
+
+
+

@@ -78,6 +78,12 @@
 		"longitude" : -0.0991414
 	},
 	{
+		"logical_terminal" : 972,
+		"full_name" : "Hampstead Road, Euston",
+		"latitude" : 51.5255,
+		"longitude" : -0.138231
+	},
+	{
 		"logical_terminal" : 973,
 		"full_name" : "Bethnal Green Road, Shoreditch",
 		"latitude" : 51.5236,
@@ -1224,6 +1230,12 @@
 		"longitude" : -0.145212
 	},
 	{
+		"logical_terminal" : 1165,
+		"full_name" : "Milford Lane, Temple",
+		"latitude" : 51.512,
+		"longitude" : -0.112988
+	},
+	{
 		"logical_terminal" : 1166,
 		"full_name" : "Bell Street , Marylebone",
 		"latitude" : 51.522,
@@ -1332,6 +1344,12 @@
 		"longitude" : -0.0806601
 	},
 	{
+		"logical_terminal" : 1185,
+		"full_name" : "Royal Mews, Victoria",
+		"latitude" : 51.498,
+		"longitude" : -0.143822
+	},
+	{
 		"logical_terminal" : 1186,
 		"full_name" : "Belvedere Road, South Bank",
 		"latitude" : 51.5061,
@@ -1396,6 +1414,12 @@
 		"full_name" : "Vincent Square, Westminster",
 		"latitude" : 51.494,
 		"longitude" : -0.136929
+	},
+	{
+		"logical_terminal" : 1197,
+		"full_name" : "Sackville Street, Mayfair",
+		"latitude" : 51.51,
+		"longitude" : -0.138846
 	},
 	{
 		"logical_terminal" : 1199,
@@ -1492,6 +1516,12 @@
 		"full_name" : "Kensington Olympia Station, Olympia",
 		"latitude" : 51.4982,
 		"longitude" : -0.209494
+	},
+	{
+		"logical_terminal" : 1215,
+		"full_name" : "Knaresborough Place (t'other), Earl's Court",
+		"latitude" : 51.4936,
+		"longitude" : -0.190603
 	},
 	{
 		"logical_terminal" : 1216,
@@ -2026,6 +2056,12 @@
 		"full_name" : "Denyer Street, Knightsbridge",
 		"latitude" : 51.4936,
 		"longitude" : -0.165101
+	},
+	{
+		"logical_terminal" : 3455,
+		"full_name" : "Wansey Street, Walworth",
+		"latitude" : 51.4912,
+		"longitude" : -0.0971465
 	},
 	{
 		"logical_terminal" : 3456,
@@ -2794,6 +2830,12 @@
 		"full_name" : "Bishop's Avenue, Fulham",
 		"latitude" : 51.473,
 		"longitude" : -0.21475
+	},
+	{
+		"logical_terminal" : 200044,
+		"full_name" : "New Fetter Lane, Holborn",
+		"latitude" : 51.5174,
+		"longitude" : -0.107987
 	},
 	{
 		"logical_terminal" : 200045,
