@@ -2,7 +2,7 @@
 var map = null;
 var map_elements = null;
 
-function create_map(jny_threshold) {
+function update_map(jny_threshold) {
 
 	/* Create the map */
 	if (!map) {
@@ -139,11 +139,15 @@ $(document).ready(function(){
 
 	var threshold = $( "#jny_threshold" ).spinner();
 
-	$( "#refresh" ).click(function() {
-	  create_map( threshold.spinner( "value" ) );
+	$('.ui-spinner-button').click(function() {
+	   $(this).siblings('input').change();
 	});
 
-	create_map(1);
+	threshold.change( function() {
+		update_map( threshold.spinner( "value" ) );
+	});
+
+	update_map(1);
 
 })
 
