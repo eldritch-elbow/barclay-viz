@@ -1,24 +1,27 @@
 
 var map = null;
+var map_elements = null;
 
 function create_map(jny_threshold) {
 
-	if (map) {
-		map.remove();
+	/* Create the map */
+	if (!map) {
+		map = L.map('map').setView([51.5211, -0.0988698], 13);
+
+		/* Create a tile layer based on cloudmade */
+		L.tileLayer('http://{s}.tile.cloudmade.com/8EE2A50541944FB9BCEDDED5165F09D9/997/256/{z}/{x}/{y}.png', {
+			attribution: 
+				'Map data &copy; '+
+				'<a href="http://openstreetmap.org">OpenStreetMap</a> contributors, '+
+				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, '+
+				'Imagery © <a href="http://cloudmade.com">CloudMade</a>',
+			maxZoom: 18})
+		.addTo(map);
+
 	}
 
-	/* Create the map */
-	map = L.map('map').setView([51.5211, -0.0988698], 13);
-
-	/* Create a tile layer based on cloudmade */
-	L.tileLayer('http://{s}.tile.cloudmade.com/8EE2A50541944FB9BCEDDED5165F09D9/997/256/{z}/{x}/{y}.png', {
-		attribution: 
-			'Map data &copy; '+
-			'<a href="http://openstreetmap.org">OpenStreetMap</a> contributors, '+
-			'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, '+
-			'Imagery © <a href="http://cloudmade.com">CloudMade</a>',
-		maxZoom: 18})
-	.addTo(map);
+	/* Create a layer group for additional elements*/
+	var fresh_map_elements = L.layerGroup();
 
 	/* Create objects to hold stations and journey summaries */
 	stations = {}
@@ -87,13 +90,14 @@ function create_map(jny_threshold) {
 
 				var polyline = L.polyline(
 					latlngs, 
-					{color: 'red', weight: journey.counts.total} )
-				.addTo(map);
+					{color: 'blue', weight: journey.counts.total} );
 
 				polyline.bindPopup(
 					"<b>" + station_a.full_name + "</b> / <br><b>" + station_b.full_name + "</b><br>" +
 					journey.counts.total   + " journeys<br>" + 
 					Math.ceil( (journey.total_duration / journey.counts.total) / 60 ) + " minutes (avg)");
+
+				fresh_map_elements.addLayer(polyline);
 			});
 
 			/* Render stations */
@@ -106,19 +110,24 @@ function create_map(jny_threshold) {
 
 				var marker = L.circleMarker(
 					[station.latitude, station.longitude], 
-					{color: 'darkred', fillColor: 'darkred', fillOpacity: 0.5, radius: 3 })
-				.addTo(map);
+					{color: 'black', fillColor: 'black', fillOpacity: 0.8, radius: 3 });
 				marker.bindPopup("<b>" + station.full_name + "</b>");
 
 				new_bounds.push( [station.latitude, station.longitude] );
-				
+
+				fresh_map_elements.addLayer(marker);			
 			});
 
-			map.fitBounds(new_bounds, {padding: [30,30]});
+			/* Everything is ready ... display */
+			map.addLayer(fresh_map_elements);
+			if (map_elements) {
+				map.removeLayer(map_elements);
+			}
+			map_elements = fresh_map_elements;
+			map.fitBounds(new_bounds, {padding: [40,40]});
 
 
 		});
-
 
 			
 	});
