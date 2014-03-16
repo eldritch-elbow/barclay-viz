@@ -37,7 +37,7 @@ $.getJSON( "assets/stations.json", function( station_data ) {
 
 		$.each( journey_data, function( key, journey ) {
 		
-		console.log(journey);
+		//console.log(journey);
 			start = journey.start_station_logical_term;
 			end = journey.end_station_logical_term;
 
@@ -121,13 +121,63 @@ $.getJSON( "assets/stations.json", function( station_data ) {
 
 }
 
+var start_seconds = 0;
+var end_seconds = 0;
+
+function slideTime(event, ui){
+    start_seconds = $("#slider-range").slider("values", 0);
+    end_seconds = $("#slider-range").slider("values", 1);
+
+    var minutes0 = parseInt(start_seconds % 60, 10),
+        hours0 = parseInt(start_seconds / 60 % 24, 10),
+        minutes1 = parseInt(end_seconds % 60, 10),
+        hours1 = parseInt(end_seconds / 60 % 24, 10);
+
+    startTime = getTime(hours0, minutes0);
+    endTime = getTime(hours1, minutes1);
+
+    $("#time").text(startTime + ' - ' + endTime);
+}
+
+function getTime(hours, minutes) {
+    var time = null;
+    minutes = minutes + "";
+    if (hours < 12) {
+        time = "AM";
+    }
+    else {
+        time = "PM";
+    }
+    if (hours == 0) {
+        hours = 12;
+    }
+    if (hours > 12) {
+        hours = hours - 12;
+    }
+    if (minutes.length == 1) {
+        minutes = "0" + minutes;
+    }
+    return hours + ":" + minutes + " " + time;
+}
 
 $(document).ready(function(){
 
 	var threshold = $( "#jny_threshold" ).spinner();
 
+    $("#slider-range").slider({
+        range: true,
+        min: 0,
+        max: 1439,
+        values: [540, 1020],
+        step:5,
+        slide: slideTime
+    });
+
 	$( "#refresh" ).click(function() {
 	  create_map( threshold.spinner( "value" ) );
+
+	  console.log(start_seconds + " : " + end_seconds);
+
 	});
 
 	create_map(1);
