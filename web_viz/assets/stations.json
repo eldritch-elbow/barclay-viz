@@ -1,0 +1,4328 @@
+[
+	{
+		"logical_terminal" : 959,
+		"full_name" : "Milroy Walk, South Bank",
+		"latitude" : 51.5072,
+		"longitude" : -0.106238
+	},
+	{
+		"logical_terminal" : 960,
+		"full_name" : "Hop Exchange, The Borough",
+		"latitude" : 51.5046,
+		"longitude" : -0.0917738
+	},
+	{
+		"logical_terminal" : 961,
+		"full_name" : "Union Street, The Borough",
+		"latitude" : 51.5037,
+		"longitude" : -0.0984977
+	},
+	{
+		"logical_terminal" : 962,
+		"full_name" : "Stamford Street, South Bank",
+		"latitude" : 51.5056,
+		"longitude" : -0.111607
+	},
+	{
+		"logical_terminal" : 963,
+		"full_name" : "Bankside Mix, Bankside",
+		"latitude" : 51.5058,
+		"longitude" : -0.100186
+	},
+	{
+		"logical_terminal" : 964,
+		"full_name" : "Bath Street, St. Luke's",
+		"latitude" : 51.5259,
+		"longitude" : -0.0908478
+	},
+	{
+		"logical_terminal" : 965,
+		"full_name" : "Tachbrook Street, Victoria",
+		"latitude" : 51.4921,
+		"longitude" : -0.138365
+	},
+	{
+		"logical_terminal" : 966,
+		"full_name" : "New Kent Road, Borough",
+		"latitude" : 51.4944,
+		"longitude" : -0.0929212
+	},
+	{
+		"logical_terminal" : 967,
+		"full_name" : "Golden Lane, Barbican",
+		"latitude" : 51.5217,
+		"longitude" : -0.0944751
+	},
+	{
+		"logical_terminal" : 968,
+		"full_name" : "Cardinal Place, Victoria",
+		"latitude" : 51.4977,
+		"longitude" : -0.141944
+	},
+	{
+		"logical_terminal" : 969,
+		"full_name" : "Gower Place , Euston",
+		"latitude" : 51.5252,
+		"longitude" : -0.135189
+	},
+	{
+		"logical_terminal" : 970,
+		"full_name" : "Scala Street, Fitzrovia",
+		"latitude" : 51.5199,
+		"longitude" : -0.13604
+	},
+	{
+		"logical_terminal" : 971,
+		"full_name" : "Godliman Street, St. Paul's",
+		"latitude" : 51.5125,
+		"longitude" : -0.0991414
+	},
+	{
+		"logical_terminal" : 973,
+		"full_name" : "Bethnal Green Road, Shoreditch",
+		"latitude" : 51.5236,
+		"longitude" : -0.0747549
+	},
+	{
+		"logical_terminal" : 974,
+		"full_name" : "Guilford Street , Bloomsbury",
+		"latitude" : 51.5233,
+		"longitude" : -0.120203
+	},
+	{
+		"logical_terminal" : 975,
+		"full_name" : "Theobalds Road , Holborn",
+		"latitude" : 51.5206,
+		"longitude" : -0.116688
+	},
+	{
+		"logical_terminal" : 976,
+		"full_name" : "Longford Street, Regent's Park",
+		"latitude" : 51.5256,
+		"longitude" : -0.144084
+	},
+	{
+		"logical_terminal" : 977,
+		"full_name" : "Speakers' Corner 1, Hyde Park",
+		"latitude" : 51.5122,
+		"longitude" : -0.160785
+	},
+	{
+		"logical_terminal" : 978,
+		"full_name" : "Russell Square Station, Bloomsbury",
+		"latitude" : 51.5234,
+		"longitude" : -0.124122
+	},
+	{
+		"logical_terminal" : 979,
+		"full_name" : "Wenlock Road , Hoxton",
+		"latitude" : 51.531,
+		"longitude" : -0.0939038
+	},
+	{
+		"logical_terminal" : 980,
+		"full_name" : "Malet Street, Bloomsbury",
+		"latitude" : 51.5217,
+		"longitude" : -0.130432
+	},
+	{
+		"logical_terminal" : 981,
+		"full_name" : "British Museum, Bloomsbury",
+		"latitude" : 51.5191,
+		"longitude" : -0.124678
+	},
+	{
+		"logical_terminal" : 982,
+		"full_name" : "Holborn Circus, Holborn",
+		"latitude" : 51.518,
+		"longitude" : -0.108657
+	},
+	{
+		"logical_terminal" : 983,
+		"full_name" : "Euston Road, Euston",
+		"latitude" : 51.5262,
+		"longitude" : -0.134408
+	},
+	{
+		"logical_terminal" : 984,
+		"full_name" : "Finsbury Circus, Liverpool Street",
+		"latitude" : 51.5171,
+		"longitude" : -0.0866855
+	},
+	{
+		"logical_terminal" : 985,
+		"full_name" : "Hatton Garden, Holborn",
+		"latitude" : 51.5188,
+		"longitude" : -0.108028
+	},
+	{
+		"logical_terminal" : 986,
+		"full_name" : "Finsbury Library , Finsbury",
+		"latitude" : 51.5267,
+		"longitude" : -0.104298
+	},
+	{
+		"logical_terminal" : 988,
+		"full_name" : "Great Russell Street, Bloomsbury",
+		"latitude" : 51.5177,
+		"longitude" : -0.127854
+	},
+	{
+		"logical_terminal" : 989,
+		"full_name" : "Murray Grove , Hoxton",
+		"latitude" : 51.5309,
+		"longitude" : -0.0897826
+	},
+	{
+		"logical_terminal" : 990,
+		"full_name" : "Cotton Garden Estate, Kennington",
+		"latitude" : 51.4908,
+		"longitude" : -0.106324
+	},
+	{
+		"logical_terminal" : 991,
+		"full_name" : "Crosswall, Tower",
+		"latitude" : 51.5116,
+		"longitude" : -0.0771213
+	},
+	{
+		"logical_terminal" : 992,
+		"full_name" : "St. John Street, Finsbury",
+		"latitude" : 51.5284,
+		"longitude" : -0.104725
+	},
+	{
+		"logical_terminal" : 993,
+		"full_name" : "Drummond Street , Euston",
+		"latitude" : 51.5277,
+		"longitude" : -0.135273
+	},
+	{
+		"logical_terminal" : 994,
+		"full_name" : "Tanner Street, Bermondsey",
+		"latitude" : 51.5006,
+		"longitude" : -0.0786004
+	},
+	{
+		"logical_terminal" : 995,
+		"full_name" : "Little Argyll Street, West End",
+		"latitude" : 51.5145,
+		"longitude" : -0.141424
+	},
+	{
+		"logical_terminal" : 996,
+		"full_name" : "Borough High Street, The Borough",
+		"latitude" : 51.5007,
+		"longitude" : -0.0945243
+	},
+	{
+		"logical_terminal" : 997,
+		"full_name" : "Appold Street, Liverpool Street",
+		"latitude" : 51.5217,
+		"longitude" : -0.0811189
+	},
+	{
+		"logical_terminal" : 998,
+		"full_name" : "Lollard Street, Vauxhall",
+		"latitude" : 51.4929,
+		"longitude" : -0.114934
+	},
+	{
+		"logical_terminal" : 999,
+		"full_name" : "Queen Street, Bank",
+		"latitude" : 51.5116,
+		"longitude" : -0.0929401
+	},
+	{
+		"logical_terminal" : 1000,
+		"full_name" : "Vauxhall Cross, Vauxhall",
+		"latitude" : 51.4859,
+		"longitude" : -0.12447
+	},
+	{
+		"logical_terminal" : 1001,
+		"full_name" : "West Cromwell Road, Earl's Court",
+		"latitude" : 51.4937,
+		"longitude" : -0.198287
+	},
+	{
+		"logical_terminal" : 1002,
+		"full_name" : "Holy Trinity Brompton, Knightsbridge",
+		"latitude" : 51.4971,
+		"longitude" : -0.168917
+	},
+	{
+		"logical_terminal" : 1003,
+		"full_name" : "Chapel Place, Marylebone",
+		"latitude" : 51.5153,
+		"longitude" : -0.147204
+	},
+	{
+		"logical_terminal" : 1004,
+		"full_name" : "Doric Way , Somers Town",
+		"latitude" : 51.5288,
+		"longitude" : -0.13225
+	},
+	{
+		"logical_terminal" : 1005,
+		"full_name" : "Eversholt Street , Camden Town",
+		"latitude" : 51.533,
+		"longitude" : -0.136793
+	},
+	{
+		"logical_terminal" : 1006,
+		"full_name" : "Bayley Street , Bloomsbury",
+		"latitude" : 51.5186,
+		"longitude" : -0.132053
+	},
+	{
+		"logical_terminal" : 1007,
+		"full_name" : "Drury Lane, Covent Garden",
+		"latitude" : 51.5148,
+		"longitude" : -0.12222
+	},
+	{
+		"logical_terminal" : 1008,
+		"full_name" : "Hatton Wall, Holborn",
+		"latitude" : 51.5217,
+		"longitude" : -0.109006
+	},
+	{
+		"logical_terminal" : 1009,
+		"full_name" : "Taviton Street, Bloomsbury",
+		"latitude" : 51.5251,
+		"longitude" : -0.131161
+	},
+	{
+		"logical_terminal" : 1010,
+		"full_name" : "Cartwright Gardens , Bloomsbury",
+		"latitude" : 51.5264,
+		"longitude" : -0.125979
+	},
+	{
+		"logical_terminal" : 1011,
+		"full_name" : "Belgrove Street , King's Cross",
+		"latitude" : 51.5299,
+		"longitude" : -0.123617
+	},
+	{
+		"logical_terminal" : 1012,
+		"full_name" : "Christopher Street, Liverpool Street",
+		"latitude" : 51.5213,
+		"longitude" : -0.0846057
+	},
+	{
+		"logical_terminal" : 1013,
+		"full_name" : "St. Chad's Street, King's Cross",
+		"latitude" : 51.5301,
+		"longitude" : -0.120974
+	},
+	{
+		"logical_terminal" : 1014,
+		"full_name" : "Rodney Street, Angel",
+		"latitude" : 51.5318,
+		"longitude" : -0.114329
+	},
+	{
+		"logical_terminal" : 1015,
+		"full_name" : "New Globe Walk, Bankside",
+		"latitude" : 51.5074,
+		"longitude" : -0.0964407
+	},
+	{
+		"logical_terminal" : 1016,
+		"full_name" : "Hereford Road, Bayswater",
+		"latitude" : 51.5137,
+		"longitude" : -0.193487
+	},
+	{
+		"logical_terminal" : 1017,
+		"full_name" : "Great Dover Street, Borough",
+		"latitude" : 51.4974,
+		"longitude" : -0.0894469
+	},
+	{
+		"logical_terminal" : 1018,
+		"full_name" : "Phillimore Gardens, Kensington",
+		"latitude" : 51.4996,
+		"longitude" : -0.197574
+	},
+	{
+		"logical_terminal" : 1019,
+		"full_name" : "Ampton Street , Clerkenwell",
+		"latitude" : 51.5273,
+		"longitude" : -0.118295
+	},
+	{
+		"logical_terminal" : 1020,
+		"full_name" : "Leonard Circus , Shoreditch",
+		"latitude" : 51.5247,
+		"longitude" : -0.0844393
+	},
+	{
+		"logical_terminal" : 1021,
+		"full_name" : "Bouverie Street, Temple",
+		"latitude" : 51.5138,
+		"longitude" : -0.107928
+	},
+	{
+		"logical_terminal" : 1022,
+		"full_name" : "Brunswick Square, Bloomsbury",
+		"latitude" : 51.524,
+		"longitude" : -0.122502
+	},
+	{
+		"logical_terminal" : 1023,
+		"full_name" : "River Street , Clerkenwell",
+		"latitude" : 51.5292,
+		"longitude" : -0.109971
+	},
+	{
+		"logical_terminal" : 1024,
+		"full_name" : "Park Street, Bankside",
+		"latitude" : 51.506,
+		"longitude" : -0.0927542
+	},
+	{
+		"logical_terminal" : 1025,
+		"full_name" : "Bolsover Street, Fitzrovia",
+		"latitude" : 51.5235,
+		"longitude" : -0.143614
+	},
+	{
+		"logical_terminal" : 1026,
+		"full_name" : "Roscoe Street, St. Luke's",
+		"latitude" : 51.523,
+		"longitude" : -0.0949349
+	},
+	{
+		"logical_terminal" : 1027,
+		"full_name" : "Warwick Avenue Station, Maida Vale",
+		"latitude" : 51.5233,
+		"longitude" : -0.183846
+	},
+	{
+		"logical_terminal" : 1028,
+		"full_name" : "William IV Street, Strand",
+		"latitude" : 51.5095,
+		"longitude" : -0.124749
+	},
+	{
+		"logical_terminal" : 1029,
+		"full_name" : "Windsor Terrace, Hoxton",
+		"latitude" : 51.5292,
+		"longitude" : -0.0934216
+	},
+	{
+		"logical_terminal" : 1030,
+		"full_name" : "Lisson Grove, St. John's Wood",
+		"latitude" : 51.5264,
+		"longitude" : -0.172191
+	},
+	{
+		"logical_terminal" : 1031,
+		"full_name" : "Nesham Street, Wapping",
+		"latitude" : 51.5071,
+		"longitude" : -0.06691
+	},
+	{
+		"logical_terminal" : 1032,
+		"full_name" : "New Inn Yard, Shoreditch",
+		"latitude" : 51.5245,
+		"longitude" : -0.0792481
+	},
+	{
+		"logical_terminal" : 1033,
+		"full_name" : "Paddington Street, Marylebone",
+		"latitude" : 51.5206,
+		"longitude" : -0.154701
+	},
+	{
+		"logical_terminal" : 1034,
+		"full_name" : "Bruton Street, Mayfair",
+		"latitude" : 51.5107,
+		"longitude" : -0.144165
+	},
+	{
+		"logical_terminal" : 1035,
+		"full_name" : "Harewood Avenue, Marylebone",
+		"latitude" : 51.5223,
+		"longitude" : -0.163849
+	},
+	{
+		"logical_terminal" : 1036,
+		"full_name" : "Crawford Street, Marylebone",
+		"latitude" : 51.5203,
+		"longitude" : -0.157184
+	},
+	{
+		"logical_terminal" : 1037,
+		"full_name" : "Park Lane , Hyde Park",
+		"latitude" : 51.51,
+		"longitude" : -0.157276
+	},
+	{
+		"logical_terminal" : 1038,
+		"full_name" : "Harrington Square, Camden Town",
+		"latitude" : 51.533,
+		"longitude" : -0.139175
+	},
+	{
+		"logical_terminal" : 1039,
+		"full_name" : "Wapping High Street, Wapping",
+		"latitude" : 51.5049,
+		"longitude" : -0.06797
+	},
+	{
+		"logical_terminal" : 1040,
+		"full_name" : "West Smithfield Rotunda, Farringdon",
+		"latitude" : 51.5182,
+		"longitude" : -0.100791
+	},
+	{
+		"logical_terminal" : 1041,
+		"full_name" : "Westbourne Grove, Bayswater",
+		"latitude" : 51.5155,
+		"longitude" : -0.190241
+	},
+	{
+		"logical_terminal" : 1042,
+		"full_name" : "Woodstock Street, Mayfair",
+		"latitude" : 51.5141,
+		"longitude" : -0.147302
+	},
+	{
+		"logical_terminal" : 1043,
+		"full_name" : "Museum of London, Barbican",
+		"latitude" : 51.5178,
+		"longitude" : -0.0964969
+	},
+	{
+		"logical_terminal" : 1044,
+		"full_name" : "The Guildhall, Guildhall",
+		"latitude" : 51.5157,
+		"longitude" : -0.0930808
+	},
+	{
+		"logical_terminal" : 1045,
+		"full_name" : "Jewry Street, Aldgate",
+		"latitude" : 51.5134,
+		"longitude" : -0.0767934
+	},
+	{
+		"logical_terminal" : 1046,
+		"full_name" : "Vauxhall Bridge , Pimlico",
+		"latitude" : 51.4884,
+		"longitude" : -0.129362
+	},
+	{
+		"logical_terminal" : 1047,
+		"full_name" : "Falkirk Street, Hoxton",
+		"latitude" : 51.531,
+		"longitude" : -0.0785054
+	},
+	{
+		"logical_terminal" : 1048,
+		"full_name" : "Queen Victoria Street, St. Paul's",
+		"latitude" : 51.512,
+		"longitude" : -0.0974417
+	},
+	{
+		"logical_terminal" : 1049,
+		"full_name" : "Finsbury Leisure Centre, St. Luke's",
+		"latitude" : 51.526,
+		"longitude" : -0.0963176
+	},
+	{
+		"logical_terminal" : 1050,
+		"full_name" : "Park Road (Baker Street), Regent's Park",
+		"latitude" : 51.5245,
+		"longitude" : -0.158964
+	},
+	{
+		"logical_terminal" : 1051,
+		"full_name" : "Shoreditch Park, Hoxton",
+		"latitude" : 51.534,
+		"longitude" : -0.0863797
+	},
+	{
+		"logical_terminal" : 1052,
+		"full_name" : "Soho Square , Soho",
+		"latitude" : 51.5156,
+		"longitude" : -0.132329
+	},
+	{
+		"logical_terminal" : 1053,
+		"full_name" : "Clerkenwell Green, Clerkenwell",
+		"latitude" : 51.5233,
+		"longitude" : -0.104709
+	},
+	{
+		"logical_terminal" : 1054,
+		"full_name" : "East Road, Hoxton",
+		"latitude" : 51.5287,
+		"longitude" : -0.0874594
+	},
+	{
+		"logical_terminal" : 1055,
+		"full_name" : "Wellington Road, St. John's Wood",
+		"latitude" : 51.533,
+		"longitude" : -0.172529
+	},
+	{
+		"logical_terminal" : 1056,
+		"full_name" : "Finsbury Square , Moorgate",
+		"latitude" : 51.521,
+		"longitude" : -0.0856342
+	},
+	{
+		"logical_terminal" : 1057,
+		"full_name" : "Hardwick Street, Clerkenwell",
+		"latitude" : 51.5278,
+		"longitude" : -0.108068
+	},
+	{
+		"logical_terminal" : 1058,
+		"full_name" : "Edgware Road Station, Paddington",
+		"latitude" : 51.52,
+		"longitude" : -0.169774
+	},
+	{
+		"logical_terminal" : 1059,
+		"full_name" : "Albert Embankment, Vauxhall",
+		"latitude" : 51.4904,
+		"longitude" : -0.122807
+	},
+	{
+		"logical_terminal" : 1060,
+		"full_name" : "Torrens Street, Angel",
+		"latitude" : 51.5322,
+		"longitude" : -0.105481
+	},
+	{
+		"logical_terminal" : 1061,
+		"full_name" : "Stonecutter Street, Holborn",
+		"latitude" : 51.5158,
+		"longitude" : -0.10527
+	},
+	{
+		"logical_terminal" : 1062,
+		"full_name" : "Braham Street, Aldgate",
+		"latitude" : 51.5142,
+		"longitude" : -0.0735377
+	},
+	{
+		"logical_terminal" : 1063,
+		"full_name" : "Wood Street, Guildhall",
+		"latitude" : 51.517,
+		"longitude" : -0.0938854
+	},
+	{
+		"logical_terminal" : 1064,
+		"full_name" : "Old Street Station, St. Luke's",
+		"latitude" : 51.5257,
+		"longitude" : -0.0884862
+	},
+	{
+		"logical_terminal" : 1065,
+		"full_name" : "Aldersgate Street, Barbican",
+		"latitude" : 51.5208,
+		"longitude" : -0.0973402
+	},
+	{
+		"logical_terminal" : 1066,
+		"full_name" : "Calshot Street , King's Cross",
+		"latitude" : 51.5314,
+		"longitude" : -0.11707
+	},
+	{
+		"logical_terminal" : 1067,
+		"full_name" : "St. James's Square, St. James's",
+		"latitude" : 51.5074,
+		"longitude" : -0.134621
+	},
+	{
+		"logical_terminal" : 1068,
+		"full_name" : "Norton Folgate, Liverpool Street",
+		"latitude" : 51.5211,
+		"longitude" : -0.0788698
+	},
+	{
+		"logical_terminal" : 1069,
+		"full_name" : "Eaton Square, Belgravia",
+		"latitude" : 51.4965,
+		"longitude" : -0.150905
+	},
+	{
+		"logical_terminal" : 1070,
+		"full_name" : "Bricklayers Arms, Borough",
+		"latitude" : 51.4951,
+		"longitude" : -0.0858145
+	},
+	{
+		"logical_terminal" : 1071,
+		"full_name" : "Tower Gardens , Tower",
+		"latitude" : 51.5095,
+		"longitude" : -0.0754595
+	},
+	{
+		"logical_terminal" : 1072,
+		"full_name" : "Waterloo Station 3, Waterloo",
+		"latitude" : 51.5038,
+		"longitude" : -0.112824
+	},
+	{
+		"logical_terminal" : 1073,
+		"full_name" : "Kennington Road Post Office, Oval",
+		"latitude" : 51.4848,
+		"longitude" : -0.110683
+	},
+	{
+		"logical_terminal" : 1074,
+		"full_name" : "Newgate Street , St. Paul's",
+		"latitude" : 51.5154,
+		"longitude" : -0.0988509
+	},
+	{
+		"logical_terminal" : 1075,
+		"full_name" : "Hyde Park Corner, Hyde Park",
+		"latitude" : 51.5031,
+		"longitude" : -0.153521
+	},
+	{
+		"logical_terminal" : 1076,
+		"full_name" : "Walnut Tree Walk, Vauxhall",
+		"latitude" : 51.4937,
+		"longitude" : -0.111015
+	},
+	{
+		"logical_terminal" : 1077,
+		"full_name" : "Royal London Hospital, Whitechapel",
+		"latitude" : 51.5191,
+		"longitude" : -0.0596421
+	},
+	{
+		"logical_terminal" : 1078,
+		"full_name" : "Lambeth Road, Vauxhall",
+		"latitude" : 51.4949,
+		"longitude" : -0.117975
+	},
+	{
+		"logical_terminal" : 1079,
+		"full_name" : "Endsleigh Gardens, Euston",
+		"latitude" : 51.5268,
+		"longitude" : -0.130504
+	},
+	{
+		"logical_terminal" : 1080,
+		"full_name" : "Great Tower Street, Monument",
+		"latitude" : 51.5105,
+		"longitude" : -0.0829896
+	},
+	{
+		"logical_terminal" : 1081,
+		"full_name" : "Liverpool Road (N1 Centre), Angel",
+		"latitude" : 51.5345,
+		"longitude" : -0.106993
+	},
+	{
+		"logical_terminal" : 1082,
+		"full_name" : "Borough Road, Elephant & Castle",
+		"latitude" : 51.4989,
+		"longitude" : -0.100441
+	},
+	{
+		"logical_terminal" : 1083,
+		"full_name" : "Commercial Street, Shoreditch",
+		"latitude" : 51.5213,
+		"longitude" : -0.0755789
+	},
+	{
+		"logical_terminal" : 1084,
+		"full_name" : "Sun Street, Liverpool Street",
+		"latitude" : 51.52,
+		"longitude" : -0.0839112
+	},
+	{
+		"logical_terminal" : 1085,
+		"full_name" : "Old Quebec Street, Marylebone",
+		"latitude" : 51.5146,
+		"longitude" : -0.158264
+	},
+	{
+		"logical_terminal" : 1086,
+		"full_name" : "Baker Street, Marylebone",
+		"latitude" : 51.5189,
+		"longitude" : -0.156167
+	},
+	{
+		"logical_terminal" : 1087,
+		"full_name" : "Belgrave Road, Victoria",
+		"latitude" : 51.4932,
+		"longitude" : -0.144133
+	},
+	{
+		"logical_terminal" : 1088,
+		"full_name" : "Triangle Car Park, Hyde Park",
+		"latitude" : 51.5065,
+		"longitude" : -0.17028
+	},
+	{
+		"logical_terminal" : 1089,
+		"full_name" : "Queen's Gate (Central), South Kensington",
+		"latitude" : 51.494,
+		"longitude" : -0.178732
+	},
+	{
+		"logical_terminal" : 1090,
+		"full_name" : "Warren Street Station, Euston",
+		"latitude" : 51.5244,
+		"longitude" : -0.138019
+	},
+	{
+		"logical_terminal" : 1091,
+		"full_name" : "St. John's Wood Church, Regent's Park",
+		"latitude" : 51.5301,
+		"longitude" : -0.168314
+	},
+	{
+		"logical_terminal" : 1092,
+		"full_name" : "Moorfields, Moorgate",
+		"latitude" : 51.5191,
+		"longitude" : -0.0882854
+	},
+	{
+		"logical_terminal" : 1093,
+		"full_name" : "Kennington Cross, Kennington",
+		"latitude" : 51.4889,
+		"longitude" : -0.111436
+	},
+	{
+		"logical_terminal" : 1094,
+		"full_name" : "Wright's Lane, Kensington",
+		"latitude" : 51.5004,
+		"longitude" : -0.193068
+	},
+	{
+		"logical_terminal" : 1095,
+		"full_name" : "LSBU (Borough Road), Elephant & Castle",
+		"latitude" : 51.4987,
+		"longitude" : -0.103133
+	},
+	{
+		"logical_terminal" : 1096,
+		"full_name" : "Bayswater Road, Hyde Park",
+		"latitude" : 51.5118,
+		"longitude" : -0.174293
+	},
+	{
+		"logical_terminal" : 1097,
+		"full_name" : "Northumberland Avenue, Strand",
+		"latitude" : 51.5068,
+		"longitude" : -0.123702
+	},
+	{
+		"logical_terminal" : 1098,
+		"full_name" : "Lower Thames Street, Monument",
+		"latitude" : 51.5093,
+		"longitude" : -0.0849854
+	},
+	{
+		"logical_terminal" : 1099,
+		"full_name" : "Frampton Street, Paddington",
+		"latitude" : 51.5234,
+		"longitude" : -0.175116
+	},
+	{
+		"logical_terminal" : 1100,
+		"full_name" : "Strand, Strand",
+		"latitude" : 51.5125,
+		"longitude" : -0.115163
+	},
+	{
+		"logical_terminal" : 1101,
+		"full_name" : "Knightsbridge, Hyde Park",
+		"latitude" : 51.5028,
+		"longitude" : -0.15535
+	},
+	{
+		"logical_terminal" : 1102,
+		"full_name" : "Leman Street, Aldgate",
+		"latitude" : 51.5124,
+		"longitude" : -0.069542
+	},
+	{
+		"logical_terminal" : 1103,
+		"full_name" : "Gloucester Street, Pimlico",
+		"latitude" : 51.491,
+		"longitude" : -0.139625
+	},
+	{
+		"logical_terminal" : 1104,
+		"full_name" : "Claremont Square, Angel",
+		"latitude" : 51.5317,
+		"longitude" : -0.109915
+	},
+	{
+		"logical_terminal" : 1105,
+		"full_name" : "LMU Commercial Road, Whitechapel",
+		"latitude" : 51.5149,
+		"longitude" : -0.066078
+	},
+	{
+		"logical_terminal" : 1106,
+		"full_name" : "Rampayne Street, Pimlico",
+		"latitude" : 51.49,
+		"longitude" : -0.132846
+	},
+	{
+		"logical_terminal" : 1107,
+		"full_name" : "Gloucester Road Station, South Kensington",
+		"latitude" : 51.4942,
+		"longitude" : -0.182671
+	},
+	{
+		"logical_terminal" : 1108,
+		"full_name" : "North Wharf Road, Paddington",
+		"latitude" : 51.5186,
+		"longitude" : -0.176646
+	},
+	{
+		"logical_terminal" : 1109,
+		"full_name" : "Wellington Arch, Hyde Park",
+		"latitude" : 51.5027,
+		"longitude" : -0.149569
+	},
+	{
+		"logical_terminal" : 1110,
+		"full_name" : "Palace Gate, Kensington Gardens",
+		"latitude" : 51.502,
+		"longitude" : -0.1844
+	},
+	{
+		"logical_terminal" : 1111,
+		"full_name" : "Jubilee Gardens, South Bank",
+		"latitude" : 51.5046,
+		"longitude" : -0.116542
+	},
+	{
+		"logical_terminal" : 1112,
+		"full_name" : "Nutford Place, Marylebone",
+		"latitude" : 51.5165,
+		"longitude" : -0.164394
+	},
+	{
+		"logical_terminal" : 1113,
+		"full_name" : "Trebovir Road, Earl's Court",
+		"latitude" : 51.4909,
+		"longitude" : -0.19617
+	},
+	{
+		"logical_terminal" : 1114,
+		"full_name" : "Pont Street, Knightsbridge",
+		"latitude" : 51.4969,
+		"longitude" : -0.161204
+	},
+	{
+		"logical_terminal" : 1115,
+		"full_name" : "Ilchester Place, Kensington",
+		"latitude" : 51.5007,
+		"longitude" : -0.202759
+	},
+	{
+		"logical_terminal" : 1116,
+		"full_name" : "Emperor's Gate, South Kensington",
+		"latitude" : 51.4954,
+		"longitude" : -0.185297
+	},
+	{
+		"logical_terminal" : 1117,
+		"full_name" : "Lambeth North Station, Waterloo",
+		"latitude" : 51.4991,
+		"longitude" : -0.112031
+	},
+	{
+		"logical_terminal" : 1118,
+		"full_name" : "Hampton Street, Walworth",
+		"latitude" : 51.4922,
+		"longitude" : -0.101537
+	},
+	{
+		"logical_terminal" : 1119,
+		"full_name" : "Bourne Street, Belgravia",
+		"latitude" : 51.4909,
+		"longitude" : -0.15332
+	},
+	{
+		"logical_terminal" : 1120,
+		"full_name" : "Chepstow Villas, Notting Hill",
+		"latitude" : 51.5121,
+		"longitude" : -0.201555
+	},
+	{
+		"logical_terminal" : 1121,
+		"full_name" : "Lexham Gardens, Kensington",
+		"latitude" : 51.4959,
+		"longitude" : -0.191934
+	},
+	{
+		"logical_terminal" : 1122,
+		"full_name" : "Ashley Place, Victoria",
+		"latitude" : 51.4962,
+		"longitude" : -0.140948
+	},
+	{
+		"logical_terminal" : 1123,
+		"full_name" : "Southampton Place, Holborn",
+		"latitude" : 51.5176,
+		"longitude" : -0.121328
+	},
+	{
+		"logical_terminal" : 1124,
+		"full_name" : "Sumner Place, South Kensington",
+		"latitude" : 51.4912,
+		"longitude" : -0.173716
+	},
+	{
+		"logical_terminal" : 1125,
+		"full_name" : "Great Marlborough Street, Soho",
+		"latitude" : 51.5146,
+		"longitude" : -0.137841
+	},
+	{
+		"logical_terminal" : 1126,
+		"full_name" : "North Audley Street, Mayfair",
+		"latitude" : 51.5129,
+		"longitude" : -0.153646
+	},
+	{
+		"logical_terminal" : 1127,
+		"full_name" : "Risinghill Street, Angel",
+		"latitude" : 51.5333,
+		"longitude" : -0.111781
+	},
+	{
+		"logical_terminal" : 1128,
+		"full_name" : "New North Road 1, Hoxton",
+		"latitude" : 51.5311,
+		"longitude" : -0.086016
+	},
+	{
+		"logical_terminal" : 1129,
+		"full_name" : "Paddington Green Police Station, Paddington",
+		"latitude" : 51.5199,
+		"longitude" : -0.170704
+	},
+	{
+		"logical_terminal" : 1130,
+		"full_name" : "Grove End Road, St. John's Wood",
+		"latitude" : 51.5309,
+		"longitude" : -0.176771
+	},
+	{
+		"logical_terminal" : 1131,
+		"full_name" : "Graham Street, Angel",
+		"latitude" : 51.5327,
+		"longitude" : -0.0999811
+	},
+	{
+		"logical_terminal" : 1132,
+		"full_name" : "Albert Gate, Hyde Park",
+		"latitude" : 51.503,
+		"longitude" : -0.158456
+	},
+	{
+		"logical_terminal" : 1133,
+		"full_name" : "Baylis Road, Waterloo",
+		"latitude" : 51.5014,
+		"longitude" : -0.110699
+	},
+	{
+		"logical_terminal" : 1134,
+		"full_name" : "Warwick Road, Olympia",
+		"latitude" : 51.4967,
+		"longitude" : -0.205284
+	},
+	{
+		"logical_terminal" : 1135,
+		"full_name" : "Claverton Street, Pimlico",
+		"latitude" : 51.4848,
+		"longitude" : -0.138089
+	},
+	{
+		"logical_terminal" : 1136,
+		"full_name" : "London Zoo, Regents Park",
+		"latitude" : 51.5358,
+		"longitude" : -0.156285
+	},
+	{
+		"logical_terminal" : 1137,
+		"full_name" : "Harper Road, Borough",
+		"latitude" : 51.4986,
+		"longitude" : -0.0961911
+	},
+	{
+		"logical_terminal" : 1138,
+		"full_name" : "Elizabeth Bridge, Victoria",
+		"latitude" : 51.4924,
+		"longitude" : -0.147479
+	},
+	{
+		"logical_terminal" : 1139,
+		"full_name" : "Carey Street, Holborn",
+		"latitude" : 51.515,
+		"longitude" : -0.112753
+	},
+	{
+		"logical_terminal" : 1140,
+		"full_name" : "Grosvenor Road, Pimlico",
+		"latitude" : 51.4854,
+		"longitude" : -0.142207
+	},
+	{
+		"logical_terminal" : 1141,
+		"full_name" : "Kingsway, Covent Garden",
+		"latitude" : 51.5144,
+		"longitude" : -0.118479
+	},
+	{
+		"logical_terminal" : 1142,
+		"full_name" : "Tooley Street, Bermondsey",
+		"latitude" : 51.5035,
+		"longitude" : -0.079621
+	},
+	{
+		"logical_terminal" : 1143,
+		"full_name" : "Kensington Church Street, Kensington",
+		"latitude" : 51.5032,
+		"longitude" : -0.191496
+	},
+	{
+		"logical_terminal" : 1144,
+		"full_name" : "Poured Lines, Bankside",
+		"latitude" : 51.5067,
+		"longitude" : -0.103137
+	},
+	{
+		"logical_terminal" : 1145,
+		"full_name" : "Earnshaw Street , Covent Garden",
+		"latitude" : 51.5161,
+		"longitude" : -0.128585
+	},
+	{
+		"logical_terminal" : 1146,
+		"full_name" : "Tysoe Street, Clerkenwell",
+		"latitude" : 51.5264,
+		"longitude" : -0.109257
+	},
+	{
+		"logical_terminal" : 1147,
+		"full_name" : "Clifton Road, Maida Vale",
+		"latitude" : 51.5256,
+		"longitude" : -0.179593
+	},
+	{
+		"logical_terminal" : 1148,
+		"full_name" : "Queen Mother Sports Centre, Victoria",
+		"latitude" : 51.4936,
+		"longitude" : -0.139956
+	},
+	{
+		"logical_terminal" : 1149,
+		"full_name" : "Cumberland Gate, Hyde Park",
+		"latitude" : 51.5121,
+		"longitude" : -0.162098
+	},
+	{
+		"logical_terminal" : 1150,
+		"full_name" : "Whiteley's, Bayswater",
+		"latitude" : 51.5148,
+		"longitude" : -0.18813
+	},
+	{
+		"logical_terminal" : 1151,
+		"full_name" : "Whitehall Place, Strand",
+		"latitude" : 51.5065,
+		"longitude" : -0.12318
+	},
+	{
+		"logical_terminal" : 1152,
+		"full_name" : "Marylebone Lane, Marylebone",
+		"latitude" : 51.5148,
+		"longitude" : -0.148105
+	},
+	{
+		"logical_terminal" : 1153,
+		"full_name" : "Pall Mall East, West End",
+		"latitude" : 51.5078,
+		"longitude" : -0.1307
+	},
+	{
+		"logical_terminal" : 1154,
+		"full_name" : "Kennington Road  , Vauxhall",
+		"latitude" : 51.4957,
+		"longitude" : -0.110889
+	},
+	{
+		"logical_terminal" : 1155,
+		"full_name" : "Regency Street, Westminster",
+		"latitude" : 51.4921,
+		"longitude" : -0.132225
+	},
+	{
+		"logical_terminal" : 1156,
+		"full_name" : "Bedford Way, Bloomsbury",
+		"latitude" : 51.5237,
+		"longitude" : -0.128378
+	},
+	{
+		"logical_terminal" : 1157,
+		"full_name" : "Black Lion Gate, Kensington Gardens",
+		"latitude" : 51.5099,
+		"longitude" : -0.187843
+	},
+	{
+		"logical_terminal" : 1158,
+		"full_name" : "St. Martin's Street, West End",
+		"latitude" : 51.5091,
+		"longitude" : -0.129698
+	},
+	{
+		"logical_terminal" : 1159,
+		"full_name" : "Berry Street, Clerkenwell",
+		"latitude" : 51.5229,
+		"longitude" : -0.099994
+	},
+	{
+		"logical_terminal" : 1160,
+		"full_name" : "Craven Street, Strand",
+		"latitude" : 51.5081,
+		"longitude" : -0.126021
+	},
+	{
+		"logical_terminal" : 1161,
+		"full_name" : "Brushfield Street, Liverpool Street",
+		"latitude" : 51.5189,
+		"longitude" : -0.079249
+	},
+	{
+		"logical_terminal" : 1162,
+		"full_name" : "Dorset Square, Marylebone",
+		"latitude" : 51.5226,
+		"longitude" : -0.161113
+	},
+	{
+		"logical_terminal" : 1163,
+		"full_name" : "Wardour Street, Soho",
+		"latitude" : 51.5125,
+		"longitude" : -0.133202
+	},
+	{
+		"logical_terminal" : 1164,
+		"full_name" : "Portland Place, Marylebone",
+		"latitude" : 51.5207,
+		"longitude" : -0.145212
+	},
+	{
+		"logical_terminal" : 1166,
+		"full_name" : "Bell Street , Marylebone",
+		"latitude" : 51.522,
+		"longitude" : -0.165843
+	},
+	{
+		"logical_terminal" : 1167,
+		"full_name" : "South Wharf Road, Paddington",
+		"latitude" : 51.5173,
+		"longitude" : -0.175811
+	},
+	{
+		"logical_terminal" : 1168,
+		"full_name" : "Kennington Lane Tesco, Vauxhall",
+		"latitude" : 51.4868,
+		"longitude" : -0.115854
+	},
+	{
+		"logical_terminal" : 1169,
+		"full_name" : "Grosvenor Crescent, Belgravia",
+		"latitude" : 51.5014,
+		"longitude" : -0.153195
+	},
+	{
+		"logical_terminal" : 1170,
+		"full_name" : "Horseferry Road, Westminster",
+		"latitude" : 51.4948,
+		"longitude" : -0.130459
+	},
+	{
+		"logical_terminal" : 1171,
+		"full_name" : "New Road 1 , Whitechapel",
+		"latitude" : 51.5182,
+		"longitude" : -0.062697
+	},
+	{
+		"logical_terminal" : 1172,
+		"full_name" : "Queen's Gate (South), South Kensington",
+		"latitude" : 51.4925,
+		"longitude" : -0.178433
+	},
+	{
+		"logical_terminal" : 1173,
+		"full_name" : "Gloucester Terrace, Bayswater",
+		"latitude" : 51.5179,
+		"longitude" : -0.188099
+	},
+	{
+		"logical_terminal" : 1174,
+		"full_name" : "Alderney Street, Pimlico",
+		"latitude" : 51.4881,
+		"longitude" : -0.140741
+	},
+	{
+		"logical_terminal" : 1175,
+		"full_name" : "Mallory Street, Marylebone",
+		"latitude" : 51.5251,
+		"longitude" : -0.166304
+	},
+	{
+		"logical_terminal" : 1176,
+		"full_name" : "Waterloo Roundabout, Waterloo ",
+		"latitude" : 51.5049,
+		"longitude" : -0.113001
+	},
+	{
+		"logical_terminal" : 1177,
+		"full_name" : "Seville Street, Knightsbridge",
+		"latitude" : 51.5019,
+		"longitude" : -0.159237
+	},
+	{
+		"logical_terminal" : 1178,
+		"full_name" : "Cleveland Gardens, Bayswater",
+		"latitude" : 51.5156,
+		"longitude" : -0.183119
+	},
+	{
+		"logical_terminal" : 1179,
+		"full_name" : "Chelsea Green, Chelsea",
+		"latitude" : 51.4907,
+		"longitude" : -0.166485
+	},
+	{
+		"logical_terminal" : 1180,
+		"full_name" : "Embankment (Horse Guards), Westminster",
+		"latitude" : 51.5049,
+		"longitude" : -0.123248
+	},
+	{
+		"logical_terminal" : 1182,
+		"full_name" : "Notting Hill Gate Station, Notting Hill",
+		"latitude" : 51.5094,
+		"longitude" : -0.196422
+	},
+	{
+		"logical_terminal" : 1183,
+		"full_name" : "Bramham Gardens, Earl's Court",
+		"latitude" : 51.4902,
+		"longitude" : -0.190394
+	},
+	{
+		"logical_terminal" : 1184,
+		"full_name" : "St. Mary Axe, Aldgate",
+		"latitude" : 51.5142,
+		"longitude" : -0.0806601
+	},
+	{
+		"logical_terminal" : 1186,
+		"full_name" : "Belvedere Road, South Bank",
+		"latitude" : 51.5061,
+		"longitude" : -0.114686
+	},
+	{
+		"logical_terminal" : 1187,
+		"full_name" : "St. John's Wood Road, St. John's Wood",
+		"latitude" : 51.5273,
+		"longitude" : -0.174654
+	},
+	{
+		"logical_terminal" : 1188,
+		"full_name" : "London Zoo Car Park, Regent's Park",
+		"latitude" : 51.5369,
+		"longitude" : -0.150181
+	},
+	{
+		"logical_terminal" : 1189,
+		"full_name" : "Long Lane , Bermondsey",
+		"latitude" : 51.4991,
+		"longitude" : -0.0856663
+	},
+	{
+		"logical_terminal" : 1190,
+		"full_name" : "Kennington Lane Rail Bridge, Vauxhall",
+		"latitude" : 51.4863,
+		"longitude" : -0.122492
+	},
+	{
+		"logical_terminal" : 1191,
+		"full_name" : "Barbican Centre, Barbican",
+		"latitude" : 51.52,
+		"longitude" : -0.0921764
+	},
+	{
+		"logical_terminal" : 1192,
+		"full_name" : "Embankment (Savoy), Strand",
+		"latitude" : 51.5096,
+		"longitude" : -0.119048
+	},
+	{
+		"logical_terminal" : 1193,
+		"full_name" : "Kensington Gore, Knightsbridge",
+		"latitude" : 51.5014,
+		"longitude" : -0.178657
+	},
+	{
+		"logical_terminal" : 1194,
+		"full_name" : "Westminster University, Marylebone",
+		"latitude" : 51.5225,
+		"longitude" : -0.154907
+	},
+	{
+		"logical_terminal" : 1195,
+		"full_name" : "St. George's Square, Pimlico",
+		"latitude" : 51.4882,
+		"longitude" : -0.135636
+	},
+	{
+		"logical_terminal" : 1196,
+		"full_name" : "Vincent Square, Westminster",
+		"latitude" : 51.494,
+		"longitude" : -0.136929
+	},
+	{
+		"logical_terminal" : 1199,
+		"full_name" : "The Tennis Courts, Regent's Park",
+		"latitude" : 51.5254,
+		"longitude" : -0.153464
+	},
+	{
+		"logical_terminal" : 1200,
+		"full_name" : "Ontario Street, Elephant & Castle",
+		"latitude" : 51.4965,
+		"longitude" : -0.101384
+	},
+	{
+		"logical_terminal" : 1201,
+		"full_name" : "Bank of England Museum, Bank",
+		"latitude" : 51.5144,
+		"longitude" : -0.0875874
+	},
+	{
+		"logical_terminal" : 1202,
+		"full_name" : "Wellington Street , Strand",
+		"latitude" : 51.5118,
+		"longitude" : -0.119643
+	},
+	{
+		"logical_terminal" : 1203,
+		"full_name" : "Eastbourne Mews, Paddington",
+		"latitude" : 51.5164,
+		"longitude" : -0.179135
+	},
+	{
+		"logical_terminal" : 1204,
+		"full_name" : "Queen's Gate (North), Kensington",
+		"latitude" : 51.501,
+		"longitude" : -0.180246
+	},
+	{
+		"logical_terminal" : 1205,
+		"full_name" : "Black Prince Road, Vauxhall",
+		"latitude" : 51.4909,
+		"longitude" : -0.116912
+	},
+	{
+		"logical_terminal" : 1206,
+		"full_name" : "Montpelier Street, Knightsbridge",
+		"latitude" : 51.4989,
+		"longitude" : -0.165472
+	},
+	{
+		"logical_terminal" : 1207,
+		"full_name" : "Tavistock Street, Covent Garden",
+		"latitude" : 51.512,
+		"longitude" : -0.120719
+	},
+	{
+		"logical_terminal" : 1208,
+		"full_name" : "Dickens Square, Borough",
+		"latitude" : 51.4968,
+		"longitude" : -0.0939135
+	},
+	{
+		"logical_terminal" : 1209,
+		"full_name" : "Empire Square, The Borough",
+		"latitude" : 51.5008,
+		"longitude" : -0.0897408
+	},
+	{
+		"logical_terminal" : 1210,
+		"full_name" : "Nevern Place, Earl's Court",
+		"latitude" : 51.4933,
+		"longitude" : -0.194758
+	},
+	{
+		"logical_terminal" : 1211,
+		"full_name" : "Bunhill Row, Moorgate",
+		"latitude" : 51.5209,
+		"longitude" : -0.0898879
+	},
+	{
+		"logical_terminal" : 1212,
+		"full_name" : "Concert Hall Approach 2, South Bank",
+		"latitude" : 51.5049,
+		"longitude" : -0.115533
+	},
+	{
+		"logical_terminal" : 1213,
+		"full_name" : "Curlew Street, Shad Thames",
+		"latitude" : 51.5023,
+		"longitude" : -0.0741892
+	},
+	{
+		"logical_terminal" : 1214,
+		"full_name" : "Kensington Olympia Station, Olympia",
+		"latitude" : 51.4982,
+		"longitude" : -0.209494
+	},
+	{
+		"logical_terminal" : 1216,
+		"full_name" : "Swan Street, The Borough",
+		"latitude" : 51.5003,
+		"longitude" : -0.0927627
+	},
+	{
+		"logical_terminal" : 1217,
+		"full_name" : "Serpentine Car Park, Hyde Park",
+		"latitude" : 51.505,
+		"longitude" : -0.17273
+	},
+	{
+		"logical_terminal" : 1218,
+		"full_name" : "Flood Street, Chelsea",
+		"latitude" : 51.488,
+		"longitude" : -0.166879
+	},
+	{
+		"logical_terminal" : 1219,
+		"full_name" : "Lower Marsh, Waterloo",
+		"latitude" : 51.5001,
+		"longitude" : -0.113936
+	},
+	{
+		"logical_terminal" : 1220,
+		"full_name" : "Imperial College, Knightsbridge",
+		"latitude" : 51.4994,
+		"longitude" : -0.179702
+	},
+	{
+		"logical_terminal" : 1221,
+		"full_name" : "St. George Street, Mayfair",
+		"latitude" : 51.512,
+		"longitude" : -0.142783
+	},
+	{
+		"logical_terminal" : 1222,
+		"full_name" : "Goswell Road (City Uni), Finsbury",
+		"latitude" : 51.5282,
+		"longitude" : -0.101026
+	},
+	{
+		"logical_terminal" : 1223,
+		"full_name" : "Buxton Street 1, Bangla Town",
+		"latitude" : 51.5218,
+		"longitude" : -0.068856
+	},
+	{
+		"logical_terminal" : 1224,
+		"full_name" : "Vauxhall Street, Vauxhall",
+		"latitude" : 51.487,
+		"longitude" : -0.116625
+	},
+	{
+		"logical_terminal" : 1225,
+		"full_name" : "George Street, Marylebone",
+		"latitude" : 51.5177,
+		"longitude" : -0.154106
+	},
+	{
+		"logical_terminal" : 1226,
+		"full_name" : "Macclesfield Rd, St Lukes",
+		"latitude" : 51.5294,
+		"longitude" : -0.097122
+	},
+	{
+		"logical_terminal" : 1227,
+		"full_name" : "Devonshire Terrace, Bayswater",
+		"latitude" : 51.5135,
+		"longitude" : -0.17977
+	},
+	{
+		"logical_terminal" : 1228,
+		"full_name" : "Southampton Street, Strand",
+		"latitude" : 51.5107,
+		"longitude" : -0.121724
+	},
+	{
+		"logical_terminal" : 1229,
+		"full_name" : "High Holborn , Covent Garden",
+		"latitude" : 51.5164,
+		"longitude" : -0.124332
+	},
+	{
+		"logical_terminal" : 1230,
+		"full_name" : "Millennium Hotel, Mayfair",
+		"latitude" : 51.5109,
+		"longitude" : -0.151126
+	},
+	{
+		"logical_terminal" : 1231,
+		"full_name" : "Queen's Gate, Kensington Gardens",
+		"latitude" : 51.5017,
+		"longitude" : -0.179854
+	},
+	{
+		"logical_terminal" : 2585,
+		"full_name" : "Orsett Terrace, Bayswater",
+		"latitude" : 51.5179,
+		"longitude" : -0.183717
+	},
+	{
+		"logical_terminal" : 2586,
+		"full_name" : "Cloudesley Road, Angel",
+		"latitude" : 51.5344,
+		"longitude" : -0.109025
+	},
+	{
+		"logical_terminal" : 2587,
+		"full_name" : "Wormwood Street, Liverpool Street",
+		"latitude" : 51.5162,
+		"longitude" : -0.0824224
+	},
+	{
+		"logical_terminal" : 2589,
+		"full_name" : "Pembridge Villas, Notting Hill",
+		"latitude" : 51.5111,
+		"longitude" : -0.197525
+	},
+	{
+		"logical_terminal" : 2633,
+		"full_name" : "Palace Gardens Terrace, Notting Hill",
+		"latitude" : 51.5086,
+		"longitude" : -0.193764
+	},
+	{
+		"logical_terminal" : 2635,
+		"full_name" : "Concert Hall Approach 1, South Bank",
+		"latitude" : 51.505,
+		"longitude" : -0.115851
+	},
+	{
+		"logical_terminal" : 2636,
+		"full_name" : "Prince Albert Road, Regent's Park",
+		"latitude" : 51.5359,
+		"longitude" : -0.160854
+	},
+	{
+		"logical_terminal" : 2637,
+		"full_name" : "Bermondsey Street, Bermondsey",
+		"latitude" : 51.4979,
+		"longitude" : -0.081608
+	},
+	{
+		"logical_terminal" : 2639,
+		"full_name" : "King Edward Walk, Waterloo",
+		"latitude" : 51.4977,
+		"longitude" : -0.10988
+	},
+	{
+		"logical_terminal" : 2641,
+		"full_name" : "New North Road 2, Hoxton",
+		"latitude" : 51.5309,
+		"longitude" : -0.085603
+	},
+	{
+		"logical_terminal" : 2648,
+		"full_name" : "Waterloo Bridge, South Bank",
+		"latitude" : 51.5054,
+		"longitude" : -0.113657
+	},
+	{
+		"logical_terminal" : 2649,
+		"full_name" : "Sardinia Street, Holborn",
+		"latitude" : 51.5152,
+		"longitude" : -0.117863
+	},
+	{
+		"logical_terminal" : 2660,
+		"full_name" : "Frith Street, Soho",
+		"latitude" : 51.5131,
+		"longitude" : -0.131214
+	},
+	{
+		"logical_terminal" : 2662,
+		"full_name" : "Butler Place, Westminster",
+		"latitude" : 51.4978,
+		"longitude" : -0.135441
+	},
+	{
+		"logical_terminal" : 2665,
+		"full_name" : "Lord's, St. John's Wood",
+		"latitude" : 51.5291,
+		"longitude" : -0.171185
+	},
+	{
+		"logical_terminal" : 2666,
+		"full_name" : "Howick Place, Westminster",
+		"latitude" : 51.4968,
+		"longitude" : -0.138734
+	},
+	{
+		"logical_terminal" : 2669,
+		"full_name" : "Charlotte Street, Fitzrovia",
+		"latitude" : 51.5195,
+		"longitude" : -0.135777
+	},
+	{
+		"logical_terminal" : 2670,
+		"full_name" : "Paddington Green, Paddington",
+		"latitude" : 51.5202,
+		"longitude" : -0.174593
+	},
+	{
+		"logical_terminal" : 2677,
+		"full_name" : "Natural History Museum, South Kensington",
+		"latitude" : 51.4956,
+		"longitude" : -0.179078
+	},
+	{
+		"logical_terminal" : 2678,
+		"full_name" : "Farm Street, Mayfair",
+		"latitude" : 51.5093,
+		"longitude" : -0.14745
+	},
+	{
+		"logical_terminal" : 2680,
+		"full_name" : "Harrowby Street, Marylebone",
+		"latitude" : 51.5174,
+		"longitude" : -0.164208
+	},
+	{
+		"logical_terminal" : 2681,
+		"full_name" : "Harriet Street, Knightsbridge",
+		"latitude" : 51.5002,
+		"longitude" : -0.159341
+	},
+	{
+		"logical_terminal" : 2682,
+		"full_name" : "Turquoise Island, Notting Hill",
+		"latitude" : 51.5143,
+		"longitude" : -0.200838
+	},
+	{
+		"logical_terminal" : 2683,
+		"full_name" : "Millbank House, Pimlico",
+		"latitude" : 51.4919,
+		"longitude" : -0.125675
+	},
+	{
+		"logical_terminal" : 2685,
+		"full_name" : "South Kensington Station, South Kensington",
+		"latitude" : 51.4944,
+		"longitude" : -0.173881
+	},
+	{
+		"logical_terminal" : 2686,
+		"full_name" : "Royal College Street, Camden Town",
+		"latitude" : 51.5363,
+		"longitude" : -0.133952
+	},
+	{
+		"logical_terminal" : 2687,
+		"full_name" : "Brick Lane Market, Shoreditch",
+		"latitude" : 51.5226,
+		"longitude" : -0.071654
+	},
+	{
+		"logical_terminal" : 2688,
+		"full_name" : "Clifford Street, Mayfair",
+		"latitude" : 51.5107,
+		"longitude" : -0.142346
+	},
+	{
+		"logical_terminal" : 2690,
+		"full_name" : "City Road, Angel",
+		"latitude" : 51.5303,
+		"longitude" : -0.100168
+	},
+	{
+		"logical_terminal" : 2691,
+		"full_name" : "Howland Street, Fitzrovia",
+		"latitude" : 51.521,
+		"longitude" : -0.139016
+	},
+	{
+		"logical_terminal" : 2692,
+		"full_name" : "Waterloo Station 2, Waterloo",
+		"latitude" : 51.5039,
+		"longitude" : -0.113426
+	},
+	{
+		"logical_terminal" : 2693,
+		"full_name" : "Shouldham Street, Marylebone",
+		"latitude" : 51.5181,
+		"longitude" : -0.163609
+	},
+	{
+		"logical_terminal" : 2694,
+		"full_name" : "Oval Way, Lambeth",
+		"latitude" : 51.4866,
+		"longitude" : -0.117286
+	},
+	{
+		"logical_terminal" : 2695,
+		"full_name" : "Cadogan Gardens, Sloane Square",
+		"latitude" : 51.4925,
+		"longitude" : -0.159919
+	},
+	{
+		"logical_terminal" : 2696,
+		"full_name" : "Waterloo Station 1, Waterloo",
+		"latitude" : 51.504,
+		"longitude" : -0.113864
+	},
+	{
+		"logical_terminal" : 2698,
+		"full_name" : "Aberdeen Place, St. John's Wood",
+		"latitude" : 51.5248,
+		"longitude" : -0.176268
+	},
+	{
+		"logical_terminal" : 2699,
+		"full_name" : "Snow Hill, Farringdon",
+		"latitude" : 51.5173,
+		"longitude" : -0.103604
+	},
+	{
+		"logical_terminal" : 2701,
+		"full_name" : "Columbia Road, Weavers",
+		"latitude" : 51.5282,
+		"longitude" : -0.075375
+	},
+	{
+		"logical_terminal" : 2703,
+		"full_name" : "Fire Brigade Pier, Vauxhall",
+		"latitude" : 51.4937,
+		"longitude" : -0.121394
+	},
+	{
+		"logical_terminal" : 3420,
+		"full_name" : "Sedding Street, Sloane Square",
+		"latitude" : 51.4931,
+		"longitude" : -0.156876
+	},
+	{
+		"logical_terminal" : 3421,
+		"full_name" : "Red Lion Square, Holborn",
+		"latitude" : 51.5194,
+		"longitude" : -0.119123
+	},
+	{
+		"logical_terminal" : 3422,
+		"full_name" : "Charlbert Street, St. John's Wood",
+		"latitude" : 51.5343,
+		"longitude" : -0.168074
+	},
+	{
+		"logical_terminal" : 3423,
+		"full_name" : "Lodge Road, St. John's Wood",
+		"latitude" : 51.5283,
+		"longitude" : -0.170134
+	},
+	{
+		"logical_terminal" : 3424,
+		"full_name" : "Broadcasting House, Marylebone",
+		"latitude" : 51.5181,
+		"longitude" : -0.144229
+	},
+	{
+		"logical_terminal" : 3425,
+		"full_name" : "Northington Street , Holborn",
+		"latitude" : 51.5223,
+		"longitude" : -0.114079
+	},
+	{
+		"logical_terminal" : 3426,
+		"full_name" : "Hampstead Road (Cartmel), Euston",
+		"latitude" : 51.5301,
+		"longitude" : -0.138846
+	},
+	{
+		"logical_terminal" : 3427,
+		"full_name" : "Fanshaw Street, Hoxton",
+		"latitude" : 51.5295,
+		"longitude" : -0.0833533
+	},
+	{
+		"logical_terminal" : 3428,
+		"full_name" : "Pancras Road, King's Cross",
+		"latitude" : 51.5341,
+		"longitude" : -0.129387
+	},
+	{
+		"logical_terminal" : 3429,
+		"full_name" : "Abbey Orchard Street, Westminster",
+		"latitude" : 51.4981,
+		"longitude" : -0.132102
+	},
+	{
+		"logical_terminal" : 3430,
+		"full_name" : "Altab Ali Park, Whitechapel",
+		"latitude" : 51.5168,
+		"longitude" : -0.0678275
+	},
+	{
+		"logical_terminal" : 3431,
+		"full_name" : "Grafton Street, Mayfair",
+		"latitude" : 51.51,
+		"longitude" : -0.143495
+	},
+	{
+		"logical_terminal" : 3432,
+		"full_name" : "Farringdon Lane, Clerkenwell",
+		"latitude" : 51.5235,
+		"longitude" : -0.10834
+	},
+	{
+		"logical_terminal" : 3433,
+		"full_name" : "Sadlers Sports Centre, Finsbury",
+		"latitude" : 51.5249,
+		"longitude" : -0.0994895
+	},
+	{
+		"logical_terminal" : 3434,
+		"full_name" : "Sancroft Street, Vauxhall",
+		"latitude" : 51.4895,
+		"longitude" : -0.115157
+	},
+	{
+		"logical_terminal" : 3435,
+		"full_name" : "Gloucester Road (Central), South Kensington",
+		"latitude" : 51.4965,
+		"longitude" : -0.183289
+	},
+	{
+		"logical_terminal" : 3436,
+		"full_name" : "Derry Street, Kensington",
+		"latitude" : 51.5014,
+		"longitude" : -0.191462
+	},
+	{
+		"logical_terminal" : 3437,
+		"full_name" : "Curzon Street, Mayfair",
+		"latitude" : 51.5071,
+		"longitude" : -0.145904
+	},
+	{
+		"logical_terminal" : 3438,
+		"full_name" : "Devonshire Square, Liverpool Street",
+		"latitude" : 51.5165,
+		"longitude" : -0.0796846
+	},
+	{
+		"logical_terminal" : 3439,
+		"full_name" : "Tavistock Place, Bloomsbury",
+		"latitude" : 51.5262,
+		"longitude" : -0.12351
+	},
+	{
+		"logical_terminal" : 3440,
+		"full_name" : "Royal Avenue 1, Chelsea",
+		"latitude" : 51.4899,
+		"longitude" : -0.162727
+	},
+	{
+		"logical_terminal" : 3441,
+		"full_name" : "Vicarage Gate, Kensington",
+		"latitude" : 51.5047,
+		"longitude" : -0.192539
+	},
+	{
+		"logical_terminal" : 3442,
+		"full_name" : "Abingdon Villas, Kensington",
+		"latitude" : 51.4974,
+		"longitude" : -0.197246
+	},
+	{
+		"logical_terminal" : 3444,
+		"full_name" : "Penywern Road, Earl's Court",
+		"latitude" : 51.4916,
+		"longitude" : -0.192369
+	},
+	{
+		"logical_terminal" : 3445,
+		"full_name" : "Shoreditch High Street, Shoreditch",
+		"latitude" : 51.5264,
+		"longitude" : -0.0781309
+	},
+	{
+		"logical_terminal" : 3446,
+		"full_name" : "De Vere Gardens, Kensington",
+		"latitude" : 51.5017,
+		"longitude" : -0.184981
+	},
+	{
+		"logical_terminal" : 3447,
+		"full_name" : "Gloucester Road (North), Kensington",
+		"latitude" : 51.4979,
+		"longitude" : -0.183835
+	},
+	{
+		"logical_terminal" : 3448,
+		"full_name" : "Webber Street , Southwark",
+		"latitude" : 51.5007,
+		"longitude" : -0.102091
+	},
+	{
+		"logical_terminal" : 3449,
+		"full_name" : "Breams Buildings, Holborn",
+		"latitude" : 51.5159,
+		"longitude" : -0.111778
+	},
+	{
+		"logical_terminal" : 3450,
+		"full_name" : "Great Titchfield Street, Fitzrovia",
+		"latitude" : 51.5203,
+		"longitude" : -0.141327
+	},
+	{
+		"logical_terminal" : 3451,
+		"full_name" : "Golden Square, Soho",
+		"latitude" : 51.5119,
+		"longitude" : -0.137044
+	},
+	{
+		"logical_terminal" : 3452,
+		"full_name" : "Panton Street, West End",
+		"latitude" : 51.5096,
+		"longitude" : -0.131511
+	},
+	{
+		"logical_terminal" : 3453,
+		"full_name" : "Chancery Lane, Holborn",
+		"latitude" : 51.5143,
+		"longitude" : -0.111257
+	},
+	{
+		"logical_terminal" : 3454,
+		"full_name" : "Denyer Street, Knightsbridge",
+		"latitude" : 51.4936,
+		"longitude" : -0.165101
+	},
+	{
+		"logical_terminal" : 3456,
+		"full_name" : "Portugal Street, Holborn",
+		"latitude" : 51.5149,
+		"longitude" : -0.116146
+	},
+	{
+		"logical_terminal" : 3457,
+		"full_name" : "Rochester Row, Westminster",
+		"latitude" : 51.4958,
+		"longitude" : -0.135478
+	},
+	{
+		"logical_terminal" : 3458,
+		"full_name" : "Waterloo Place, St. James's",
+		"latitude" : 51.5066,
+		"longitude" : -0.131774
+	},
+	{
+		"logical_terminal" : 3459,
+		"full_name" : "Collingham Gardens, Earl's Court",
+		"latitude" : 51.4916,
+		"longitude" : -0.186754
+	},
+	{
+		"logical_terminal" : 3460,
+		"full_name" : "Warwick Square, Pimlico",
+		"latitude" : 51.4899,
+		"longitude" : -0.141924
+	},
+	{
+		"logical_terminal" : 3461,
+		"full_name" : "Sloane Avenue, Knightsbridge",
+		"latitude" : 51.4932,
+		"longitude" : -0.167895
+	},
+	{
+		"logical_terminal" : 3462,
+		"full_name" : "Royal Avenue 2, Chelsea",
+		"latitude" : 51.4901,
+		"longitude" : -0.162418
+	},
+	{
+		"logical_terminal" : 3463,
+		"full_name" : "Argyll Road, Kensington",
+		"latitude" : 51.5004,
+		"longitude" : -0.195456
+	},
+	{
+		"logical_terminal" : 3464,
+		"full_name" : "Green Street, Mayfair",
+		"latitude" : 51.5123,
+		"longitude" : -0.157437
+	},
+	{
+		"logical_terminal" : 3465,
+		"full_name" : "Eccleston Place, Victoria",
+		"latitude" : 51.4939,
+		"longitude" : -0.147624
+	},
+	{
+		"logical_terminal" : 3467,
+		"full_name" : "Vaughan Way, Wapping",
+		"latitude" : 51.5084,
+		"longitude" : -0.0671764
+	},
+	{
+		"logical_terminal" : 3468,
+		"full_name" : "Margery Street, Clerkenwell",
+		"latitude" : 51.5266,
+		"longitude" : -0.112433
+	},
+	{
+		"logical_terminal" : 3469,
+		"full_name" : "Cadogan Place, Knightsbridge",
+		"latitude" : 51.4946,
+		"longitude" : -0.158106
+	},
+	{
+		"logical_terminal" : 3470,
+		"full_name" : "Great Percy Street, Clerkenwell",
+		"latitude" : 51.5289,
+		"longitude" : -0.115481
+	},
+	{
+		"logical_terminal" : 3471,
+		"full_name" : "Chadwell Street, Angel",
+		"latitude" : 51.5305,
+		"longitude" : -0.106408
+	},
+	{
+		"logical_terminal" : 3472,
+		"full_name" : "Colombo Street, Southwark",
+		"latitude" : 51.5055,
+		"longitude" : -0.105692
+	},
+	{
+		"logical_terminal" : 3473,
+		"full_name" : "Belgrave Square, Belgravia",
+		"latitude" : 51.4994,
+		"longitude" : -0.152318
+	},
+	{
+		"logical_terminal" : 3475,
+		"full_name" : "New Road  2, Whitechapel",
+		"latitude" : 51.5181,
+		"longitude" : -0.06275
+	},
+	{
+		"logical_terminal" : 3476,
+		"full_name" : "Hinde Street, Marylebone",
+		"latitude" : 51.5168,
+		"longitude" : -0.151926
+	},
+	{
+		"logical_terminal" : 3477,
+		"full_name" : "Porchester Place, Paddington",
+		"latitude" : 51.5147,
+		"longitude" : -0.165164
+	},
+	{
+		"logical_terminal" : 3478,
+		"full_name" : "Guildhouse Street, Victoria",
+		"latitude" : 51.4923,
+		"longitude" : -0.141334
+	},
+	{
+		"logical_terminal" : 3479,
+		"full_name" : "Old Brompton Road, South Kensington",
+		"latitude" : 51.4909,
+		"longitude" : -0.181191
+	},
+	{
+		"logical_terminal" : 3480,
+		"full_name" : "Smith Square, Westminster",
+		"latitude" : 51.4958,
+		"longitude" : -0.127575
+	},
+	{
+		"logical_terminal" : 3481,
+		"full_name" : "Rodney Road , Walworth",
+		"latitude" : 51.4915,
+		"longitude" : -0.0902209
+	},
+	{
+		"logical_terminal" : 3482,
+		"full_name" : "Beaumont Street, Marylebone",
+		"latitude" : 51.522,
+		"longitude" : -0.151359
+	},
+	{
+		"logical_terminal" : 3483,
+		"full_name" : "Fashion Street, Whitechapel",
+		"latitude" : 51.5184,
+		"longitude" : -0.0734389
+	},
+	{
+		"logical_terminal" : 3484,
+		"full_name" : "Houghton Street, Strand",
+		"latitude" : 51.5136,
+		"longitude" : -0.116764
+	},
+	{
+		"logical_terminal" : 3485,
+		"full_name" : "Tyers Gate, Bermondsey",
+		"latitude" : 51.5009,
+		"longitude" : -0.0831593
+	},
+	{
+		"logical_terminal" : 3486,
+		"full_name" : "St. Luke's Church, Chelsea",
+		"latitude" : 51.4897,
+		"longitude" : -0.170194
+	},
+	{
+		"logical_terminal" : 3487,
+		"full_name" : "Campden Hill Road, Notting Hill",
+		"latitude" : 51.5066,
+		"longitude" : -0.199004
+	},
+	{
+		"logical_terminal" : 3488,
+		"full_name" : "Charles II Street, West End",
+		"latitude" : 51.5084,
+		"longitude" : -0.131961
+	},
+	{
+		"logical_terminal" : 3489,
+		"full_name" : "Broadwick Street, Soho",
+		"latitude" : 51.5137,
+		"longitude" : -0.135581
+	},
+	{
+		"logical_terminal" : 3490,
+		"full_name" : "Southwick Street, Paddington",
+		"latitude" : 51.516,
+		"longitude" : -0.169249
+	},
+	{
+		"logical_terminal" : 3491,
+		"full_name" : "Princes Square, Bayswater",
+		"latitude" : 51.5135,
+		"longitude" : -0.191351
+	},
+	{
+		"logical_terminal" : 3493,
+		"full_name" : "South Audley Street, Mayfair",
+		"latitude" : 51.5092,
+		"longitude" : -0.151296
+	},
+	{
+		"logical_terminal" : 3494,
+		"full_name" : "Foley Street, Fitzrovia",
+		"latitude" : 51.5192,
+		"longitude" : -0.140486
+	},
+	{
+		"logical_terminal" : 3495,
+		"full_name" : "Wells Street, Fitzrovia ",
+		"latitude" : 51.5173,
+		"longitude" : -0.138073
+	},
+	{
+		"logical_terminal" : 3496,
+		"full_name" : "Winsland Street, Paddington",
+		"latitude" : 51.5168,
+		"longitude" : -0.175489
+	},
+	{
+		"logical_terminal" : 3497,
+		"full_name" : "Rathbone Street, Fitzrovia ",
+		"latitude" : 51.5182,
+		"longitude" : -0.135026
+	},
+	{
+		"logical_terminal" : 3498,
+		"full_name" : "Geraldine Street, Elephant & Castle",
+		"latitude" : 51.4961,
+		"longitude" : -0.106001
+	},
+	{
+		"logical_terminal" : 3499,
+		"full_name" : "Prince Consort Road, Knightsbridge",
+		"latitude" : 51.4998,
+		"longitude" : -0.176416
+	},
+	{
+		"logical_terminal" : 3500,
+		"full_name" : "Baldwin Street, St. Luke's",
+		"latitude" : 51.527,
+		"longitude" : -0.0885428
+	},
+	{
+		"logical_terminal" : 3501,
+		"full_name" : "Clifton Street, Shoreditch",
+		"latitude" : 51.5232,
+		"longitude" : -0.083067
+	},
+	{
+		"logical_terminal" : 3502,
+		"full_name" : "Palissy Street, Shoreditch",
+		"latitude" : 51.5263,
+		"longitude" : -0.073955
+	},
+	{
+		"logical_terminal" : 3503,
+		"full_name" : "Victoria Embankment, Temple",
+		"latitude" : 51.5112,
+		"longitude" : -0.107481
+	},
+	{
+		"logical_terminal" : 3504,
+		"full_name" : "Moor Street, Soho",
+		"latitude" : 51.5135,
+		"longitude" : -0.130111
+	},
+	{
+		"logical_terminal" : 3505,
+		"full_name" : "Marloes Road, Kensington",
+		"latitude" : 51.4965,
+		"longitude" : -0.192404
+	},
+	{
+		"logical_terminal" : 3506,
+		"full_name" : "Stanhope Gate, Mayfair",
+		"latitude" : 51.5069,
+		"longitude" : -0.150667
+	},
+	{
+		"logical_terminal" : 3507,
+		"full_name" : "Alfred Place, Bloomsbury",
+		"latitude" : 51.5197,
+		"longitude" : -0.132339
+	},
+	{
+		"logical_terminal" : 10621,
+		"full_name" : "Upper Grosvenor Street, Mayfair",
+		"latitude" : 51.5101,
+		"longitude" : -0.155758
+	},
+	{
+		"logical_terminal" : 10623,
+		"full_name" : "Greycoat Street , Westminster",
+		"latitude" : 51.4946,
+		"longitude" : -0.134234
+	},
+	{
+		"logical_terminal" : 10624,
+		"full_name" : "Strata, Southwark",
+		"latitude" : 51.4931,
+		"longitude" : -0.099828
+	},
+	{
+		"logical_terminal" : 10625,
+		"full_name" : "Penfold Street, Marylebone",
+		"latitude" : 51.5229,
+		"longitude" : -0.171682
+	},
+	{
+		"logical_terminal" : 10627,
+		"full_name" : "Grosvenor Square, Mayfair",
+		"latitude" : 51.5122,
+		"longitude" : -0.150481
+	},
+	{
+		"logical_terminal" : 10628,
+		"full_name" : "Cleaver Street, Kennington",
+		"latitude" : 51.4881,
+		"longitude" : -0.110121
+	},
+	{
+		"logical_terminal" : 10629,
+		"full_name" : "Walworth Road, Southwark",
+		"latitude" : 51.4934,
+		"longitude" : -0.0996807
+	},
+	{
+		"logical_terminal" : 10630,
+		"full_name" : "George Place Mews, Marylebone",
+		"latitude" : 51.5169,
+		"longitude" : -0.15825
+	},
+	{
+		"logical_terminal" : 10631,
+		"full_name" : "Holland Park, Kensington",
+		"latitude" : 51.5023,
+		"longitude" : -0.200742
+	},
+	{
+		"logical_terminal" : 10632,
+		"full_name" : "Kensington Town Hall, Kensington",
+		"latitude" : 51.5019,
+		"longitude" : -0.194393
+	},
+	{
+		"logical_terminal" : 10633,
+		"full_name" : "Speakers' Corner 2, Hyde Park",
+		"latitude" : 51.5123,
+		"longitude" : -0.159988
+	},
+	{
+		"logical_terminal" : 22158,
+		"full_name" : "Exhibition Road Museums, Knightsbridge",
+		"latitude" : 51.497,
+		"longitude" : -0.173894
+	},
+	{
+		"logical_terminal" : 22159,
+		"full_name" : "Ebury Bridge, Pimlico",
+		"latitude" : 51.4905,
+		"longitude" : -0.149186
+	},
+	{
+		"logical_terminal" : 22160,
+		"full_name" : "Chelsea Bridge, Pimlico",
+		"latitude" : 51.4858,
+		"longitude" : -0.149004
+	},
+	{
+		"logical_terminal" : 22161,
+		"full_name" : "Vincent Street, Pimlico",
+		"latitude" : 51.4931,
+		"longitude" : -0.129925
+	},
+	{
+		"logical_terminal" : 22162,
+		"full_name" : "Southwark Station 1, Southwark",
+		"latitude" : 51.504,
+		"longitude" : -0.105312
+	},
+	{
+		"logical_terminal" : 22163,
+		"full_name" : "Southwark Station 2, Southwark",
+		"latitude" : 51.504,
+		"longitude" : -0.104778
+	},
+	{
+		"logical_terminal" : 22164,
+		"full_name" : "Eaton Square (South), Belgravia",
+		"latitude" : 51.4946,
+		"longitude" : -0.153934
+	},
+	{
+		"logical_terminal" : 22165,
+		"full_name" : "Fishermans Walk West, Canary Wharf",
+		"latitude" : 51.5062,
+		"longitude" : -0.02296
+	},
+	{
+		"logical_terminal" : 22166,
+		"full_name" : "Albert Gardens, Stepney",
+		"latitude" : 51.5133,
+		"longitude" : -0.047784
+	},
+	{
+		"logical_terminal" : 22167,
+		"full_name" : "Millharbour, Millwall",
+		"latitude" : 51.4961,
+		"longitude" : -0.019355
+	},
+	{
+		"logical_terminal" : 22169,
+		"full_name" : "Wren Street, Holborn",
+		"latitude" : 51.5246,
+		"longitude" : -0.116279
+	},
+	{
+		"logical_terminal" : 22170,
+		"full_name" : "Kennington Station, Kennington",
+		"latitude" : 51.4889,
+		"longitude" : -0.105593
+	},
+	{
+		"logical_terminal" : 22171,
+		"full_name" : "Red Lion Street, Holborn",
+		"latitude" : 51.5182,
+		"longitude" : -0.11655
+	},
+	{
+		"logical_terminal" : 22172,
+		"full_name" : "Bromley High Street, Bromley",
+		"latitude" : 51.5288,
+		"longitude" : -0.013258
+	},
+	{
+		"logical_terminal" : 22173,
+		"full_name" : "Old Ford Road, Bethnal Green",
+		"latitude" : 51.5311,
+		"longitude" : -0.048017
+	},
+	{
+		"logical_terminal" : 22174,
+		"full_name" : "Granby Street, Shoreditch",
+		"latitude" : 51.5256,
+		"longitude" : -0.069543
+	},
+	{
+		"logical_terminal" : 22175,
+		"full_name" : "Canton Street, Poplar",
+		"latitude" : 51.5118,
+		"longitude" : -0.025626
+	},
+	{
+		"logical_terminal" : 22176,
+		"full_name" : "Reardon Street, Wapping",
+		"latitude" : 51.5069,
+		"longitude" : -0.058681
+	},
+	{
+		"logical_terminal" : 22177,
+		"full_name" : "Christian Street, Whitechapel",
+		"latitude" : 51.5131,
+		"longitude" : -0.064094
+	},
+	{
+		"logical_terminal" : 22178,
+		"full_name" : "Lindfield Street, Poplar",
+		"latitude" : 51.5138,
+		"longitude" : -0.020467
+	},
+	{
+		"logical_terminal" : 22179,
+		"full_name" : "Exhibition Road, South Kensington",
+		"latitude" : 51.4999,
+		"longitude" : -0.174554
+	},
+	{
+		"logical_terminal" : 22180,
+		"full_name" : "Cheapside, Bank",
+		"latitude" : 51.514,
+		"longitude" : -0.0929403
+	},
+	{
+		"logical_terminal" : 22181,
+		"full_name" : "Harrington Square 2, Camden Town",
+		"latitude" : 51.5334,
+		"longitude" : -0.139159
+	},
+	{
+		"logical_terminal" : 22182,
+		"full_name" : "South Parade, Chelsea",
+		"latitude" : 51.489,
+		"longitude" : -0.17524
+	},
+	{
+		"logical_terminal" : 22183,
+		"full_name" : "Crinan Street, King's Cross",
+		"latitude" : 51.5345,
+		"longitude" : -0.122203
+	},
+	{
+		"logical_terminal" : 200001,
+		"full_name" : "Limerston Street, Chelsea",
+		"latitude" : 51.4856,
+		"longitude" : -0.18119
+	},
+	{
+		"logical_terminal" : 200002,
+		"full_name" : "Jubilee Street, Stepney",
+		"latitude" : 51.516,
+		"longitude" : -0.053177
+	},
+	{
+		"logical_terminal" : 200003,
+		"full_name" : "Cheshire Street, Bethnal Green",
+		"latitude" : 51.5239,
+		"longitude" : -0.065076
+	},
+	{
+		"logical_terminal" : 200004,
+		"full_name" : "Lightermans Road, Millwall",
+		"latitude" : 51.499,
+		"longitude" : -0.020157
+	},
+	{
+		"logical_terminal" : 200005,
+		"full_name" : "New Cavendish Street, Marylebone",
+		"latitude" : 51.5192,
+		"longitude" : -0.147983
+	},
+	{
+		"logical_terminal" : 200006,
+		"full_name" : "Hewison Street, Old Ford",
+		"latitude" : 51.5333,
+		"longitude" : -0.028155
+	},
+	{
+		"logical_terminal" : 200007,
+		"full_name" : "Holden Street, Battersea",
+		"latitude" : 51.4688,
+		"longitude" : -0.158231
+	},
+	{
+		"logical_terminal" : 200008,
+		"full_name" : "Portman Square, Marylebone",
+		"latitude" : 51.5162,
+		"longitude" : -0.155525
+	},
+	{
+		"logical_terminal" : 200009,
+		"full_name" : "Stebondale Street, Cubitt Town",
+		"latitude" : 51.4891,
+		"longitude" : -0.009205
+	},
+	{
+		"logical_terminal" : 200010,
+		"full_name" : "Manresa Road, Chelsea",
+		"latitude" : 51.4869,
+		"longitude" : -0.170983
+	},
+	{
+		"logical_terminal" : 200011,
+		"full_name" : "Furze Green, Bow",
+		"latitude" : 51.5193,
+		"longitude" : -0.021345
+	},
+	{
+		"logical_terminal" : 200012,
+		"full_name" : "Stepney Green Station, Stepney",
+		"latitude" : 51.5219,
+		"longitude" : -0.04667
+	},
+	{
+		"logical_terminal" : 200013,
+		"full_name" : "Aston Street, Stepney",
+		"latitude" : 51.516,
+		"longitude" : -0.038775
+	},
+	{
+		"logical_terminal" : 200014,
+		"full_name" : "Gun Makers Lane, Old Ford",
+		"latitude" : 51.5352,
+		"longitude" : -0.03338
+	},
+	{
+		"logical_terminal" : 200015,
+		"full_name" : "Ladbroke Grove Central, Notting Hill",
+		"latitude" : 51.5116,
+		"longitude" : -0.205921
+	},
+	{
+		"logical_terminal" : 200016,
+		"full_name" : "Castlehaven Road, Camden Town",
+		"latitude" : 51.5421,
+		"longitude" : -0.145393
+	},
+	{
+		"logical_terminal" : 200017,
+		"full_name" : "Lancaster Gate , Bayswater",
+		"latitude" : 51.5117,
+		"longitude" : -0.179668
+	},
+	{
+		"logical_terminal" : 200018,
+		"full_name" : "Spindrift Avenue, Millwall",
+		"latitude" : 51.4911,
+		"longitude" : -0.018716
+	},
+	{
+		"logical_terminal" : 200019,
+		"full_name" : "Malmesbury Road, Bow",
+		"latitude" : 51.5295,
+		"longitude" : -0.027616
+	},
+	{
+		"logical_terminal" : 200020,
+		"full_name" : "Shadwell Station, Shadwell",
+		"latitude" : 51.5111,
+		"longitude" : -0.057159
+	},
+	{
+		"logical_terminal" : 200021,
+		"full_name" : "Hermitage Court, Wapping",
+		"latitude" : 51.5047,
+		"longitude" : -0.063531
+	},
+	{
+		"logical_terminal" : 200022,
+		"full_name" : "Saunders Ness Road, Cubitt Town",
+		"latitude" : 51.4871,
+		"longitude" : -0.009001
+	},
+	{
+		"logical_terminal" : 200023,
+		"full_name" : "Heath Road, Battersea",
+		"latitude" : 51.4687,
+		"longitude" : -0.146545
+	},
+	{
+		"logical_terminal" : 200024,
+		"full_name" : "Queensbridge Road, Haggerston",
+		"latitude" : 51.5339,
+		"longitude" : -0.06992
+	},
+	{
+		"logical_terminal" : 200025,
+		"full_name" : "Bradmead, Nine Elms",
+		"latitude" : 51.4782,
+		"longitude" : -0.144691
+	},
+	{
+		"logical_terminal" : 200026,
+		"full_name" : "Greenland Road, Camden Town",
+		"latitude" : 51.5391,
+		"longitude" : -0.141728
+	},
+	{
+		"logical_terminal" : 200027,
+		"full_name" : "Ford Road, Old Ford",
+		"latitude" : 51.5325,
+		"longitude" : -0.033085
+	},
+	{
+		"logical_terminal" : 200028,
+		"full_name" : "Elysium Place, Fulham",
+		"latitude" : 51.4711,
+		"longitude" : -0.207843
+	},
+	{
+		"logical_terminal" : 200029,
+		"full_name" : "Finlay Street, Fulham",
+		"latitude" : 51.4769,
+		"longitude" : -0.215896
+	},
+	{
+		"logical_terminal" : 200030,
+		"full_name" : "Driffield Road, Old Ford",
+		"latitude" : 51.5341,
+		"longitude" : -0.037366
+	},
+	{
+		"logical_terminal" : 200031,
+		"full_name" : "East Ferry Road, Cubitt Town",
+		"latitude" : 51.4945,
+		"longitude" : -0.014409
+	},
+	{
+		"logical_terminal" : 200032,
+		"full_name" : "Kennington Oval, Oval",
+		"latitude" : 51.4831,
+		"longitude" : -0.113134
+	},
+	{
+		"logical_terminal" : 200033,
+		"full_name" : "Philpot Street, Whitechapel",
+		"latitude" : 51.5153,
+		"longitude" : -0.058641
+	},
+	{
+		"logical_terminal" : 200034,
+		"full_name" : "Wapping Lane, Wapping",
+		"latitude" : 51.5047,
+		"longitude" : -0.057544
+	},
+	{
+		"logical_terminal" : 200035,
+		"full_name" : "Walmer Road, Notting Hill",
+		"latitude" : 51.5101,
+		"longitude" : -0.211358
+	},
+	{
+		"logical_terminal" : 200036,
+		"full_name" : "Bell Lane, Liverpool Street",
+		"latitude" : 51.5175,
+		"longitude" : -0.075855
+	},
+	{
+		"logical_terminal" : 200037,
+		"full_name" : "Rectory Square, Stepney",
+		"latitude" : 51.5184,
+		"longitude" : -0.043371
+	},
+	{
+		"logical_terminal" : 200038,
+		"full_name" : "Ackroyd Drive, Bow",
+		"latitude" : 51.5204,
+		"longitude" : -0.026768
+	},
+	{
+		"logical_terminal" : 200039,
+		"full_name" : "Sail Street, Vauxhall",
+		"latitude" : 51.4957,
+		"longitude" : -0.114605
+	},
+	{
+		"logical_terminal" : 200040,
+		"full_name" : "Broomhouse Lane, Parsons Green",
+		"latitude" : 51.4684,
+		"longitude" : -0.199136
+	},
+	{
+		"logical_terminal" : 200041,
+		"full_name" : "Antill Road, Mile End",
+		"latitude" : 51.5282,
+		"longitude" : -0.037471
+	},
+	{
+		"logical_terminal" : 200042,
+		"full_name" : "York Hall, Bethnal Green",
+		"latitude" : 51.5289,
+		"longitude" : -0.055894
+	},
+	{
+		"logical_terminal" : 200043,
+		"full_name" : "Bishop's Avenue, Fulham",
+		"latitude" : 51.473,
+		"longitude" : -0.21475
+	},
+	{
+		"logical_terminal" : 200045,
+		"full_name" : "Garnet Street, Shadwell",
+		"latitude" : 51.5084,
+		"longitude" : -0.055167
+	},
+	{
+		"logical_terminal" : 200046,
+		"full_name" : "Napier Avenue, Millwall",
+		"latitude" : 51.4877,
+		"longitude" : -0.021582
+	},
+	{
+		"logical_terminal" : 200047,
+		"full_name" : "Bethnal Green Gardens, Bethnal Green",
+		"latitude" : 51.5257,
+		"longitude" : -0.055312
+	},
+	{
+		"logical_terminal" : 200048,
+		"full_name" : "John Islip Street, Westminster",
+		"latitude" : 51.4937,
+		"longitude" : -0.12692
+	},
+	{
+		"logical_terminal" : 200049,
+		"full_name" : "St Katharines Way, Tower",
+		"latitude" : 51.5057,
+		"longitude" : -0.070542
+	},
+	{
+		"logical_terminal" : 200050,
+		"full_name" : "Naval Row, Blackwall",
+		"latitude" : 51.509,
+		"longitude" : -0.00699
+	},
+	{
+		"logical_terminal" : 200051,
+		"full_name" : "Percival Street, Finsbury",
+		"latitude" : 51.5262,
+		"longitude" : -0.102208
+	},
+	{
+		"logical_terminal" : 200052,
+		"full_name" : "Thornfield House, Poplar",
+		"latitude" : 51.5098,
+		"longitude" : -0.02377
+	},
+	{
+		"logical_terminal" : 200053,
+		"full_name" : "Killick Street, Kings Cross",
+		"latitude" : 51.5338,
+		"longitude" : -0.118677
+	},
+	{
+		"logical_terminal" : 200054,
+		"full_name" : "Jubilee Crescent, Cubitt Town",
+		"latitude" : 51.4934,
+		"longitude" : -0.007542
+	},
+	{
+		"logical_terminal" : 200056,
+		"full_name" : "Vauxhall Walk, Vauxhall",
+		"latitude" : 51.4881,
+		"longitude" : -0.120903
+	},
+	{
+		"logical_terminal" : 200057,
+		"full_name" : "Belford House, Haggerston",
+		"latitude" : 51.5367,
+		"longitude" : -0.0702303
+	},
+	{
+		"logical_terminal" : 200058,
+		"full_name" : "Northdown Street, King's Cross",
+		"latitude" : 51.5311,
+		"longitude" : -0.11934
+	},
+	{
+		"logical_terminal" : 200059,
+		"full_name" : "Crisp Road, Hammersmith",
+		"latitude" : 51.4881,
+		"longitude" : -0.226606
+	},
+	{
+		"logical_terminal" : 200060,
+		"full_name" : "Drayton Gardens, Chelsea",
+		"latitude" : 51.4872,
+		"longitude" : -0.179369
+	},
+	{
+		"logical_terminal" : 200061,
+		"full_name" : "Westfield Southern Terrace ,Shepherd's Bush",
+		"latitude" : 51.5063,
+		"longitude" : -0.218337
+	},
+	{
+		"logical_terminal" : 200062,
+		"full_name" : "William Morris Way, Sands End",
+		"latitude" : 51.4688,
+		"longitude" : -0.184319
+	},
+	{
+		"logical_terminal" : 200063,
+		"full_name" : "Mexfield Road, East Putney",
+		"latitude" : 51.4568,
+		"longitude" : -0.202802
+	},
+	{
+		"logical_terminal" : 200064,
+		"full_name" : "Regent's Row , Haggerston ",
+		"latitude" : 51.5357,
+		"longitude" : -0.062546
+	},
+	{
+		"logical_terminal" : 200065,
+		"full_name" : "Lansdowne Walk, Notting Hill",
+		"latitude" : 51.5096,
+		"longitude" : -0.204666
+	},
+	{
+		"logical_terminal" : 200066,
+		"full_name" : "Montgomery Square, Canary Wharf",
+		"latitude" : 51.5034,
+		"longitude" : -0.016233
+	},
+	{
+		"logical_terminal" : 200067,
+		"full_name" : "Princedale Road , Holland Park",
+		"latitude" : 51.5065,
+		"longitude" : -0.208487
+	},
+	{
+		"logical_terminal" : 200068,
+		"full_name" : "Somerset House, Strand",
+		"latitude" : 51.5099,
+		"longitude" : -0.117619
+	},
+	{
+		"logical_terminal" : 200069,
+		"full_name" : "Knaresborough Place, Earl's Court",
+		"latitude" : 51.4936,
+		"longitude" : -0.190603
+	},
+	{
+		"logical_terminal" : 200070,
+		"full_name" : "Arlington Road, Camden Town",
+		"latitude" : 51.54,
+		"longitude" : -0.145246
+	},
+	{
+		"logical_terminal" : 200071,
+		"full_name" : "Hoxton Street, Hoxton",
+		"latitude" : 51.5296,
+		"longitude" : -0.0801
+	},
+	{
+		"logical_terminal" : 200073,
+		"full_name" : "Cephas Street, Bethnal Green",
+		"latitude" : 51.5226,
+		"longitude" : -0.054883
+	},
+	{
+		"logical_terminal" : 200074,
+		"full_name" : "Bury Place, Holborn",
+		"latitude" : 51.5175,
+		"longitude" : -0.12335
+	},
+	{
+		"logical_terminal" : 200076,
+		"full_name" : "Westminster Bridge Road, Elephant & Castle",
+		"latitude" : 51.4984,
+		"longitude" : -0.107913
+	},
+	{
+		"logical_terminal" : 200077,
+		"full_name" : "Vicarage Crescent, Battersea",
+		"latitude" : 51.4729,
+		"longitude" : -0.176267
+	},
+	{
+		"logical_terminal" : 200078,
+		"full_name" : "Aberfeldy Street, Poplar",
+		"latitude" : 51.5135,
+		"longitude" : -0.005659
+	},
+	{
+		"logical_terminal" : 200080,
+		"full_name" : "Russell Gardens, Holland Park",
+		"latitude" : 51.5001,
+		"longitude" : -0.211316
+	},
+	{
+		"logical_terminal" : 200081,
+		"full_name" : "Coomer Place, West Kensington",
+		"latitude" : 51.4836,
+		"longitude" : -0.202039
+	},
+	{
+		"logical_terminal" : 200082,
+		"full_name" : "St. Mary and St. Michael Church, Stepney",
+		"latitude" : 51.5142,
+		"longitude" : -0.052099
+	},
+	{
+		"logical_terminal" : 200083,
+		"full_name" : "Pritchard's Road, Bethnal Green",
+		"latitude" : 51.5321,
+		"longitude" : -0.06142
+	},
+	{
+		"logical_terminal" : 200086,
+		"full_name" : "Ilchester Gardens, Bayswater",
+		"latitude" : 51.5124,
+		"longitude" : -0.19096
+	},
+	{
+		"logical_terminal" : 200088,
+		"full_name" : "Clarges Street, West End",
+		"latitude" : 51.5073,
+		"longitude" : -0.145827
+	},
+	{
+		"logical_terminal" : 200089,
+		"full_name" : "Chrisp Street Market, Poplar",
+		"latitude" : 51.5112,
+		"longitude" : -0.014438
+	},
+	{
+		"logical_terminal" : 200090,
+		"full_name" : "Pennington Street, Wapping",
+		"latitude" : 51.5086,
+		"longitude" : -0.065006
+	},
+	{
+		"logical_terminal" : 200091,
+		"full_name" : "Wandsworth Town Station, Wandsworth",
+		"latitude" : 51.4609,
+		"longitude" : -0.187427
+	},
+	{
+		"logical_terminal" : 200092,
+		"full_name" : "Mudchute DLR, Cubitt Town",
+		"latitude" : 51.4906,
+		"longitude" : -0.014582
+	},
+	{
+		"logical_terminal" : 200093,
+		"full_name" : "Thurtle Road, Haggerston",
+		"latitude" : 51.5348,
+		"longitude" : -0.071881
+	},
+	{
+		"logical_terminal" : 200094,
+		"full_name" : "St. Bride Street, Holborn",
+		"latitude" : 51.5151,
+		"longitude" : -0.105344
+	},
+	{
+		"logical_terminal" : 200096,
+		"full_name" : "Green Park Station, West End",
+		"latitude" : 51.5066,
+		"longitude" : -0.142844
+	},
+	{
+		"logical_terminal" : 200097,
+		"full_name" : "Beryl Road, Hammersmith",
+		"latitude" : 51.4881,
+		"longitude" : -0.222456
+	},
+	{
+		"logical_terminal" : 200098,
+		"full_name" : "Aintree Street, Fulham",
+		"latitude" : 51.481,
+		"longitude" : -0.209973
+	},
+	{
+		"logical_terminal" : 200099,
+		"full_name" : "Upper Bank Street, Canary Wharf",
+		"latitude" : 51.5031,
+		"longitude" : -0.017676
+	},
+	{
+		"logical_terminal" : 200101,
+		"full_name" : "Monument Street, Monument",
+		"latitude" : 51.5096,
+		"longitude" : -0.08497
+	},
+	{
+		"logical_terminal" : 200102,
+		"full_name" : "Harford Street, Mile End",
+		"latitude" : 51.5216,
+		"longitude" : -0.039264
+	},
+	{
+		"logical_terminal" : 200105,
+		"full_name" : "Bonny Street, Camden Town",
+		"latitude" : 51.5416,
+		"longitude" : -0.138853
+	},
+	{
+		"logical_terminal" : 200106,
+		"full_name" : "Spanish Road, Wandsworth",
+		"latitude" : 51.4592,
+		"longitude" : -0.180885
+	},
+	{
+		"logical_terminal" : 200108,
+		"full_name" : "Bishop's Bridge Road East, Bayswater",
+		"latitude" : 51.5171,
+		"longitude" : -0.18377
+	},
+	{
+		"logical_terminal" : 200109,
+		"full_name" : "Alpha Grove, Millwall",
+		"latitude" : 51.4973,
+		"longitude" : -0.022793
+	},
+	{
+		"logical_terminal" : 200110,
+		"full_name" : "Bishop's Bridge Road West, Bayswater",
+		"latitude" : 51.5162,
+		"longitude" : -0.18697
+	},
+	{
+		"logical_terminal" : 200111,
+		"full_name" : "Abbotsbury Road, Holland Park",
+		"latitude" : 51.5014,
+		"longitude" : -0.205991
+	},
+	{
+		"logical_terminal" : 200112,
+		"full_name" : "Cadogan Close, Victoria Park",
+		"latitude" : 51.5421,
+		"longitude" : -0.0289416
+	},
+	{
+		"logical_terminal" : 200113,
+		"full_name" : "Smugglers Way, Wandsworth",
+		"latitude" : 51.4611,
+		"longitude" : -0.191723
+	},
+	{
+		"logical_terminal" : 200114,
+		"full_name" : "Orbel Street, Battersea",
+		"latitude" : 51.4745,
+		"longitude" : -0.170211
+	},
+	{
+		"logical_terminal" : 200115,
+		"full_name" : "Flamborough Street, Limehouse",
+		"latitude" : 51.5129,
+		"longitude" : -0.0389866
+	},
+	{
+		"logical_terminal" : 200116,
+		"full_name" : "Vereker Road, West Kensington",
+		"latitude" : 51.4896,
+		"longitude" : -0.209379
+	},
+	{
+		"logical_terminal" : 200118,
+		"full_name" : "Parkway, Camden Town",
+		"latitude" : 51.5381,
+		"longitude" : -0.144664
+	},
+	{
+		"logical_terminal" : 200119,
+		"full_name" : "Dorothy Road, Clapham Junction",
+		"latitude" : 51.4651,
+		"longitude" : -0.163751
+	},
+	{
+		"logical_terminal" : 200120,
+		"full_name" : "Grant Road East, Clapham Junction",
+		"latitude" : 51.4649,
+		"longitude" : -0.173029
+	},
+	{
+		"logical_terminal" : 200121,
+		"full_name" : "Shoreditch Court, Haggerston",
+		"latitude" : 51.5391,
+		"longitude" : -0.0703294
+	},
+	{
+		"logical_terminal" : 200122,
+		"full_name" : "Hawley Crescent, Camden Town",
+		"latitude" : 51.541,
+		"longitude" : -0.143261
+	},
+	{
+		"logical_terminal" : 200123,
+		"full_name" : "Burdett Road, Mile End",
+		"latitude" : 51.5162,
+		"longitude" : -0.029138
+	},
+	{
+		"logical_terminal" : 200124,
+		"full_name" : "Clarendon Road, Avondale",
+		"latitude" : 51.5132,
+		"longitude" : -0.211594
+	},
+	{
+		"logical_terminal" : 200125,
+		"full_name" : "Putney Bridge Station, Fulham",
+		"latitude" : 51.4688,
+		"longitude" : -0.210279
+	},
+	{
+		"logical_terminal" : 200126,
+		"full_name" : "Usk Road, Battersea",
+		"latitude" : 51.4635,
+		"longitude" : -0.182126
+	},
+	{
+		"logical_terminal" : 200127,
+		"full_name" : "East India DLR, Blackwall",
+		"latitude" : 51.5095,
+		"longitude" : -0.002275
+	},
+	{
+		"logical_terminal" : 200128,
+		"full_name" : "Queen Street 2, Bank",
+		"latitude" : 51.5112,
+		"longitude" : -0.093051
+	},
+	{
+		"logical_terminal" : 200129,
+		"full_name" : "Charlotte Terrace, Angel",
+		"latitude" : 51.5364,
+		"longitude" : -0.112721
+	},
+	{
+		"logical_terminal" : 200131,
+		"full_name" : "Clarkson Street, Bethnal Green",
+		"latitude" : 51.5287,
+		"longitude" : -0.059091
+	},
+	{
+		"logical_terminal" : 200132,
+		"full_name" : "Gaywood  Street, Elephant & Castle",
+		"latitude" : 51.4961,
+		"longitude" : -0.104193
+	},
+	{
+		"logical_terminal" : 200133,
+		"full_name" : "South Lambeth Road, Vauxhall",
+		"latitude" : 51.4817,
+		"longitude" : -0.124642
+	},
+	{
+		"logical_terminal" : 200134,
+		"full_name" : "Albany Street, Regent's Park",
+		"latitude" : 51.5283,
+		"longitude" : -0.144466
+	},
+	{
+		"logical_terminal" : 200135,
+		"full_name" : "Selby Street, Whitechapel",
+		"latitude" : 51.5219,
+		"longitude" : -0.063386
+	},
+	{
+		"logical_terminal" : 200136,
+		"full_name" : "BBC White City, White City",
+		"latitude" : 51.5148,
+		"longitude" : -0.225787
+	},
+	{
+		"logical_terminal" : 200137,
+		"full_name" : "Caldwell Street, Stockwell",
+		"latitude" : 51.4778,
+		"longitude" : -0.116493
+	},
+	{
+		"logical_terminal" : 200138,
+		"full_name" : "Heron Quays DLR, Canary Wharf",
+		"latitude" : 51.5027,
+		"longitude" : -0.021596
+	},
+	{
+		"logical_terminal" : 200141,
+		"full_name" : "Westfield Ariel Way, White City",
+		"latitude" : 51.5092,
+		"longitude" : -0.224103
+	},
+	{
+		"logical_terminal" : 200142,
+		"full_name" : "Hammersmith Road, Hammersmith",
+		"latitude" : 51.4933,
+		"longitude" : -0.21985
+	},
+	{
+		"logical_terminal" : 200143,
+		"full_name" : "Lancaster Drive, Blackwall",
+		"latitude" : 51.5031,
+		"longitude" : -0.008428
+	},
+	{
+		"logical_terminal" : 200145,
+		"full_name" : "Gloucester Avenue, Camden Town",
+		"latitude" : 51.5373,
+		"longitude" : -0.147154
+	},
+	{
+		"logical_terminal" : 200146,
+		"full_name" : "Newby Place, Poplar",
+		"latitude" : 51.5089,
+		"longitude" : -0.012413
+	},
+	{
+		"logical_terminal" : 200147,
+		"full_name" : "Salmon Lane, Limehouse",
+		"latitude" : 51.5141,
+		"longitude" : -0.033828
+	},
+	{
+		"logical_terminal" : 200148,
+		"full_name" : "Sidney Street, Stepney",
+		"latitude" : 51.5198,
+		"longitude" : -0.055731
+	},
+	{
+		"logical_terminal" : 200149,
+		"full_name" : "Watney Street, Shadwell",
+		"latitude" : 51.5115,
+		"longitude" : -0.056667
+	},
+	{
+		"logical_terminal" : 200150,
+		"full_name" : "Cantrell Road, Bow",
+		"latitude" : 51.5216,
+		"longitude" : -0.022694
+	},
+	{
+		"logical_terminal" : 200151,
+		"full_name" : "Hoxton Station, Haggerston",
+		"latitude" : 51.5311,
+		"longitude" : -0.075901
+	},
+	{
+		"logical_terminal" : 200152,
+		"full_name" : "Pitfield Street (North),Hoxton",
+		"latitude" : 51.5356,
+		"longitude" : -0.08249
+	},
+	{
+		"logical_terminal" : 200153,
+		"full_name" : "Churchill Place, Canary Wharf",
+		"latitude" : 51.5047,
+		"longitude" : -0.014293
+	},
+	{
+		"logical_terminal" : 200154,
+		"full_name" : "Hansard Mews, Shepherds Bush",
+		"latitude" : 51.5038,
+		"longitude" : -0.215808
+	},
+	{
+		"logical_terminal" : 200155,
+		"full_name" : "Castalia Square, Cubitt Town",
+		"latitude" : 51.4981,
+		"longitude" : -0.011457
+	},
+	{
+		"logical_terminal" : 200156,
+		"full_name" : "Pott Street, Bethnal Green",
+		"latitude" : 51.5272,
+		"longitude" : -0.058005
+	},
+	{
+		"logical_terminal" : 200157,
+		"full_name" : "Fournier Street, Whitechapel",
+		"latitude" : 51.5194,
+		"longitude" : -0.074431
+	},
+	{
+		"logical_terminal" : 200158,
+		"full_name" : "Whiston Road, Haggerston",
+		"latitude" : 51.5345,
+		"longitude" : -0.076341
+	},
+	{
+		"logical_terminal" : 200159,
+		"full_name" : "Goldsmiths Row, Haggerston",
+		"latitude" : 51.5319,
+		"longitude" : -0.066035
+	},
+	{
+		"logical_terminal" : 200160,
+		"full_name" : "Langdon Park, Poplar",
+		"latitude" : 51.5155,
+		"longitude" : -0.013475
+	},
+	{
+		"logical_terminal" : 200161,
+		"full_name" : "Clinton Road, Mile End",
+		"latitude" : 51.5259,
+		"longitude" : -0.036017
+	},
+	{
+		"logical_terminal" : 200162,
+		"full_name" : "Watney Market, Stepney",
+		"latitude" : 51.5142,
+		"longitude" : -0.055656
+	},
+	{
+		"logical_terminal" : 200163,
+		"full_name" : "Jubilee Plaza, Canary Wharf",
+		"latitude" : 51.5036,
+		"longitude" : -0.020068
+	},
+	{
+		"logical_terminal" : 200165,
+		"full_name" : "Wellington Row, Bethnal Green",
+		"latitude" : 51.5282,
+		"longitude" : -0.069743
+	},
+	{
+		"logical_terminal" : 200166,
+		"full_name" : "Southerton Road, Hammersmith",
+		"latitude" : 51.4945,
+		"longitude" : -0.228188
+	},
+	{
+		"logical_terminal" : 200167,
+		"full_name" : "Twig Folly Bridge, Mile End",
+		"latitude" : 51.5303,
+		"longitude" : -0.042744
+	},
+	{
+		"logical_terminal" : 200168,
+		"full_name" : "Southern Grove, Bow",
+		"latitude" : 51.5235,
+		"longitude" : -0.030556
+	},
+	{
+		"logical_terminal" : 200169,
+		"full_name" : "Ashley Crescent, Battersea",
+		"latitude" : 51.4672,
+		"longitude" : -0.152249
+	},
+	{
+		"logical_terminal" : 200170,
+		"full_name" : "Esmond Street, Putney",
+		"latitude" : 51.4623,
+		"longitude" : -0.211469
+	},
+	{
+		"logical_terminal" : 200171,
+		"full_name" : "Peterborough Road, Sands End",
+		"latitude" : 51.469,
+		"longitude" : -0.196275
+	},
+	{
+		"logical_terminal" : 200172,
+		"full_name" : "Lansdowne Road, Ladbroke Grove",
+		"latitude" : 51.5075,
+		"longitude" : -0.205536
+	},
+	{
+		"logical_terminal" : 200173,
+		"full_name" : "Courland Grove, Wandsworth Road",
+		"latitude" : 51.4729,
+		"longitude" : -0.132103
+	},
+	{
+		"logical_terminal" : 200174,
+		"full_name" : "Mostyn Grove, Bow",
+		"latitude" : 51.5305,
+		"longitude" : -0.025492
+	},
+	{
+		"logical_terminal" : 200175,
+		"full_name" : "Wandsworth Rd, Isley Court, Wandsworth Road",
+		"latitude" : 51.4693,
+		"longitude" : -0.141813
+	},
+	{
+		"logical_terminal" : 200176,
+		"full_name" : "Sheepcote Lane, Battersea",
+		"latitude" : 51.4705,
+		"longitude" : -0.163042
+	},
+	{
+		"logical_terminal" : 200178,
+		"full_name" : "Buckingham Gate, Westminster",
+		"latitude" : 51.4989,
+		"longitude" : -0.137425
+	},
+	{
+		"logical_terminal" : 200179,
+		"full_name" : "Silverthorne Road, Battersea",
+		"latitude" : 51.4729,
+		"longitude" : -0.148059
+	},
+	{
+		"logical_terminal" : 200180,
+		"full_name" : "South Park, Sands End",
+		"latitude" : 51.4671,
+		"longitude" : -0.193502
+	},
+	{
+		"logical_terminal" : 200181,
+		"full_name" : "Richmond Way, Shepherd's Bush",
+		"latitude" : 51.5004,
+		"longitude" : -0.217515
+	},
+	{
+		"logical_terminal" : 200182,
+		"full_name" : "Rainville Road, Hammersmith",
+		"latitude" : 51.4837,
+		"longitude" : -0.223852
+	},
+	{
+		"logical_terminal" : 200183,
+		"full_name" : "Battersea Park Road, Nine Elms",
+		"latitude" : 51.4795,
+		"longitude" : -0.141771
+	},
+	{
+		"logical_terminal" : 200184,
+		"full_name" : "Erin Close, Walham Green",
+		"latitude" : 51.4795,
+		"longitude" : -0.195777
+	},
+	{
+		"logical_terminal" : 200186,
+		"full_name" : "Nantes Close, Wandsworth",
+		"latitude" : 51.4619,
+		"longitude" : -0.180792
+	},
+	{
+		"logical_terminal" : 200187,
+		"full_name" : "Morie Street, Wandsworth",
+		"latitude" : 51.46,
+		"longitude" : -0.190184
+	},
+	{
+		"logical_terminal" : 200188,
+		"full_name" : "Neville Gill Close, Wandsworth",
+		"latitude" : 51.4548,
+		"longitude" : -0.195197
+	},
+	{
+		"logical_terminal" : 200189,
+		"full_name" : "Phene Street, Chelsea",
+		"latitude" : 51.485,
+		"longitude" : -0.16792
+	},
+	{
+		"logical_terminal" : 200190,
+		"full_name" : "Queen's Circus, Battersea Park",
+		"latitude" : 51.4776,
+		"longitude" : -0.149552
+	},
+	{
+		"logical_terminal" : 200191,
+		"full_name" : "Spencer Park, Wandsworth Common",
+		"latitude" : 51.4579,
+		"longitude" : -0.174692
+	},
+	{
+		"logical_terminal" : 200192,
+		"full_name" : "Fawcett Close, Battersea",
+		"latitude" : 51.4692,
+		"longitude" : -0.174486
+	},
+	{
+		"logical_terminal" : 200193,
+		"full_name" : "Snowsfields, London Bridge",
+		"latitude" : 51.5022,
+		"longitude" : -0.0836329
+	},
+	{
+		"logical_terminal" : 200194,
+		"full_name" : "Clarence Walk, Stockwell",
+		"latitude" : 51.4707,
+		"longitude" : -0.126994
+	},
+	{
+		"logical_terminal" : 200195,
+		"full_name" : "St Martin's Close, Camden Town",
+		"latitude" : 51.5388,
+		"longitude" : -0.138535
+	},
+	{
+		"logical_terminal" : 200196,
+		"full_name" : "Simpson Street, Battersea",
+		"latitude" : 51.4708,
+		"longitude" : -0.170704
+	},
+	{
+		"logical_terminal" : 200197,
+		"full_name" : "Barons Court Station, West Kensington",
+		"latitude" : 51.4902,
+		"longitude" : -0.215087
+	},
+	{
+		"logical_terminal" : 200199,
+		"full_name" : "Stanley Grove, Battersea",
+		"latitude" : 51.4705,
+		"longitude" : -0.15213
+	},
+	{
+		"logical_terminal" : 200200,
+		"full_name" : "Great Suffolk Street, The Borough",
+		"latitude" : 51.5017,
+		"longitude" : -0.100292
+	},
+	{
+		"logical_terminal" : 200201,
+		"full_name" : "Battersea Church Road, Battersea",
+		"latitude" : 51.477,
+		"longitude" : -0.174347
+	},
+	{
+		"logical_terminal" : 200203,
+		"full_name" : "King Edward Street, St Pauls",
+		"latitude" : 51.516,
+		"longitude" : -0.0985
+	},
+	{
+		"logical_terminal" : 200204,
+		"full_name" : "Northfields, Wandsworth",
+		"latitude" : 51.461,
+		"longitude" : -0.200668
+	},
+	{
+		"logical_terminal" : 200205,
+		"full_name" : "Montserrat Road , Putney",
+		"latitude" : 51.4632,
+		"longitude" : -0.215551
+	},
+	{
+		"logical_terminal" : 200206,
+		"full_name" : "Grant Road Central, Clapham Junction",
+		"latitude" : 51.4647,
+		"longitude" : -0.173657
+	},
+	{
+		"logical_terminal" : 200207,
+		"full_name" : "Hartington Road, Stockwell",
+		"latitude" : 51.4779,
+		"longitude" : -0.126874
+	},
+	{
+		"logical_terminal" : 200208,
+		"full_name" : "Sugden Road, Battersea",
+		"latitude" : 51.4651,
+		"longitude" : -0.157788
+	},
+	{
+		"logical_terminal" : 200209,
+		"full_name" : "Shepherd's Bush Road North, Shepherd's Bush",
+		"latitude" : 51.5016,
+		"longitude" : -0.222293
+	},
+	{
+		"logical_terminal" : 200210,
+		"full_name" : "Westbridge Road, Battersea",
+		"latitude" : 51.4777,
+		"longitude" : -0.170329
+	},
+	{
+		"logical_terminal" : 200211,
+		"full_name" : "Union Grove, Wandsworth Road",
+		"latitude" : 51.473,
+		"longitude" : -0.133972
+	},
+	{
+		"logical_terminal" : 200212,
+		"full_name" : "Grant Road West, Clapham Junction",
+		"latitude" : 51.4644,
+		"longitude" : -0.174619
+	},
+	{
+		"logical_terminal" : 200213,
+		"full_name" : "Durant Street, Bethnal Green",
+		"latitude" : 51.5287,
+		"longitude" : -0.0655503
+	},
+	{
+		"logical_terminal" : 200215,
+		"full_name" : "Greyhound Road, Hammersmith",
+		"latitude" : 51.4861,
+		"longitude" : -0.214428
+	},
+	{
+		"logical_terminal" : 200216,
+		"full_name" : "Maclise Road, Olympia",
+		"latitude" : 51.4976,
+		"longitude" : -0.211456
+	},
+	{
+		"logical_terminal" : 200217,
+		"full_name" : "Disraeli Road, Putney",
+		"latitude" : 51.4616,
+		"longitude" : -0.216146
+	},
+	{
+		"logical_terminal" : 200218,
+		"full_name" : "Addison Road, Holland Park",
+		"latitude" : 51.5042,
+		"longitude" : -0.210941
+	},
+	{
+		"logical_terminal" : 200219,
+		"full_name" : "Osiers Road, Wandsworth",
+		"latitude" : 51.4607,
+		"longitude" : -0.198735
+	},
+	{
+		"logical_terminal" : 200220,
+		"full_name" : "Blythe Road West, Shepherd's Bush",
+		"latitude" : 51.4997,
+		"longitude" : -0.221792
+	},
+	{
+		"logical_terminal" : 200221,
+		"full_name" : "Crabtree Lane, Fulham",
+		"latitude" : 51.4829,
+		"longitude" : -0.219346
+	},
+	{
+		"logical_terminal" : 200222,
+		"full_name" : "Danvers Street, West Chelsea",
+		"latitude" : 51.4826,
+		"longitude" : -0.172078
+	},
+	{
+		"logical_terminal" : 200223,
+		"full_name" : "Ashmole Estate, Oval",
+		"latitude" : 51.4827,
+		"longitude" : -0.117662
+	},
+	{
+		"logical_terminal" : 200224,
+		"full_name" : "Colet Gardens, Hammersmith",
+		"latitude" : 51.4911,
+		"longitude" : -0.216493
+	},
+	{
+		"logical_terminal" : 200226,
+		"full_name" : "Kingsway Southbound, Strand",
+		"latitude" : 51.5139,
+		"longitude" : -0.117774
+	},
+	{
+		"logical_terminal" : 200227,
+		"full_name" : "Westfield Library Corner, Shepherd's Bush",
+		"latitude" : 51.5061,
+		"longitude" : -0.224224
+	},
+	{
+		"logical_terminal" : 200229,
+		"full_name" : "Fulham Park Road, Fulham",
+		"latitude" : 51.4735,
+		"longitude" : -0.20782
+	},
+	{
+		"logical_terminal" : 200230,
+		"full_name" : "The Green Bridge, Mile End",
+		"latitude" : 51.5247,
+		"longitude" : -0.03562
+	},
+	{
+		"logical_terminal" : 200231,
+		"full_name" : "Abingdon Green, Great College Street",
+		"latitude" : 51.4976,
+		"longitude" : -0.125978
+	},
+	{
+		"logical_terminal" : 200232,
+		"full_name" : "Preston's Road, Cubitt Town",
+		"latitude" : 51.4993,
+		"longitude" : -0.009152
+	},
+	{
+		"logical_terminal" : 200233,
+		"full_name" : "South Quay East, Canary Wharf",
+		"latitude" : 51.502,
+		"longitude" : -0.016251
+	},
+	{
+		"logical_terminal" : 200234,
+		"full_name" : "Bancroft Road, Bethnal Green",
+		"latitude" : 51.526,
+		"longitude" : -0.047218
+	},
+	{
+		"logical_terminal" : 200235,
+		"full_name" : "Manbre Road, Hammersmith",
+		"latitude" : 51.4857,
+		"longitude" : -0.223616
+	},
+	{
+		"logical_terminal" : 200236,
+		"full_name" : "Greenberry Street, St.John's Wood",
+		"latitude" : 51.5326,
+		"longitude" : -0.16862
+	},
+	{
+		"logical_terminal" : 200237,
+		"full_name" : "Parson's Green , Parson's Green",
+		"latitude" : 51.4728,
+		"longitude" : -0.199783
+	},
+	{
+		"logical_terminal" : 200238,
+		"full_name" : "Westferry DLR, Limehouse",
+		"latitude" : 51.5093,
+		"longitude" : -0.025996
+	},
+	{
+		"logical_terminal" : 200239,
+		"full_name" : "Old Montague Street, Whitechapel",
+		"latitude" : 51.5179,
+		"longitude" : -0.067937
+	},
+	{
+		"logical_terminal" : 200241,
+		"full_name" : "South Quay West, Canary Wharf",
+		"latitude" : 51.5026,
+		"longitude" : -0.022702
+	},
+	{
+		"logical_terminal" : 200242,
+		"full_name" : "Coborn Street, Mile End",
+		"latitude" : 51.5265,
+		"longitude" : -0.028619
+	},
+	{
+		"logical_terminal" : 200243,
+		"full_name" : "St John's Park, Cubitt Town",
+		"latitude" : 51.4965,
+		"longitude" : -0.009506
+	},
+	{
+		"logical_terminal" : 200244,
+		"full_name" : "Hollybush Gardens, Bethnal Green",
+		"latitude" : 51.5276,
+		"longitude" : -0.057133
+	},
+	{
+		"logical_terminal" : 200245,
+		"full_name" : "Westfield Eastern Access Road, Shepherd's Bush",
+		"latitude" : 51.5094,
+		"longitude" : -0.219712
+	},
+	{
+		"logical_terminal" : 200246,
+		"full_name" : "Eagle Wharf Road, Hoxton",
+		"latitude" : 51.5336,
+		"longitude" : -0.09315
+	},
+	{
+		"logical_terminal" : 200247,
+		"full_name" : "Globe Town Market, Bethnal Green",
+		"latitude" : 51.5289,
+		"longitude" : -0.047548
+	},
+	{
+		"logical_terminal" : 200248,
+		"full_name" : "Pitfield Street Central, Hoxton",
+		"latitude" : 51.5321,
+		"longitude" : -0.08299
+	},
+	{
+		"logical_terminal" : 200249,
+		"full_name" : "Queen Marys, Mile End",
+		"latitude" : 51.5225,
+		"longitude" : -0.041378
+	},
+	{
+		"logical_terminal" : 200250,
+		"full_name" : "Cleveland Way, Bethnal Green",
+		"latitude" : 51.5209,
+		"longitude" : -0.051394
+	},
+	{
+		"logical_terminal" : 200251,
+		"full_name" : "Bow Road Station, Bow",
+		"latitude" : 51.5271,
+		"longitude" : -0.025296
+	},
+	{
+		"logical_terminal" : 200252,
+		"full_name" : "Bow Church Station, Bow",
+		"latitude" : 51.5282,
+		"longitude" : -0.018703
+	},
+	{
+		"logical_terminal" : 200253,
+		"full_name" : "Fore Street, Guildhall",
+		"latitude" : 51.5178,
+		"longitude" : -0.090075
+	},
+	{
+		"logical_terminal" : 200254,
+		"full_name" : "Teviot Street, Poplar",
+		"latitude" : 51.5188,
+		"longitude" : -0.011662
+	},
+	{
+		"logical_terminal" : 200255,
+		"full_name" : "Devons Road, Bow",
+		"latitude" : 51.5251,
+		"longitude" : -0.015578
+	},
+	{
+		"logical_terminal" : 200256,
+		"full_name" : "Sutton Street, Shadwell",
+		"latitude" : 51.5111,
+		"longitude" : -0.053558
+	},
+	{
+		"logical_terminal" : 300002,
+		"full_name" : "Brook Green South, Brook Green",
+		"latitude" : 51.4943,
+		"longitude" : -0.215805
+	},
+	{
+		"logical_terminal" : 300003,
+		"full_name" : "Eel Brook Common, Walham Green",
+		"latitude" : 51.4763,
+		"longitude" : -0.193254
+	},
+	{
+		"logical_terminal" : 300004,
+		"full_name" : "Olympia Way, Olympia",
+		"latitude" : 51.4961,
+		"longitude" : -0.208158
+	},
+	{
+		"logical_terminal" : 300005,
+		"full_name" : "Ethelburga Estate, Battersea Park",
+		"latitude" : 51.4773,
+		"longitude" : -0.164786
+	},
+	{
+		"logical_terminal" : 300006,
+		"full_name" : "Hammersmith Town Hall, Hammersmith",
+		"latitude" : 51.4926,
+		"longitude" : -0.234094
+	},
+	{
+		"logical_terminal" : 300008,
+		"full_name" : "Normand Park, Fulham",
+		"latitude" : 51.4844,
+		"longitude" : -0.204815
+	},
+	{
+		"logical_terminal" : 300009,
+		"full_name" : "World's End Place, West Chelsea",
+		"latitude" : 51.4818,
+		"longitude" : -0.180275
+	},
+	{
+		"logical_terminal" : 300010,
+		"full_name" : "Surrey Lane, Battersea",
+		"latitude" : 51.4752,
+		"longitude" : -0.167161
+	},
+	{
+		"logical_terminal" : 300011,
+		"full_name" : "Victoria Park Road, Hackney Central",
+		"latitude" : 51.5364,
+		"longitude" : -0.0541623
+	},
+	{
+		"logical_terminal" : 300012,
+		"full_name" : "Irene Road, Parsons Green",
+		"latitude" : 51.4738,
+		"longitude" : -0.19701
+	},
+	{
+		"logical_terminal" : 300013,
+		"full_name" : "Austin Road, Battersea",
+		"latitude" : 51.4744,
+		"longitude" : -0.155443
+	},
+	{
+		"logical_terminal" : 300014,
+		"full_name" : "Falcon Road, Clapham Junction",
+		"latitude" : 51.4666,
+		"longitude" : -0.169821
+	},
+	{
+		"logical_terminal" : 300018,
+		"full_name" : "Charing Cross Hospital, Hammersmith",
+		"latitude" : 51.4873,
+		"longitude" : -0.217996
+	},
+	{
+		"logical_terminal" : 300019,
+		"full_name" : "Felsham Road, Putney",
+		"latitude" : 51.4648,
+		"longitude" : -0.215619
+	},
+	{
+		"logical_terminal" : 300020,
+		"full_name" : "West Kensington Station, West Kensington",
+		"latitude" : 51.4909,
+		"longitude" : -0.20603
+	},
+	{
+		"logical_terminal" : 300022,
+		"full_name" : "Evesham Street, Avondale",
+		"latitude" : 51.5115,
+		"longitude" : -0.21819
+	},
+	{
+		"logical_terminal" : 300023,
+		"full_name" : "All Saints Church, Portobello",
+		"latitude" : 51.5163,
+		"longitude" : -0.202609
+	},
+	{
+		"logical_terminal" : 300024,
+		"full_name" : "Dunston Road , Haggerston",
+		"latitude" : 51.5366,
+		"longitude" : -0.0758857
+	},
+	{
+		"logical_terminal" : 300025,
+		"full_name" : "Archbishop's Park, Waterloo",
+		"latitude" : 51.4982,
+		"longitude" : -0.117496
+	},
+	{
+		"logical_terminal" : 300026,
+		"full_name" : "All Saints' Road, Portobello",
+		"latitude" : 51.519,
+		"longitude" : -0.204764
+	},
+	{
+		"logical_terminal" : 300028,
+		"full_name" : "Everington Street, Fulham",
+		"latitude" : 51.4834,
+		"longitude" : -0.216306
+	},
+	{
+		"logical_terminal" : 300030,
+		"full_name" : "Thorndike Close, West Chelsea",
+		"latitude" : 51.4809,
+		"longitude" : -0.183854
+	},
+	{
+		"logical_terminal" : 300031,
+		"full_name" : "Islington Green, Angel",
+		"latitude" : 51.5364,
+		"longitude" : -0.102758
+	},
+	{
+		"logical_terminal" : 300033,
+		"full_name" : "Putney Rail Station, Putney",
+		"latitude" : 51.4607,
+		"longitude" : -0.216526
+	},
+	{
+		"logical_terminal" : 300034,
+		"full_name" : "St. Mark's Road, North Kensington",
+		"latitude" : 51.5169,
+		"longitude" : -0.213872
+	},
+	{
+		"logical_terminal" : 300035,
+		"full_name" : "Carnegie Street, King's Cross",
+		"latitude" : 51.5355,
+		"longitude" : -0.116191
+	},
+	{
+		"logical_terminal" : 300036,
+		"full_name" : "Teversham Lane, Stockwell",
+		"latitude" : 51.4762,
+		"longitude" : -0.123259
+	},
+	{
+		"logical_terminal" : 300037,
+		"full_name" : "Ravenscourt Park Station, Hammersmith",
+		"latitude" : 51.4942,
+		"longitude" : -0.23677
+	},
+	{
+		"logical_terminal" : 300038,
+		"full_name" : "Star Road, West Kensington",
+		"latitude" : 51.4872,
+		"longitude" : -0.205279
+	},
+	{
+		"logical_terminal" : 300039,
+		"full_name" : "Wendon Street, Old Ford",
+		"latitude" : 51.536,
+		"longitude" : -0.0262627
+	},
+	{
+		"logical_terminal" : 300040,
+		"full_name" : "Ada Street, Hackney Central",
+		"latitude" : 51.5357,
+		"longitude" : -0.0602918
+	},
+	{
+		"logical_terminal" : 300041,
+		"full_name" : "Finnis Street, Bethnal Green",
+		"latitude" : 51.5246,
+		"longitude" : -0.0586315
+	},
+	{
+		"logical_terminal" : 300042,
+		"full_name" : "Upper Richmond Road, East Putney",
+		"latitude" : 51.4597,
+		"longitude" : -0.212146
+	},
+	{
+		"logical_terminal" : 300043,
+		"full_name" : "St. Peter’s Terrace, Fulham",
+		"latitude" : 51.4789,
+		"longitude" : -0.208485
+	},
+	{
+		"logical_terminal" : 300044,
+		"full_name" : "Putney Bridge Road, East Putney",
+		"latitude" : 51.462,
+		"longitude" : -0.206241
+	},
+	{
+		"logical_terminal" : 300045,
+		"full_name" : "Albert Bridge Road, Battersea Park",
+		"latitude" : 51.4744,
+		"longitude" : -0.163348
+	},
+	{
+		"logical_terminal" : 300046,
+		"full_name" : "Alma Road, Wandsworth",
+		"latitude" : 51.458,
+		"longitude" : -0.184806
+	},
+	{
+		"logical_terminal" : 300047,
+		"full_name" : "Alfreda Street, Battersea Park",
+		"latitude" : 51.4751,
+		"longitude" : -0.150908
+	},
+	{
+		"logical_terminal" : 300048,
+		"full_name" : "Stainsby Road , Poplar",
+		"latitude" : 51.5154,
+		"longitude" : -0.023565
+	},
+	{
+		"logical_terminal" : 300049,
+		"full_name" : "Aylward Street, Stepney",
+		"latitude" : 51.5156,
+		"longitude" : -0.0490672
+	},
+	{
+		"logical_terminal" : 300050,
+		"full_name" : "Thessaly Road North, Nine Elms",
+		"latitude" : 51.4773,
+		"longitude" : -0.138749
+	},
+	{
+		"logical_terminal" : 300051,
+		"full_name" : "Hibbert Street, Battersea",
+		"latitude" : 51.4652,
+		"longitude" : -0.180389
+	},
+	{
+		"logical_terminal" : 300052,
+		"full_name" : "Parsons Green Station, Parsons Green",
+		"latitude" : 51.4751,
+		"longitude" : -0.201968
+	},
+	{
+		"logical_terminal" : 300053,
+		"full_name" : "Stephendale Road, Sands End",
+		"latitude" : 51.4682,
+		"longitude" : -0.190346
+	},
+	{
+		"logical_terminal" : 300054,
+		"full_name" : "Chesilton Road, Fulham",
+		"latitude" : 51.4757,
+		"longitude" : -0.205876
+	},
+	{
+		"logical_terminal" : 300055,
+		"full_name" : "Stewart's Road, Nine Elms",
+		"latitude" : 51.4731,
+		"longitude" : -0.137235
+	},
+	{
+		"logical_terminal" : 300056,
+		"full_name" : "Mile End Stadium, Mile End",
+		"latitude" : 51.5185,
+		"longitude" : -0.0349037
+	},
+	{
+		"logical_terminal" : 300074,
+		"full_name" : "Newton Street, Covent Garden",
+		"latitude" : 51.5161,
+		"longitude" : -0.120909
+	},
+	{
+		"logical_terminal" : 300075,
+		"full_name" : "Upcerne Road, West Chelsea",
+		"latitude" : 51.4782,
+		"longitude" : -0.182435
+	},
+	{
+		"logical_terminal" : 300076,
+		"full_name" : "Lots Road, West Chelsea",
+		"latitude" : 51.4796,
+		"longitude" : -0.179039
+	},
+	{
+		"logical_terminal" : 300077,
+		"full_name" : "Ingrave Street, Battersea",
+		"latitude" : 51.4675,
+		"longitude" : -0.172293
+	},
+	{
+		"logical_terminal" : 300078,
+		"full_name" : "Oxford Road, Putney",
+		"latitude" : 51.4608,
+		"longitude" : -0.212608
+	},
+	{
+		"logical_terminal" : 300079,
+		"full_name" : "Manfred Road, East Putney",
+		"latitude" : 51.4582,
+		"longitude" : -0.206002
+	},
+	{
+		"logical_terminal" : 300080,
+		"full_name" : "Culvert Road, Battersea",
+		"latitude" : 51.4711,
+		"longitude" : -0.15785
+	},
+	{
+		"logical_terminal" : 300081,
+		"full_name" : "Haggerston Road, Haggerston ",
+		"latitude" : 51.5393,
+		"longitude" : -0.0742847
+	},
+	{
+		"logical_terminal" : 300082,
+		"full_name" : "Bridge Avenue, Hammersmith",
+		"latitude" : 51.4921,
+		"longitude" : -0.229117
+	},
+	{
+		"logical_terminal" : 300083,
+		"full_name" : "Duke Street Hill, London Bridge",
+		"latitude" : 51.5063,
+		"longitude" : -0.087263
+	},
+	{
+		"logical_terminal" : 300084,
+		"full_name" : "Sirdar Road, Avondale",
+		"latitude" : 51.5109,
+		"longitude" : -0.214595
+	},
+	{
+		"logical_terminal" : 300085,
+		"full_name" : "Freston Road, Avondale",
+		"latitude" : 51.513,
+		"longitude" : -0.219487
+	},
+	{
+		"logical_terminal" : 300086,
+		"full_name" : "Fulham Broadway, Walham Green",
+		"latitude" : 51.4799,
+		"longitude" : -0.194117
+	},
+	{
+		"logical_terminal" : 300087,
+		"full_name" : "Imperial Road, Sands End",
+		"latitude" : 51.4751,
+		"longitude" : -0.187279
+	},
+	{
+		"logical_terminal" : 300088,
+		"full_name" : "Queensdale Road, Shepherd's Bush",
+		"latitude" : 51.5066,
+		"longitude" : -0.216104
+	},
+	{
+		"logical_terminal" : 300089,
+		"full_name" : "Ormonde Gate, Chelsea",
+		"latitude" : 51.488,
+		"longitude" : -0.161765
+	},
+	{
+		"logical_terminal" : 300090,
+		"full_name" : "Blenheim Crescent, Ladbroke Grove",
+		"latitude" : 51.5151,
+		"longitude" : -0.208565
+	},
+	{
+		"logical_terminal" : 300091,
+		"full_name" : "Hortensia Road, West Brompton",
+		"latitude" : 51.4818,
+		"longitude" : -0.185274
+	},
+	{
+		"logical_terminal" : 300092,
+		"full_name" : "Hertford Road, De Beauvoir Town",
+		"latitude" : 51.5373,
+		"longitude" : -0.0792018
+	},
+	{
+		"logical_terminal" : 300093,
+		"full_name" : "Park Lane, Mayfair",
+		"latitude" : 51.5054,
+		"longitude" : -0.150817
+	},
+	{
+		"logical_terminal" : 300094,
+		"full_name" : "Plough Terrace, Clapham Junction",
+		"latitude" : 51.4623,
+		"longitude" : -0.175407
+	},
+	{
+		"logical_terminal" : 300095,
+		"full_name" : "Michael Road, Walham Green",
+		"latitude" : 51.4773,
+		"longitude" : -0.18921
+	}
+]
