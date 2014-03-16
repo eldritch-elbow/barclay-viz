@@ -2,6 +2,11 @@
 var map = null;
 var map_elements = null;
 
+function getParameterByName(name) {
+    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}
+
 function update_map(jny_threshold) {
 
 	/* Create the map */
@@ -36,7 +41,8 @@ function update_map(jny_threshold) {
 
 
 		/* Process raw journey data, create summaries */
-		$.getJSON( "assets/commuter_crinan_1921951825.json", function( journey_data ) {
+		dataset_path = "assets/"+getParameterByName("dataset")+".json";
+		$.getJSON( dataset_path, function( journey_data ) {
 
 			$.each( journey_data, function( key, journey ) {
 			
@@ -76,12 +82,20 @@ function update_map(jny_threshold) {
 			/* Render journeys */
 			$.each( journeys, function( key, journey ) {
 			
+				/* Skip journeys below a certain threshold */
 				if (journey.counts.total < jny_threshold) {
-					return true; // Move onto next journey
+					return true;
 				}
 
 				station_a = stations[journey.station_a];
 				station_b = stations[journey.station_b];
+
+				console.log(journey.station_a + " : " + journey.station_b)
+
+				/* Some journeys end in oblivion - ignore them */
+				if (journey.station_a < 0 || journey.station_b < 0) { 
+					return true; 
+				}
 
 				station_a.active = station_b.active = true;
 
