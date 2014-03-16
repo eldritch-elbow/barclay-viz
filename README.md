@@ -115,3 +115,26 @@ Duplicates will be filtered from the second file by the 'force' option.
 ### Notes
 
 Labels in the gephi_project/complete_viz/bojo_viz3_areas_deletions.gephi vizualization have been merged for consistency.
+
+
+## TODOs
+
+### Web vizualization
+
+0a. Try google maps tiles in leaflet
+0b. Make all popups hover
+1. Parameterize based on named dataset
+2. Add Canary Wharf commuter(s)
+3. Convert spinner to slider
+4. Add sliding window for time
+5. Try fixed-range scaling for edges (2-20?)
+6. Try different edge opacity
+7. Try edge colour range based on weight
+8. Scale nodes?
+9. Add optional arrows
+10. Add detailed info pane
+
+
+
+
+
