@@ -36,11 +36,10 @@ function update_map(jny_threshold) {
 
 
 		/* Process raw journey data, create summaries */
-		$.getJSON( "assets/crinan_commuter_1921951825.json", function( journey_data ) {
+		$.getJSON( "assets/commuter_crinan_1921951825.json", function( journey_data ) {
 
 			$.each( journey_data, function( key, journey ) {
 			
-			//console.log(journey);
 				start = journey.start_station_logical_term;
 				end = journey.end_station_logical_term;
 
