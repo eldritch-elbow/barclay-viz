@@ -1,6 +1,23 @@
 
+/* Leaflet variables */
 var map = null;
 var map_elements = null;
+
+/* Journey data */
+var max_jny_count = 0;
+
+/* Controls */
+var slider_threshold = null;
+var slider_display = null;
+
+
+function set_threshold(event, ui) {
+	update_map( slider_threshold.slider("value") );	
+}
+
+function slide_threshold(event, ui) {
+	slider_display.text( slider_threshold.slider("value") );
+}
 
 function getParameterByName(name) {
     var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
@@ -29,8 +46,8 @@ function update_map(jny_threshold) {
 	var fresh_map_elements = L.layerGroup();
 
 	/* Create objects to hold stations and journey summaries */
-	stations = {}
-	journeys = {}
+	var journeys = {}
+	var stations = {}
 
 	/* Store stations, keyed by logical terminal ID */
 	$.getJSON( "assets/stations.json", function( station_data ) {
@@ -79,9 +96,12 @@ function update_map(jny_threshold) {
 
 
 
+
 			/* Render journeys */
 			$.each( journeys, function( key, journey ) {
 			
+				max_jny_count = Math.max(max_jny_count, journey.counts.total);
+
 				/* Skip journeys below a certain threshold */
 				if (journey.counts.total < jny_threshold) {
 					return true;
@@ -89,8 +109,6 @@ function update_map(jny_threshold) {
 
 				station_a = stations[journey.station_a];
 				station_b = stations[journey.station_b];
-
-				console.log(journey.station_a + " : " + journey.station_b)
 
 				/* Some journeys end in oblivion - ignore them */
 				if (journey.station_a < 0 || journey.station_b < 0) { 
@@ -131,6 +149,7 @@ function update_map(jny_threshold) {
 				fresh_map_elements.addLayer(marker);			
 			});
 
+
 			/* Everything is ready ... display */
 			map.addLayer(fresh_map_elements);
 			if (map_elements) {
@@ -139,7 +158,8 @@ function update_map(jny_threshold) {
 			map_elements = fresh_map_elements;
 			map.fitBounds(new_bounds, {padding: [40,40]});
 
-
+			/* Finally, update the UI controls to reflect the new map state */
+			create_controls(max_jny_count, jny_threshold);
 		});
 
 			
@@ -148,18 +168,32 @@ function update_map(jny_threshold) {
 }
 
 
+function create_controls(max_journeys, curr_threshold) {
+
+
+    slider_threshold.slider({
+        range: false,
+        min:   0,
+        max:   max_journeys,
+        value: curr_threshold,
+        step:  1,
+        stop:  set_threshold,
+        slide: slide_threshold
+    });
+
+	slider_display.text( curr_threshold );
+
+
+}
+
+
 $(document).ready(function(){
 
-	var threshold = $( "#jny_threshold" ).spinner();
+	/* Prepare widget vars for use in different functions */
+	slider_threshold = $("#threshold_slider");
+	slider_display = $("#threshold_display");
 
-	$('.ui-spinner-button').click(function() {
-	   $(this).siblings('input').change();
-	});
-
-	threshold.change( function() {
-		update_map( threshold.spinner( "value" ) );
-	});
-
+	/* Obtains data, then creates map and UI controls */
 	update_map(1);
 
 })
