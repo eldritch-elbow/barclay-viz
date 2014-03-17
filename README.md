@@ -121,11 +121,12 @@ Labels in the gephi_project/complete_viz/bojo_viz3_areas_deletions.gephi vizuali
 
 ### Web vizualization
 
-0a. Try google maps tiles in leaflet
-0b. Make all popups hover
-1. Parameterize based on named dataset
+0a. Try google maps tiles in leaflet		
+0b. Make all popups hover 						X
+1. Parameterize based on named dataset			DONE
 2. Add Canary Wharf commuter(s)
-3. Convert spinner to slider
+3. Convert spinner to slider					DONE
+3a. Add #unique journeys on slider
 4. Add sliding window for time
 5. Try fixed-range scaling for edges (2-20?)
 6. Try different edge opacity
