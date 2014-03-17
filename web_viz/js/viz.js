@@ -48,6 +48,7 @@ function update_map(jny_threshold) {
 	/* Create objects to hold stations and journey summaries */
 	var journeys = {}
 	var stations = {}
+	var active_bounds = []
 
 	/* Store stations, keyed by logical terminal ID */
 	$.getJSON( "assets/stations.json", function( station_data ) {
@@ -56,66 +57,15 @@ function update_map(jny_threshold) {
 			stations[station.logical_terminal] = station;
 		});
 
-
 		/* Process raw journey data, create summaries */
 		dataset_path = "assets/"+getParameterByName("dataset")+".json";
 		$.getJSON( dataset_path, function( journey_data ) {
 
+
 			process_journeys(journey_data, journeys);
-
-
-			/* Render journeys */
-			$.each( journeys, function( key, journey ) {
-			
-				max_jny_count = Math.max(max_jny_count, journey.counts.total);
-
-				/* Skip journeys below a certain threshold */
-				if (journey.counts.total < jny_threshold) {
-					return true;
-				}
-
-				station_a = stations[journey.station_a];
-				station_b = stations[journey.station_b];
-
-				/* Some journeys end in oblivion - ignore them */
-				if (journey.station_a < 0 || journey.station_b < 0) { 
-					return true; 
-				}
-
-				station_a.active = station_b.active = true;
-
-				latlngs = [ [ station_a.latitude, station_a.longitude ], [ station_b.latitude, station_b.longitude ] ]
-
-				var polyline = L.polyline(
-					latlngs, 
-					{color: 'blue', weight: journey.counts.total} );
-
-				polyline.bindPopup(
-					"<b>" + station_a.full_name + "</b> / <br><b>" + station_b.full_name + "</b><br>" +
-					journey.counts.total   + " journeys<br>" + 
-					Math.ceil( (journey.total_duration / journey.counts.total) / 60 ) + " minutes (avg)");
-
-				fresh_map_elements.addLayer(polyline);
-			});
-
-			/* Render stations */
-			var new_bounds = [];
-			$.each( stations, function( key, station ) {
-
-				if (!station.active) {
-					return true;
-				}
-
-				var marker = L.circleMarker(
-					[station.latitude, station.longitude], 
-					{color: 'black', fillColor: 'black', fillOpacity: 0.8, radius: 3 });
-				marker.bindPopup("<b>" + station.full_name + "</b>");
-
-				new_bounds.push( [station.latitude, station.longitude] );
-
-				fresh_map_elements.addLayer(marker);			
-			});
-
+			render_journeys(stations, journeys, jny_threshold, fresh_map_elements);
+			render_stations(stations, fresh_map_elements, active_bounds);
+						
 
 			/* Everything is ready ... display */
 			map.addLayer(fresh_map_elements);
@@ -123,7 +73,7 @@ function update_map(jny_threshold) {
 				map.removeLayer(map_elements);
 			}
 			map_elements = fresh_map_elements;
-			map.fitBounds(new_bounds, {padding: [40,40]});
+			map.fitBounds(active_bounds, {padding: [40,40]});
 
 			/* Finally, update the UI controls to reflect the new map state */
 			create_controls(max_jny_count, jny_threshold);
@@ -171,7 +121,64 @@ function process_journeys(journey_data, journey_map) {
 
 }
 
+function render_journeys(stations, journeys, count_threshold, layer_group) {
 
+	/* Render journeys */
+	$.each( journeys, function( key, journey ) {
+	
+		max_jny_count = Math.max(max_jny_count, journey.counts.total);
+
+		/* Skip journeys below a certain threshold */
+		if (journey.counts.total < count_threshold) {
+			return true;
+		}
+
+		station_a = stations[journey.station_a];
+		station_b = stations[journey.station_b];
+
+		/* Some journeys end in oblivion - ignore them */
+		if (journey.station_a < 0 || journey.station_b < 0) { 
+			return true; 
+		}
+
+		station_a.active = station_b.active = true;
+
+		latlngs = [ [ station_a.latitude, station_a.longitude ], [ station_b.latitude, station_b.longitude ] ]
+
+		var polyline = L.polyline(
+			latlngs, 
+			{color: 'blue', weight: journey.counts.total} );
+
+		polyline.bindPopup(
+			"<b>" + station_a.full_name + "</b> / <br><b>" + station_b.full_name + "</b><br>" +
+			journey.counts.total   + " journeys<br>" + 
+			Math.ceil( (journey.total_duration / journey.counts.total) / 60 ) + " minutes (avg)");
+
+		layer_group.addLayer(polyline);
+	});
+
+}
+
+function render_stations(stations, layer_group, active_bounds) {
+
+	/* Render stations */
+	$.each( stations, function( key, station ) {
+
+		if (!station.active) {
+			return true;
+		}
+
+		var marker = L.circleMarker(
+			[station.latitude, station.longitude], 
+			{color: 'black', fillColor: 'black', fillOpacity: 0.8, radius: 3 });
+		marker.bindPopup("<b>" + station.full_name + "</b>");
+
+		active_bounds.push( [station.latitude, station.longitude] );
+
+		layer_group.addLayer(marker);			
+	});
+	
+}
 
 
 function create_controls(max_journeys, curr_threshold) {
