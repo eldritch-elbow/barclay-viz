@@ -61,40 +61,7 @@ function update_map(jny_threshold) {
 		dataset_path = "assets/"+getParameterByName("dataset")+".json";
 		$.getJSON( dataset_path, function( journey_data ) {
 
-			$.each( journey_data, function( key, journey ) {
-			
-				start = journey.start_station_logical_term;
-				end = journey.end_station_logical_term;
-
-				key = Math.min(start,end) + ":" + Math.max(start,end);
-
-				jny_summary = journeys[key];
-
-				if (!jny_summary) {
-					jny_summary = {
-						'station_a' : Math.min(start,end),
-						'station_b' : Math.max(start,end),
-						'counts' : { 
-							'total' : 0,
-							'peak' : 0,
-							'offpeak' : 0
-						},
-						'total_duration' : 0,
-						'journey_list' : []
-					}
-
-					journeys[key] = jny_summary;
-				}
-
-				jny_summary['journey_list'].push(journey);
-				jny_summary['counts']['total'] += 1;
-				jny_summary['total_duration'] += journey.duration;
-
-				jny_type_key = (journey.start_hour_category_id == 1) ? 'peak' : 'offpeak';
-				jny_summary['counts'][jny_type_key] += 1;
-			});
-
-
+			process_journeys(journey_data, journeys);
 
 
 			/* Render journeys */
@@ -166,6 +133,45 @@ function update_map(jny_threshold) {
 	});
 
 }
+
+function process_journeys(journey_data, journey_map) {
+
+	$.each( journey_data, function( key, journey ) {
+				
+		start = journey.start_station_logical_term;
+		end = journey.end_station_logical_term;
+
+		key = Math.min(start,end) + ":" + Math.max(start,end);
+
+		jny_summary = journey_map[key];
+
+		if (!jny_summary) {
+			jny_summary = {
+				'station_a' : Math.min(start,end),
+				'station_b' : Math.max(start,end),
+				'counts' : { 
+					'total' : 0,
+					'peak' : 0,
+					'offpeak' : 0
+				},
+				'total_duration' : 0,
+				'journey_list' : []
+			}
+
+			journey_map[key] = jny_summary;
+		}
+
+		jny_summary['journey_list'].push(journey);
+		jny_summary['counts']['total'] += 1;
+		jny_summary['total_duration'] += journey.duration;
+
+		jny_type_key = (journey.start_hour_category_id == 1) ? 'peak' : 'offpeak';
+		jny_summary['counts'][jny_type_key] += 1;
+	});
+
+}
+
+
 
 
 function create_controls(max_journeys, curr_threshold) {
