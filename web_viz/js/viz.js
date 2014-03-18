@@ -51,21 +51,22 @@ function create_controls(jny_threshold, max_journeys) {
 
 function slide_threshold(event, ui) {
 	threshold_display.text( threshold_slider.slider("value") );
-	update_map( threshold_slider.slider("value"), false );	
+	update_map( true, false );	
 }
 
 function set_threshold(event, ui) {
 	threshold_display.text( threshold_slider.slider("value") );
-	update_map( threshold_slider.slider("value"), true );	
+	update_map( true, true );	
 }
 
 function slide_time(event, ui) {
 	update_time_display();
+	update_map( true, false );	
 }
 
 function set_time(event, ui) {
 	update_time_display();	
-	update_map( threshold_slider.slider("value"), true );	
+	update_map( true, true );	
 }
 
 function update_time_display() {
@@ -109,14 +110,28 @@ function getParameterByName(name) {
     return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
 }
 
-function update_map(jny_threshold, with_panning) {
+function update_map(from_controls, with_panning) {
+
+	if (from_controls) {
+		jny_threshold = threshold_slider.slider("value");
+		window_begin = time_slider.slider("values", 0);
+		window_end = time_slider.slider("values", 1);
+	} else {
+		jny_threshold = 1;
+		window_begin = 0;
+		window_end = 1439;
+	}
 
 	/* Create the map */
 	if (!map) {
 		map = L.map('map').setView([51.5211, -0.0988698], 13);
 
 		/* Create a tile layer based on cloudmade */
-		L.tileLayer('http://{s}.tile.cloudmade.com/8EE2A50541944FB9BCEDDED5165F09D9/997/256/{z}/{x}/{y}.png', {
+
+		var osmURI = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png?layers=H'; // &layers=H or T or C
+		var cmURI = 'http://{s}.tile.cloudmade.com/8EE2A50541944FB9BCEDDED5165F09D9/998/256/{z}/{x}/{y}.png';
+
+		L.tileLayer(cmURI, {
 			attribution: 
 				'Map data &copy; '+
 				'<a href="http://openstreetmap.org">OpenStreetMap</a> contributors, '+
@@ -146,7 +161,7 @@ function update_map(jny_threshold, with_panning) {
 		dataset_path = "assets/"+getParameterByName("dataset")+".json";
 		$.getJSON( dataset_path, function( journey_data ) {
 
-			process_journeys(journey_data, journeys);
+			process_journeys(journey_data, window_begin, window_end, journeys );
 			render_journeys(stations, journeys, jny_threshold, fresh_map_elements);
 			render_stations(stations, fresh_map_elements, active_bounds);
 						
@@ -169,24 +184,26 @@ function update_map(jny_threshold, with_panning) {
 
 }
 
-function process_journeys(journey_data, journey_map) {
+function process_journeys(journey_data, window_begin, window_end, journey_map ) {
 
 	$.each( journey_data, function( key, journey ) {
-				
-		// Extract minutes from jny start / end
-		// Apply start time / end time filter
 
-		start = journey.start_station_logical_term;
-		end = journey.end_station_logical_term;
+		var start_time = new Date( Date.parse(journey.start_timestamp) );
+		var start_minute = (start_time.getHours() * 60) + start_time.getMinutes();
 
-		key = Math.min(start,end) + ":" + Math.max(start,end);
+		if (start_minute < window_begin || start_minute > window_end) { return true; }
+
+		start_term = journey.start_station_logical_term;
+		end_term = journey.end_station_logical_term;
+
+		key = Math.min(start_term,end_term) + ":" + Math.max(start_term,end_term);
 
 		jny_summary = journey_map[key];
 
 		if (!jny_summary) {
 			jny_summary = {
-				'station_a' : Math.min(start,end),
-				'station_b' : Math.max(start,end),
+				'station_a' : Math.min(start_term,end_term),
+				'station_b' : Math.max(start_term,end_term),
 				'counts' : { 
 					'total' : 0,
 					'peak' : 0,
@@ -276,7 +293,7 @@ function update_controls(max_journeys) {
 $(document).ready(function(){
 
 	create_controls(1, 10);
-	update_map(1, true);
+	update_map(false, true);
 
 })
 
