@@ -1,31 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Boris Journey Viz</title>
-	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
-	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
-	<link rel="stylesheet" href="css/viz.css" />
-</head>
-<body>
-
-	<div id="controls">
-		<!-- <label for="threshold">Min Journeys</label> -->
-
-		<!-- <input id="jny_threshold" name="jny_threshold" value="1"> -->
-
-		<div id="threshold_slider"></div>
-		<div id="threshold_display"></div>
-	</div>
-
-	<div id="map"></div>
-
-	<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
-
-	<script src="js/viz.js"></script>    
-
-</body>
+    <head>
+        <title>Boris Journey Viz</title>
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+        <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+        <link rel="stylesheet" href="css/viz.css" />
+    </head>
+    <body>
+        <div id="map"></div>
+        <div id="controls">
+            <div id="threshold_control">
+                <div id="threshold_slider"></div>
+                <div id="threshold_display"></div>
+            </div>
+            <div id="time_control">
+                <div id="time_slider"></div>
+                <div id="time_display"></div>
+            </div>
+        </div>
+        <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+        <script src="js/viz.js"></script>
+    </body>
 </html>
-
-
