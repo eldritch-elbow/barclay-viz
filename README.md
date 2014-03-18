@@ -130,7 +130,7 @@ Labels in the gephi_project/complete_viz/bojo_viz3_areas_deletions.gephi vizuali
 4. Add sliding window for time
 5. Try fixed-range scaling for edges (2-20?)
 6. Try different edge opacity
-7. Try edge colour range based on weight
+7. Try edge colour range based on weight or time
 8. Scale nodes?
 9. Add optional arrows
 10. Add detailed info pane
