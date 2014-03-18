@@ -7,17 +7,12 @@ var map_elements = null;
 var max_jny_count = 0;
 
 /* Controls */
-var slider_threshold = null;
-var slider_display = null;
+var threshold_slider = null;
+var threshold_display = null;
+var time_slider = null;
+var time_display = null;
 
 
-function set_threshold(event, ui) {
-	update_map( slider_threshold.slider("value") );	
-}
-
-function slide_threshold(event, ui) {
-	slider_display.text( slider_threshold.slider("value") );
-}
 
 function getParameterByName(name) {
     var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
@@ -61,12 +56,10 @@ function update_map(jny_threshold) {
 		dataset_path = "assets/"+getParameterByName("dataset")+".json";
 		$.getJSON( dataset_path, function( journey_data ) {
 
-
 			process_journeys(journey_data, journeys);
 			render_journeys(stations, journeys, jny_threshold, fresh_map_elements);
 			render_stations(stations, fresh_map_elements, active_bounds);
 						
-
 			/* Everything is ready ... display */
 			map.addLayer(fresh_map_elements);
 			if (map_elements) {
@@ -88,6 +81,9 @@ function process_journeys(journey_data, journey_map) {
 
 	$.each( journey_data, function( key, journey ) {
 				
+		// Extract minutes from jny start / end
+		// Apply start time / end time filter
+
 		start = journey.start_station_logical_term;
 		end = journey.end_station_logical_term;
 
@@ -132,14 +128,13 @@ function render_journeys(stations, journeys, count_threshold, layer_group) {
 		if (journey.counts.total < count_threshold) {
 			return true;
 		}
-
-		station_a = stations[journey.station_a];
-		station_b = stations[journey.station_b];
-
 		/* Some journeys end in oblivion - ignore them */
 		if (journey.station_a < 0 || journey.station_b < 0) { 
 			return true; 
 		}
+
+		station_a = stations[journey.station_a];
+		station_b = stations[journey.station_b];
 
 		station_a.active = station_b.active = true;
 
@@ -177,14 +172,14 @@ function render_stations(stations, layer_group, active_bounds) {
 
 		layer_group.addLayer(marker);			
 	});
-	
+
 }
 
 
 function create_controls(max_journeys, curr_threshold) {
 
 
-    slider_threshold.slider({
+    threshold_slider.slider({
         range: false,
         min:   0,
         max:   max_journeys,
@@ -194,17 +189,84 @@ function create_controls(max_journeys, curr_threshold) {
         slide: slide_threshold
     });
 
-	slider_display.text( curr_threshold );
+	threshold_display.text( curr_threshold );
+
+    time_slider.slider({
+        range: true,
+        min: 0,
+        max: 1439,
+        values: [0, 1439],
+        step:15,
+        stop:  set_time,
+        slide: slide_time
+    });
+
+	//time_display.text( "test" );
+}
 
 
+function slide_threshold(event, ui) {
+	threshold_display.text( threshold_slider.slider("value") );
+}
+
+function set_threshold(event, ui) {
+	threshold_display.text( threshold_slider.slider("value") );
+	update_map( threshold_slider.slider("value") );	
+}
+
+function slide_time(event, ui) {
+	update_time_display();
+}
+
+function set_time(event, ui) {
+	update_time_display();	
+	update_map( threshold_slider.slider("value") );	
+}
+
+function update_time_display() {
+
+	start_minute = time_slider.slider("values", 0);
+    end_minute = time_slider.slider("values", 1);
+
+    var start_min = parseInt(start_minute % 60, 10),
+        start_hour = parseInt(start_minute / 60 % 24, 10),
+        end_min = parseInt(end_minute % 60, 10),
+        end_hour = parseInt(end_minute / 60 % 24, 10);
+
+    start_time = time_string(start_hour, start_min);
+    end_time = time_string(end_hour, end_min);
+
+	time_display.text( start_time + " - " + end_time );
+}
+
+function time_string(hours, minutes) {
+
+    var ampm = (hours < 12) ? "AM" : "PM";
+    minutes = minutes + "";
+
+    if (hours == 0) {
+        hours = 12;
+    }
+    if (hours > 12) {
+        hours = hours - 12;
+    }
+
+    if (minutes.length == 1) {
+        minutes = "0" + minutes;
+    }
+
+    return hours + ":" + minutes + " " + ampm;
 }
 
 
 $(document).ready(function(){
 
 	/* Prepare widget vars for use in different functions */
-	slider_threshold = $("#threshold_slider");
-	slider_display = $("#threshold_display");
+	threshold_slider = $("#threshold_slider");
+	threshold_display = $("#threshold_display");
+
+	time_slider = $("#time_slider");
+	time_display = $("#time_display");
 
 	/* Obtains data, then creates map and UI controls */
 	update_map(1);
