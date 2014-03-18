@@ -19,7 +19,7 @@ function getParameterByName(name) {
     return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
 }
 
-function update_map(jny_threshold) {
+function update_map(jny_threshold, with_panning) {
 
 	/* Create the map */
 	if (!map) {
@@ -66,10 +66,12 @@ function update_map(jny_threshold) {
 				map.removeLayer(map_elements);
 			}
 			map_elements = fresh_map_elements;
-			map.fitBounds(active_bounds, {padding: [40,40]});
+			if (with_panning) {
+				map.fitBounds(active_bounds, {padding: [40,40]});
+			}
 
 			/* Finally, update the UI controls to reflect the new map state */
-			create_controls(max_jny_count, jny_threshold);
+			update_controls(max_jny_count);
 		});
 
 			
@@ -175,43 +177,55 @@ function render_stations(stations, layer_group, active_bounds) {
 
 }
 
+function update_controls(max_journeys) {
+	threshold_slider.slider('option',{min: 0, max: max_journeys});
+}
 
-function create_controls(max_journeys, curr_threshold) {
+function create_controls(jny_threshold, max_journeys) {
 
+	/* Prepare widget vars for use in different functions */
+	threshold_slider = $("#threshold_slider");
+	threshold_display = $("#threshold_display");
+
+	time_slider = $("#time_slider");
+	time_display = $("#time_display");
 
     threshold_slider.slider({
         range: false,
         min:   0,
         max:   max_journeys,
-        value: curr_threshold,
+        value: jny_threshold,
         step:  1,
         stop:  set_threshold,
         slide: slide_threshold
     });
 
-	threshold_display.text( curr_threshold );
+	threshold_display.text( jny_threshold );
 
     time_slider.slider({
         range: true,
         min: 0,
         max: 1439,
         values: [0, 1439],
-        step:15,
+        step: 15,
         stop:  set_time,
         slide: slide_time
     });
 
-	//time_display.text( "test" );
+	time_display.text( "test" );
 }
+
+
 
 
 function slide_threshold(event, ui) {
 	threshold_display.text( threshold_slider.slider("value") );
+	update_map( threshold_slider.slider("value"), false );	
 }
 
 function set_threshold(event, ui) {
 	threshold_display.text( threshold_slider.slider("value") );
-	update_map( threshold_slider.slider("value") );	
+	update_map( threshold_slider.slider("value"), true );	
 }
 
 function slide_time(event, ui) {
@@ -220,7 +234,7 @@ function slide_time(event, ui) {
 
 function set_time(event, ui) {
 	update_time_display();	
-	update_map( threshold_slider.slider("value") );	
+	update_map( threshold_slider.slider("value"), true );	
 }
 
 function update_time_display() {
@@ -261,15 +275,8 @@ function time_string(hours, minutes) {
 
 $(document).ready(function(){
 
-	/* Prepare widget vars for use in different functions */
-	threshold_slider = $("#threshold_slider");
-	threshold_display = $("#threshold_display");
-
-	time_slider = $("#time_slider");
-	time_display = $("#time_display");
-
-	/* Obtains data, then creates map and UI controls */
-	update_map(1);
+	create_controls(1, 10);
+	update_map(1, true);
 
 })
 
