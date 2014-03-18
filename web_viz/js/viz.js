@@ -12,6 +12,96 @@ var threshold_display = null;
 var time_slider = null;
 var time_display = null;
 
+function create_controls(jny_threshold, max_journeys) {
+
+	/* Prepare widget vars for use in different functions */
+	threshold_slider = $("#threshold_slider");
+	threshold_display = $("#threshold_display");
+
+	time_slider = $("#time_slider");
+	time_display = $("#time_display");
+
+    threshold_slider.slider({
+        range: false,
+        min:   0,
+        max:   max_journeys,
+        value: jny_threshold,
+        step:  1,
+        stop:  set_threshold,
+        slide: slide_threshold
+    });
+
+	threshold_display.text( jny_threshold );
+
+    time_slider.slider({
+        range: true,
+        min: 0,
+        max: 1439,
+        values: [0, 1439],
+        step: 15,
+        stop:  set_time,
+        slide: slide_time
+    });
+
+	time_display.text( "test" );
+}
+
+
+
+
+function slide_threshold(event, ui) {
+	threshold_display.text( threshold_slider.slider("value") );
+	update_map( threshold_slider.slider("value"), false );	
+}
+
+function set_threshold(event, ui) {
+	threshold_display.text( threshold_slider.slider("value") );
+	update_map( threshold_slider.slider("value"), true );	
+}
+
+function slide_time(event, ui) {
+	update_time_display();
+}
+
+function set_time(event, ui) {
+	update_time_display();	
+	update_map( threshold_slider.slider("value"), true );	
+}
+
+function update_time_display() {
+
+	start_minute = time_slider.slider("values", 0);
+    end_minute = time_slider.slider("values", 1);
+
+    var start_min = parseInt(start_minute % 60, 10),
+        start_hour = parseInt(start_minute / 60 % 24, 10),
+        end_min = parseInt(end_minute % 60, 10),
+        end_hour = parseInt(end_minute / 60 % 24, 10);
+
+    start_time = time_string(start_hour, start_min);
+    end_time = time_string(end_hour, end_min);
+
+	time_display.text( start_time + " - " + end_time );
+}
+
+function time_string(hours, minutes) {
+
+    var ampm = (hours < 12) ? "AM" : "PM";
+    minutes = minutes + "";
+
+    if (hours == 0) {
+        hours = 12;
+    }
+    if (hours > 12) {
+        hours = hours - 12;
+    }
+
+    if (minutes.length == 1) {
+        minutes = "0" + minutes;
+    }
+
+    return hours + ":" + minutes + " " + ampm;
+}
 
 
 function getParameterByName(name) {
@@ -181,96 +271,6 @@ function update_controls(max_journeys) {
 	threshold_slider.slider('option',{min: 0, max: max_journeys});
 }
 
-function create_controls(jny_threshold, max_journeys) {
-
-	/* Prepare widget vars for use in different functions */
-	threshold_slider = $("#threshold_slider");
-	threshold_display = $("#threshold_display");
-
-	time_slider = $("#time_slider");
-	time_display = $("#time_display");
-
-    threshold_slider.slider({
-        range: false,
-        min:   0,
-        max:   max_journeys,
-        value: jny_threshold,
-        step:  1,
-        stop:  set_threshold,
-        slide: slide_threshold
-    });
-
-	threshold_display.text( jny_threshold );
-
-    time_slider.slider({
-        range: true,
-        min: 0,
-        max: 1439,
-        values: [0, 1439],
-        step: 15,
-        stop:  set_time,
-        slide: slide_time
-    });
-
-	time_display.text( "test" );
-}
-
-
-
-
-function slide_threshold(event, ui) {
-	threshold_display.text( threshold_slider.slider("value") );
-	update_map( threshold_slider.slider("value"), false );	
-}
-
-function set_threshold(event, ui) {
-	threshold_display.text( threshold_slider.slider("value") );
-	update_map( threshold_slider.slider("value"), true );	
-}
-
-function slide_time(event, ui) {
-	update_time_display();
-}
-
-function set_time(event, ui) {
-	update_time_display();	
-	update_map( threshold_slider.slider("value"), true );	
-}
-
-function update_time_display() {
-
-	start_minute = time_slider.slider("values", 0);
-    end_minute = time_slider.slider("values", 1);
-
-    var start_min = parseInt(start_minute % 60, 10),
-        start_hour = parseInt(start_minute / 60 % 24, 10),
-        end_min = parseInt(end_minute % 60, 10),
-        end_hour = parseInt(end_minute / 60 % 24, 10);
-
-    start_time = time_string(start_hour, start_min);
-    end_time = time_string(end_hour, end_min);
-
-	time_display.text( start_time + " - " + end_time );
-}
-
-function time_string(hours, minutes) {
-
-    var ampm = (hours < 12) ? "AM" : "PM";
-    minutes = minutes + "";
-
-    if (hours == 0) {
-        hours = 12;
-    }
-    if (hours > 12) {
-        hours = hours - 12;
-    }
-
-    if (minutes.length == 1) {
-        minutes = "0" + minutes;
-    }
-
-    return hours + ":" + minutes + " " + ampm;
-}
 
 
 $(document).ready(function(){
