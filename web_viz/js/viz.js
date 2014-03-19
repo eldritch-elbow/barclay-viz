@@ -11,6 +11,8 @@ var threshold_slider = null;
 var threshold_display = null;
 var time_slider = null;
 var time_display = null;
+var day_selector_monfri = null;
+var day_selector_weekend = null;
 
 function create_controls(jny_threshold, max_journeys) {
 
@@ -20,6 +22,9 @@ function create_controls(jny_threshold, max_journeys) {
 
 	time_slider = $("#time_slider");
 	time_display = $("#time_display");
+
+	day_selector_monfri = $("#mon_fri");
+	day_selector_weekend = $("#weekend");
 
     threshold_slider.slider({
         range: false,
@@ -43,7 +48,15 @@ function create_controls(jny_threshold, max_journeys) {
         slide: slide_time
     });
 
-	time_display.text( "test" );
+	update_time_display();
+
+    $("#day_selector").buttonset();
+    day_selector_monfri.click( function() {
+    	update_map(true, true);
+    });
+    day_selector_weekend.click( function() {
+    	update_map(true, true);
+    });
 }
 
 
@@ -127,8 +140,6 @@ function update_map(from_controls, with_panning) {
 		map = L.map('map').setView([51.5211, -0.0988698], 13);
 
 		/* Create a tile layer based on cloudmade */
-
-		var osmURI = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png?layers=H'; // &layers=H or T or C
 		var cmURI = 'http://{s}.tile.cloudmade.com/8EE2A50541944FB9BCEDDED5165F09D9/998/256/{z}/{x}/{y}.png';
 
 		L.tileLayer(cmURI, {
@@ -190,8 +201,11 @@ function process_journeys(journey_data, window_begin, window_end, journey_map ) 
 
 		var start_time = new Date( Date.parse(journey.start_timestamp) );
 		var start_minute = (start_time.getHours() * 60) + start_time.getMinutes();
+		var start_day = (start_time.getDay());
 
 		if (start_minute < window_begin || start_minute > window_end) { return true; }
+		if ( (start_day >= 1 && start_day <= 5) && (day_selector_monfri.is(':checked') == false)) { return true; }
+		if ( (start_day == 0 || start_day == 6) && (day_selector_weekend.is(':checked') == false)) { return true; }
 
 		start_term = journey.start_station_logical_term;
 		end_term = journey.end_station_logical_term;
@@ -251,7 +265,7 @@ function render_journeys(stations, journeys, count_threshold, layer_group) {
 
 		var polyline = L.polyline(
 			latlngs, 
-			{color: 'blue', weight: journey.counts.total} );
+			{color: 'blue', weight: Math.min(journey.counts.total, 30), lineCap: 'round'} );
 
 		polyline.bindPopup(
 			"<b>" + station_a.full_name + "</b> / <br><b>" + station_b.full_name + "</b><br>" +
