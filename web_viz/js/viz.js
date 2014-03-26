@@ -13,6 +13,7 @@ var time_slider = null;
 var time_display = null;
 var day_selector_monfri = null;
 var day_selector_weekend = null;
+var arrow_selector = null;
 
 function create_controls(jny_threshold, max_journeys) {
 
@@ -25,6 +26,8 @@ function create_controls(jny_threshold, max_journeys) {
 
 	day_selector_monfri = $("#mon_fri");
 	day_selector_weekend = $("#weekend");
+
+	arrow_selector = $("#arrows");
 
     threshold_slider.slider({
         range: false,
@@ -50,13 +53,17 @@ function create_controls(jny_threshold, max_journeys) {
 
 	update_time_display();
 
+    var click_action = function() {
+		update_map(true);
+    }
+
     $("#day_selector").buttonset();
-    day_selector_monfri.click( function() {
-    	update_map(true, true);
-    });
-    day_selector_weekend.click( function() {
-    	update_map(true, true);
-    });
+    day_selector_monfri.click( click_action );
+    day_selector_weekend.click( click_action );
+
+    $("#style_selector").buttonset()
+    arrow_selector.click( click_action );
+
 }
 
 
@@ -64,22 +71,22 @@ function create_controls(jny_threshold, max_journeys) {
 
 function slide_threshold(event, ui) {
 	threshold_display.text( threshold_slider.slider("value") );
-	update_map( true, false );	
+	update_map( false );	
 }
 
 function set_threshold(event, ui) {
 	threshold_display.text( threshold_slider.slider("value") );
-	update_map( true, true );	
+	update_map( true );	
 }
 
 function slide_time(event, ui) {
 	update_time_display();
-	update_map( true, false );	
+	update_map( false );	
 }
 
 function set_time(event, ui) {
 	update_time_display();	
-	update_map( true, true );	
+	update_map( true );	
 }
 
 function update_time_display() {
@@ -123,17 +130,11 @@ function getParameterByName(name) {
     return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
 }
 
-function update_map(from_controls, with_panning) {
+function update_map(with_panning) {
 
-	if (from_controls) {
-		jny_threshold = threshold_slider.slider("value");
-		window_begin = time_slider.slider("values", 0);
-		window_end = time_slider.slider("values", 1);
-	} else {
-		jny_threshold = 1;
-		window_begin = 0;
-		window_end = 1439;
-	}
+	jny_threshold = threshold_slider.slider("value");
+	window_begin = time_slider.slider("values", 0);
+	window_end = time_slider.slider("values", 1);
 
 	/* Create the map */
 	if (!map) {
@@ -210,18 +211,22 @@ function process_journeys(journey_data, window_begin, window_end, journey_map ) 
 		start_term = journey.start_station_logical_term;
 		end_term = journey.end_station_logical_term;
 
-		key = Math.min(start_term,end_term) + ":" + Math.max(start_term,end_term);
+		station_a = Math.min(start_term,end_term);
+		station_b = Math.max(start_term,end_term);
 
+		key = station_a + ":" + station_b
 		jny_summary = journey_map[key];
 
 		if (!jny_summary) {
 			jny_summary = {
-				'station_a' : Math.min(start_term,end_term),
-				'station_b' : Math.max(start_term,end_term),
+				'station_a' : station_a,
+				'station_b' : station_b,
 				'counts' : { 
 					'total' : 0,
 					'peak' : 0,
-					'offpeak' : 0
+					'offpeak' : 0,
+					'to_a' : 0,
+					'to_b' : 0
 				},
 				'total_duration' : 0,
 				'journey_list' : []
@@ -232,6 +237,8 @@ function process_journeys(journey_data, window_begin, window_end, journey_map ) 
 
 		jny_summary['journey_list'].push(journey);
 		jny_summary['counts']['total'] += 1;
+		jny_summary['counts']['to_a'] += (end_term == station_a) ? 1 : 0;
+		jny_summary['counts']['to_b'] += (end_term == station_b) ? 1 : 0;
 		jny_summary['total_duration'] += journey.duration;
 
 		jny_type_key = (journey.start_hour_category_id == 1) ? 'peak' : 'offpeak';
@@ -261,18 +268,104 @@ function render_journeys(stations, journeys, count_threshold, layer_group) {
 
 		station_a.active = station_b.active = true;
 
-		latlngs = [ [ station_a.latitude, station_a.longitude ], [ station_b.latitude, station_b.longitude ] ]
+
+
+/* Test different colours, etc */
+
+// display
+//   opacity
+//   colour
+//   width
+//   dashed
+
+// vars
+//   Journey count: 0..?
+//   Peak vs offpeak: 0..?, or Ratio
+//   To/From: ratio?						pie chart
+
+var line_color, unidirectional;
+
+if (journey.counts.to_a == 0 || journey.counts.to_b == 0) {
+	line_color = 'orangered';
+	unidirectional = true
+} else {
+	line_color = 'blue'
+	unidirectional = false
+}
+
+
+var station_a_latlong = [ station_a.latitude, station_a.longitude ]
+var station_b_latlong = [ station_b.latitude, station_b.longitude ]
+
+var line_latlongs = [ station_a_latlong, station_b_latlong ] 
+if (journey.counts.to_b == 0) {	
+	line_latlongs = [ station_b_latlong, station_a_latlong ] 
+}
+
+// options:
+//    width = scaled journey count
+//    opacity = to/from ratio (solid = 50/50 ... 50% = unidirectional / vice versa)
+//    colour = to/from ratio
+
+
+// 1 / 10
+// 1 / 100
+// 30 / 50
+
+/**************************/
+
+		var line_weight = Math.min(journey.counts.total, 30);
 
 		var polyline = L.polyline(
-			latlngs, 
-			{color: 'blue', weight: Math.min(journey.counts.total, 30), lineCap: 'round'} );
+			line_latlongs, 
+			{	color: line_color, 
+				weight: line_weight, 
+			} );
+		layer_group.addLayer(polyline);
+
+		if (arrow_selector.is(':checked') && unidirectional) {
+
+		    var arrowHead = L.polylineDecorator(polyline, {
+		        patterns: [
+		            {	offset: '20%', 
+		            	repeat: '20%', 
+		            	symbol: L.Symbol.arrowHead(
+							 {
+							        pixelSize: line_weight,
+							        polygon: true,
+							        pathOptions: {
+							            stroke: true,
+							            weight: 2,
+							            color: line_color,
+							            opacity: 1,
+							            fillOpacity: 1
+
+							        }
+							    }
+		            		
+		            )}
+		        ]});
+
+			layer_group.addLayer(arrowHead);
+
+
+		}
+  
+
 
 		polyline.bindPopup(
 			"<b>" + station_a.full_name + "</b> / <br><b>" + station_b.full_name + "</b><br>" +
-			journey.counts.total   + " journeys<br>" + 
-			Math.ceil( (journey.total_duration / journey.counts.total) / 60 ) + " minutes (avg)");
 
-		layer_group.addLayer(polyline);
+			journey.counts.total   + " journeys<br>" + 
+			Math.ceil( (journey.total_duration / journey.counts.total) / 60 ) + " minutes (avg)<br><br>" +
+
+			journey.counts.to_a + " -> " + station_a.full_name + "<br>" +
+			journey.counts.to_b + " -> " + station_b.full_name + "<br><br>" +
+
+			journey.counts.peak + " / " + journey.counts.offpeak + " (peak / off peak)"
+
+			);
+
 	});
 
 }
@@ -306,8 +399,8 @@ function update_controls(max_journeys) {
 
 $(document).ready(function(){
 
-	create_controls(1, 10);
-	update_map(false, true);
+	create_controls(2, 10);
+	update_map(true);
 
 })
 
