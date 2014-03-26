@@ -64,6 +64,7 @@ function create_controls(jny_threshold, max_journeys) {
     $("#style_selector").buttonset()
     arrow_selector.click( click_action );
 
+    $("#dataset_select").change( click_action );
 }
 
 
@@ -132,6 +133,13 @@ function getParameterByName(name) {
 
 function update_map(with_panning) {
 
+	var dataset = getParameterByName("dataset");
+	if (!dataset) {
+		dataset = $("#dataset_select :selected").text();
+	}
+
+	console.log("Updating map with dataset " + dataset);
+
 	jny_threshold = threshold_slider.slider("value");
 	window_begin = time_slider.slider("values", 0);
 	window_end = time_slider.slider("values", 1);
@@ -170,7 +178,7 @@ function update_map(with_panning) {
 		});
 
 		/* Process raw journey data, create summaries */
-		dataset_path = "assets/"+getParameterByName("dataset")+".json";
+		dataset_path = "assets/"+dataset+".json";
 		$.getJSON( dataset_path, function( journey_data ) {
 
 			process_journeys(journey_data, window_begin, window_end, journeys );
