@@ -101,7 +101,7 @@ function set_time(event, ui) {
 }
 
 function update_threshold_display( ) {
-	threshold_display.text( 'Journey threshold: ' + threshold_slider.slider("value") );
+	threshold_display.text( 'Min journeys per route: ' + threshold_slider.slider("value") );
 }
 
 function update_time_display() {
@@ -184,15 +184,16 @@ function update_map(with_panning) {
 	var stations = {}
 	var active_bounds = []
 
-	/* Store stations, keyed by logical terminal ID */
-	$.getJSON( "assets/stations.json", function( station_data ) {
+	/* Store stations, keyed by logical terminal ID. Data stored with .txt extension
+	   to workaround MS config issue with hosting service. */
+	$.getJSON( "./assets/stations.txt", function( station_data ) {
 
 		$.each( station_data, function( key, station ) {
 			stations[station.logical_terminal] = station;
 		});
 
 		/* Process raw journey data, create summaries */
-		dataset_path = "assets/"+dataset+".json";
+		dataset_path = "./assets/"+dataset+".txt";
 		$.getJSON( dataset_path, function( journey_data ) {
 
 			process_journeys(journey_data, window_begin, window_end, journeys );
