@@ -29,6 +29,7 @@ function create_controls(jny_threshold, max_journeys) {
 
 	arrow_selector = $("#arrows");
 
+
     threshold_slider.slider({
         range: false,
         min:   0,
@@ -39,7 +40,8 @@ function create_controls(jny_threshold, max_journeys) {
         slide: slide_threshold
     });
 
-	threshold_display.text( jny_threshold );
+	update_threshold_display()
+
 
     time_slider.slider({
         range: true,
@@ -57,26 +59,34 @@ function create_controls(jny_threshold, max_journeys) {
 		update_map(true);
     }
 
-    $("#day_selector").buttonset();
     day_selector_monfri.click( click_action );
     day_selector_weekend.click( click_action );
 
-    $("#style_selector").buttonset()
     arrow_selector.click( click_action );
 
     $("#dataset_select").change( click_action );
+
+
+    $("#night").click( function() { set_time_range(0, 240) } );
+    $("#morning").click( function() { set_time_range(241, 720) } );
+    $("#afternoon").click( function() { set_time_range(721, 1140) } );
+    $("#evening").click( function() { set_time_range(1141, 1439) } );
 }
 
 
-
+function set_time_range(start_min, end_min) {
+	time_slider.slider( "option", "values", [ start_min, end_min ] );
+	update_time_display();	
+	update_map( true );	
+}
 
 function slide_threshold(event, ui) {
-	threshold_display.text( threshold_slider.slider("value") );
+	update_threshold_display();
 	update_map( false );	
 }
 
 function set_threshold(event, ui) {
-	threshold_display.text( threshold_slider.slider("value") );
+	update_threshold_display()
 	update_map( true );	
 }
 
@@ -88,6 +98,10 @@ function slide_time(event, ui) {
 function set_time(event, ui) {
 	update_time_display();	
 	update_map( true );	
+}
+
+function update_threshold_display( ) {
+	threshold_display.text( 'Journey threshold: ' + threshold_slider.slider("value") );
 }
 
 function update_time_display() {
@@ -103,7 +117,7 @@ function update_time_display() {
     start_time = time_string(start_hour, start_min);
     end_time = time_string(end_hour, end_min);
 
-	time_display.text( start_time + " - " + end_time );
+	time_display.text( 'Time Range: ' + start_time + " - " + end_time );
 }
 
 function time_string(hours, minutes) {
@@ -278,6 +292,7 @@ function render_journeys(stations, journeys, count_threshold, layer_group) {
 
 
 
+
 /* Test different colours, etc */
 
 // display
@@ -315,12 +330,9 @@ if (journey.counts.to_b == 0) {
 //    opacity = to/from ratio (solid = 50/50 ... 50% = unidirectional / vice versa)
 //    colour = to/from ratio
 
-
-// 1 / 10
-// 1 / 100
-// 30 / 50
-
 /**************************/
+
+
 
 		var line_weight = Math.min(journey.counts.total, 30);
 

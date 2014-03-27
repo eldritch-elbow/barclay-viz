@@ -9,36 +9,43 @@
     <body>
         <div id="map"></div>
         <div id="controls">
+            <div>
+            	<div>Dataset:</div>
+                <select id="dataset_select">
+                    <option>commuter_crinan_1241340257</option>
+                    <option selected="selected">commuter_crinan_1921951825</option>
+                    <option>commuter_crinan_586775127</option>
+                    <option>commuter_cwharf_153322444</option>
+                    <option>commuter_westminister_24019561</option>
+                    <option>commuter_westminister_501975966</option>
+                </select>
+            </div>
+            <br>
             <div id="threshold_control">
-                <div id="threshold_slider"></div>
                 <div id="threshold_display"></div>
+                <div id="threshold_slider"></div>
             </div>
+            <br>
             <div id="time_control">
-                <div id="time_slider"></div>
                 <div id="time_display"></div>
+                <div id="time_slider"></div>
             </div>
-			<div id="day_selector">
-				<input type="checkbox" id="mon_fri" checked><label for="mon_fri" checked>Mon-Fri</label>
-				<input type="checkbox" id="weekend" checked><label for="weekend">Weekend</label>
-			</div>
+            <br>
+            <div>
+                <input type="submit" id="night" value="Night">
+                <input type="submit" id="morning" value="Morning">
+                <input type="submit" id="afternoon" value="Afternoon">
+                <input type="submit" id="evening" value="Evening">
+            </div>
+            <br>
+            <div id="day_selector">
+                <input type="checkbox" id="mon_fri" checked><label for="mon_fri" checked>Mon-Fri</label>
+                <input type="checkbox" id="weekend" checked><label for="weekend">Weekend</label>
+            </div>
+            <br>
             <div id="style_selector">
                 <input type="checkbox" id="arrows" checked><label for="arrows" checked>Arrows</label>
             </div>
-
-            <div>
-            	
-			<select id="dataset_select">
-			  <option>commuter_crinan_1241340257</option>
-			  <option selected="selected">commuter_crinan_1921951825</option>
-			  <option>commuter_crinan_586775127</option>
-			  <option>commuter_cwharf_153322444</option>
-			  <option>commuter_westminister_24019561</option>
-			  <option>commuter_westminister_501975966</option>
-			</select>
-
-		</div>
-
-
         </div>
         <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
         <script src="js/leaflet.polylineDecorator.min.js"></script>
