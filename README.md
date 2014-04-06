@@ -121,19 +121,17 @@ Labels in the gephi_project/complete_viz/bojo_viz3_areas_deletions.gephi vizuali
 
 ### Web vizualization
 
-0a. Try google maps tiles in leaflet		
-0b. Make all popups hover 						X
-1. Parameterize based on named dataset			DONE
-2. Add Canary Wharf commuter(s)
-3. Convert spinner to slider					DONE
-3a. Add #unique journeys on slider
-4. Add sliding window for time
-5. Try fixed-range scaling for edges (2-20?)
-6. Try different edge opacity
-7. Try edge colour range based on weight or time
-8. Scale nodes?
-9. Add optional arrows
-10. Add detailed info pane
+- Move all controls into panels					DONE
+- Add hover info panel
+- Add reset button 								DONE
+- Make #journeys threshold absolute
+- Add #unique journeys on slider
+- Try fixed-range scaling for edges (2-20?)
+- Try different edge opacity
+- Try edge colour range based on weight or time
+- Scale nodes?
+- Fix count slider events
+- Fix new dataset filtering / reset
 
 
 
