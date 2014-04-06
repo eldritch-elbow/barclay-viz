@@ -91,10 +91,6 @@ function create_controls() {
 
 	filter_panel.update = function (props) {
 	    this._div.innerHTML = 
-			'<div id="threshold_control">'+
-		        '<h4 id="threshold_display"></h4>'+
-		        '<div id="threshold_slider"></div>'+
-			'</div>'+
 			'<div id="time_control">'+
 				'<h4 id="time_display"></h4>'+
 				'<div id="time_slider"></div>'+
@@ -106,6 +102,10 @@ function create_controls() {
 				'<input type="submit" id="evening" value="Evening">'+
 				'<input type="checkbox" id="mon_fri" checked><label for="mon_fri" checked>Mon-Fri</label>'+
 				'<input type="checkbox" id="weekend" checked><label for="weekend">Weekend</label>'+
+			'</div>'+
+			'<div id="threshold_control">'+
+		        '<h4 id="threshold_display"></h4>'+
+		        '<div id="threshold_slider"></div>'+
 			'</div>'+
 	  //       '<hr>'+
 			// '<input type="checkbox" id="arrows" checked><label for="arrows" checked>Arrows</label>'+		
@@ -416,14 +416,15 @@ function process_journeys(journey_data, window_begin, window_end, journey_map ) 
 
 function render_journeys(stations, journeys, count_threshold, map_render_layer) {
 
-	/* Clear the record of markers and lines */
+	/* Clear the record of markers and lines, etc */
 	station_markers = []
 	station_lines = {}
 	all_lines = []
-
+	max_jny_count = 0
+		
 	/* Render journeys */
 	$.each( journeys, function( key, journey ) {
-	
+
 		max_jny_count = Math.max(max_jny_count, journey.counts.total);
 
 		/* Skip journeys below a certain threshold */

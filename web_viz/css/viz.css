@@ -6,8 +6,8 @@ body,html{
 
 #map { height: 97%; width: 100%; float: left;  }
 
-#time_control { padding-top: 10px; }
 #time_buttons { padding-top: 7px; }
+#threshold_control { padding-top: 10px; padding-bottom: 10px; }
 
 .control {
     padding: 6px 15px;
