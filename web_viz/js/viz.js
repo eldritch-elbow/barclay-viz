@@ -15,26 +15,145 @@ var day_selector_monfri = null;
 var day_selector_weekend = null;
 var arrow_selector = null;
 
-function create_controls(jny_threshold, max_journeys) {
+function create_map() {
+
+	/* Create the map */
+	if (!map) {
+		map = L.map('map', {zoomControl: false}).setView([51.5211, -0.0988698], 13);
+
+		/* Create a tile layer based on cloudmade (997 = standard; 998 = soft )*/
+		var cmURI = 'http://{s}.tile.cloudmade.com/8EE2A50541944FB9BCEDDED5165F09D9/997/256/{z}/{x}/{y}.png';
+
+		L.tileLayer(cmURI, {
+			attribution: 
+				'Map data &copy; '+
+				'<a href="http://openstreetmap.org">OpenStreetMap</a> contributors, '+
+				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, '+
+				'Imagery © <a href="http://cloudmade.com">CloudMade</a>',
+			maxZoom: 18})
+		.addTo(map);
+
+	}
+
+}
+
+function create_controls() {
+
+
+
+
+var dataset = L.control({position: 'topleft'});
+
+dataset.onAdd = function (map) {
+    this._div = L.DomUtil.create('div', 'control'); // create a div with a class "control"
+    this.update();
+    return this._div;
+};
+
+dataset.update = function (props) {
+    this._div.innerHTML = 
+
+    	'<b>Dataset:</b>'+
+        '<select id="dataset_select">'+
+            '<option>commuter_crinan_1241340257</option>'+
+            '<option selected="selected">commuter_crinan_1921951825</option>'+
+            '<option>commuter_crinan_586775127</option>'+
+            '<option>commuter_cwharf_153322444</option>'+
+            '<option>commuter_westminister_24019561</option>'+
+            '<option>commuter_westminister_501975966</option>'+
+        '</select>'+
+    	'<input type="checkbox" id="filters"><label for="filters">Filters</label>'
+};
+
+dataset.addTo(map);
+
+
+
+
+
+
+
+var filter_panel = L.control({position: 'bottomleft'});
+
+filter_panel.onAdd = function (map) {
+    this._div = L.DomUtil.create('div', 'control filter'); 
+    this.update();
+    return this._div;
+};
+
+
+filter_panel.update = function (props) {
+    this._div.innerHTML = 
+		'<div id="threshold_control">'+
+	        '<h4 id="threshold_display"></h4>'+
+	        '<div id="threshold_slider"></div>'+
+		'</div>'+
+		'<div id="time_control">'+
+			'<h4 id="time_display"></h4>'+
+			'<div id="time_slider"></div>'+
+		'</div>'+
+		'<div id="time_buttons">'+
+			'<input type="submit" id="night" value="Night">'+
+			'<input type="submit" id="morning" value="Morning">'+
+			'<input type="submit" id="afternoon" value="Afternoon">'+
+			'<input type="submit" id="evening" value="Evening">'+
+			'<input type="checkbox" id="mon_fri" checked><label for="mon_fri" checked>Mon-Fri</label>'+
+			'<input type="checkbox" id="weekend" checked><label for="weekend">Weekend</label>'+
+		'</div>'+
+  //       '<hr>'+
+		// '<input type="checkbox" id="arrows" checked><label for="arrows" checked>Arrows</label>'+		
+        '<hr>'+
+		'<input type="submit" id="reset" value="Reset">';
+		;
+};
+
+filter_panel.addTo(map);
+
+
+$('.filter').hide()
+
+
+$('.control').mouseenter(function() {
+  map.dragging.disable();
+  map.doubleClickZoom.disable();
+});
+
+$('.control').mouseleave(function() {
+  map.dragging.enable();
+  map.doubleClickZoom.enable();
+});
+
+
+
+filters_selector = $("#filters");
+filters_selector.click( function() {
+	$(this).is(':checked') ? $('.filter').show(200) : $('.filter').hide(200);
+} );
+
+
+
+
+
+
+
+
 
 	/* Prepare widget vars for use in different functions */
 	threshold_slider = $("#threshold_slider");
 	threshold_display = $("#threshold_display");
-
 	time_slider = $("#time_slider");
 	time_display = $("#time_display");
-
 	day_selector_monfri = $("#mon_fri");
 	day_selector_weekend = $("#weekend");
-
 	arrow_selector = $("#arrows");
 
 
+	/* Create threshold slider, display initial value */
     threshold_slider.slider({
         range: false,
         min:   0,
-        max:   max_journeys,
-        value: jny_threshold,
+        max:   10,
+        value: 2,
         step:  1,
         stop:  set_threshold,
         slide: slide_threshold
@@ -43,6 +162,8 @@ function create_controls(jny_threshold, max_journeys) {
 	update_threshold_display()
 
 
+
+	/* Create time slider, display initial value */
     time_slider.slider({
         range: true,
         min: 0,
@@ -55,22 +176,37 @@ function create_controls(jny_threshold, max_journeys) {
 
 	update_time_display();
 
+
+
+ 	/* Define standard click action: just update the map */
     var click_action = function() {
 		update_map(true);
     }
 
     day_selector_monfri.click( click_action );
     day_selector_weekend.click( click_action );
-
     arrow_selector.click( click_action );
-
     $("#dataset_select").change( click_action );
 
-
+    /* Define complex click actions: update control values, then update maps */
     $("#night").click( function() { set_time_range(0, 240) } );
     $("#morning").click( function() { set_time_range(241, 720) } );
     $("#afternoon").click( function() { set_time_range(721, 1140) } );
     $("#evening").click( function() { set_time_range(1141, 1439) } );
+
+	$('#reset').click( function() {
+		/* Avoid overlap with other event handling functions, to prevent multiple calls to update_map */
+		threshold_slider.slider('option',{value: 2});
+		update_threshold_display();
+		time_slider.slider( "option", "values", [ 0, 1439 ] );
+		update_time_display();	
+		day_selector_monfri.prop('checked', true);
+		day_selector_weekend.prop('checked', true);
+		update_map( true );	
+	});
+
+
+
 }
 
 
@@ -158,23 +294,6 @@ function update_map(with_panning) {
 	window_begin = time_slider.slider("values", 0);
 	window_end = time_slider.slider("values", 1);
 
-	/* Create the map */
-	if (!map) {
-		map = L.map('map').setView([51.5211, -0.0988698], 13);
-
-		/* Create a tile layer based on cloudmade */
-		var cmURI = 'http://{s}.tile.cloudmade.com/8EE2A50541944FB9BCEDDED5165F09D9/998/256/{z}/{x}/{y}.png';
-
-		L.tileLayer(cmURI, {
-			attribution: 
-				'Map data &copy; '+
-				'<a href="http://openstreetmap.org">OpenStreetMap</a> contributors, '+
-				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, '+
-				'Imagery © <a href="http://cloudmade.com">CloudMade</a>',
-			maxZoom: 18})
-		.addTo(map);
-
-	}
 
 	/* Create a layer group for additional elements*/
 	var fresh_map_elements = L.layerGroup();
@@ -310,10 +429,10 @@ function render_journeys(stations, journeys, count_threshold, layer_group) {
 var line_color, unidirectional;
 
 if (journey.counts.to_a == 0 || journey.counts.to_b == 0) {
-	line_color = 'orangered';
+	line_color = '#CC3300';
 	unidirectional = true
 } else {
-	line_color = 'blue'
+	line_color = '#26287F'
 	unidirectional = false
 }
 
@@ -344,7 +463,7 @@ if (journey.counts.to_b == 0) {
 			} );
 		layer_group.addLayer(polyline);
 
-		if (arrow_selector.is(':checked') && unidirectional) {
+		if ( unidirectional ) {  //  arrow_selector.is(':checked') && unidirectional) {
 
 		    var arrowHead = L.polylineDecorator(polyline, {
 		        patterns: [
@@ -420,7 +539,8 @@ function update_controls(max_journeys) {
 
 $(document).ready(function(){
 
-	create_controls(2, 10);
+	create_map();
+	create_controls();
 	update_map(true);
 
 })
