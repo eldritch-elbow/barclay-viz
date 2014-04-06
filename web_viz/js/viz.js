@@ -493,10 +493,7 @@ function render_journeys(stations, journeys, count_threshold, map_render_layer) 
 
 		    /* Record arrows for rendering and highlighting */
 			map_render_layer.addLayer(arrowHead);
-
-			all_lines.push(arrowHead);
-			station_lines[journey.station_a].push(arrowHead);
-			station_lines[journey.station_b].push(arrowHead);
+			polyline.arrow_line = arrowHead;
 
 		}
   
@@ -539,6 +536,8 @@ function render_stations(stations, map_render_layer, active_bounds) {
 
 	        	/* Display the info panel */
 	        	node_degree = station_lines[station.logical_terminal].length;
+
+
 	        	info_panel_station(station, node_degree); 
 	         	$('#info_panel').show();
 
@@ -554,7 +553,7 @@ function render_stations(stations, map_render_layer, active_bounds) {
 					} else {
 
 						layer.setStyle && layer.setStyle({ opacity: 0.1 });
-						layer.setPatterns && layer.setPatterns([]);
+						layer.arrow_line && layer.arrow_line.setPatterns([]);
 					}
 				});
 
@@ -573,8 +572,8 @@ function render_stations(stations, map_render_layer, active_bounds) {
 	        	$.each( all_lines, function(idx,layer)  {
 
 					layer.setStyle && layer.setStyle({ opacity: 0.8 });
-					layer.setPatterns && layer.setPatterns(
-						standard_arrow_patterns(layer.stored_weight)
+					layer.arrow_line && layer.arrow_line.setPatterns(
+						standard_arrow_patterns(layer.arrow_line.stored_weight)
 					);
 
 				});

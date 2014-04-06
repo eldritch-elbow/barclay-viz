@@ -126,7 +126,7 @@ Labels in the gephi_project/complete_viz/bojo_viz3_areas_deletions.gephi vizuali
 - Add reset button 								DONE
 - Make #journeys threshold absolute				?
 - Try fixed-range scaling for edges (2-20?)		DONE
-- Try different edge opacity
+- Try different edge opacity					DONE
 - Try edge colour range based on weight or time x
 - Scale nodes?									DONE
 - Fix count slider events						DONE
