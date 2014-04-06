@@ -1,12 +1,9 @@
 
-/* Leaflet variables */
+/* Leaflet map variables */
 var map = null;
 var map_elements = null;
 
-/* Journey data */
-var max_jny_count = 0;
-
-/* Controls */
+/* UI Control objects */
 var threshold_slider = null;
 var threshold_display = null;
 var time_slider = null;
@@ -15,6 +12,17 @@ var day_selector_monfri = null;
 var day_selector_weekend = null;
 var arrow_selector = null;
 
+/* Display objects, stored for easy reference */
+var station_lines = null;
+var all_lines = null;
+
+/* Filter state, with defaults */
+var max_jny_count = 0; // Must be overridden on update map
+var jny_threshold = 2;
+var window_begin = 0;
+var window_end = 1440;
+
+
 function create_map() {
 
 	/* Create the map */
@@ -22,7 +30,7 @@ function create_map() {
 		map = L.map('map', {zoomControl: false}).setView([51.5211, -0.0988698], 13);
 
 		/* Create a tile layer based on cloudmade (997 = standard; 998 = soft )*/
-		var cmURI = 'http://{s}.tile.cloudmade.com/8EE2A50541944FB9BCEDDED5165F09D9/997/256/{z}/{x}/{y}.png';
+		var cmURI = 'http://{s}.tile.cloudmade.com/8EE2A50541944FB9BCEDDED5165F09D9/998/256/{z}/{x}/{y}.png';
 
 		L.tileLayer(cmURI, {
 			attribution: 
@@ -37,35 +45,33 @@ function create_map() {
 
 }
 
+
 function create_controls() {
 
+	var dataset = L.control({position: 'topleft'});
 
+	dataset.onAdd = function (map) {
+	    this._div = L.DomUtil.create('div', 'control'); // create a div with a class "control"
+	    this.update();
+	    return this._div;
+	};
 
+	dataset.update = function (props) {
+	    this._div.innerHTML = 
 
-var dataset = L.control({position: 'topleft'});
+	    	'<b>Dataset:</b>'+
+	        '<select id="dataset_select">'+
+	            '<option>commuter_crinan_1241340257</option>'+
+	            '<option selected="selected">commuter_crinan_1921951825</option>'+
+	            '<option>commuter_crinan_586775127</option>'+
+	            '<option>commuter_cwharf_153322444</option>'+
+	            '<option>commuter_westminister_24019561</option>'+
+	            '<option>commuter_westminister_501975966</option>'+
+	        '</select>'+
+	    	'<input type="checkbox" id="filters"><label for="filters">Filters</label>'
+	};
 
-dataset.onAdd = function (map) {
-    this._div = L.DomUtil.create('div', 'control'); // create a div with a class "control"
-    this.update();
-    return this._div;
-};
-
-dataset.update = function (props) {
-    this._div.innerHTML = 
-
-    	'<b>Dataset:</b>'+
-        '<select id="dataset_select">'+
-            '<option>commuter_crinan_1241340257</option>'+
-            '<option selected="selected">commuter_crinan_1921951825</option>'+
-            '<option>commuter_crinan_586775127</option>'+
-            '<option>commuter_cwharf_153322444</option>'+
-            '<option>commuter_westminister_24019561</option>'+
-            '<option>commuter_westminister_501975966</option>'+
-        '</select>'+
-    	'<input type="checkbox" id="filters"><label for="filters">Filters</label>'
-};
-
-dataset.addTo(map);
+	dataset.addTo(map);
 
 
 
@@ -73,62 +79,82 @@ dataset.addTo(map);
 
 
 
-var filter_panel = L.control({position: 'bottomleft'});
+	var filter_panel = L.control({position: 'topright'});
 
-filter_panel.onAdd = function (map) {
-    this._div = L.DomUtil.create('div', 'control filter'); 
-    this.update();
-    return this._div;
-};
-
-
-filter_panel.update = function (props) {
-    this._div.innerHTML = 
-		'<div id="threshold_control">'+
-	        '<h4 id="threshold_display"></h4>'+
-	        '<div id="threshold_slider"></div>'+
-		'</div>'+
-		'<div id="time_control">'+
-			'<h4 id="time_display"></h4>'+
-			'<div id="time_slider"></div>'+
-		'</div>'+
-		'<div id="time_buttons">'+
-			'<input type="submit" id="night" value="Night">'+
-			'<input type="submit" id="morning" value="Morning">'+
-			'<input type="submit" id="afternoon" value="Afternoon">'+
-			'<input type="submit" id="evening" value="Evening">'+
-			'<input type="checkbox" id="mon_fri" checked><label for="mon_fri" checked>Mon-Fri</label>'+
-			'<input type="checkbox" id="weekend" checked><label for="weekend">Weekend</label>'+
-		'</div>'+
-  //       '<hr>'+
-		// '<input type="checkbox" id="arrows" checked><label for="arrows" checked>Arrows</label>'+		
-        '<hr>'+
-		'<input type="submit" id="reset" value="Reset">';
-		;
-};
-
-filter_panel.addTo(map);
+	filter_panel.onAdd = function (map) {
+	    this._div = L.DomUtil.create('div', 'control filter'); 
+	    this.update();
+	    return this._div;
+	};
 
 
-$('.filter').hide()
+	filter_panel.update = function (props) {
+	    this._div.innerHTML = 
+			'<div id="threshold_control">'+
+		        '<h4 id="threshold_display"></h4>'+
+		        '<div id="threshold_slider"></div>'+
+			'</div>'+
+			'<div id="time_control">'+
+				'<h4 id="time_display"></h4>'+
+				'<div id="time_slider"></div>'+
+			'</div>'+
+			'<div id="time_buttons">'+
+				'<input type="submit" id="night" value="Night">'+
+				'<input type="submit" id="morning" value="Morning">'+
+				'<input type="submit" id="afternoon" value="Afternoon">'+
+				'<input type="submit" id="evening" value="Evening">'+
+				'<input type="checkbox" id="mon_fri" checked><label for="mon_fri" checked>Mon-Fri</label>'+
+				'<input type="checkbox" id="weekend" checked><label for="weekend">Weekend</label>'+
+			'</div>'+
+	  //       '<hr>'+
+			// '<input type="checkbox" id="arrows" checked><label for="arrows" checked>Arrows</label>'+		
+	        '<hr>'+
+			'<input type="submit" id="reset" value="Reset">';
+			;
+	};
+
+	filter_panel.addTo(map);
 
 
-$('.control').mouseenter(function() {
-  map.dragging.disable();
-  map.doubleClickZoom.disable();
-});
-
-$('.control').mouseleave(function() {
-  map.dragging.enable();
-  map.doubleClickZoom.enable();
-});
+	$('.filter').hide()
 
 
+	$('.control').mouseenter(function() {
+	  map.dragging.disable();
+	  map.doubleClickZoom.disable();
+	});
 
-filters_selector = $("#filters");
-filters_selector.click( function() {
-	$(this).is(':checked') ? $('.filter').show(200) : $('.filter').hide(200);
-} );
+	$('.control').mouseleave(function() {
+	  map.dragging.enable();
+	  map.doubleClickZoom.enable();
+	});
+
+
+
+	filters_selector = $("#filters");
+	filters_selector.click( function() {
+		$(this).is(':checked') ? $('.filter').show(200) : $('.filter').hide(200);
+	} );
+
+
+
+
+
+
+
+
+	var info_panel = L.control({position: 'bottomright'});
+
+	info_panel.onAdd = function (map) {
+	    this._div = L.DomUtil.create('div', 'control'); 
+	    this._div.id = 'info_panel';
+	    return this._div;
+	};
+
+	info_panel.addTo(map);
+	$('#info_panel').hide();
+
+
 
 
 
@@ -151,11 +177,10 @@ filters_selector.click( function() {
 	/* Create threshold slider, display initial value */
     threshold_slider.slider({
         range: false,
-        min:   0,
+        min:   1,
         max:   10,
-        value: 2,
+        value: jny_threshold,
         step:  1,
-        stop:  set_threshold,
         slide: slide_threshold
     });
 
@@ -167,10 +192,9 @@ filters_selector.click( function() {
     time_slider.slider({
         range: true,
         min: 0,
-        max: 1439,
-        values: [0, 1439],
+        max: 1440,
+        values: [window_begin, window_end],
         step: 15,
-        stop:  set_time,
         slide: slide_time
     });
 
@@ -190,16 +214,23 @@ filters_selector.click( function() {
 
     /* Define complex click actions: update control values, then update maps */
     $("#night").click( function() { set_time_range(0, 240) } );
-    $("#morning").click( function() { set_time_range(241, 720) } );
-    $("#afternoon").click( function() { set_time_range(721, 1140) } );
-    $("#evening").click( function() { set_time_range(1141, 1439) } );
+    $("#morning").click( function() { set_time_range(240, 720) } );
+    $("#afternoon").click( function() { set_time_range(720, 1140) } );
+    $("#evening").click( function() { set_time_range(1140, 1440) } );
 
 	$('#reset').click( function() {
+
+		jny_threshold = 2;
+		window_begin = 0;
+		window_end = 1439;
+
 		/* Avoid overlap with other event handling functions, to prevent multiple calls to update_map */
-		threshold_slider.slider('option',{value: 2});
+		threshold_slider.slider('option',{value: jny_threshold});
 		update_threshold_display();
-		time_slider.slider( "option", "values", [ 0, 1439 ] );
+
+		time_slider.slider( "option", "values", [ window_begin, window_end ] );
 		update_time_display();	
+
 		day_selector_monfri.prop('checked', true);
 		day_selector_weekend.prop('checked', true);
 		update_map( true );	
@@ -211,39 +242,36 @@ filters_selector.click( function() {
 
 
 function set_time_range(start_min, end_min) {
-	time_slider.slider( "option", "values", [ start_min, end_min ] );
+	window_begin = start_min;
+	window_end = end_min;
+
+	time_slider.slider( "option", "values", [ window_begin, window_end ] );
 	update_time_display();	
 	update_map( true );	
 }
 
 function slide_threshold(event, ui) {
+	jny_threshold = ui.value;
 	update_threshold_display();
 	update_map( false );	
 }
 
-function set_threshold(event, ui) {
-	update_threshold_display()
-	update_map( true );	
-}
-
 function slide_time(event, ui) {
-	update_time_display();
-	update_map( false );	
-}
+	window_begin = ui.values[0];
+	window_end = ui.values[1];
 
-function set_time(event, ui) {
 	update_time_display();	
 	update_map( true );	
 }
 
 function update_threshold_display( ) {
-	threshold_display.text( 'Min journeys per route: ' + threshold_slider.slider("value") );
+	threshold_display.text( 'Min journeys per route: ' + jny_threshold + ' / ' + max_jny_count);
 }
 
 function update_time_display() {
 
-	start_minute = time_slider.slider("values", 0);
-    end_minute = time_slider.slider("values", 1);
+	start_minute = window_begin;
+    end_minute = window_end;
 
     var start_min = parseInt(start_minute % 60, 10),
         start_hour = parseInt(start_minute / 60 % 24, 10),
@@ -276,10 +304,8 @@ function time_string(hours, minutes) {
 }
 
 
-function getParameterByName(name) {
-    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
-    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
-}
+
+
 
 function update_map(with_panning) {
 
@@ -289,10 +315,6 @@ function update_map(with_panning) {
 	}
 
 	console.log("Updating map with dataset " + dataset);
-
-	jny_threshold = threshold_slider.slider("value");
-	window_begin = time_slider.slider("values", 0);
-	window_end = time_slider.slider("values", 1);
 
 
 	/* Create a layer group for additional elements*/
@@ -347,6 +369,7 @@ function process_journeys(journey_data, window_begin, window_end, journey_map ) 
 		var start_day = (start_time.getDay());
 
 		if (start_minute < window_begin || start_minute > window_end) { return true; }
+
 		if ( (start_day >= 1 && start_day <= 5) && (day_selector_monfri.is(':checked') == false)) { return true; }
 		if ( (start_day == 0 || start_day == 6) && (day_selector_weekend.is(':checked') == false)) { return true; }
 
@@ -385,11 +408,16 @@ function process_journeys(journey_data, window_begin, window_end, journey_map ) 
 
 		jny_type_key = (journey.start_hour_category_id == 1) ? 'peak' : 'offpeak';
 		jny_summary['counts'][jny_type_key] += 1;
+
 	});
 
 }
 
-function render_journeys(stations, journeys, count_threshold, layer_group) {
+function render_journeys(stations, journeys, count_threshold, map_render_layer) {
+
+	/* Clear the record of station journeys */
+	station_lines = {}
+	all_lines = []
 
 	/* Render journeys */
 	$.each( journeys, function( key, journey ) {
@@ -412,56 +440,69 @@ function render_journeys(stations, journeys, count_threshold, layer_group) {
 
 
 
+		/*******************************/
+		/* Test different colours, etc */
 
-/* Test different colours, etc */
+		// display
+		//   opacity
+		//   colour
+		//   width
+		//   dashed
 
-// display
-//   opacity
-//   colour
-//   width
-//   dashed
+		// vars
+		//   Journey count: 0..?
+		//   Peak vs offpeak: 0..?, or Ratio
+		//   To/From: ratio?						pie chart
 
-// vars
-//   Journey count: 0..?
-//   Peak vs offpeak: 0..?, or Ratio
-//   To/From: ratio?						pie chart
+		var line_color, unidirectional;
 
-var line_color, unidirectional;
-
-if (journey.counts.to_a == 0 || journey.counts.to_b == 0) {
-	line_color = '#CC3300';
-	unidirectional = true
-} else {
-	line_color = '#26287F'
-	unidirectional = false
-}
-
-
-var station_a_latlong = [ station_a.latitude, station_a.longitude ]
-var station_b_latlong = [ station_b.latitude, station_b.longitude ]
-
-var line_latlongs = [ station_a_latlong, station_b_latlong ] 
-if (journey.counts.to_b == 0) {	
-	line_latlongs = [ station_b_latlong, station_a_latlong ] 
-}
-
-// options:
-//    width = scaled journey count
-//    opacity = to/from ratio (solid = 50/50 ... 50% = unidirectional / vice versa)
-//    colour = to/from ratio
-
-/**************************/
+		if (journey.counts.to_a == 0 || journey.counts.to_b == 0) {
+			line_color = '#CC3300';
+			unidirectional = true
+		} else {
+			line_color = '#26287F'
+			unidirectional = false
+		}
 
 
+		var station_a_latlong = [ station_a.latitude, station_a.longitude ]
+		var station_b_latlong = [ station_b.latitude, station_b.longitude ]
 
-		var line_weight = Math.min(journey.counts.total, 30);
+		var line_latlongs = [ station_a_latlong, station_b_latlong ] 
+		if (journey.counts.to_b == 0) {	
+			line_latlongs = [ station_b_latlong, station_a_latlong ] 
+		}
 
+		// options:
+		//    width = scaled journey count
+		//    opacity = to/from ratio (solid = 50/50 ... 50% = unidirectional / vice versa)
+		//    colour = to/from ratio
+
+		/**************************/
+
+
+
+		var line_weight = Math.max(1, ( Math.log(journey.counts.total) / Math.LN2 ) * 2);
+
+		/* Create the journey line */
 		var polyline = L.polyline(
 			line_latlongs, 
 			{	color: line_color, 
 				weight: line_weight, 
+				opacity: '80%'
 			} );
-		layer_group.addLayer(polyline);
+
+		/* Record line for rendering and highlighting */ 
+		map_render_layer.addLayer(polyline);
+
+		if (!station_lines[journey.station_a]) { station_lines[journey.station_a] = [] }
+		if (!station_lines[journey.station_b]) { station_lines[journey.station_b] = [] }
+
+		all_lines.push(polyline);
+
+		station_lines[journey.station_a].push(polyline);
+		station_lines[journey.station_b].push(polyline);
+
 
 		if ( unidirectional ) {  //  arrow_selector.is(':checked') && unidirectional) {
 
@@ -476,9 +517,9 @@ if (journey.counts.to_b == 0) {
 							        pathOptions: {
 							            stroke: true,
 							            weight: 2,
-							            color: line_color,
-							            opacity: 1,
-							            fillOpacity: 1
+							            color: 'black',
+							            opacity: .3,
+							            fillOpacity: 0.15
 
 							        }
 							    }
@@ -486,31 +527,29 @@ if (journey.counts.to_b == 0) {
 		            )}
 		        ]});
 
-			layer_group.addLayer(arrowHead);
-
+			map_render_layer.addLayer(arrowHead);
 
 		}
   
 
-
-		polyline.bindPopup(
-			"<b>" + station_a.full_name + "</b> / <br><b>" + station_b.full_name + "</b><br>" +
-
-			journey.counts.total   + " journeys<br>" + 
-			Math.ceil( (journey.total_duration / journey.counts.total) / 60 ) + " minutes (avg)<br><br>" +
-
-			journey.counts.to_a + " -> " + station_a.full_name + "<br>" +
-			journey.counts.to_b + " -> " + station_b.full_name + "<br><br>" +
-
-			journey.counts.peak + " / " + journey.counts.offpeak + " (peak / off peak)"
-
-			);
+		polyline.on({
+	        mouseover: function() { 
+	        	info_panel_journey(stations, journey); 
+	         	$('#info_panel').show() 
+	        },
+	        mouseout: function() 
+	        { 
+	        	$('#info_panel').hide() 
+	        },
+	    });
 
 	});
 
 }
 
-function render_stations(stations, layer_group, active_bounds) {
+
+
+function render_stations(stations, map_render_layer, active_bounds) {
 
 	/* Render stations */
 	$.each( stations, function( key, station ) {
@@ -521,18 +560,113 @@ function render_stations(stations, layer_group, active_bounds) {
 
 		var marker = L.circleMarker(
 			[station.latitude, station.longitude], 
-			{color: 'black', fillColor: 'black', fillOpacity: 0.8, radius: 3 });
-		marker.bindPopup("<b>" + station.full_name + "</b>");
+			{color: 'black', fillColor: 'black', fillOpacity: 0.3, radius: (3 * station_lines[station.logical_terminal].length) });
+
+
+		marker.on({
+
+	        mouseover: function() { 
+	        	/* Display the info panel */
+	        	node_degree = station_lines[station.logical_terminal].length;
+	        	info_panel_station(station, node_degree); 
+	         	$('#info_panel').show();
+
+	         	/* Highlight connections */
+	        	active_line_ids = {};
+
+				$.each( station_lines[station.logical_terminal], function( key, layer ) {
+					active_line_ids[layer._leaflet_id] = true;
+				});
+
+				$.each( all_lines, function(idx,layer)  {
+					if (layer._leaflet_id in active_line_ids) {
+						// Leave the layer alone ... 
+					} else {
+						layer.setStyle({ opacity: 0.1 });	
+					}
+				});
+
+
+	        },
+	        mouseout: function() 
+	        { 
+	        	$('#info_panel').hide();
+
+	        	$.each( all_lines, function(idx,layer)  {
+					layer.setStyle({ opacity: 0.8 });	
+				});
+
+	        }
+			
+		});
+
 
 		active_bounds.push( [station.latitude, station.longitude] );
 
-		layer_group.addLayer(marker);			
+		map_render_layer.addLayer(marker);			
 	});
 
 }
 
+
+function info_panel_journey(stations, journey) {
+
+		station_start = stations[journey.station_a];
+		station_end = stations[journey.station_b];
+
+		info_html = "";
+		if (journey.counts.to_b > 0) {
+			info_html += 
+				"<b>" + station_start.full_name + "</b> \u2192 <b>" + station_end.full_name + "</b><br>" +
+				journey.counts.to_b   + " journeys<br>" + 
+				"<br>";
+		}
+		if (journey.counts.to_a > 0) {
+			
+			info_html += 
+				"<b>" + station_end.full_name + "</b> \u2192 <b>" + station_start.full_name + "</b><br>" +
+				journey.counts.to_a   + " journeys<br>" + 
+				"<br>"
+		}
+
+		info_html += 
+			"<hr><br>" +
+			journey.counts.total   + " total<br>" + 
+			Math.ceil( (journey.total_duration / journey.counts.total) / 60 ) + "m average journey time<br><br>" 
+
+;
+
+			// journey.counts.peak + " / " + journey.counts.offpeak + " (peak / off peak)";
+
+	$('#info_panel').html(info_html);
+
+}
+
+function info_panel_station(station, degree) {
+
+		info_html = 
+
+			"<b>" + station.full_name + "</b><br>" +
+
+			"Connections: " + degree + "<br>" +
+			"Latitude: " + station.latitude + "<br>" +
+			"Longitude: " + station.longitude 
+			
+
+;
+
+			// journey.counts.peak + " / " + journey.counts.offpeak + " (peak / off peak)";
+
+	$('#info_panel').html(info_html);
+
+}
+
+
+
+
 function update_controls(max_journeys) {
-	threshold_slider.slider('option',{min: 0, max: max_journeys});
+	threshold_slider.slider('option',{max: max_journeys});
+	update_threshold_display();
 }
 
 
@@ -545,3 +679,12 @@ $(document).ready(function(){
 
 })
 
+
+
+/****** Utility functions ******/
+
+
+function getParameterByName(name) {
+    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}

@@ -122,17 +122,16 @@ Labels in the gephi_project/complete_viz/bojo_viz3_areas_deletions.gephi vizuali
 ### Web vizualization
 
 - Move all controls into panels					DONE
-- Add hover info panel
+- Add hover info panel 							DONE
 - Add reset button 								DONE
-- Make #journeys threshold absolute
-- Add #unique journeys on slider
-- Try fixed-range scaling for edges (2-20?)
+- Make #journeys threshold absolute				?
+- Try fixed-range scaling for edges (2-20?)		DONE
 - Try different edge opacity
-- Try edge colour range based on weight or time
-- Scale nodes?
-- Fix count slider events
-- Fix new dataset filtering / reset
-
+- Try edge colour range based on weight or time x
+- Scale nodes?									DONE
+- Fix count slider events						DONE
+- Fix new dataset filtering / reset				done
+- Finalize 1440 vs 1439 design
 
 
 
