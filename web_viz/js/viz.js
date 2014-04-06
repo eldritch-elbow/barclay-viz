@@ -13,6 +13,7 @@ var day_selector_weekend = null;
 var arrow_selector = null;
 
 /* Display objects, stored for easy reference */
+var station_markers = null;
 var station_lines = null;
 var all_lines = null;
 
@@ -415,7 +416,8 @@ function process_journeys(journey_data, window_begin, window_end, journey_map ) 
 
 function render_journeys(stations, journeys, count_threshold, map_render_layer) {
 
-	/* Clear the record of station journeys */
+	/* Clear the record of markers and lines */
+	station_markers = []
 	station_lines = {}
 	all_lines = []
 
@@ -433,26 +435,20 @@ function render_journeys(stations, journeys, count_threshold, map_render_layer) 
 			return true; 
 		}
 
+		/* Determine journey station objects, set them active! */
 		station_a = stations[journey.station_a];
 		station_b = stations[journey.station_b];
-
 		station_a.active = station_b.active = true;
 
+		/* Define line characteristics (position and style) */
 
+		var station_a_latlong = [ station_a.latitude, station_a.longitude ]
+		var station_b_latlong = [ station_b.latitude, station_b.longitude ]
 
-		/*******************************/
-		/* Test different colours, etc */
-
-		// display
-		//   opacity
-		//   colour
-		//   width
-		//   dashed
-
-		// vars
-		//   Journey count: 0..?
-		//   Peak vs offpeak: 0..?, or Ratio
-		//   To/From: ratio?						pie chart
+		var line_latlongs = [ station_a_latlong, station_b_latlong ] 
+		if (journey.counts.to_b == 0) {	
+			line_latlongs = [ station_b_latlong, station_a_latlong ] 
+		}
 
 		var line_color, unidirectional;
 
@@ -464,27 +460,9 @@ function render_journeys(stations, journeys, count_threshold, map_render_layer) 
 			unidirectional = false
 		}
 
-
-		var station_a_latlong = [ station_a.latitude, station_a.longitude ]
-		var station_b_latlong = [ station_b.latitude, station_b.longitude ]
-
-		var line_latlongs = [ station_a_latlong, station_b_latlong ] 
-		if (journey.counts.to_b == 0) {	
-			line_latlongs = [ station_b_latlong, station_a_latlong ] 
-		}
-
-		// options:
-		//    width = scaled journey count
-		//    opacity = to/from ratio (solid = 50/50 ... 50% = unidirectional / vice versa)
-		//    colour = to/from ratio
-
-		/**************************/
-
-
-
 		var line_weight = Math.max(1, ( Math.log(journey.counts.total) / Math.LN2 ) * 2);
 
-		/* Create the journey line */
+		/***** Create the journey line *****/
 		var polyline = L.polyline(
 			line_latlongs, 
 			{	color: line_color, 
@@ -499,39 +477,30 @@ function render_journeys(stations, journeys, count_threshold, map_render_layer) 
 		if (!station_lines[journey.station_b]) { station_lines[journey.station_b] = [] }
 
 		all_lines.push(polyline);
-
 		station_lines[journey.station_a].push(polyline);
 		station_lines[journey.station_b].push(polyline);
 
+		/* Optionally add an arrow decorator */
+		if ( unidirectional ) { 
 
-		if ( unidirectional ) {  //  arrow_selector.is(':checked') && unidirectional) {
-
+			/* Make an arrow decorator, augment it with known weight */
+			var patterns = standard_arrow_patterns(line_weight);
 		    var arrowHead = L.polylineDecorator(polyline, {
-		        patterns: [
-		            {	offset: '20%', 
-		            	repeat: '20%', 
-		            	symbol: L.Symbol.arrowHead(
-							 {
-							        pixelSize: line_weight,
-							        polygon: true,
-							        pathOptions: {
-							            stroke: true,
-							            weight: 2,
-							            color: 'black',
-							            opacity: .3,
-							            fillOpacity: 0.15
+		        patterns: patterns
+		    });
 
-							        }
-							    }
-		            		
-		            )}
-		        ]});
+			arrowHead.stored_weight = line_weight;
 
+		    /* Record arrows for rendering and highlighting */
 			map_render_layer.addLayer(arrowHead);
+
+			all_lines.push(arrowHead);
+			station_lines[journey.station_a].push(arrowHead);
+			station_lines[journey.station_b].push(arrowHead);
 
 		}
   
-
+		/* Define hover behaviour */
 		polyline.on({
 	        mouseover: function() { 
 	        	info_panel_journey(stations, journey); 
@@ -551,21 +520,23 @@ function render_journeys(stations, journeys, count_threshold, map_render_layer) 
 
 function render_stations(stations, map_render_layer, active_bounds) {
 
-	/* Render stations */
+	/* Process all stations */
 	$.each( stations, function( key, station ) {
 
 		if (!station.active) {
 			return true;
 		}
 
+		/* Define station marker. Use degree for radius */
 		var marker = L.circleMarker(
 			[station.latitude, station.longitude], 
-			{color: 'black', fillColor: 'black', fillOpacity: 0.3, radius: (3 * station_lines[station.logical_terminal].length) });
+			{color: 'black', opacity: 0.8, fillColor: 'black', fillOpacity: 0.3, radius: (3 * station_lines[station.logical_terminal].length) });
 
-
+		/* Define hover behaviour */
 		marker.on({
 
 	        mouseover: function() { 
+
 	        	/* Display the info panel */
 	        	node_degree = station_lines[station.logical_terminal].length;
 	        	info_panel_station(station, node_degree); 
@@ -573,7 +544,6 @@ function render_stations(stations, map_render_layer, active_bounds) {
 
 	         	/* Highlight connections */
 	        	active_line_ids = {};
-
 				$.each( station_lines[station.logical_terminal], function( key, layer ) {
 					active_line_ids[layer._leaflet_id] = true;
 				});
@@ -582,18 +552,35 @@ function render_stations(stations, map_render_layer, active_bounds) {
 					if (layer._leaflet_id in active_line_ids) {
 						// Leave the layer alone ... 
 					} else {
-						layer.setStyle({ opacity: 0.1 });	
+
+						layer.setStyle && layer.setStyle({ opacity: 0.1 });
+						layer.setPatterns && layer.setPatterns([]);
 					}
 				});
 
-
+				$.each( station_markers, function(idx,station_marker)  {
+					if (station_marker != marker) { 
+						station_marker.setStyle({ opacity: 0.2, fillOpacity: 0.1 });
+					}
+				});
 	        },
-	        mouseout: function() 
-	        { 
+
+	        mouseout: function() { 
+
 	        	$('#info_panel').hide();
 
+	        	/* Reset line opacity, redraw arrows */
 	        	$.each( all_lines, function(idx,layer)  {
-					layer.setStyle({ opacity: 0.8 });	
+
+					layer.setStyle && layer.setStyle({ opacity: 0.8 });
+					layer.setPatterns && layer.setPatterns(
+						standard_arrow_patterns(layer.stored_weight)
+					);
+
+				});
+
+				$.each( station_markers, function(idx,station_marker)  {
+					station_marker.setStyle({ opacity: 0.8, fillOpacity: 0.3 });
 				});
 
 	        }
@@ -603,9 +590,34 @@ function render_stations(stations, map_render_layer, active_bounds) {
 
 		active_bounds.push( [station.latitude, station.longitude] );
 
-		map_render_layer.addLayer(marker);			
+		/* Record the marker for rendering and highlighting */
+		map_render_layer.addLayer(marker);
+		station_markers.push(marker);	
 	});
 
+}
+
+function standard_arrow_patterns(weight) {
+	return [
+	    {	
+	    	offset: '20%', 
+	    	repeat: '20%', 
+	    	symbol: L.Symbol.arrowHead(
+				{
+			        pixelSize: weight,
+			        polygon: true,
+			        pathOptions: {
+			            stroke: true,
+			            weight: 2,
+			            color: 'black',
+			            opacity: .3,
+			            fillOpacity: 0.15
+
+			        }
+				}
+	    	)
+	    }
+	];
 }
 
 
@@ -633,10 +645,7 @@ function info_panel_journey(stations, journey) {
 			"<hr><br>" +
 			journey.counts.total   + " total<br>" + 
 			Math.ceil( (journey.total_duration / journey.counts.total) / 60 ) + "m average journey time<br><br>" 
-
 ;
-
-			// journey.counts.peak + " / " + journey.counts.offpeak + " (peak / off peak)";
 
 	$('#info_panel').html(info_html);
 
@@ -663,12 +672,10 @@ function info_panel_station(station, degree) {
 
 
 
-
 function update_controls(max_journeys) {
 	threshold_slider.slider('option',{max: max_journeys});
 	update_threshold_display();
 }
-
 
 
 $(document).ready(function(){
