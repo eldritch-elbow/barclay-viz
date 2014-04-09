@@ -64,10 +64,13 @@ function create_controls() {
 	        '<select id="dataset_select">'+
 	            '<option>commuter_crinan_1241340257</option>'+
 	            '<option selected="selected">commuter_crinan_1921951825</option>'+
-	            '<option>commuter_crinan_586775127</option>'+
 	            '<option>commuter_cwharf_153322444</option>'+
 	            '<option>commuter_westminister_24019561</option>'+
-	            '<option>commuter_westminister_501975966</option>'+
+				'<option>profile_1148668655</option>'+
+				'<option>profile_1333576177</option>'+
+				'<option>profile_140866984</option>'+
+				'<option>profile_232318713</option>'+
+				'<option>profile_823795276</option>'+
 	        '</select>'+
 	    	'<input type="checkbox" id="filters"><label for="filters">Filters</label>'
 	};
@@ -421,7 +424,7 @@ function render_journeys(stations, journeys, count_threshold, map_render_layer) 
 	station_lines = {}
 	all_lines = []
 	max_jny_count = 0
-		
+
 	/* Render journeys */
 	$.each( journeys, function( key, journey ) {
 
@@ -461,7 +464,9 @@ function render_journeys(stations, journeys, count_threshold, map_render_layer) 
 			unidirectional = false
 		}
 
-		var line_weight = Math.max(1, ( Math.log(journey.counts.total) / Math.LN2 ) * 2);
+		//var line_weight = Math.max(1, ( Math.log(journey.counts.total) / Math.LN2 ) * 2);
+
+		var line_weight = journey.counts.total / 3;
 
 		/***** Create the journey line *****/
 		var polyline = L.polyline(
@@ -610,8 +615,8 @@ function standard_arrow_patterns(weight) {
 			            stroke: true,
 			            weight: 2,
 			            color: 'black',
-			            opacity: .3,
-			            fillOpacity: 0.15
+			            opacity: .7,
+			            fillOpacity: 0.5
 
 			        }
 				}
