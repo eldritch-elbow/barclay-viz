@@ -66,11 +66,11 @@ function create_controls() {
 	            '<option selected="selected">commuter_crinan_1921951825</option>'+
 	            '<option>commuter_cwharf_153322444</option>'+
 	            '<option>commuter_westminister_24019561</option>'+
-				'<option>profile_1148668655</option>'+
-				'<option>profile_1333576177</option>'+
-				'<option>profile_140866984</option>'+
-				'<option>profile_232318713</option>'+
-				'<option>profile_823795276</option>'+
+				'<option>random_profile_1148668655</option>'+
+				'<option>random_profile_1333576177</option>'+
+				'<option>random_profile_140866984</option>'+
+				'<option>random_profile_232318713</option>'+
+				'<option>random_profile_823795276</option>'+
 	        '</select>'+
 	    	'<input type="checkbox" id="filters"><label for="filters">Filters</label>'
 	};
