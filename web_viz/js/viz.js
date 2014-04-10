@@ -4,6 +4,7 @@ var map = null;
 var map_elements = null;
 
 /* UI Control objects */
+var first_load = true;
 var threshold_slider = null;
 var threshold_display = null;
 var time_slider = null;
@@ -62,15 +63,15 @@ function create_controls() {
 
 	    	'<b>Dataset:</b>'+
 	        '<select id="dataset_select">'+
-	            '<option>commuter_crinan_1241340257</option>'+
-	            '<option selected="selected">commuter_crinan_1921951825</option>'+
-	            '<option>commuter_cwharf_153322444</option>'+
-	            '<option>commuter_westminister_24019561</option>'+
-				'<option>random_profile_1148668655</option>'+
-				'<option>random_profile_1333576177</option>'+
-				'<option>random_profile_140866984</option>'+
-				'<option>random_profile_232318713</option>'+
-				'<option>random_profile_823795276</option>'+
+	            '<option>commuter_crinan_1</option>'+
+	            '<option selected="selected">commuter_crinan_2</option>'+
+	            '<option>commuter_cwharf</option>'+
+	            '<option>commuter_westminister</option>'+
+				'<option>random_profile_1</option>'+
+				'<option>random_profile_2</option>'+
+				'<option>random_profile_3</option>'+
+				'<option>random_profile_4</option>'+
+				'<option>random_profile_5</option>'+
 	        '</select>'+
 	    	'<input type="checkbox" id="filters"><label for="filters">Filters</label>'
 	};
@@ -314,12 +315,12 @@ function time_string(hours, minutes) {
 function update_map(with_panning) {
 
 	var dataset = getParameterByName("dataset");
-	if (!dataset) {
+	if (!dataset || !first_load) {
 		dataset = $("#dataset_select :selected").text();
 	}
 
 	console.log("Updating map with dataset " + dataset);
-
+	first_load = false;
 
 	/* Create a layer group for additional elements*/
 	var fresh_map_elements = L.layerGroup();
