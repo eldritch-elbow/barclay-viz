@@ -32,7 +32,7 @@ function create_map() {
 		map = L.map('map', {zoomControl: false}).setView([51.5211, -0.0988698], 13);
 
 		/* Create a tile layer based on cloudmade (997 = standard; 998 = soft )*/
-		var cmURI = 'http://{s}.tile.cloudmade.com/8EE2A50541944FB9BCEDDED5165F09D9/998/256/{z}/{x}/{y}.png';
+		var cmURI = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png';
 
 		L.tileLayer(cmURI, {
 			attribution: 
