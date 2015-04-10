@@ -31,15 +31,11 @@ function create_map() {
 	if (!map) {
 		map = L.map('map', {zoomControl: false}).setView([51.5211, -0.0988698], 13);
 
-		/* Create a tile layer based on cloudmade (997 = standard; 998 = soft )*/
-		var cmURI = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png';
+		var cmURI = 'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png';
 
 		L.tileLayer(cmURI, {
 			attribution: 
-				'Map data &copy; '+
-				'<a href="http://openstreetmap.org">OpenStreetMap</a> contributors, '+
-				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, '+
-				'Imagery © <a href="http://cloudmade.com">CloudMade</a>',
+				'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
 			maxZoom: 18})
 		.addTo(map);
 
